@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://winston-pickett.github.io</loc>
+<lastmod>2026-07-21T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://winston-pickett.github.io/experience</loc>
+<lastmod>2026-07-21T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://winston-pickett.github.io/insights</loc>
+<lastmod>2026-07-21T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://winston-pickett.github.io/insights/fpa-best-practices</loc>
+<lastmod>2026-07-21T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://winston-pickett.github.io/insights/scenario-planning-as-a-leadership-tool</loc>
+<lastmod>2026-07-21T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+</urlset>

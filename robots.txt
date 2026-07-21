@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://winston-pickett.github.io/sitemap.xml
