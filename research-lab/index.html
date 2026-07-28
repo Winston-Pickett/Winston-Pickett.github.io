@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BKMG1B8WPZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-BKMG1B8WPZ');
+</script>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Finance Transformation Research Lab | Winston Pickett</title>
@@ -685,5 +693,19 @@
       });
     }());
   </script>
+<script>
+  window.addEventListener('load', function () {
+    window.setTimeout(function () {
+      document.querySelectorAll('footer').forEach(function (footer) {
+        if (footer.querySelector('[data-privacy-link]')) return;
+        var link = document.createElement('a');
+        link.href = '/privacy/';
+        link.textContent = 'Privacy';
+        link.setAttribute('data-privacy-link', '');
+        footer.appendChild(link);
+      });
+    }, 0);
+  });
+</script>
 </body>
 </html>
