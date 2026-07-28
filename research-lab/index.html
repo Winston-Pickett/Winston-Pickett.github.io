@@ -233,6 +233,14 @@
       color: #8b681e;
     }
 
+    .lab-load-state {
+      grid-column: 1 / -1;
+      color: #526577;
+      margin: 0;
+      padding: 48px;
+      line-height: 1.7;
+    }
+
     .lab-footer-note {
       background: var(--ivory);
       border-top: 1px solid var(--gold);
@@ -295,7 +303,7 @@
         <a href="/experience">Experience</a>
         <a href="/insights">Insights</a>
         <a href="/#about">About</a>
-        <a href="/research-lab" aria-current="page">Research Lab</a>
+        <a href="/research-lab/" aria-current="page">Research Lab</a>
       </nav>
       <a class="contact-link" href="mailto:Wpick11@gmail.com?subject=Finance%20Transformation%20Research%20Lab">Contact</a>
     </header>
@@ -307,10 +315,10 @@
     </section>
 
     <section class="lab-proof" aria-label="Research collection summary">
-      <div><strong>27</strong><span>Data records</span></div>
-      <div><strong>19</strong><span>Source publications</span></div>
-      <div><strong>6</strong><span>Research themes</span></div>
-      <div><strong>2022-26</strong><span>Study period</span></div>
+      <div><strong id="record-count">0</strong><span>Data records</span></div>
+      <div><strong id="source-count">0</strong><span>Source publications</span></div>
+      <div><strong id="theme-count">0</strong><span>Research themes</span></div>
+      <div><strong id="study-period">-</strong><span>Study period</span></div>
     </section>
 
     <section class="lab-shell">
@@ -329,336 +337,14 @@
         <button class="filter-button" type="button" data-filter="risk" aria-pressed="false">Risk &amp; resilience</button>
         <button class="filter-button" type="button" data-filter="cash" aria-pressed="false">Cash &amp; working capital</button>
       </div>
-      <p class="results-line" aria-live="polite"><span id="visible-count">27</span> records shown</p>
+      <p class="results-line" aria-live="polite"><span id="visible-count">0</span> records shown</p>
 
-      <div class="data-grid">
-        <article class="data-card" data-theme="planning">
-          <div class="card-kicker"><span class="theme-tag">Planning &amp; forecasting</span><span class="record-id">P-01</span></div>
-          <p class="metric">35 days</p>
-          <h2>Median cycle time to complete the annual budget</h2>
-          <p class="finding">APQC reports a cross-industry median of 35 calendar days from the beginning to the end of the annual budgeting process.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>10,267 companies</dd>
-            <dt>Type</dt><dd>Cross-industry benchmark</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.apqc.org/resources/benchmarking/open-standards-benchmarking/measures/cycle-time-days-complete-annual-budget" target="_blank" rel="noreferrer">APQC, measure 100160</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="planning">
-          <div class="card-kicker"><span class="theme-tag">Planning &amp; forecasting</span><span class="record-id">P-02</span></div>
-          <p class="metric">11 days</p>
-          <h2>Median cycle time to prepare a financial forecast</h2>
-          <p class="finding">APQC reports a cross-industry median of 11 calendar days to prepare a financial forecast.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>5,119 companies</dd>
-            <dt>Type</dt><dd>Cross-industry benchmark</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.apqc.org/resources/benchmarking/open-standards-benchmarking/measures/cycle-time-days-prepare-financial" target="_blank" rel="noreferrer">APQC, measure 100604</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="planning">
-          <div class="card-kicker"><span class="theme-tag">Planning &amp; forecasting</span><span class="record-id">P-03</span></div>
-          <p class="metric">5 days</p>
-          <h2>Median cycle time to update a rolling forecast</h2>
-          <p class="finding">APQC reports a cross-industry median of five calendar days to update or revise a rolling forecast.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>3,647 companies</dd>
-            <dt>Type</dt><dd>Cross-industry benchmark</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.apqc.org/resources/benchmarking/open-standards-benchmarking/measures/cycle-time-days-updaterevise-rolling" target="_blank" rel="noreferrer">APQC, measure 100635</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="planning">
-          <div class="card-kicker"><span class="theme-tag">Planning &amp; forecasting</span><span class="record-id">P-04</span></div>
-          <p class="metric">9.4 vs. 14.5</p>
-          <h2>Average days required to reforecast</h2>
-          <p class="finding">The top 20% of AFP's agility scoring reforecast in 9.4 days, compared with 14.5 days for other respondents. Among the top group, 94% agreed or strongly agreed that FP&amp;A uses multiple scenarios.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>255 corporate practitioners</dd>
-            <dt>Period</dt><dd>August-September 2022</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.financialprofessionals.org/about/learn-more/press-releases/Details/survey-agile-finance-leaders-reforecast-faster-are-more-likely-to-use-scenarios-in-the-planning-process" target="_blank" rel="noreferrer">2022 AFP FP&amp;A Survey</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="data">
-          <div class="card-kicker"><span class="theme-tag">Data &amp; systems</span><span class="record-id">D-01</span></div>
-          <p class="metric">96% / 93%</p>
-          <h2>Spreadsheet use in planning and reporting</h2>
-          <p class="finding">Ninety-six percent of respondents used spreadsheets for planning. Ninety-three percent used spreadsheets for reporting on a daily or weekly basis.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>362 FP&amp;A and finance practitioners globally</dd>
-            <dt>Period</dt><dd>Fall 2024</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.financialprofessionals.org/about/learn-more/press-releases/Details/survey-lack-of-reliable-and-accessible-data-holds-fp-a-back-from-success-with-technology" target="_blank" rel="noreferrer">2025 AFP FP&amp;A Benchmarking Survey</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="data">
-          <div class="card-kicker"><span class="theme-tag">Data &amp; systems</span><span class="record-id">D-02</span></div>
-          <p class="metric">71%</p>
-          <h2>EPM use for planning at least quarterly</h2>
-          <p class="finding">Seventy-one percent of respondents used enterprise performance management tools for planning at least quarterly, and more than half used them daily or weekly.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>362 FP&amp;A and finance practitioners globally</dd>
-            <dt>Period</dt><dd>Fall 2024</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.financialprofessionals.org/about/learn-more/press-releases/Details/survey-lack-of-reliable-and-accessible-data-holds-fp-a-back-from-success-with-technology" target="_blank" rel="noreferrer">2025 AFP FP&amp;A Benchmarking Survey</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="data">
-          <div class="card-kicker"><span class="theme-tag">Data &amp; systems</span><span class="record-id">D-03</span></div>
-          <p class="metric">61% / 60%</p>
-          <h2>Data reliability and accessibility challenges</h2>
-          <p class="finding">Sixty-one percent of respondents reported moderate to significant challenges with data reliability, and 60% reported challenges with data accessibility.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>362 FP&amp;A and finance practitioners globally</dd>
-            <dt>Period</dt><dd>Fall 2024</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.financialprofessionals.org/about/learn-more/press-releases/Details/survey-lack-of-reliable-and-accessible-data-holds-fp-a-back-from-success-with-technology" target="_blank" rel="noreferrer">2025 AFP FP&amp;A Benchmarking Survey</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="data">
-          <div class="card-kicker"><span class="theme-tag">Data &amp; systems</span><span class="record-id">D-04</span></div>
-          <p class="metric">8 + 10</p>
-          <h2>Planning and reporting tool categories in quarterly use</h2>
-          <p class="finding">More than half of respondents reported using at least eight categories of planning tools and 10 types of reporting tools each quarter.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>362 FP&amp;A and finance practitioners globally</dd>
-            <dt>Period</dt><dd>Fall 2024</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.financialprofessionals.org/about/learn-more/press-releases/Details/survey-lack-of-reliable-and-accessible-data-holds-fp-a-back-from-success-with-technology" target="_blank" rel="noreferrer">2025 AFP FP&amp;A Benchmarking Survey</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="ai">
-          <div class="card-kicker"><span class="theme-tag">AI in finance</span><span class="record-id">A-01</span></div>
-          <p class="metric">23% + 40%</p>
-          <h2>AI use and testing within FP&amp;A</h2>
-          <p class="finding">Twenty-three percent of respondents used AI daily, weekly, or monthly. Another 40% were testing AI and planned implementation within the following year.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>362 FP&amp;A and finance practitioners globally</dd>
-            <dt>Period</dt><dd>Fall 2024</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.financialprofessionals.org/about/learn-more/press-releases/Details/survey-lack-of-reliable-and-accessible-data-holds-fp-a-back-from-success-with-technology" target="_blank" rel="noreferrer">2025 AFP FP&amp;A Benchmarking Survey</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="ai">
-          <div class="card-kicker"><span class="theme-tag">AI in finance</span><span class="record-id">A-02</span></div>
-          <p class="metric">59%</p>
-          <h2>Finance functions reporting AI use in 2025</h2>
-          <p class="finding">Gartner reported finance AI adoption at 59% in 2025, compared with 58% in its 2024 survey.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>183 CFOs and senior finance leaders</dd>
-            <dt>Period</dt><dd>May-June 2025</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.gartner.com/en/newsroom/press-releases/2025-11-18-gartner-survey-shows-finance-ai-adoption-remains-steady-in-2025" target="_blank" rel="noreferrer">2025 Gartner AI in Finance Survey</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="ai">
-          <div class="card-kicker"><span class="theme-tag">AI in finance</span><span class="record-id">A-03</span></div>
-          <p class="metric">44% / 39%</p>
-          <h2>Leading AI use cases reported by finance functions</h2>
-          <p class="finding">In Gartner's 2024 survey, intelligent process automation was reported by 44% of finance functions and anomaly or error detection by 39%. Analytics was reported by 28% and operational assistance by 27%.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>121 finance leaders</dd>
-            <dt>Period</dt><dd>June 2024</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.gartner.com/en/newsroom/press-releases/2024-09-11-gartner-survey-shows-58-percent-of-finance-functions-use-ai-in-2024" target="_blank" rel="noreferrer">2024 Gartner Finance AI Survey</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="ai">
-          <div class="card-kicker"><span class="theme-tag">AI in finance</span><span class="record-id">A-04</span></div>
-          <p class="metric">75% / 71%</p>
-          <h2>Active AI use and reported return in finance</h2>
-          <p class="finding">KPMG reported active AI use across finance at 75%, up from 30% in 2024. Seventy-one percent of respondents said AI was meeting or exceeding return expectations.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>1,013 senior finance leaders; 20 countries; 13 sectors</dd>
-            <dt>Period</dt><dd>March 2026</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://kpmg.com/xx/en/media/press-releases/2026/05/ai-adoption-in-finance-doubles-but-assurance-readiness-determines-who-wins.html" target="_blank" rel="noreferrer">KPMG 2026 Global AI in Finance</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="ai">
-          <div class="card-kicker"><span class="theme-tag">AI in finance</span><span class="record-id">A-05</span></div>
-          <p class="metric">71% / 70% / 64%</p>
-          <h2>Reported AI-related finance outcomes</h2>
-          <p class="finding">Respondents reported improvement in decision speed at 71%, decision quality at 70%, and forecast accuracy at 64%.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>1,013 senior finance leaders; 20 countries; 13 sectors</dd>
-            <dt>Period</dt><dd>March 2026</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://kpmg.com/xx/en/media/press-releases/2026/05/ai-adoption-in-finance-doubles-but-assurance-readiness-determines-who-wins.html" target="_blank" rel="noreferrer">KPMG 2026 Global AI in Finance</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="ai">
-          <div class="card-kicker"><span class="theme-tag">AI in finance</span><span class="record-id">A-06</span></div>
-          <p class="metric">42% / 29%</p>
-          <h2>Assurance readiness and failure tracking</h2>
-          <p class="finding">Forty-two percent of organizations were classified as fully assurance-ready for AI-enabled finance processes, while 29% tracked where AI adoption failed. Data quality was cited by 36% as both the leading barrier and opportunity.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>1,013 senior finance leaders; 20 countries; 13 sectors</dd>
-            <dt>Period</dt><dd>March 2026</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://kpmg.com/xx/en/media/press-releases/2026/05/ai-adoption-in-finance-doubles-but-assurance-readiness-determines-who-wins.html" target="_blank" rel="noreferrer">KPMG 2026 Global AI in Finance</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="ai">
-          <div class="card-kicker"><span class="theme-tag">AI in finance</span><span class="record-id">A-07</span></div>
-          <p class="metric">88% / 39%</p>
-          <h2>Enterprise AI use and reported EBIT effect</h2>
-          <p class="finding">Eighty-eight percent reported regular AI use in at least one business function, while roughly one-third had begun scaling enterprise-wide. Thirty-nine percent reported any enterprise-level EBIT effect, and most of that group attributed less than 5% of EBIT to AI.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>1,993 participants in 105 countries</dd>
-            <dt>Period</dt><dd>June-July 2025</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai/" target="_blank" rel="noreferrer">McKinsey State of AI 2025</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="ai">
-          <div class="card-kicker"><span class="theme-tag">AI in finance</span><span class="record-id">A-08</span></div>
-          <p class="metric">87% / 54%</p>
-          <h2>North American CFO expectations for AI in 2026</h2>
-          <p class="finding">Eighty-seven percent said AI would be extremely or very important to finance operations in 2026. Fifty-four percent identified integrating AI agents as a finance transformation priority, and 50% named digital finance transformation as a top priority.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>200 CFOs at North American companies with at least $1B revenue</dd>
-            <dt>Period</dt><dd>November-December 2025</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.deloitte.com/us/en/about/press-room/deloitte-q4-2025-cfo-signals-survey.html" target="_blank" rel="noreferrer">Deloitte Q4 2025 CFO Signals</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="operating">
-          <div class="card-kicker"><span class="theme-tag">Operating model</span><span class="record-id">O-01</span></div>
-          <p class="metric">5.3-point gap</p>
-          <h2>Finance workload, staffing, and budget outlook for 2026</h2>
-          <p class="finding">The Hackett Group projected finance workload growth of 3.2%, a 2.1% headcount decline, and a 1.7% budget decline, producing a stated 5.3% productivity gap. Planned technology spending increased 5.6%.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>Respondent count not stated in public release</dd>
-            <dt>Type</dt><dd>Finance executive outlook</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.thehackettgroup.com/the-hackett-group-study-shows-ai-adoption-rapidly-accelerating-across-core-finance-processes/" target="_blank" rel="noreferrer">2026 Finance Key Issues Study</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="operating">
-          <div class="card-kicker"><span class="theme-tag">Operating model</span><span class="record-id">O-02</span></div>
-          <p class="metric">65%</p>
-          <h2>FP&amp;A practitioners at or above full capacity</h2>
-          <p class="finding">Sixty-five percent of practitioners reported working at or above 100% capacity, while 54% strongly agreed that their FP&amp;A teams were adequately staffed.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>255 corporate practitioners</dd>
-            <dt>Period</dt><dd>August-September 2022</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.financialprofessionals.org/about/learn-more/press-releases/Details/survey-agile-finance-leaders-reforecast-faster-are-more-likely-to-use-scenarios-in-the-planning-process" target="_blank" rel="noreferrer">2022 AFP FP&amp;A Survey</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="operating">
-          <div class="card-kicker"><span class="theme-tag">Operating model</span><span class="record-id">O-03</span></div>
-          <p class="metric">70% / 87%</p>
-          <h2>Expanded CFO scope and planned ERP replacement</h2>
-          <p class="finding">More than 70% of CFOs had expanded responsibilities beyond finance to include areas such as enterprise data and analytics, AI, and corporate strategy. Among organizations with ERP systems, 87% planned a replacement or upgrade within three years.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>383 finance leaders</dd>
-            <dt>Period</dt><dd>October 2024</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.gartner.com/en/newsroom/press-releases/2025-03-19-gartner-finance-survey-reveals-the-top-ten-technologies-for-future-investment-in-finance" target="_blank" rel="noreferrer">Gartner 2025 Finance Technology Survey</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="risk">
-          <div class="card-kicker"><span class="theme-tag">Risk &amp; resilience</span><span class="record-id">R-01</span></div>
-          <p class="metric">50% / 57%</p>
-          <h2>Turbulent or stormy global outlook</h2>
-          <p class="finding">Half of surveyed leaders and experts expected a turbulent or stormy outlook over the following two years. The share rose to 57% over 10 years, while 1% expected a calm outlook at either horizon.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>More than 1,300 global leaders and experts</dd>
-            <dt>Published</dt><dd>January 2026</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.weforum.org/publications/global-risks-report-2026/in-full/" target="_blank" rel="noreferrer">World Economic Forum Global Risks Report 2026</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="risk">
-          <div class="card-kicker"><span class="theme-tag">Risk &amp; resilience</span><span class="record-id">R-02</span></div>
-          <p class="metric">91% / 3.5</p>
-          <h2>Organizations reporting disruption</h2>
-          <p class="finding">Ninety-one percent reported at least one disruption other than the pandemic and averaged 3.5 disruptions over two years. Seventy-six percent said their most serious disruption had a medium-to-high operational impact.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>1,812 respondents worldwide</dd>
-            <dt>Published</dt><dd>April 2023</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.pwc.com/gx/en/news-room/press-releases/2023/pwc-global-crisis-and-resilience-survey.html" target="_blank" rel="noreferrer">PwC Global Crisis and Resilience Survey</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="risk">
-          <div class="card-kicker"><span class="theme-tag">Risk &amp; resilience</span><span class="record-id">R-03</span></div>
-          <p class="metric">70% / 89%</p>
-          <h2>Confidence in recovery and strategic priority</h2>
-          <p class="finding">Seventy percent of business leaders expressed confidence in their organization's ability to recover from disruptions. Eighty-nine percent classified resilience as one of their most important strategic priorities.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>1,812 respondents worldwide</dd>
-            <dt>Published</dt><dd>April 2023</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.pwc.com/gx/en/news-room/press-releases/2023/pwc-global-crisis-and-resilience-survey.html" target="_blank" rel="noreferrer">PwC Global Crisis and Resilience Survey</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="risk">
-          <div class="card-kicker"><span class="theme-tag">Risk &amp; resilience</span><span class="record-id">R-04</span></div>
-          <p class="metric">76% / 74%</p>
-          <h2>Payments fraud and business email compromise</h2>
-          <p class="finding">Seventy-six percent of U.S. organizations experienced attempted or actual payments fraud in 2025, and 74% were affected by business email compromise. Checks were the most frequently affected payment method at 58%.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>465 treasury practitioners at U.S. organizations</dd>
-            <dt>Period</dt><dd>January 2026 survey; 2025 experience</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.financialprofessionals.org/about/learn-more/press-releases/Details/over-75-percent-of-us-firms-experienced-payments-fraud-in-2025-while-ai-adoption-for-fraud-mitigation-lags" target="_blank" rel="noreferrer">2026 AFP Payments Fraud Survey</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="cash">
-          <div class="card-kicker"><span class="theme-tag">Cash &amp; working capital</span><span class="record-id">C-01</span></div>
-          <p class="metric">75% / 56% / 51%</p>
-          <h2>Financial challenges reported by small employer firms</h2>
-          <p class="finding">Seventy-five percent cited rising input or wage costs, 56% cited paying operating expenses, and 51% cited uneven cash flow as financial challenges.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>7,653 U.S. employer firms; convenience sample</dd>
-            <dt>Period</dt><dd>September-November 2024</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.fedsmallbusiness.org/reports/survey/2025/2025-report-on-employer-firms" target="_blank" rel="noreferrer">Federal Reserve 2025 Report on Employer Firms</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="cash">
-          <div class="card-kicker"><span class="theme-tag">Cash &amp; working capital</span><span class="record-id">C-02</span></div>
-          <p class="metric">€4.04T</p>
-          <h2>Worldwide factoring volume in 2025</h2>
-          <p class="finding">FCI reported worldwide factoring turnover of €4.039 trillion in 2025, 3.7% above 2024. Europe represented 65.8% of total reported volume.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>Global industry statistics</dd>
-            <dt>Period</dt><dd>Calendar year 2025</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://fci.nl/en/annual-review" target="_blank" rel="noreferrer">FCI Annual Review 2026</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="cash">
-          <div class="card-kicker"><span class="theme-tag">Cash &amp; working capital</span><span class="record-id">C-03</span></div>
-          <p class="metric">60%+</p>
-          <h2>Cash or liquidity forecasting identified as a leading challenge</h2>
-          <p class="finding">More than 60% of treasury professionals identified cash or liquidity forecasting as their most challenging task. Nearly three-quarters cited cash management and forecasting as top departmental priorities.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>More than 500 treasury practitioners</dd>
-            <dt>Published</dt><dd>2025</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.financialprofessionals.org/training-resources/resources/survey-research-economic-data/Details/treasury-benchmarking" target="_blank" rel="noreferrer">2025 AFP Treasury Benchmarking Survey</a></dd>
-          </dl>
-        </article>
-
-        <article class="data-card" data-theme="cash">
-          <div class="card-kicker"><span class="theme-tag">Cash &amp; working capital</span><span class="record-id">C-04</span></div>
-          <p class="metric">61% / 35% / 5%</p>
-          <h2>Short-term investment objectives</h2>
-          <p class="finding">Safety was the top short-term investment objective for 61% of respondents, followed by liquidity at 35% and yield at 5%. Forty-six percent named bank products as their primary short-term investment vehicle.</p>
-          <dl class="source-meta">
-            <dt>Coverage</dt><dd>254 U.S.-based treasury professionals</dd>
-            <dt>Period</dt><dd>March 2025</dd>
-            <dt>Source</dt><dd><a class="source-link" href="https://www.financialprofessionals.org/about/learn-more/press-releases/Details/survey-61-percent-of-organizations-choose-safety-as-their-top-short-term-investment-objective" target="_blank" rel="noreferrer">2025 AFP Liquidity Survey</a></dd>
-          </dl>
-        </article>
+      <div class="data-grid" id="data-grid" aria-busy="true">
+        <p class="lab-load-state">Loading research records...</p>
       </div>
     </section>
 
-    <p class="lab-footer-note">Last updated July 28, 2026. Publication dates and reporting periods are shown separately where the source reports them. Source links open the original publisher's page.</p>
+    <p class="lab-footer-note" id="lab-updated-note">Last updated July 28, 2026. Publication dates and reporting periods are shown separately where the source reports them. Source links open the original publisher's page.</p>
 
     <footer>
       <span>© 2026 Winston Pickett</span>
@@ -668,29 +354,112 @@
   </main>
 
   <script>
-    (function () {
+    (async function () {
+      const grid = document.getElementById("data-grid");
       const buttons = Array.from(document.querySelectorAll(".filter-button"));
-      const cards = Array.from(document.querySelectorAll(".data-card"));
-      const count = document.getElementById("visible-count");
+      const visibleCount = document.getElementById("visible-count");
 
-      buttons.forEach(function (button) {
-        button.addEventListener("click", function () {
-          const filter = button.dataset.filter;
+      function escapeHtml(value) {
+        return String(value ?? "")
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+      }
 
-          buttons.forEach(function (item) {
-            item.setAttribute("aria-pressed", String(item === button));
-          });
+      function metadataRow(label, value) {
+        return value ? `<dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value)}</dd>` : "";
+      }
 
+      function renderCard(record) {
+        const source = record.source || {};
+        const sourceUrl = /^https:\/\//.test(source.url || "") ? source.url : "#";
+        return `
+          <article class="data-card" data-theme="${escapeHtml(record.theme)}">
+            <div class="card-kicker"><span class="theme-tag">${escapeHtml(record.themeLabel)}</span><span class="record-id">${escapeHtml(record.id)}</span></div>
+            <p class="metric">${escapeHtml(record.metric)}</p>
+            <h2>${escapeHtml(record.title)}</h2>
+            <p class="finding">${escapeHtml(record.finding)}</p>
+            <dl class="source-meta">
+              ${metadataRow("Coverage", record.coverage)}
+              ${metadataRow("Period", record.period)}
+              ${metadataRow("Published", record.published)}
+              ${metadataRow("Type", record.type)}
+              <dt>Source</dt><dd><a class="source-link" href="${escapeHtml(sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(source.title)}</a></dd>
+            </dl>
+          </article>`;
+      }
+
+      function formatDate(value) {
+        const date = new Date(`${value}T12:00:00Z`);
+        return new Intl.DateTimeFormat("en-US", {
+          month: "long",
+          day: "numeric",
+          year: "numeric",
+          timeZone: "UTC"
+        }).format(date);
+      }
+
+      try {
+        const response = await fetch("/research-lab/data.json", { cache: "no-cache" });
+        if (!response.ok) throw new Error(`Dataset request failed with status ${response.status}`);
+
+        const dataset = await response.json();
+        if (!Array.isArray(dataset.records)) throw new Error("Dataset does not contain a records array");
+
+        const records = dataset.records.filter(function (record) {
+          return record.status === "active";
+        });
+
+        grid.innerHTML = records.map(renderCard).join("");
+        grid.setAttribute("aria-busy", "false");
+
+        const sources = new Set(records.map(function (record) {
+          return record.source && record.source.url;
+        }).filter(Boolean));
+        const themes = new Set(records.map(function (record) {
+          return record.theme;
+        }).filter(Boolean));
+        const years = records.map(function (record) {
+          return record.studyYear;
+        }).filter(Number.isInteger);
+
+        document.getElementById("record-count").textContent = String(records.length);
+        document.getElementById("source-count").textContent = String(sources.size);
+        document.getElementById("theme-count").textContent = String(themes.size);
+        document.getElementById("study-period").textContent = years.length
+          ? `${Math.min(...years)}-${String(Math.max(...years)).slice(-2)}`
+          : "Current";
+        document.getElementById("lab-updated-note").textContent =
+          `Last updated ${formatDate(dataset.lastUpdated)}. Publication dates and reporting periods are shown separately where the source reports them. Source links open the original publisher's page.`;
+
+        function applyFilter(filter) {
           let visible = 0;
-          cards.forEach(function (card) {
+          Array.from(grid.querySelectorAll(".data-card")).forEach(function (card) {
             const show = filter === "all" || card.dataset.theme === filter;
             card.hidden = !show;
             if (show) visible += 1;
           });
+          visibleCount.textContent = String(visible);
+        }
 
-          count.textContent = String(visible);
+        buttons.forEach(function (button) {
+          button.addEventListener("click", function () {
+            buttons.forEach(function (item) {
+              item.setAttribute("aria-pressed", String(item === button));
+            });
+            applyFilter(button.dataset.filter);
+          });
         });
-      });
+
+        applyFilter("all");
+      } catch (error) {
+        grid.setAttribute("aria-busy", "false");
+        grid.innerHTML = '<p class="lab-load-state">The research dataset could not be loaded. Please refresh the page or return shortly.</p>';
+        visibleCount.textContent = "0";
+        console.error(error);
+      }
     }());
   </script>
 <script>
