@@ -1,0 +1,626 @@
+{
+  "schemaVersion": 1,
+  "lastUpdated": "2026-07-28",
+  "themes": [
+    {
+      "id": "planning",
+      "label": "Planning & forecasting"
+    },
+    {
+      "id": "data",
+      "label": "Data & systems"
+    },
+    {
+      "id": "ai",
+      "label": "AI in finance"
+    },
+    {
+      "id": "operating",
+      "label": "Operating model"
+    },
+    {
+      "id": "risk",
+      "label": "Risk & resilience"
+    },
+    {
+      "id": "cash",
+      "label": "Cash & working capital"
+    }
+  ],
+  "records": [
+    {
+      "id": "P-01",
+      "theme": "planning",
+      "themeLabel": "Planning & forecasting",
+      "metric": "35 days",
+      "title": "Median cycle time to complete the annual budget",
+      "finding": "APQC reports a cross-industry median of 35 calendar days from the beginning to the end of the annual budgeting process.",
+      "coverage": "10,267 companies",
+      "period": null,
+      "published": null,
+      "type": "Cross-industry benchmark",
+      "studyYear": null,
+      "source": {
+        "publisher": "APQC",
+        "title": "APQC, measure 100160",
+        "url": "https://www.apqc.org/resources/benchmarking/open-standards-benchmarking/measures/cycle-time-days-complete-annual-budget",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "P-02",
+      "theme": "planning",
+      "themeLabel": "Planning & forecasting",
+      "metric": "11 days",
+      "title": "Median cycle time to prepare a financial forecast",
+      "finding": "APQC reports a cross-industry median of 11 calendar days to prepare a financial forecast.",
+      "coverage": "5,119 companies",
+      "period": null,
+      "published": null,
+      "type": "Cross-industry benchmark",
+      "studyYear": null,
+      "source": {
+        "publisher": "APQC",
+        "title": "APQC, measure 100604",
+        "url": "https://www.apqc.org/resources/benchmarking/open-standards-benchmarking/measures/cycle-time-days-prepare-financial",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "P-03",
+      "theme": "planning",
+      "themeLabel": "Planning & forecasting",
+      "metric": "5 days",
+      "title": "Median cycle time to update a rolling forecast",
+      "finding": "APQC reports a cross-industry median of five calendar days to update or revise a rolling forecast.",
+      "coverage": "3,647 companies",
+      "period": null,
+      "published": null,
+      "type": "Cross-industry benchmark",
+      "studyYear": null,
+      "source": {
+        "publisher": "APQC",
+        "title": "APQC, measure 100635",
+        "url": "https://www.apqc.org/resources/benchmarking/open-standards-benchmarking/measures/cycle-time-days-updaterevise-rolling",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "P-04",
+      "theme": "planning",
+      "themeLabel": "Planning & forecasting",
+      "metric": "9.4 vs. 14.5",
+      "title": "Average days required to reforecast",
+      "finding": "The top 20% of AFP's agility scoring reforecast in 9.4 days, compared with 14.5 days for other respondents. Among the top group, 94% agreed or strongly agreed that FP&A uses multiple scenarios.",
+      "coverage": "255 corporate practitioners",
+      "period": "August-September 2022",
+      "published": null,
+      "type": null,
+      "studyYear": 2022,
+      "source": {
+        "publisher": "Association for Financial Professionals",
+        "title": "2022 AFP FP&A Survey",
+        "url": "https://www.financialprofessionals.org/about/learn-more/press-releases/Details/survey-agile-finance-leaders-reforecast-faster-are-more-likely-to-use-scenarios-in-the-planning-process",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "D-01",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "96% / 93%",
+      "title": "Spreadsheet use in planning and reporting",
+      "finding": "Ninety-six percent of respondents used spreadsheets for planning. Ninety-three percent used spreadsheets for reporting on a daily or weekly basis.",
+      "coverage": "362 FP&A and finance practitioners globally",
+      "period": "Fall 2024",
+      "published": null,
+      "type": null,
+      "studyYear": 2024,
+      "source": {
+        "publisher": "Association for Financial Professionals",
+        "title": "2025 AFP FP&A Benchmarking Survey",
+        "url": "https://www.financialprofessionals.org/about/learn-more/press-releases/Details/survey-lack-of-reliable-and-accessible-data-holds-fp-a-back-from-success-with-technology",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "D-02",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "71%",
+      "title": "EPM use for planning at least quarterly",
+      "finding": "Seventy-one percent of respondents used enterprise performance management tools for planning at least quarterly, and more than half used them daily or weekly.",
+      "coverage": "362 FP&A and finance practitioners globally",
+      "period": "Fall 2024",
+      "published": null,
+      "type": null,
+      "studyYear": 2024,
+      "source": {
+        "publisher": "Association for Financial Professionals",
+        "title": "2025 AFP FP&A Benchmarking Survey",
+        "url": "https://www.financialprofessionals.org/about/learn-more/press-releases/Details/survey-lack-of-reliable-and-accessible-data-holds-fp-a-back-from-success-with-technology",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "D-03",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "61% / 60%",
+      "title": "Data reliability and accessibility challenges",
+      "finding": "Sixty-one percent of respondents reported moderate to significant challenges with data reliability, and 60% reported challenges with data accessibility.",
+      "coverage": "362 FP&A and finance practitioners globally",
+      "period": "Fall 2024",
+      "published": null,
+      "type": null,
+      "studyYear": 2024,
+      "source": {
+        "publisher": "Association for Financial Professionals",
+        "title": "2025 AFP FP&A Benchmarking Survey",
+        "url": "https://www.financialprofessionals.org/about/learn-more/press-releases/Details/survey-lack-of-reliable-and-accessible-data-holds-fp-a-back-from-success-with-technology",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "D-04",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "8 + 10",
+      "title": "Planning and reporting tool categories in quarterly use",
+      "finding": "More than half of respondents reported using at least eight categories of planning tools and 10 types of reporting tools each quarter.",
+      "coverage": "362 FP&A and finance practitioners globally",
+      "period": "Fall 2024",
+      "published": null,
+      "type": null,
+      "studyYear": 2024,
+      "source": {
+        "publisher": "Association for Financial Professionals",
+        "title": "2025 AFP FP&A Benchmarking Survey",
+        "url": "https://www.financialprofessionals.org/about/learn-more/press-releases/Details/survey-lack-of-reliable-and-accessible-data-holds-fp-a-back-from-success-with-technology",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "A-01",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "23% + 40%",
+      "title": "AI use and testing within FP&A",
+      "finding": "Twenty-three percent of respondents used AI daily, weekly, or monthly. Another 40% were testing AI and planned implementation within the following year.",
+      "coverage": "362 FP&A and finance practitioners globally",
+      "period": "Fall 2024",
+      "published": null,
+      "type": null,
+      "studyYear": 2024,
+      "source": {
+        "publisher": "Association for Financial Professionals",
+        "title": "2025 AFP FP&A Benchmarking Survey",
+        "url": "https://www.financialprofessionals.org/about/learn-more/press-releases/Details/survey-lack-of-reliable-and-accessible-data-holds-fp-a-back-from-success-with-technology",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "A-02",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "59%",
+      "title": "Finance functions reporting AI use in 2025",
+      "finding": "Gartner reported finance AI adoption at 59% in 2025, compared with 58% in its 2024 survey.",
+      "coverage": "183 CFOs and senior finance leaders",
+      "period": "May-June 2025",
+      "published": null,
+      "type": null,
+      "studyYear": 2025,
+      "source": {
+        "publisher": "Gartner",
+        "title": "2025 Gartner AI in Finance Survey",
+        "url": "https://www.gartner.com/en/newsroom/press-releases/2025-11-18-gartner-survey-shows-finance-ai-adoption-remains-steady-in-2025",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "A-03",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "44% / 39%",
+      "title": "Leading AI use cases reported by finance functions",
+      "finding": "In Gartner's 2024 survey, intelligent process automation was reported by 44% of finance functions and anomaly or error detection by 39%. Analytics was reported by 28% and operational assistance by 27%.",
+      "coverage": "121 finance leaders",
+      "period": "June 2024",
+      "published": null,
+      "type": null,
+      "studyYear": 2024,
+      "source": {
+        "publisher": "Gartner",
+        "title": "2024 Gartner Finance AI Survey",
+        "url": "https://www.gartner.com/en/newsroom/press-releases/2024-09-11-gartner-survey-shows-58-percent-of-finance-functions-use-ai-in-2024",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "A-04",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "75% / 71%",
+      "title": "Active AI use and reported return in finance",
+      "finding": "KPMG reported active AI use across finance at 75%, up from 30% in 2024. Seventy-one percent of respondents said AI was meeting or exceeding return expectations.",
+      "coverage": "1,013 senior finance leaders; 20 countries; 13 sectors",
+      "period": "March 2026",
+      "published": null,
+      "type": null,
+      "studyYear": 2026,
+      "source": {
+        "publisher": "KPMG",
+        "title": "KPMG 2026 Global AI in Finance",
+        "url": "https://kpmg.com/xx/en/media/press-releases/2026/05/ai-adoption-in-finance-doubles-but-assurance-readiness-determines-who-wins.html",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "A-05",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "71% / 70% / 64%",
+      "title": "Reported AI-related finance outcomes",
+      "finding": "Respondents reported improvement in decision speed at 71%, decision quality at 70%, and forecast accuracy at 64%.",
+      "coverage": "1,013 senior finance leaders; 20 countries; 13 sectors",
+      "period": "March 2026",
+      "published": null,
+      "type": null,
+      "studyYear": 2026,
+      "source": {
+        "publisher": "KPMG",
+        "title": "KPMG 2026 Global AI in Finance",
+        "url": "https://kpmg.com/xx/en/media/press-releases/2026/05/ai-adoption-in-finance-doubles-but-assurance-readiness-determines-who-wins.html",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "A-06",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "42% / 29%",
+      "title": "Assurance readiness and failure tracking",
+      "finding": "Forty-two percent of organizations were classified as fully assurance-ready for AI-enabled finance processes, while 29% tracked where AI adoption failed. Data quality was cited by 36% as both the leading barrier and opportunity.",
+      "coverage": "1,013 senior finance leaders; 20 countries; 13 sectors",
+      "period": "March 2026",
+      "published": null,
+      "type": null,
+      "studyYear": 2026,
+      "source": {
+        "publisher": "KPMG",
+        "title": "KPMG 2026 Global AI in Finance",
+        "url": "https://kpmg.com/xx/en/media/press-releases/2026/05/ai-adoption-in-finance-doubles-but-assurance-readiness-determines-who-wins.html",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "A-07",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "88% / 39%",
+      "title": "Enterprise AI use and reported EBIT effect",
+      "finding": "Eighty-eight percent reported regular AI use in at least one business function, while roughly one-third had begun scaling enterprise-wide. Thirty-nine percent reported any enterprise-level EBIT effect, and most of that group attributed less than 5% of EBIT to AI.",
+      "coverage": "1,993 participants in 105 countries",
+      "period": "June-July 2025",
+      "published": null,
+      "type": null,
+      "studyYear": 2025,
+      "source": {
+        "publisher": "McKinsey & Company",
+        "title": "McKinsey State of AI 2025",
+        "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai/",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "A-08",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "87% / 54%",
+      "title": "North American CFO expectations for AI in 2026",
+      "finding": "Eighty-seven percent said AI would be extremely or very important to finance operations in 2026. Fifty-four percent identified integrating AI agents as a finance transformation priority, and 50% named digital finance transformation as a top priority.",
+      "coverage": "200 CFOs at North American companies with at least $1B revenue",
+      "period": "November-December 2025",
+      "published": null,
+      "type": null,
+      "studyYear": 2025,
+      "source": {
+        "publisher": "Deloitte",
+        "title": "Deloitte Q4 2025 CFO Signals",
+        "url": "https://www.deloitte.com/us/en/about/press-room/deloitte-q4-2025-cfo-signals-survey.html",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "O-01",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "metric": "5.3-point gap",
+      "title": "Finance workload, staffing, and budget outlook for 2026",
+      "finding": "The Hackett Group projected finance workload growth of 3.2%, a 2.1% headcount decline, and a 1.7% budget decline, producing a stated 5.3% productivity gap. Planned technology spending increased 5.6%.",
+      "coverage": "Respondent count not stated in public release",
+      "period": null,
+      "published": null,
+      "type": "Finance executive outlook",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "The Hackett Group",
+        "title": "2026 Finance Key Issues Study",
+        "url": "https://www.thehackettgroup.com/the-hackett-group-study-shows-ai-adoption-rapidly-accelerating-across-core-finance-processes/",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "O-02",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "metric": "65%",
+      "title": "FP&A practitioners at or above full capacity",
+      "finding": "Sixty-five percent of practitioners reported working at or above 100% capacity, while 54% strongly agreed that their FP&A teams were adequately staffed.",
+      "coverage": "255 corporate practitioners",
+      "period": "August-September 2022",
+      "published": null,
+      "type": null,
+      "studyYear": 2022,
+      "source": {
+        "publisher": "Association for Financial Professionals",
+        "title": "2022 AFP FP&A Survey",
+        "url": "https://www.financialprofessionals.org/about/learn-more/press-releases/Details/survey-agile-finance-leaders-reforecast-faster-are-more-likely-to-use-scenarios-in-the-planning-process",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "O-03",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "metric": "70% / 87%",
+      "title": "Expanded CFO scope and planned ERP replacement",
+      "finding": "More than 70% of CFOs had expanded responsibilities beyond finance to include areas such as enterprise data and analytics, AI, and corporate strategy. Among organizations with ERP systems, 87% planned a replacement or upgrade within three years.",
+      "coverage": "383 finance leaders",
+      "period": "October 2024",
+      "published": null,
+      "type": null,
+      "studyYear": 2024,
+      "source": {
+        "publisher": "Gartner",
+        "title": "Gartner 2025 Finance Technology Survey",
+        "url": "https://www.gartner.com/en/newsroom/press-releases/2025-03-19-gartner-finance-survey-reveals-the-top-ten-technologies-for-future-investment-in-finance",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "R-01",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "50% / 57%",
+      "title": "Turbulent or stormy global outlook",
+      "finding": "Half of surveyed leaders and experts expected a turbulent or stormy outlook over the following two years. The share rose to 57% over 10 years, while 1% expected a calm outlook at either horizon.",
+      "coverage": "More than 1,300 global leaders and experts",
+      "period": null,
+      "published": "January 2026",
+      "type": null,
+      "studyYear": 2026,
+      "source": {
+        "publisher": "World Economic Forum",
+        "title": "World Economic Forum Global Risks Report 2026",
+        "url": "https://www.weforum.org/publications/global-risks-report-2026/in-full/",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "R-02",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "91% / 3.5",
+      "title": "Organizations reporting disruption",
+      "finding": "Ninety-one percent reported at least one disruption other than the pandemic and averaged 3.5 disruptions over two years. Seventy-six percent said their most serious disruption had a medium-to-high operational impact.",
+      "coverage": "1,812 respondents worldwide",
+      "period": null,
+      "published": "April 2023",
+      "type": null,
+      "studyYear": 2023,
+      "source": {
+        "publisher": "PwC",
+        "title": "PwC Global Crisis and Resilience Survey",
+        "url": "https://www.pwc.com/gx/en/news-room/press-releases/2023/pwc-global-crisis-and-resilience-survey.html",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "R-03",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "70% / 89%",
+      "title": "Confidence in recovery and strategic priority",
+      "finding": "Seventy percent of business leaders expressed confidence in their organization's ability to recover from disruptions. Eighty-nine percent classified resilience as one of their most important strategic priorities.",
+      "coverage": "1,812 respondents worldwide",
+      "period": null,
+      "published": "April 2023",
+      "type": null,
+      "studyYear": 2023,
+      "source": {
+        "publisher": "PwC",
+        "title": "PwC Global Crisis and Resilience Survey",
+        "url": "https://www.pwc.com/gx/en/news-room/press-releases/2023/pwc-global-crisis-and-resilience-survey.html",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "R-04",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "76% / 74%",
+      "title": "Payments fraud and business email compromise",
+      "finding": "Seventy-six percent of U.S. organizations experienced attempted or actual payments fraud in 2025, and 74% were affected by business email compromise. Checks were the most frequently affected payment method at 58%.",
+      "coverage": "465 treasury practitioners at U.S. organizations",
+      "period": "January 2026 survey; 2025 experience",
+      "published": null,
+      "type": null,
+      "studyYear": 2025,
+      "source": {
+        "publisher": "Association for Financial Professionals",
+        "title": "2026 AFP Payments Fraud Survey",
+        "url": "https://www.financialprofessionals.org/about/learn-more/press-releases/Details/over-75-percent-of-us-firms-experienced-payments-fraud-in-2025-while-ai-adoption-for-fraud-mitigation-lags",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "C-01",
+      "theme": "cash",
+      "themeLabel": "Cash & working capital",
+      "metric": "75% / 56% / 51%",
+      "title": "Financial challenges reported by small employer firms",
+      "finding": "Seventy-five percent cited rising input or wage costs, 56% cited paying operating expenses, and 51% cited uneven cash flow as financial challenges.",
+      "coverage": "7,653 U.S. employer firms; convenience sample",
+      "period": "September-November 2024",
+      "published": null,
+      "type": null,
+      "studyYear": 2024,
+      "source": {
+        "publisher": "Federal Reserve Banks",
+        "title": "Federal Reserve 2025 Report on Employer Firms",
+        "url": "https://www.fedsmallbusiness.org/reports/survey/2025/2025-report-on-employer-firms",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "C-02",
+      "theme": "cash",
+      "themeLabel": "Cash & working capital",
+      "metric": "€4.04T",
+      "title": "Worldwide factoring volume in 2025",
+      "finding": "FCI reported worldwide factoring turnover of €4.039 trillion in 2025, 3.7% above 2024. Europe represented 65.8% of total reported volume.",
+      "coverage": "Global industry statistics",
+      "period": "Calendar year 2025",
+      "published": null,
+      "type": null,
+      "studyYear": 2025,
+      "source": {
+        "publisher": "FCI",
+        "title": "FCI Annual Review 2026",
+        "url": "https://fci.nl/en/annual-review",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "C-03",
+      "theme": "cash",
+      "themeLabel": "Cash & working capital",
+      "metric": "60%+",
+      "title": "Cash or liquidity forecasting identified as a leading challenge",
+      "finding": "More than 60% of treasury professionals identified cash or liquidity forecasting as their most challenging task. Nearly three-quarters cited cash management and forecasting as top departmental priorities.",
+      "coverage": "More than 500 treasury practitioners",
+      "period": null,
+      "published": "2025",
+      "type": null,
+      "studyYear": 2025,
+      "source": {
+        "publisher": "Association for Financial Professionals",
+        "title": "2025 AFP Treasury Benchmarking Survey",
+        "url": "https://www.financialprofessionals.org/training-resources/resources/survey-research-economic-data/Details/treasury-benchmarking",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "C-04",
+      "theme": "cash",
+      "themeLabel": "Cash & working capital",
+      "metric": "61% / 35% / 5%",
+      "title": "Short-term investment objectives",
+      "finding": "Safety was the top short-term investment objective for 61% of respondents, followed by liquidity at 35% and yield at 5%. Forty-six percent named bank products as their primary short-term investment vehicle.",
+      "coverage": "254 U.S.-based treasury professionals",
+      "period": "March 2025",
+      "published": null,
+      "type": null,
+      "studyYear": 2025,
+      "source": {
+        "publisher": "Association for Financial Professionals",
+        "title": "2025 AFP Liquidity Survey",
+        "url": "https://www.financialprofessionals.org/about/learn-more/press-releases/Details/survey-61-percent-of-organizations-choose-safety-as-their-top-short-term-investment-objective",
+        "accessedOn": "2026-07-28"
+      },
+      "addedOn": "2026-07-28",
+      "updatedOn": "2026-07-28",
+      "status": "active"
+    }
+  ]
+}
