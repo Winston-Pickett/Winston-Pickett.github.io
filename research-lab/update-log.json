@@ -9,6 +9,50 @@
       "recordsArchived": 0,
       "resultingRecordCount": 27,
       "note": "Migrated the original Research Lab release into the canonical data-driven format without changing the reported findings."
+    },
+    {
+      "date": "2026-08-03",
+      "action": "weekly-research-update",
+      "recordsAdded": 7,
+      "recordsUpdated": 0,
+      "recordsArchived": 0,
+      "recordIdsAdded": [
+        "D-05",
+        "A-09",
+        "O-04",
+        "R-05",
+        "C-05",
+        "C-06",
+        "C-07"
+      ],
+      "categoriesAffected": [
+        "Data & systems",
+        "AI in finance",
+        "Operating model",
+        "Risk & resilience",
+        "Cash & working capital"
+      ],
+      "sourcesUsed": [
+        "2026 AFP Liquidity Survey",
+        "Deloitte CFO Survey Q2 2026",
+        "2026 EY Global DNA of the CFO Survey"
+      ],
+      "candidatesRejected": [
+        {
+          "source": "EY Restructuring Pulse Survey 2026",
+          "reason": "The public release did not state the respondent count."
+        },
+        {
+          "source": "AFP July 30 liquidity webinar",
+          "reason": "The page was instructional and did not provide a new independent dataset beyond the verified AFP survey."
+        },
+        {
+          "source": "PwC and OpenAI finance-function announcement",
+          "reason": "The release did not provide a survey population or independently benchmarked quantitative result."
+        }
+      ],
+      "resultingRecordCount": 34,
+      "note": "Added verified survey findings only; no recommendations or implementation guidance were included."
     }
   ]
 }
