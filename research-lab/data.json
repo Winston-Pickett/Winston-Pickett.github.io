@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-07-28",
+  "lastUpdated": "2026-08-03",
   "themes": [
     {
       "id": "planning",
@@ -205,6 +205,28 @@
       "status": "active"
     },
     {
+      "id": "D-05",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "96% / 93%",
+      "title": "Expected growth in digital technology investment",
+      "finding": "Ninety-six percent of respondents expected UK business investment in digital technology and assets to rise over the following five years, and 93% expected an increase over the following 12 months.",
+      "coverage": "58 UK CFOs, including 10 FTSE 100 and 21 FTSE 250 companies",
+      "period": "July 1-13, 2026",
+      "published": "July 20, 2026",
+      "type": "Survey expectation",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte UK",
+        "title": "Deloitte CFO Survey Q2 2026",
+        "url": "https://www.deloitte.com/uk/en/about/press-room/deloitte-cfo-survey-quater-two-2026-growing-ai-optimism.html",
+        "accessedOn": "2026-08-03"
+      },
+      "addedOn": "2026-08-03",
+      "updatedOn": "2026-08-03",
+      "status": "active"
+    },
+    {
       "id": "A-01",
       "theme": "ai",
       "themeLabel": "AI in finance",
@@ -381,6 +403,28 @@
       "status": "active"
     },
     {
+      "id": "A-09",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "21% / 61% / 51% / 50%",
+      "title": "Finance AI preparedness and investment barriers",
+      "finding": "Twenty-one percent rated their finance function's AI preparedness as advanced or leading. Data quality and bias were cited by 61% as a top challenge in securing investment for AI tools, followed by long-term, indirect or unclear benefits at 51% and limited skills, resources or capacity at 50%.",
+      "coverage": "1,610 CFOs, finance directors and heads of finance; 28 countries; 22 industries",
+      "period": "February 16-March 30, 2026",
+      "published": "June 3, 2026",
+      "type": "Global survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "EY",
+        "title": "2026 EY Global DNA of the CFO Survey",
+        "url": "https://www.ey.com/en_uk/insights/finance/dna-of-the-cfo-survey",
+        "accessedOn": "2026-08-03"
+      },
+      "addedOn": "2026-08-03",
+      "updatedOn": "2026-08-03",
+      "status": "active"
+    },
+    {
       "id": "O-01",
       "theme": "operating",
       "themeLabel": "Operating model",
@@ -444,6 +488,28 @@
       },
       "addedOn": "2026-07-28",
       "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "O-04",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "metric": "60% / 25% / 27% / 47%",
+      "title": "Finance value-creation ambition and operating capacity",
+      "finding": "Sixty percent assigned CFOs responsibility for defining and shaping how the business creates value, while 25% said they lead investment decisions with uncertain, indirect or long-term returns. Twenty-seven percent said finance was most commonly perceived as a strategic partner in value creation, and respondents reported that 47% of their capacity was devoted to operational tasks.",
+      "coverage": "1,610 CFOs, finance directors and heads of finance; 28 countries; 22 industries",
+      "period": "February 16-March 30, 2026",
+      "published": "June 3, 2026",
+      "type": "Global survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "EY",
+        "title": "2026 EY Global DNA of the CFO Survey",
+        "url": "https://www.ey.com/en_uk/insights/finance/dna-of-the-cfo-survey",
+        "accessedOn": "2026-08-03"
+      },
+      "addedOn": "2026-08-03",
+      "updatedOn": "2026-08-03",
       "status": "active"
     },
     {
@@ -535,6 +601,28 @@
       "status": "active"
     },
     {
+      "id": "R-05",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "47% / 68 of 100",
+      "title": "External uncertainty and geopolitical risk",
+      "finding": "Forty-seven percent rated external financial and economic uncertainty as high or very high. Geopolitics remained the highest-rated external risk at an average of 68 out of 100, down from 79 in the first quarter of 2026.",
+      "coverage": "58 UK CFOs, including 10 FTSE 100 and 21 FTSE 250 companies",
+      "period": "July 1-13, 2026",
+      "published": "July 20, 2026",
+      "type": "Survey response and average risk rating",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte UK",
+        "title": "Deloitte CFO Survey Q2 2026",
+        "url": "https://www.deloitte.com/uk/en/about/press-room/deloitte-cfo-survey-quater-two-2026-growing-ai-optimism.html",
+        "accessedOn": "2026-08-03"
+      },
+      "addedOn": "2026-08-03",
+      "updatedOn": "2026-08-03",
+      "status": "active"
+    },
+    {
       "id": "C-01",
       "theme": "cash",
       "themeLabel": "Cash & working capital",
@@ -620,6 +708,72 @@
       },
       "addedOn": "2026-07-28",
       "updatedOn": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "C-05",
+      "theme": "cash",
+      "themeLabel": "Cash & working capital",
+      "metric": "1% / 9%",
+      "title": "Stablecoin and tokenized-product adoption",
+      "finding": "One percent of respondents reported piloting or limited use of stablecoins and tokenized products, while 9% were actively exploring the technology.",
+      "coverage": "309 treasury professionals from U.S. organizations of varying sizes and industries",
+      "period": "March 2026",
+      "published": "June 16, 2026",
+      "type": "Survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Association for Financial Professionals",
+        "title": "2026 AFP Liquidity Survey",
+        "url": "https://www.financialprofessionals.org/about/learn-more/press-releases/Details/afp-survey-finds-stablecoins-remain-peripheral-to-liquidity-strategies-as-cash-reserves-rise",
+        "accessedOn": "2026-08-03"
+      },
+      "addedOn": "2026-08-03",
+      "updatedOn": "2026-08-03",
+      "status": "active"
+    },
+    {
+      "id": "C-06",
+      "theme": "cash",
+      "themeLabel": "Cash & working capital",
+      "metric": "46% / 83% / 42%",
+      "title": "Cash balances and short-term investment allocation",
+      "finding": "Forty-six percent of organizations increased their U.S. cash balances as of March 2026, up from 38% a year earlier. An average of 83% of short-term investment balances was held in safe and liquid vehicles, while the average bank-deposit share fell to 42%, its lowest level since 2011.",
+      "coverage": "309 treasury professionals from U.S. organizations of varying sizes and industries",
+      "period": "March 2026",
+      "published": "June 16, 2026",
+      "type": "Survey response and portfolio allocation",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Association for Financial Professionals",
+        "title": "2026 AFP Liquidity Survey",
+        "url": "https://www.financialprofessionals.org/about/learn-more/press-releases/Details/afp-survey-finds-stablecoins-remain-peripheral-to-liquidity-strategies-as-cash-reserves-rise",
+        "accessedOn": "2026-08-03"
+      },
+      "addedOn": "2026-08-03",
+      "updatedOn": "2026-08-03",
+      "status": "active"
+    },
+    {
+      "id": "C-07",
+      "theme": "cash",
+      "themeLabel": "Cash & working capital",
+      "metric": "75% / 41%",
+      "title": "Investment policy use and 24/7 liquidity expectations",
+      "finding": "Three in four organizations had a written investment policy governing short-term investments. Forty-one percent expected money market funds to offer 24/7 liquidity, up from 38% in 2025.",
+      "coverage": "309 treasury professionals from U.S. organizations of varying sizes and industries",
+      "period": "March 2026",
+      "published": "June 16, 2026",
+      "type": "Survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Association for Financial Professionals",
+        "title": "2026 AFP Liquidity Survey",
+        "url": "https://www.financialprofessionals.org/about/learn-more/press-releases/Details/afp-survey-finds-stablecoins-remain-peripheral-to-liquidity-strategies-as-cash-reserves-rise",
+        "accessedOn": "2026-08-03"
+      },
+      "addedOn": "2026-08-03",
+      "updatedOn": "2026-08-03",
       "status": "active"
     }
   ]
