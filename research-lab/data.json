@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-08-03",
+  "lastUpdated": "2026-08-16",
   "themes": [
     {
       "id": "planning",
@@ -774,6 +774,160 @@
       },
       "addedOn": "2026-08-03",
       "updatedOn": "2026-08-03",
+      "status": "active"
+    },
+    {
+      "id": "A-10",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "92% / 50% / 71% / 7%",
+      "title": "Pressure to prove AI-agent returns is outpacing measurable value",
+      "finding": "Ninety-two percent of surveyed finance leaders reported moderate or significant career pressure to demonstrate ROI from AI-agent investments. Half said their initiatives had delivered only limited measurable ROI, 71% said deployment pressure emphasized speed, and 7% said their organization prioritized governance over speed.",
+      "coverage": "1,505 CFOs and senior finance leaders at companies with $10M+ revenue across the U.S., U.K., Australia, and India",
+      "period": "June 15-22, 2026",
+      "published": "July 21, 2026",
+      "type": "Cross-market finance-leader survey",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Avalara / Censuswide",
+        "title": "Agents of Change: How the Race to Deploy AI Agents is Outrunning Financial Governance",
+        "url": "https://www.prnewswire.com/news-releases/avalara-survey-finance-leaders-are-racing-to-deploy-ai-agents-before-governance-is-ready-302830382.html",
+        "accessedOn": "2026-08-16"
+      },
+      "addedOn": "2026-08-16",
+      "updatedOn": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "R-06",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "30% / 44% / 23% / 76%",
+      "title": "AI-agent controls, explainability, accountability, and expertise gaps",
+      "finding": "Thirty percent had not updated internal controls within the prior year to reflect AI agents taking or recommending actions. Forty-four percent were only somewhat confident they could explain an agent's actions to an auditor or regulator, 23% said accountability for a significant error would be unclear or sit with no one, and 76% lacked dedicated in-house expertise to understand how their agents worked.",
+      "coverage": "1,505 CFOs and senior finance leaders at companies with $10M+ revenue across the U.S., U.K., Australia, and India",
+      "period": "June 15-22, 2026",
+      "published": "July 21, 2026",
+      "type": "Cross-market finance-leader survey",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Avalara / Censuswide",
+        "title": "Agents of Change: How the Race to Deploy AI Agents is Outrunning Financial Governance",
+        "url": "https://www.prnewswire.com/news-releases/avalara-survey-finance-leaders-are-racing-to-deploy-ai-agents-before-governance-is-ready-302830382.html",
+        "accessedOn": "2026-08-16"
+      },
+      "addedOn": "2026-08-16",
+      "updatedOn": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "A-11",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "64% / 8.3× / 2.6×",
+      "title": "Enterprise AI use is shifting from assistance to agentic execution",
+      "finding": "As of June 2026, Codex accounted for 64% of combined Codex and ChatGPT output tokens among enterprise customers. Frontier firms generated 8.3 times as many output tokens per active user as typical firms, up from a 2.6-times gap in January. OpenAI notes that token volume is a proxy for depth of use, not a direct measure of business value.",
+      "coverage": "OpenAI enterprise customer activity; Enterprise Signals draws on more than 10 million messages",
+      "period": "January-June 2026",
+      "published": "August 12, 2026",
+      "type": "Administrative enterprise-usage data",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "OpenAI",
+        "title": "Enterprise Signals: What frontier firms are doing differently",
+        "url": "https://openai.com/signals/enterprise-data/",
+        "accessedOn": "2026-08-16"
+      },
+      "addedOn": "2026-08-16",
+      "updatedOn": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "A-12",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "21% vs. 9% / 19% vs. 3%",
+      "title": "Frontier firms use connected AI capabilities more frequently",
+      "finding": "Among weekly active users, 21% at frontier firms used Plugins and 19% used skills, compared with 9% and 3%, respectively, at typical firms. The figures measure capability adoption and do not by themselves establish financial return.",
+      "coverage": "OpenAI enterprise customer activity; Enterprise Signals draws on more than 10 million messages",
+      "period": "Through June 2026",
+      "published": "August 12, 2026",
+      "type": "Administrative enterprise-usage data",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "OpenAI",
+        "title": "Enterprise Signals: What frontier firms are doing differently",
+        "url": "https://openai.com/signals/enterprise-data/",
+        "accessedOn": "2026-08-16"
+      },
+      "addedOn": "2026-08-16",
+      "updatedOn": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "O-05",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "metric": "108× / 41× / 41× / 26× / 5×",
+      "title": "Agentic work is spreading beyond engineering",
+      "finding": "Since February, weekly active enterprise Codex users increased 108 times in legal, 41 times in sales, 41 times in recruiting, and 26 times in marketing, compared with five times in engineering. The measure reflects growth in active users rather than productivity or economic return.",
+      "coverage": "OpenAI enterprise customer activity; Enterprise Signals draws on more than 10 million messages",
+      "period": "February-June 2026",
+      "published": "August 12, 2026",
+      "type": "Administrative enterprise-usage data",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "OpenAI",
+        "title": "From assistance to execution: How enterprises put AI to work",
+        "url": "https://openai.com/index/how-enterprises-put-ai-to-work/",
+        "accessedOn": "2026-08-16"
+      },
+      "addedOn": "2026-08-16",
+      "updatedOn": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "D-06",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "100% vs. 76% / 43.3% vs. 26.7%",
+      "title": "AI-generated finance presentations reached higher completion and readiness rates",
+      "finding": "In Model ML's Composite evaluation, GPT-5.6 Sol produced a PowerPoint file in 100% of test cases versus 76% for Opus 5. It passed the company's professional-readiness gate in 43.3% of cases versus 26.7%. The benchmark was designed and reported by the solution provider and covered hundreds of generated decks.",
+      "coverage": "Hundreds of generated finance decks evaluated using Model ML's internal Composite benchmark",
+      "period": null,
+      "published": "August 10, 2026",
+      "type": "Provider-designed comparative benchmark",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "OpenAI and Model ML",
+        "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+        "url": "https://openai.com/index/model-ml/",
+        "accessedOn": "2026-08-16"
+      },
+      "addedOn": "2026-08-16",
+      "updatedOn": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "D-07",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "36% fewer tokens / 83.3% / 50.0%",
+      "title": "Finance-workbook efficiency improved, while full-model correctness remained mixed",
+      "finding": "In Model ML's native Excel benchmark, GPT-5.6 Sol used 36% fewer tokens per workbook than Opus 5 and achieved 83.3% headline-output accuracy. However, 50% of its workbooks had every key output correct, compared with 60% for Opus 5, Fable 5, and GPT-5.5. The result separates efficiency and partial accuracy from end-to-end correctness.",
+      "coverage": "Model ML Composite finance-workbook evaluation; exact workbook count not stated on the published page",
+      "period": null,
+      "published": "August 10, 2026",
+      "type": "Provider-designed comparative benchmark",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "OpenAI and Model ML",
+        "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+        "url": "https://openai.com/index/model-ml/",
+        "accessedOn": "2026-08-16"
+      },
+      "addedOn": "2026-08-16",
+      "updatedOn": "2026-08-16",
       "status": "active"
     }
   ]

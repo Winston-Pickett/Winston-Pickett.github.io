@@ -53,6 +53,49 @@
       ],
       "resultingRecordCount": 34,
       "note": "Added verified survey findings only; no recommendations or implementation guidance were included."
+    },
+    {
+      "date": "2026-08-16",
+      "action": "catch-up-research-update",
+      "recordsAdded": 7,
+      "recordsUpdated": 0,
+      "recordsArchived": 0,
+      "recordIdsAdded": [
+        "A-10",
+        "R-06",
+        "A-11",
+        "A-12",
+        "O-05",
+        "D-06",
+        "D-07"
+      ],
+      "categoriesAffected": [
+        "AI in finance",
+        "Risk & resilience",
+        "Operating model",
+        "Data & systems"
+      ],
+      "sourcesUsed": [
+        "Avalara Agents of Change survey",
+        "OpenAI Enterprise Signals",
+        "Model ML Composite finance-workflow benchmark"
+      ],
+      "candidatesRejected": [
+        {
+          "source": "CloudZero AI Economics Pulse, August 2026",
+          "reason": "The public page did not state the customer-panel size needed to interpret the percentile statistics."
+        },
+        {
+          "source": "Oracle and SAP August 2026 product announcements",
+          "reason": "The releases described product capabilities but did not provide an independent quantitative research population."
+        },
+        {
+          "source": "Microsoft FY2026 earnings examples",
+          "reason": "Company and customer examples were operational disclosures rather than a research dataset suitable for the Lab."
+        }
+      ],
+      "resultingRecordCount": 41,
+      "note": "Added verified quantitative findings identified in the August 2-8 and August 9-15 executive-research cycles. Provider benchmarks are labeled as such, limitations are stated in the findings, and no implementation guidance was included."
     }
   ]
 }
