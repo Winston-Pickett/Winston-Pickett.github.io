@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-08-16",
+  "lastUpdated": "2026-08-24",
   "themes": [
     {
       "id": "planning",
@@ -928,6 +928,94 @@
       },
       "addedOn": "2026-08-16",
       "updatedOn": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "P-05",
+      "theme": "planning",
+      "themeLabel": "Planning & forecasting",
+      "metric": "62% / 52%",
+      "title": "Strategic planning and business partnering among top finance priorities",
+      "finding": "Strategic planning and decision support ranked among the top three priorities for 62% of surveyed finance leaders; business partnering followed at 52%.",
+      "coverage": "Respondent count and field dates are not stated on the public source; population is described as CFOs and senior finance leaders across Indian industries and organization sizes",
+      "period": "Survey field period not stated on public source",
+      "published": "August 17, 2026",
+      "type": "India survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Grant Thornton Bharat",
+        "title": "India Finance Leaders Barometer 2026",
+        "url": "https://www.grantthornton.in/en/insights/thought-leadership/india-finance-leaders-barometer-2026/",
+        "accessedOn": "2026-08-24"
+      },
+      "addedOn": "2026-08-24",
+      "updatedOn": "2026-08-24",
+      "status": "active"
+    },
+    {
+      "id": "D-08",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "14%",
+      "title": "Finance functions with an advanced, integrated technology landscape",
+      "finding": "Fourteen percent of surveyed finance leaders described their finance function's technology landscape as advanced and integrated.",
+      "coverage": "Respondent count and field dates are not stated on the public source; population is described as CFOs and senior finance leaders across Indian industries and organization sizes",
+      "period": "Survey field period not stated on public source",
+      "published": "August 17, 2026",
+      "type": "India survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Grant Thornton Bharat",
+        "title": "India Finance Leaders Barometer 2026",
+        "url": "https://www.grantthornton.in/en/insights/thought-leadership/india-finance-leaders-barometer-2026/",
+        "accessedOn": "2026-08-24"
+      },
+      "addedOn": "2026-08-24",
+      "updatedOn": "2026-08-24",
+      "status": "active"
+    },
+    {
+      "id": "A-13",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "8%",
+      "title": "Finance functions reporting significant, measurable value from AI",
+      "finding": "Eight percent of surveyed finance leaders reported significant, measurable value from AI.",
+      "coverage": "Respondent count and field dates are not stated on the public source; population is described as CFOs and senior finance leaders across Indian industries and organization sizes",
+      "period": "Survey field period not stated on public source",
+      "published": "August 17, 2026",
+      "type": "India survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Grant Thornton Bharat",
+        "title": "India Finance Leaders Barometer 2026",
+        "url": "https://www.grantthornton.in/en/insights/thought-leadership/india-finance-leaders-barometer-2026/",
+        "accessedOn": "2026-08-24"
+      },
+      "addedOn": "2026-08-24",
+      "updatedOn": "2026-08-24",
+      "status": "active"
+    },
+    {
+      "id": "O-06",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "metric": "99% / 41.6%",
+      "title": "Finance-leader confidence and team preparedness",
+      "finding": "Ninety-nine percent of surveyed finance leaders were confident in their ability to deliver over the following 12 months, while 41.6% said their teams were well prepared for the challenges ahead.",
+      "coverage": "Respondent count and field dates are not stated on the public source; population is described as CFOs and senior finance leaders across Indian industries and organization sizes",
+      "period": "Survey field period not stated on public source",
+      "published": "August 17, 2026",
+      "type": "India survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Grant Thornton Bharat",
+        "title": "India Finance Leaders Barometer 2026",
+        "url": "https://www.grantthornton.in/en/insights/thought-leadership/india-finance-leaders-barometer-2026/",
+        "accessedOn": "2026-08-24"
+      },
+      "addedOn": "2026-08-24",
+      "updatedOn": "2026-08-24",
       "status": "active"
     }
   ]
