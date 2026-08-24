@@ -96,6 +96,48 @@
       ],
       "resultingRecordCount": 41,
       "note": "Added verified quantitative findings identified in the August 2-8 and August 9-15 executive-research cycles. Provider benchmarks are labeled as such, limitations are stated in the findings, and no implementation guidance was included."
+    },
+    {
+      "date": "2026-08-24",
+      "action": "weekly-research-update",
+      "recordsAdded": 4,
+      "recordsUpdated": 0,
+      "recordsArchived": 0,
+      "recordIdsAdded": [
+        "P-05",
+        "D-08",
+        "A-13",
+        "O-06"
+      ],
+      "categoriesAffected": [
+        "Planning & forecasting",
+        "Data & systems",
+        "AI in finance",
+        "Operating model"
+      ],
+      "sourcesUsed": [
+        "Grant Thornton Bharat, India Finance Leaders Barometer 2026"
+      ],
+      "candidatesRejected": [
+        {
+          "source": "Deloitte Q2 2026 North American CFO Signals AI governance release",
+          "reason": "Published July 23, 2026, before the current research window; it was not treated as newly published material for this cycle."
+        },
+        {
+          "source": "Open Future Forum CFO AI Leverage Report, August 2026",
+          "reason": "The finance responses came from an event-registration applicant pool that the publisher characterizes as nonrepresentative operator research; it did not meet the Lab's authoritative-source threshold."
+        },
+        {
+          "source": "Euromoney Cash Management Survey 2026",
+          "reason": "The publisher states that the 2026 results will be released on September 15, so no current findings were available to verify."
+        },
+        {
+          "source": "Secondary coverage of the India Finance Leaders Barometer",
+          "reason": "Respondent-count claims were not imported because the original public report page does not disclose them; published records explicitly state that limitation."
+        }
+      ],
+      "resultingRecordCount": 45,
+      "note": "Added only exact survey findings from the original publisher page. Publicly undisclosed respondent count and field dates are stated as limitations; no recommendations or implementation guidance were included."
     }
   ]
 }
