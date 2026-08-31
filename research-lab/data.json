@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-08-24",
+  "lastUpdated": "2026-08-31",
   "themes": [
     {
       "id": "planning",
@@ -1016,6 +1016,160 @@
       },
       "addedOn": "2026-08-24",
       "updatedOn": "2026-08-24",
+      "status": "active"
+    },
+    {
+      "id": "A-14",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "77%",
+      "title": "Finance organizations using AI",
+      "finding": "Protiviti reports that 77% of surveyed finance organizations are using AI.",
+      "coverage": "902 finance executives worldwide, including CFOs, vice presidents of finance and other senior finance leaders across North America, Europe and Asia-Pacific; organizations varied in size and industry. The public page does not disclose field dates.",
+      "period": "2026 survey",
+      "published": "August 25, 2026",
+      "type": "Global finance-executive survey",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Protiviti",
+        "title": "2026 Global Finance Trends Survey",
+        "url": "https://www.protiviti.com/us-en/survey/global-finance-trends-survey",
+        "accessedOn": "2026-08-31"
+      },
+      "addedOn": "2026-08-31",
+      "updatedOn": "2026-08-31",
+      "status": "active"
+    },
+    {
+      "id": "A-15",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "14%",
+      "title": "AI-using finance organizations with a defined AI strategy",
+      "finding": "Among surveyed finance organizations using AI, Protiviti reports that 14% have a defined AI strategy.",
+      "coverage": "902 finance executives worldwide, including CFOs, vice presidents of finance and other senior finance leaders across North America, Europe and Asia-Pacific; the 14% applies only to the subgroup whose finance organizations use AI. The public page does not disclose field dates or the subgroup count.",
+      "period": "2026 survey",
+      "published": "August 25, 2026",
+      "type": "Global finance-executive survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Protiviti",
+        "title": "2026 Global Finance Trends Survey",
+        "url": "https://www.protiviti.com/us-en/survey/global-finance-trends-survey",
+        "accessedOn": "2026-08-31"
+      },
+      "addedOn": "2026-08-31",
+      "updatedOn": "2026-08-31",
+      "status": "active"
+    },
+    {
+      "id": "C-08",
+      "theme": "cash",
+      "themeLabel": "Cash & working capital",
+      "metric": "83%",
+      "title": "CFOs ranking cash management among top priorities",
+      "finding": "Protiviti reports that 83% of CFO respondents rank cash management among their top priorities amid economic and policy uncertainty.",
+      "coverage": "The full survey covered 902 finance executives worldwide across North America, Europe and Asia-Pacific; the public page does not disclose the CFO-only respondent count or field dates.",
+      "period": "2026 survey",
+      "published": "August 25, 2026",
+      "type": "Global CFO survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Protiviti",
+        "title": "2026 Global Finance Trends Survey",
+        "url": "https://www.protiviti.com/us-en/survey/global-finance-trends-survey",
+        "accessedOn": "2026-08-31"
+      },
+      "addedOn": "2026-08-31",
+      "updatedOn": "2026-08-31",
+      "status": "active"
+    },
+    {
+      "id": "R-07",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "#1 for 3 years",
+      "title": "Security and privacy remain finance's top priority",
+      "finding": "Protiviti reports that data security and privacy ranked as finance's top priority for the third consecutive year.",
+      "coverage": "902 finance executives worldwide, including CFOs, vice presidents of finance and other senior finance leaders across North America, Europe and Asia-Pacific; organizations varied in size and industry. The public page does not disclose field dates.",
+      "period": "2026 survey and three-year priority trend",
+      "published": "August 25, 2026",
+      "type": "Global finance-executive priority ranking",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Protiviti",
+        "title": "2026 Global Finance Trends Survey",
+        "url": "https://www.protiviti.com/us-en/survey/global-finance-trends-survey",
+        "accessedOn": "2026-08-31"
+      },
+      "addedOn": "2026-08-31",
+      "updatedOn": "2026-08-31",
+      "status": "active"
+    },
+    {
+      "id": "R-08",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "16%",
+      "title": "Real-time quantification of emerging financial risk",
+      "finding": "Kyriba reports that 16% of Singapore respondents said their organizations can quantify the financial implications of an emerging external risk in real time or near real time.",
+      "coverage": "100 Singapore CFOs and senior finance leaders at organizations with revenue above US$500 million, within a survey spanning nine global markets.",
+      "period": "Fielded May 26 to June 9, 2026",
+      "published": "August 25, 2026",
+      "type": "Singapore CFO and senior-finance-leader survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Kyriba",
+        "title": "CFO Risk Radar 2026: Singapore findings",
+        "url": "https://www.kyriba.com/news/singapore-cfo-business-optimism-falls-34/",
+        "accessedOn": "2026-08-31"
+      },
+      "addedOn": "2026-08-31",
+      "updatedOn": "2026-08-31",
+      "status": "active"
+    },
+    {
+      "id": "R-09",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "15.8%",
+      "title": "Same-day adjustment of financial strategy after risk identification",
+      "finding": "Kyriba reports that 15.8% of Singapore respondents said their organizations can adjust financial strategy on the same day after a risk is identified.",
+      "coverage": "100 Singapore CFOs and senior finance leaders at organizations with revenue above US$500 million, within a survey spanning nine global markets.",
+      "period": "Fielded May 26 to June 9, 2026",
+      "published": "August 25, 2026",
+      "type": "Singapore CFO and senior-finance-leader survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Kyriba",
+        "title": "CFO Risk Radar 2026: Singapore findings",
+        "url": "https://www.kyriba.com/news/singapore-cfo-business-optimism-falls-34/",
+        "accessedOn": "2026-08-31"
+      },
+      "addedOn": "2026-08-31",
+      "updatedOn": "2026-08-31",
+      "status": "active"
+    },
+    {
+      "id": "R-10",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "78.2%",
+      "title": "Financial impact linked to inadequate risk visibility or delayed response",
+      "finding": "Kyriba reports that 78.2% of Singapore respondents experienced some degree of financial impact during the preceding 12 months connected with inadequate risk visibility or a delayed response to an emerging risk.",
+      "coverage": "100 Singapore CFOs and senior finance leaders at organizations with revenue above US$500 million, within a survey spanning nine global markets.",
+      "period": "Survey fielded May 26 to June 9, 2026; result covers the preceding 12 months",
+      "published": "August 25, 2026",
+      "type": "Singapore CFO and senior-finance-leader historical survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Kyriba",
+        "title": "CFO Risk Radar 2026: Singapore findings",
+        "url": "https://www.kyriba.com/news/singapore-cfo-business-optimism-falls-34/",
+        "accessedOn": "2026-08-31"
+      },
+      "addedOn": "2026-08-31",
+      "updatedOn": "2026-08-31",
       "status": "active"
     }
   ]
