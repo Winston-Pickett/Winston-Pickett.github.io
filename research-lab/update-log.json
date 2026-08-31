@@ -138,6 +138,51 @@
       ],
       "resultingRecordCount": 45,
       "note": "Added only exact survey findings from the original publisher page. Publicly undisclosed respondent count and field dates are stated as limitations; no recommendations or implementation guidance were included."
+    },
+    {
+      "date": "2026-08-31",
+      "action": "weekly-research-update",
+      "recordsAdded": 7,
+      "recordsUpdated": 0,
+      "recordsArchived": 0,
+      "recordIdsAdded": [
+        "A-14",
+        "A-15",
+        "C-08",
+        "R-07",
+        "R-08",
+        "R-09",
+        "R-10"
+      ],
+      "categoriesAffected": [
+        "AI in finance",
+        "Cash & working capital",
+        "Risk & resilience"
+      ],
+      "sourcesUsed": [
+        "Protiviti, 2026 Global Finance Trends Survey",
+        "Kyriba, CFO Risk Radar 2026: Singapore findings"
+      ],
+      "candidatesRejected": [
+        {
+          "source": "AFP 2026 FP&A Benchmarking Survey release",
+          "reason": "The original publisher release was dated August 4, 2026, before the current August 25-31 research window."
+        },
+        {
+          "source": "PwC Working Capital Study 25/26",
+          "reason": "The public study page did not provide a clear publication date, so newly published status could not be verified for this cycle."
+        },
+        {
+          "source": "Secondary coverage and press-release copies of the Protiviti survey",
+          "reason": "Excluded in favor of the accessible original Protiviti publication."
+        },
+        {
+          "source": "Wolters Kluwer and Dentsu Soken CCH Tagetik announcement",
+          "reason": "The August 25 release described a product implementation and did not provide an independent research population or benchmark method."
+        }
+      ],
+      "resultingRecordCount": 52,
+      "note": "Added exact, source-verifiable findings from two original publisher releases in the August 25-31 research window. Population, timeframe, subgroup qualifiers and public-source limitations are preserved; no recommendations or implementation guidance were included."
     }
   ]
 }
