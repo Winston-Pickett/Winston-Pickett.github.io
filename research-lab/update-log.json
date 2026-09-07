@@ -183,6 +183,51 @@
       ],
       "resultingRecordCount": 52,
       "note": "Added exact, source-verifiable findings from two original publisher releases in the August 25-31 research window. Population, timeframe, subgroup qualifiers and public-source limitations are preserved; no recommendations or implementation guidance were included."
+    },
+    {
+      "date": "2026-09-07",
+      "action": "weekly-research-update",
+      "recordsAdded": 8,
+      "recordsUpdated": 0,
+      "recordsArchived": 0,
+      "recordIdsAdded": [
+        "P-06",
+        "P-07",
+        "P-08",
+        "R-11",
+        "R-12",
+        "R-13",
+        "R-14",
+        "R-15"
+      ],
+      "categoriesAffected": [
+        "Planning & forecasting",
+        "Risk & resilience"
+      ],
+      "sourcesUsed": [
+        "Deloitte Romania, Deloitte European CFO Survey Spring 2026",
+        "AICPA & CIMA, Q3 2026 Economic Outlook Survey"
+      ],
+      "candidatesRejected": [
+        {
+          "source": "Bank of England August 2026 Decision Maker Panel release",
+          "reason": "The release reported economy-wide price and wage expectations rather than finance-function, FP&A, treasury or corporate-finance operating benchmarks."
+        },
+        {
+          "source": "Zeta 2026 CXO survey on AI adoption in Indian banking",
+          "reason": "The reported population was chief digital officers at 18 banks and NBFCs rather than finance leaders or finance functions, so it did not fit the Lab's corporate-finance scope."
+        },
+        {
+          "source": "Coupa Strategic CFO Report 2026 page",
+          "reason": "The public page did not establish a September 1-7 publication date, so newly published status could not be verified for this cycle."
+        },
+        {
+          "source": "Kyriba 2026 survey highlights page",
+          "reason": "The page draws from the CFO Risk Radar 2026 dataset already represented in the Lab and did not establish a new publication in the current window."
+        }
+      ],
+      "resultingRecordCount": 60,
+      "note": "Added exact findings from two original publisher releases dated September 2-3, 2026. Survey populations, field periods, geographic limits, comparison periods and historical-versus-forward-looking status are preserved; no recommendations or implementation guidance were included."
     }
   ]
 }
