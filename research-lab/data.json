@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-08-31",
+  "lastUpdated": "2026-09-07",
   "themes": [
     {
       "id": "planning",
@@ -1170,6 +1170,182 @@
       },
       "addedOn": "2026-08-31",
       "updatedOn": "2026-08-31",
+      "status": "active"
+    },
+    {
+      "id": "P-06",
+      "theme": "planning",
+      "themeLabel": "Planning & forecasting",
+      "metric": "51%",
+      "title": "Use of scenario analysis and risk-impact assessment",
+      "finding": "Deloitte reports that scenario analysis and assessment of different risk impacts were the most widely used uncertainty-management tools, applied by 51% of surveyed European companies.",
+      "coverage": "More than 1,100 CFOs from Austria, Denmark, France, Greece, Ireland, Italy, the Netherlands, Portugal, Spain, Sweden, Switzerland and the United Kingdom.",
+      "period": "Survey conducted March-April 2026",
+      "published": "September 2, 2026",
+      "type": "European CFO survey response on current practice",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Romania",
+        "title": "Deloitte European CFO Survey Spring 2026",
+        "url": "https://www.deloitte.com/ro/en/about/press-room/studiu-deloitte-riscurile-geopolitice-si-presiunea-asupra-marjelor-schimba-prioritatile-companiilor-europene-peste-au-fost-afectate-de-cresterea-costurilor-cu-energia.html",
+        "accessedOn": "2026-09-07"
+      },
+      "addedOn": "2026-09-07",
+      "updatedOn": "2026-09-07",
+      "status": "active"
+    },
+    {
+      "id": "P-07",
+      "theme": "planning",
+      "themeLabel": "Planning & forecasting",
+      "metric": "49% vs. 54%",
+      "title": "Organizations expecting to expand over the next 12 months",
+      "finding": "AICPA and CIMA report that 49% of surveyed organizations expected to expand over the following 12 months in the third quarter, down from 54% in the second quarter.",
+      "coverage": "206 qualified responses from CPA and CGMA designation holders in leadership positions at U.S. companies, including CFOs, controllers, CEOs and other senior executives.",
+      "period": "Q3 2026 survey fielded August 4-25, 2026; expectation covers the following 12 months",
+      "published": "September 3, 2026",
+      "type": "U.S. executive survey expectation",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "AICPA & CIMA",
+        "title": "Q3 2026 AICPA and CIMA Economic Outlook Survey",
+        "url": "https://www.aicpa-cima.com/news/article/economic-confidence-improves-but-businesses-pull-back-on-spending-plans-as-uncertainty-persists-aicpa-and-cima-survey-finds",
+        "accessedOn": "2026-09-07"
+      },
+      "addedOn": "2026-09-07",
+      "updatedOn": "2026-09-07",
+      "status": "active"
+    },
+    {
+      "id": "P-08",
+      "theme": "planning",
+      "themeLabel": "Planning & forecasting",
+      "metric": "3.1% revenue / 1.5% profit",
+      "title": "Projected revenue and profit growth",
+      "finding": "AICPA and CIMA report that respondents' projected revenue growth increased to 3.1% in the third quarter from 2.6% in the second quarter, while projected profit growth increased to 1.5% from 1.1%.",
+      "coverage": "206 qualified responses from CPA and CGMA designation holders in leadership positions at U.S. companies, including CFOs, controllers, CEOs and other senior executives.",
+      "period": "Q3 2026 survey fielded August 4-25, 2026; forward-looking expectations cover the following 12 months",
+      "published": "September 3, 2026",
+      "type": "U.S. executive survey forecast",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "AICPA & CIMA",
+        "title": "Q3 2026 AICPA and CIMA Economic Outlook Survey",
+        "url": "https://www.aicpa-cima.com/news/article/economic-confidence-improves-but-businesses-pull-back-on-spending-plans-as-uncertainty-persists-aicpa-and-cima-survey-finds",
+        "accessedOn": "2026-09-07"
+      },
+      "addedOn": "2026-09-07",
+      "updatedOn": "2026-09-07",
+      "status": "active"
+    },
+    {
+      "id": "R-11",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "48% vs. 25%",
+      "title": "European CFOs reporting lower financial-prospect optimism",
+      "finding": "Deloitte reports that 48% of surveyed European CFOs were less optimistic about their companies' financial prospects than three months earlier, compared with 25% in autumn 2025.",
+      "coverage": "More than 1,100 CFOs from Austria, Denmark, France, Greece, Ireland, Italy, the Netherlands, Portugal, Spain, Sweden, Switzerland and the United Kingdom.",
+      "period": "Survey conducted March-April 2026; comparison with autumn 2025",
+      "published": "September 2, 2026",
+      "type": "European CFO survey sentiment comparison",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Romania",
+        "title": "Deloitte European CFO Survey Spring 2026",
+        "url": "https://www.deloitte.com/ro/en/about/press-room/studiu-deloitte-riscurile-geopolitice-si-presiunea-asupra-marjelor-schimba-prioritatile-companiilor-europene-peste-au-fost-afectate-de-cresterea-costurilor-cu-energia.html",
+        "accessedOn": "2026-09-07"
+      },
+      "addedOn": "2026-09-07",
+      "updatedOn": "2026-09-07",
+      "status": "active"
+    },
+    {
+      "id": "R-12",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "42%",
+      "title": "Profitability and investment affected by rising energy costs",
+      "finding": "Deloitte reports that 42% of surveyed European companies said rising energy costs had negatively affected profitability and investment decisions during the preceding two years.",
+      "coverage": "More than 1,100 CFOs from Austria, Denmark, France, Greece, Ireland, Italy, the Netherlands, Portugal, Spain, Sweden, Switzerland and the United Kingdom.",
+      "period": "Survey conducted March-April 2026; result covers the preceding two years",
+      "published": "September 2, 2026",
+      "type": "European CFO historical survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Romania",
+        "title": "Deloitte European CFO Survey Spring 2026",
+        "url": "https://www.deloitte.com/ro/en/about/press-room/studiu-deloitte-riscurile-geopolitice-si-presiunea-asupra-marjelor-schimba-prioritatile-companiilor-europene-peste-au-fost-afectate-de-cresterea-costurilor-cu-energia.html",
+        "accessedOn": "2026-09-07"
+      },
+      "addedOn": "2026-09-07",
+      "updatedOn": "2026-09-07",
+      "status": "active"
+    },
+    {
+      "id": "R-13",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "48%",
+      "title": "Expected margin and investment effects from Middle East tensions",
+      "finding": "Deloitte reports that 48% of surveyed European CFOs expected Middle East tensions to negatively affect margins and investment decisions during the following 12 months.",
+      "coverage": "More than 1,100 CFOs from Austria, Denmark, France, Greece, Ireland, Italy, the Netherlands, Portugal, Spain, Sweden, Switzerland and the United Kingdom.",
+      "period": "Survey conducted March-April 2026; expectation covers the following 12 months",
+      "published": "September 2, 2026",
+      "type": "European CFO survey expectation",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Romania",
+        "title": "Deloitte European CFO Survey Spring 2026",
+        "url": "https://www.deloitte.com/ro/en/about/press-room/studiu-deloitte-riscurile-geopolitice-si-presiunea-asupra-marjelor-schimba-prioritatile-companiilor-europene-peste-au-fost-afectate-de-cresterea-costurilor-cu-energia.html",
+        "accessedOn": "2026-09-07"
+      },
+      "addedOn": "2026-09-07",
+      "updatedOn": "2026-09-07",
+      "status": "active"
+    },
+    {
+      "id": "R-14",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "36% decline / 35% improve",
+      "title": "European CFO expectations for profit margins",
+      "finding": "Deloitte reports that 36% of surveyed European CFOs expected profit margins to decrease during the coming year, while 35% expected improvement. Among companies expecting revenue growth, 42% expected margins to be flat or lower.",
+      "coverage": "More than 1,100 CFOs from Austria, Denmark, France, Greece, Ireland, Italy, the Netherlands, Portugal, Spain, Sweden, Switzerland and the United Kingdom.",
+      "period": "Survey conducted March-April 2026; expectations cover the coming year",
+      "published": "September 2, 2026",
+      "type": "European CFO survey expectation",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Romania",
+        "title": "Deloitte European CFO Survey Spring 2026",
+        "url": "https://www.deloitte.com/ro/en/about/press-room/studiu-deloitte-riscurile-geopolitice-si-presiunea-asupra-marjelor-schimba-prioritatile-companiilor-europene-peste-au-fost-afectate-de-cresterea-costurilor-cu-energia.html",
+        "accessedOn": "2026-09-07"
+      },
+      "addedOn": "2026-09-07",
+      "updatedOn": "2026-09-07",
+      "status": "active"
+    },
+    {
+      "id": "R-15",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "46% vs. 51%",
+      "title": "Executives expecting or reporting a U.S. recession by year-end",
+      "finding": "AICPA and CIMA report that 46% of respondents believed the U.S. economy was already in a recession or would enter one by the end of 2026, down from 51% in the second quarter.",
+      "coverage": "206 qualified responses from CPA and CGMA designation holders in leadership positions at U.S. companies, including CFOs, controllers, CEOs and other senior executives.",
+      "period": "Q3 2026 survey fielded August 4-25, 2026; outlook through December 2026",
+      "published": "September 3, 2026",
+      "type": "U.S. executive survey assessment and expectation",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "AICPA & CIMA",
+        "title": "Q3 2026 AICPA and CIMA Economic Outlook Survey",
+        "url": "https://www.aicpa-cima.com/news/article/economic-confidence-improves-but-businesses-pull-back-on-spending-plans-as-uncertainty-persists-aicpa-and-cima-survey-finds",
+        "accessedOn": "2026-09-07"
+      },
+      "addedOn": "2026-09-07",
+      "updatedOn": "2026-09-07",
       "status": "active"
     }
   ]
