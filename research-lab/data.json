@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-09-07",
+  "lastUpdated": "2026-09-14",
   "themes": [
     {
       "id": "planning",
@@ -1346,6 +1346,292 @@
       },
       "addedOn": "2026-09-07",
       "updatedOn": "2026-09-07",
+      "status": "active"
+    },
+    {
+      "id": "P-09",
+      "theme": "planning",
+      "themeLabel": "Planning & forecasting",
+      "metric": "33%",
+      "title": "Plans to deploy dynamic forecasting, scenarios, and AI insights",
+      "finding": "Thirty-three percent of surveyed finance leaders planned to deploy more dynamic forecasting, scenarios, and AI insights through fiscal year 2027.",
+      "coverage": "1,434 finance leaders across 26 countries: 38% CFOs and 62% senior finance leaders one level below the CFO; all at companies with annual revenue of at least US$1 billion; cross-industry, with nearly 20% at companies with revenue of US$10 billion or more.",
+      "period": "Survey conducted spring 2026; plans through fiscal year 2027",
+      "type": "Global finance-leader survey plan",
+      "published": "September 8, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Insights",
+        "title": "Deloitte Finance Trends 2027: Shaping the next era of stakeholder value",
+        "url": "https://www.deloitte.com/us/en/insights/topics/leadership/finance-trends-leadership.html",
+        "accessedOn": "2026-09-14"
+      },
+      "addedOn": "2026-09-14",
+      "updatedOn": "2026-09-14",
+      "status": "active"
+    },
+    {
+      "id": "P-10",
+      "theme": "planning",
+      "themeLabel": "Planning & forecasting",
+      "metric": "66% / 27% / 25% / 23% (28% North America)",
+      "title": "Processes used to approve large AI and technology investments",
+      "finding": "Sixty-six percent of respondents said they most often used an internally driven process that put measurement at the forefront when approving large AI and technology investments. Twenty-seven percent primarily used a stage-gate process, 25% used a formal capital approval process requiring quantified ROI and a business case, and 23% overall, including 28% in North America, said executive or board mandates drove most such decisions without a measurement process.",
+      "coverage": "1,434 finance leaders across 26 countries: 38% CFOs and 62% senior finance leaders one level below the CFO; all at companies with annual revenue of at least US$1 billion; cross-industry, with nearly 20% at companies with revenue of US$10 billion or more.",
+      "period": "Survey conducted spring 2026; current investment-approval practices",
+      "type": "Global finance-leader survey response on current practice",
+      "published": "September 8, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Insights",
+        "title": "Deloitte Finance Trends 2027: Shaping the next era of stakeholder value",
+        "url": "https://www.deloitte.com/us/en/insights/topics/leadership/finance-trends-leadership.html",
+        "accessedOn": "2026-09-14"
+      },
+      "addedOn": "2026-09-14",
+      "updatedOn": "2026-09-14",
+      "status": "active"
+    },
+    {
+      "id": "D-09",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "48% / 36% / 34%",
+      "title": "Areas where finance most needs greater responsiveness",
+      "finding": "Respondents most often said finance needed to improve responsiveness by providing real-time financial data and insights to the business (48%), responding to external market shifts (36%), and rapidly reallocating capital and funding (34%).",
+      "coverage": "1,434 finance leaders across 26 countries: 38% CFOs and 62% senior finance leaders one level below the CFO; all at companies with annual revenue of at least US$1 billion; cross-industry, with nearly 20% at companies with revenue of US$10 billion or more.",
+      "period": "Survey conducted spring 2026; current improvement priorities",
+      "type": "Global finance-leader survey response",
+      "published": "September 8, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Insights",
+        "title": "Deloitte Finance Trends 2027: Shaping the next era of stakeholder value",
+        "url": "https://www.deloitte.com/us/en/insights/topics/leadership/finance-trends-leadership.html",
+        "accessedOn": "2026-09-14"
+      },
+      "addedOn": "2026-09-14",
+      "updatedOn": "2026-09-14",
+      "status": "active"
+    },
+    {
+      "id": "D-10",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "46%",
+      "title": "Planned ERP modernization or finance-data unification",
+      "finding": "Forty-six percent of surveyed finance leaders planned through fiscal year 2027 to invest in modernizing core ERP platforms or unifying finance, management, and tax data.",
+      "coverage": "1,434 finance leaders across 26 countries: 38% CFOs and 62% senior finance leaders one level below the CFO; all at companies with annual revenue of at least US$1 billion; cross-industry, with nearly 20% at companies with revenue of US$10 billion or more.",
+      "period": "Survey conducted spring 2026; plans through fiscal year 2027",
+      "type": "Global finance-leader survey plan",
+      "published": "September 8, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Insights",
+        "title": "Deloitte Finance Trends 2027: Shaping the next era of stakeholder value",
+        "url": "https://www.deloitte.com/us/en/insights/topics/leadership/finance-trends-leadership.html",
+        "accessedOn": "2026-09-14"
+      },
+      "addedOn": "2026-09-14",
+      "updatedOn": "2026-09-14",
+      "status": "active"
+    },
+    {
+      "id": "A-16",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "77% / 14%",
+      "title": "Comfort with autonomous agentic AI in finance",
+      "finding": "Seventy-seven percent of respondents were comfortable with agentic solutions moving beyond recommendations into some form of autonomous decision-making, while 14% were comfortable using fully autonomous agents for more critical decisions.",
+      "coverage": "1,434 finance leaders across 26 countries: 38% CFOs and 62% senior finance leaders one level below the CFO; all at companies with annual revenue of at least US$1 billion; cross-industry, with nearly 20% at companies with revenue of US$10 billion or more.",
+      "period": "Survey conducted spring 2026; current respondent comfort with agentic AI",
+      "type": "Global finance-leader survey response",
+      "published": "September 8, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Insights",
+        "title": "Deloitte Finance Trends 2027: Shaping the next era of stakeholder value",
+        "url": "https://www.deloitte.com/us/en/insights/topics/leadership/finance-trends-leadership.html",
+        "accessedOn": "2026-09-14"
+      },
+      "addedOn": "2026-09-14",
+      "updatedOn": "2026-09-14",
+      "status": "active"
+    },
+    {
+      "id": "A-17",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "42% / 41%",
+      "title": "Agentic AI ambitions exceeding scaling readiness",
+      "finding": "Forty-two percent of surveyed finance leaders said their agentic AI ambitions through fiscal year 2027 exceeded current capabilities because stronger controls were needed before scaling. Among that subgroup, 41% cited employee trust in AI output quality as a leading adoption barrier.",
+      "coverage": "1,434 finance leaders across 26 countries: 38% CFOs and 62% senior finance leaders one level below the CFO; all at companies with annual revenue of at least US$1 billion; cross-industry, with nearly 20% at companies with revenue of US$10 billion or more. The public source does not state the respondent count for the subgroup reporting that ambitions exceed current capabilities.",
+      "period": "Survey conducted spring 2026; readiness and ambitions through fiscal year 2027",
+      "type": "Global finance-leader survey assessment with subgroup response",
+      "published": "September 8, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Insights",
+        "title": "Deloitte Finance Trends 2027: Shaping the next era of stakeholder value",
+        "url": "https://www.deloitte.com/us/en/insights/topics/leadership/finance-trends-leadership.html",
+        "accessedOn": "2026-09-14"
+      },
+      "addedOn": "2026-09-14",
+      "updatedOn": "2026-09-14",
+      "status": "active"
+    },
+    {
+      "id": "A-18",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "60% vs. 35%",
+      "title": "Expectations for AI cost and complexity through 2027",
+      "finding": "Sixty percent of respondents expected AI costs and complexity to rise substantially through fiscal year 2027 and said they would need more sophisticated AI cost-management practices. Thirty-five percent planned to maintain current practices because they expected costs and technical complexity to remain modest.",
+      "coverage": "1,434 finance leaders across 26 countries: 38% CFOs and 62% senior finance leaders one level below the CFO; all at companies with annual revenue of at least US$1 billion; cross-industry, with nearly 20% at companies with revenue of US$10 billion or more.",
+      "period": "Survey conducted spring 2026; expectations and plans through fiscal year 2027",
+      "type": "Global finance-leader survey expectation",
+      "published": "September 8, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Insights",
+        "title": "Deloitte Finance Trends 2027: Shaping the next era of stakeholder value",
+        "url": "https://www.deloitte.com/us/en/insights/topics/leadership/finance-trends-leadership.html",
+        "accessedOn": "2026-09-14"
+      },
+      "addedOn": "2026-09-14",
+      "updatedOn": "2026-09-14",
+      "status": "active"
+    },
+    {
+      "id": "O-07",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "metric": "43% / 34% / 33% / 32%",
+      "title": "Finance-leader priorities for organizational success",
+      "finding": "Respondents' leading priorities through fiscal year 2027 were embedding AI and advanced technology to automate operations (43%), driving enterprise cost efficiency (34%), optimizing capital allocation and investment decisions (33%), and strengthening finance's strategic influence across the enterprise (32%).",
+      "coverage": "1,434 finance leaders across 26 countries: 38% CFOs and 62% senior finance leaders one level below the CFO; all at companies with annual revenue of at least US$1 billion; cross-industry, with nearly 20% at companies with revenue of US$10 billion or more.",
+      "period": "Survey conducted spring 2026; priorities through fiscal year 2027",
+      "type": "Global finance-leader survey priorities",
+      "published": "September 8, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Insights",
+        "title": "Deloitte Finance Trends 2027: Shaping the next era of stakeholder value",
+        "url": "https://www.deloitte.com/us/en/insights/topics/leadership/finance-trends-leadership.html",
+        "accessedOn": "2026-09-14"
+      },
+      "addedOn": "2026-09-14",
+      "updatedOn": "2026-09-14",
+      "status": "active"
+    },
+    {
+      "id": "O-08",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "metric": "54% / 48% / 48%",
+      "title": "Finance responsibilities outside the traditional function",
+      "finding": "Respondents most often said they led cross-enterprise AI and technology capital allocation (54%), AI trust covering the reliability, accuracy, and explainability of AI outputs (48%), and oversight of AI and technology spending and cost controls (48%) outside finance's traditional scope.",
+      "coverage": "1,434 finance leaders across 26 countries: 38% CFOs and 62% senior finance leaders one level below the CFO; all at companies with annual revenue of at least US$1 billion; cross-industry, with nearly 20% at companies with revenue of US$10 billion or more.",
+      "period": "Survey conducted spring 2026; current responsibilities",
+      "type": "Global finance-leader survey response on current responsibility",
+      "published": "September 8, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Insights",
+        "title": "Deloitte Finance Trends 2027: Shaping the next era of stakeholder value",
+        "url": "https://www.deloitte.com/us/en/insights/topics/leadership/finance-trends-leadership.html",
+        "accessedOn": "2026-09-14"
+      },
+      "addedOn": "2026-09-14",
+      "updatedOn": "2026-09-14",
+      "status": "active"
+    },
+    {
+      "id": "O-09",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "metric": "43%",
+      "title": "Plans to change how finance work is completed",
+      "finding": "Forty-three percent of respondents planned through fiscal year 2027 to change how work was completed within finance, either by restructuring the function or working with outside partners to operate portions of it.",
+      "coverage": "1,434 finance leaders across 26 countries: 38% CFOs and 62% senior finance leaders one level below the CFO; all at companies with annual revenue of at least US$1 billion; cross-industry, with nearly 20% at companies with revenue of US$10 billion or more.",
+      "period": "Survey conducted spring 2026; plans through fiscal year 2027",
+      "type": "Global finance-leader survey plan",
+      "published": "September 8, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Insights",
+        "title": "Deloitte Finance Trends 2027: Shaping the next era of stakeholder value",
+        "url": "https://www.deloitte.com/us/en/insights/topics/leadership/finance-trends-leadership.html",
+        "accessedOn": "2026-09-14"
+      },
+      "addedOn": "2026-09-14",
+      "updatedOn": "2026-09-14",
+      "status": "active"
+    },
+    {
+      "id": "R-16",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "31% / 29% / 24%",
+      "title": "Leading external risk concerns for finance leaders",
+      "finding": "Respondents' three most-cited external risk concerns were cyber threats and AI-driven risks (31%), economic uncertainty (29%), and geopolitical tensions (24%).",
+      "coverage": "1,434 finance leaders across 26 countries: 38% CFOs and 62% senior finance leaders one level below the CFO; all at companies with annual revenue of at least US$1 billion; cross-industry, with nearly 20% at companies with revenue of US$10 billion or more.",
+      "period": "Survey conducted spring 2026; current external risk concerns",
+      "type": "Global finance-leader survey response",
+      "published": "September 8, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Insights",
+        "title": "Deloitte Finance Trends 2027: Shaping the next era of stakeholder value",
+        "url": "https://www.deloitte.com/us/en/insights/topics/leadership/finance-trends-leadership.html",
+        "accessedOn": "2026-09-14"
+      },
+      "addedOn": "2026-09-14",
+      "updatedOn": "2026-09-14",
+      "status": "active"
+    },
+    {
+      "id": "R-17",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "63% / 84%",
+      "title": "Tech sovereignty as a differentiator and capital-allocation factor",
+      "finding": "Sixty-three percent of respondents regarded technology sovereignty as a strategic differentiator enabling trust, resilience, and long-term value, while 84% expected it to reshape technology-related capital allocation decisions through fiscal year 2027.",
+      "coverage": "1,434 finance leaders across 26 countries: 38% CFOs and 62% senior finance leaders one level below the CFO; all at companies with annual revenue of at least US$1 billion; cross-industry, with nearly 20% at companies with revenue of US$10 billion or more.",
+      "period": "Survey conducted spring 2026; current assessment and expectation through fiscal year 2027",
+      "type": "Global finance-leader survey assessment and expectation",
+      "published": "September 8, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Insights",
+        "title": "Deloitte Finance Trends 2027: Shaping the next era of stakeholder value",
+        "url": "https://www.deloitte.com/us/en/insights/topics/leadership/finance-trends-leadership.html",
+        "accessedOn": "2026-09-14"
+      },
+      "addedOn": "2026-09-14",
+      "updatedOn": "2026-09-14",
+      "status": "active"
+    },
+    {
+      "id": "R-18",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "49% / 43% / 32%",
+      "title": "Planned responses to regulatory complexity",
+      "finding": "To manage growing regulatory volume and complexity through fiscal year 2027, 49% of respondents planned to use AI or automation for routine compliance tasks, 43% planned to strengthen data governance and lineage for auditability, and 32% planned to improve alignment between financial and operating reporting.",
+      "coverage": "1,434 finance leaders across 26 countries: 38% CFOs and 62% senior finance leaders one level below the CFO; all at companies with annual revenue of at least US$1 billion; cross-industry, with nearly 20% at companies with revenue of US$10 billion or more.",
+      "period": "Survey conducted spring 2026; plans through fiscal year 2027",
+      "type": "Global finance-leader survey plan",
+      "published": "September 8, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Insights",
+        "title": "Deloitte Finance Trends 2027: Shaping the next era of stakeholder value",
+        "url": "https://www.deloitte.com/us/en/insights/topics/leadership/finance-trends-leadership.html",
+        "accessedOn": "2026-09-14"
+      },
+      "addedOn": "2026-09-14",
+      "updatedOn": "2026-09-14",
       "status": "active"
     }
   ]
