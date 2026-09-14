@@ -228,6 +228,58 @@
       ],
       "resultingRecordCount": 60,
       "note": "Added exact findings from two original publisher releases dated September 2-3, 2026. Survey populations, field periods, geographic limits, comparison periods and historical-versus-forward-looking status are preserved; no recommendations or implementation guidance were included."
+    },
+    {
+      "date": "2026-09-14",
+      "action": "weekly-research-update",
+      "recordsAdded": 13,
+      "recordsUpdated": 0,
+      "recordsArchived": 0,
+      "recordIdsAdded": [
+        "P-09",
+        "P-10",
+        "D-09",
+        "D-10",
+        "A-16",
+        "A-17",
+        "A-18",
+        "O-07",
+        "O-08",
+        "O-09",
+        "R-16",
+        "R-17",
+        "R-18"
+      ],
+      "categoriesAffected": [
+        "Planning & forecasting",
+        "Data & systems",
+        "AI in finance",
+        "Operating model",
+        "Risk & resilience"
+      ],
+      "sourcesUsed": [
+        "Deloitte Insights, Deloitte Finance Trends 2027: Shaping the next era of stakeholder value"
+      ],
+      "candidatesRejected": [
+        {
+          "source": "Euromoney 2026 Cash Management Survey",
+          "reason": "The publisher scheduled the 2026 results for September 15, after the September 8-14 research window, so no current findings were available for this cycle."
+        },
+        {
+          "source": "Consero September finance whitepaper and resource content",
+          "reason": "The public material was vendor guidance or marketing content and did not establish a new independent research population and method for the current window."
+        },
+        {
+          "source": "PwC Treasury Management and Working Capital page",
+          "reason": "The page described advisory services and did not provide a dated research publication, respondent population, or benchmark method."
+        },
+        {
+          "source": "PR Newswire copy of Deloitte Finance Trends 2027",
+          "reason": "Excluded as duplicate secondary distribution because the original Deloitte Insights publication was available and verified."
+        }
+      ],
+      "resultingRecordCount": 73,
+      "note": "Added exact survey findings from Deloitte Insights' September 8, 2026 Finance Trends 2027 report. The global population, spring 2026 field period, company-size threshold, subgroup limitation, current-versus-forward-looking status, and fiscal 2027 horizon are preserved; no recommendations or implementation guidance were included."
     }
   ]
 }
