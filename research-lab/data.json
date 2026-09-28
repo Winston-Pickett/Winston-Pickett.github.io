@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-09-14",
+  "lastUpdated": "2026-09-28",
   "themes": [
     {
       "id": "planning",
@@ -1632,6 +1632,292 @@
       },
       "addedOn": "2026-09-14",
       "updatedOn": "2026-09-14",
+      "status": "active"
+    },
+    {
+      "id": "P-11",
+      "theme": "planning",
+      "themeLabel": "Planning & forecasting",
+      "metric": "7.7% / 7.2%",
+      "title": "CFO revenue-growth expectations for 2026 and 2027",
+      "finding": "In the Q3 survey, respondents expected mean year-over-year revenue growth of 7.7% for calendar 2026 and 7.2% for 2027; the median expectation was 5.0% in both years.",
+      "coverage": "The growth-expectation table covers 463 to 506 U.S. firms, depending on the metric; revenue responses are sales-revenue weighted and winsorized at 5%. The overall survey included 517 financial executives.",
+      "period": "Survey fielded August 17-September 4, 2026; expectations for calendar 2026 and 2027.",
+      "published": "September 23, 2026",
+      "type": "U.S. CFO survey expectation",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Federal Reserve Bank of Richmond, Duke University and Federal Reserve Bank of Atlanta",
+        "title": "The CFO Survey Q3 2026: Data and Results",
+        "url": "https://www.richmondfed.org/research/national_economy/cfo_survey/data_and_results/2026/20260923_data_and_results",
+        "accessedOn": "2026-09-28"
+      },
+      "addedOn": "2026-09-28",
+      "updatedOn": "2026-09-28",
+      "status": "active"
+    },
+    {
+      "id": "R-19",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "20% vs. about 10%",
+      "title": "Financial constraints affecting small and large firms",
+      "finding": "Twenty percent of small firms reported financial constraints that prevented them from covering costs or pursuing new business opportunities, compared with about 10% of large firms.",
+      "coverage": "517 financial executives participated overall; the public source does not state the small- and large-firm subgroup counts.",
+      "period": "Survey fielded August 17-September 4, 2026; current financial constraints.",
+      "published": "September 23, 2026",
+      "type": "U.S. CFO survey response by firm size",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Federal Reserve Bank of Richmond, Duke University and Federal Reserve Bank of Atlanta",
+        "title": "The CFO Survey: High Interest Rates and Rising Labor Costs Weigh on CFOs",
+        "url": "https://www.richmondfed.org/press_room/press_releases/2026/the_cfosurvey_20260923",
+        "accessedOn": "2026-09-28"
+      },
+      "addedOn": "2026-09-28",
+      "updatedOn": "2026-09-28",
+      "status": "active"
+    },
+    {
+      "id": "R-20",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "20%",
+      "title": "Interest rates and potential hikes among top CFO concerns",
+      "finding": "Twenty percent of decision-makers named current interest rates or the potential for future rate hikes among their top concerns.",
+      "coverage": "517 financial executives participated overall; the public source does not state the response count for this question.",
+      "period": "Survey fielded August 17-September 4, 2026; current business concerns.",
+      "published": "September 23, 2026",
+      "type": "U.S. CFO survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Federal Reserve Bank of Richmond, Duke University and Federal Reserve Bank of Atlanta",
+        "title": "The CFO Survey: High Interest Rates and Rising Labor Costs Weigh on CFOs",
+        "url": "https://www.richmondfed.org/press_room/press_releases/2026/the_cfosurvey_20260923",
+        "accessedOn": "2026-09-28"
+      },
+      "addedOn": "2026-09-28",
+      "updatedOn": "2026-09-28",
+      "status": "active"
+    },
+    {
+      "id": "A-19",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "9-10 months",
+      "title": "Time to expected value for simpler finance AI use cases",
+      "finding": "Finance AI use cases involving data extraction, accounts-payable and accounts-receivable automation, and report creation generally delivered returns within nine to 10 months.",
+      "coverage": "160 senior finance-function leaders.",
+      "period": "Survey conducted January-April 2026; reported time to expected value.",
+      "published": "September 24, 2026",
+      "type": "Finance-function survey benchmark",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Gartner",
+        "title": "Gartner Says CFOs Must Take a More Disciplined Approach to Finance AI",
+        "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-24-gartner-says-cfos-must-take-a-more-disciplined-approach",
+        "accessedOn": "2026-09-28"
+      },
+      "addedOn": "2026-09-28",
+      "updatedOn": "2026-09-28",
+      "status": "active"
+    },
+    {
+      "id": "O-10",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "metric": "50% / 21% / 16% / 14%",
+      "title": "Threats to finance-function stability entering 2027",
+      "finding": "Half of respondents named the talent and skills gap as the single greatest threat to finance-function stability over the coming year, compared with shifting regulation at 21%, cyber and AI-driven fraud at 16%, and macroeconomic volatility at 14%.",
+      "coverage": "116 senior-level financial and accounting executives, including CFOs, controllers, chief accounting officers, and finance vice presidents, predominantly from U.S. organizations; the public source does not state field dates.",
+      "period": "Current assessment for the coming year; public source does not state field dates.",
+      "published": "September 24, 2026",
+      "type": "Senior-finance survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Financial Education & Research Foundation",
+        "title": "2026 Finance Architecture Survey",
+        "url": "https://www.financialexecutives.org/About-FEI/For-the-Press/2026/ferf-randstad-2026-finance-architecture-survey.aspx",
+        "accessedOn": "2026-09-28"
+      },
+      "addedOn": "2026-09-28",
+      "updatedOn": "2026-09-28",
+      "status": "active"
+    },
+    {
+      "id": "D-11",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "36% / 40%",
+      "title": "Senior finance time spent on manual data work and close duration",
+      "finding": "Thirty-six percent reported that directors, controllers, and senior managers spend 31% to 50% of their time firefighting and performing manual data intervention; 40% reported a monthly close of seven days or longer.",
+      "coverage": "116 senior-level financial and accounting executives, including CFOs, controllers, chief accounting officers, and finance vice presidents, predominantly from U.S. organizations; the public source does not state field dates.",
+      "period": "Current finance-function practices; public source does not state field dates.",
+      "published": "September 24, 2026",
+      "type": "Senior-finance survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Financial Education & Research Foundation",
+        "title": "2026 Finance Architecture Survey",
+        "url": "https://www.financialexecutives.org/About-FEI/For-the-Press/2026/ferf-randstad-2026-finance-architecture-survey.aspx",
+        "accessedOn": "2026-09-28"
+      },
+      "addedOn": "2026-09-28",
+      "updatedOn": "2026-09-28",
+      "status": "active"
+    },
+    {
+      "id": "A-20",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "53% / 3% / 39%",
+      "title": "Finance AI spending plans, strategic integration, and impact measurement",
+      "finding": "Fifty-three percent planned to direct a significant or substantial portion of their technology budget to AI over the next 12 to 24 months; 3% described AI as core and strategically integrated, while 39% were deploying AI without a formal impact-measurement framework.",
+      "coverage": "116 senior-level financial and accounting executives, including CFOs, controllers, chief accounting officers, and finance vice presidents, predominantly from U.S. organizations; the public source does not state field dates.",
+      "period": "Current AI practices and plans for the next 12-24 months; public source does not state field dates.",
+      "published": "September 24, 2026",
+      "type": "Senior-finance survey response and plan",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Financial Education & Research Foundation",
+        "title": "2026 Finance Architecture Survey",
+        "url": "https://www.financialexecutives.org/About-FEI/For-the-Press/2026/ferf-randstad-2026-finance-architecture-survey.aspx",
+        "accessedOn": "2026-09-28"
+      },
+      "addedOn": "2026-09-28",
+      "updatedOn": "2026-09-28",
+      "status": "active"
+    },
+    {
+      "id": "O-11",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "metric": "10% / 11%",
+      "title": "Finance-team reskilling investment",
+      "finding": "Ten percent of organizations reported investing aggressively in reskilling their finance teams, while 11% reported investing nothing.",
+      "coverage": "116 senior-level financial and accounting executives, including CFOs, controllers, chief accounting officers, and finance vice presidents, predominantly from U.S. organizations; the public source does not state field dates.",
+      "period": "Current workforce investment; public source does not state field dates.",
+      "published": "September 24, 2026",
+      "type": "Senior-finance survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Financial Education & Research Foundation",
+        "title": "2026 Finance Architecture Survey",
+        "url": "https://www.financialexecutives.org/About-FEI/For-the-Press/2026/ferf-randstad-2026-finance-architecture-survey.aspx",
+        "accessedOn": "2026-09-28"
+      },
+      "addedOn": "2026-09-28",
+      "updatedOn": "2026-09-28",
+      "status": "active"
+    },
+    {
+      "id": "A-21",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "32% / 29%",
+      "title": "Human control over AI-assisted finance decisions",
+      "finding": "Thirty-two percent reported using AI to recommend actions that teams execute manually, while 29% allowed AI to act with human approval.",
+      "coverage": "338 finance leaders: 137 CFOs in the United States, United Kingdom, European Union, Australia, and Canada, plus 201 director-level and above finance leaders in the United States and United Kingdom.",
+      "period": "Survey fielded in August 2026; current AI decision practices.",
+      "published": "September 24, 2026",
+      "type": "Cross-market finance-leader survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Esker",
+        "title": "2026 Global Finance AI Trust Index",
+        "url": "https://www.esker.com/company/press-releases/new-esker-research-finds-finance-leaders-want-more-proof-and-control-giving/",
+        "accessedOn": "2026-09-28"
+      },
+      "addedOn": "2026-09-28",
+      "updatedOn": "2026-09-28",
+      "status": "active"
+    },
+    {
+      "id": "A-22",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "58% / 48%",
+      "title": "Reported finance AI productivity and cash-flow benefits",
+      "finding": "Fifty-eight percent of finance leaders reported productivity gains from AI, and 48% reported stronger cash flow.",
+      "coverage": "338 finance leaders: 137 CFOs in the United States, United Kingdom, European Union, Australia, and Canada, plus 201 director-level and above finance leaders in the United States and United Kingdom.",
+      "period": "Survey fielded in August 2026; reported current outcomes.",
+      "published": "September 24, 2026",
+      "type": "Cross-market finance-leader survey reported outcome",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Esker",
+        "title": "2026 Global Finance AI Trust Index",
+        "url": "https://www.esker.com/company/press-releases/new-esker-research-finds-finance-leaders-want-more-proof-and-control-giving/",
+        "accessedOn": "2026-09-28"
+      },
+      "addedOn": "2026-09-28",
+      "updatedOn": "2026-09-28",
+      "status": "active"
+    },
+    {
+      "id": "A-23",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "72% / 75% vs. 45% / 65% vs. 40%",
+      "title": "AI spending overruns, software costs, and outcome attribution",
+      "finding": "Seventy-two percent reported spending more on AI than planned during the prior 12 months. Among CFOs, 75% reported increased software and subscription costs, compared with 45% of other finance leaders, and 65% had difficulty linking AI use to outcomes, compared with 40% of other finance leaders.",
+      "coverage": "338 finance leaders: 137 CFOs in the United States, United Kingdom, European Union, Australia, and Canada, plus 201 director-level and above finance leaders in the United States and United Kingdom.",
+      "period": "Survey fielded in August 2026; AI spending during the prior 12 months and current outcome attribution.",
+      "published": "September 24, 2026",
+      "type": "Cross-market finance-leader survey response with CFO subgroup comparison",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Esker",
+        "title": "2026 Global Finance AI Trust Index",
+        "url": "https://www.esker.com/company/press-releases/new-esker-research-finds-finance-leaders-want-more-proof-and-control-giving/",
+        "accessedOn": "2026-09-28"
+      },
+      "addedOn": "2026-09-28",
+      "updatedOn": "2026-09-28",
+      "status": "active"
+    },
+    {
+      "id": "D-12",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "48% / 42% (58% vs. 31%)",
+      "title": "Data quality and integration barriers to expanding finance AI",
+      "finding": "Forty-eight percent cited data quality and 42% cited insufficient integration as barriers to expanding AI; integration was cited by 58% of CFOs, compared with 31% of other finance leaders.",
+      "coverage": "338 finance leaders: 137 CFOs in the United States, United Kingdom, European Union, Australia, and Canada, plus 201 director-level and above finance leaders in the United States and United Kingdom.",
+      "period": "Survey fielded in August 2026; current barriers to expanding AI.",
+      "published": "September 24, 2026",
+      "type": "Cross-market finance-leader survey response with CFO subgroup comparison",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Esker",
+        "title": "2026 Global Finance AI Trust Index",
+        "url": "https://www.esker.com/company/press-releases/new-esker-research-finds-finance-leaders-want-more-proof-and-control-giving/",
+        "accessedOn": "2026-09-28"
+      },
+      "addedOn": "2026-09-28",
+      "updatedOn": "2026-09-28",
+      "status": "active"
+    },
+    {
+      "id": "R-21",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "66%",
+      "title": "Unapproved AI use within finance",
+      "finding": "Sixty-six percent of finance leaders knew or suspected that finance employees were using unapproved AI tools.",
+      "coverage": "338 finance leaders: 137 CFOs in the United States, United Kingdom, European Union, Australia, and Canada, plus 201 director-level and above finance leaders in the United States and United Kingdom.",
+      "period": "Survey fielded in August 2026; current AI-governance observation.",
+      "published": "September 24, 2026",
+      "type": "Cross-market finance-leader AI-governance survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Esker",
+        "title": "2026 Global Finance AI Trust Index",
+        "url": "https://www.esker.com/company/press-releases/new-esker-research-finds-finance-leaders-want-more-proof-and-control-giving/",
+        "accessedOn": "2026-09-28"
+      },
+      "addedOn": "2026-09-28",
+      "updatedOn": "2026-09-28",
       "status": "active"
     }
   ]
