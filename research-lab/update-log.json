@@ -280,6 +280,65 @@
       ],
       "resultingRecordCount": 73,
       "note": "Added exact survey findings from Deloitte Insights' September 8, 2026 Finance Trends 2027 report. The global population, spring 2026 field period, company-size threshold, subgroup limitation, current-versus-forward-looking status, and fiscal 2027 horizon are preserved; no recommendations or implementation guidance were included."
+    },
+    {
+      "date": "2026-09-28",
+      "action": "weekly-research-update",
+      "recordsAdded": 13,
+      "recordsUpdated": 0,
+      "recordsArchived": 0,
+      "recordIdsAdded": [
+        "P-11",
+        "D-11",
+        "D-12",
+        "A-19",
+        "A-20",
+        "A-21",
+        "A-22",
+        "A-23",
+        "O-10",
+        "O-11",
+        "R-19",
+        "R-20",
+        "R-21"
+      ],
+      "categoriesAffected": [
+        "Planning & forecasting",
+        "Data & systems",
+        "AI in finance",
+        "Operating model",
+        "Risk & resilience"
+      ],
+      "sourcesUsed": [
+        "Federal Reserve Bank of Richmond, Duke University and Federal Reserve Bank of Atlanta, The CFO Survey Q3 2026",
+        "Gartner, Gartner Says CFOs Must Take a More Disciplined Approach to Finance AI",
+        "Financial Education & Research Foundation, 2026 Finance Architecture Survey",
+        "Esker, 2026 Global Finance AI Trust Index"
+      ],
+      "candidatesRejected": [
+        {
+          "source": "FP&A Trends 2026 Survey digest",
+          "reason": "The September 23 digest discussed a survey whose original report was released in June and July 2026, outside the current publication window."
+        },
+        {
+          "source": "Datarails 2026 CFO Sentiments",
+          "reason": "The public report states only September 2026 and does not provide an exact publication date; page metadata also predates the claimed release, so newly published status could not be verified."
+        },
+        {
+          "source": "GrowCFO AI planning study",
+          "reason": "The September 22 article cited a 273-person study, but the underlying report and sufficiently complete original methodology were not publicly accessible for verification."
+        },
+        {
+          "source": "DTCC Treasury Central Clearing Survey",
+          "reason": "The survey concerns securities-market central-clearing readiness and market infrastructure, outside the Lab's corporate-finance-function scope."
+        },
+        {
+          "source": "TabInsights cash-management rankings",
+          "reason": "The public article reports bank-submission rankings without transparent respondent or benchmark coverage and a sufficiently accessible method."
+        }
+      ],
+      "resultingRecordCount": 86,
+      "note": "Added exact survey findings published September 23-24, 2026. Population, field period or explicit public-source omission, subgroup coverage, historical-versus-forward-looking status, approximate qualifiers, units, and benchmark horizons are preserved; advice and implementation guidance were excluded."
     }
   ]
 }
