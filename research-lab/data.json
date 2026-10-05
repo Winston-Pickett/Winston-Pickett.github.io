@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-09-28",
+  "lastUpdated": "2026-10-05",
   "themes": [
     {
       "id": "planning",
@@ -1919,6 +1919,138 @@
       "addedOn": "2026-09-28",
       "updatedOn": "2026-09-28",
       "status": "active"
+    },
+    {
+      "id": "O-12",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "coverage": "52 CFOs and finance executives in Japan.",
+      "published": "September 28, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Tohmatsu Group",
+        "title": "Deloitte CFO Signals Report 2026",
+        "url": "https://www.deloitte.com/jp/ja/services/consulting/perspectives/cfosignals-2026.html",
+        "accessedOn": "2026-10-05"
+      },
+      "addedOn": "2026-10-05",
+      "updatedOn": "2026-10-05",
+      "status": "active",
+      "metric": "94% / 94% / 92% / 88% / 81% / 50% / 42%",
+      "title": "Functions within the CFO remit at Japanese companies",
+      "finding": "Respondents reported that CFO remits covered financial accounting and reporting (94%), tax (94%), business management including FP&A (92%), treasury (88%), investor relations (81%), corporate planning and strategy (50%), and accounting- and finance-related IT systems (42%).",
+      "period": "Survey conducted August 2026; current organizational remit.",
+      "type": "Japan CFO and finance-executive survey response"
+    },
+    {
+      "id": "O-13",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "coverage": "52 CFOs and finance executives in Japan.",
+      "published": "September 28, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Tohmatsu Group",
+        "title": "Deloitte CFO Signals Report 2026",
+        "url": "https://www.deloitte.com/jp/ja/services/consulting/perspectives/cfosignals-2026.html",
+        "accessedOn": "2026-10-05"
+      },
+      "addedOn": "2026-10-05",
+      "updatedOn": "2026-10-05",
+      "status": "active",
+      "metric": "85% / 83% / 75% / 75% / 73% / 71%",
+      "title": "CFO responsibilities reported as expanding over five years",
+      "finding": "Respondents reporting that a CFO responsibility had relatively increased over the preceding five years cited implementing strategic capital-allocation policies (85%), optimizing management-resource allocation (83%), contributing to corporate-strategy development and decision-making (75%), translating strategic objectives into budgets and performance metrics (75%), strengthening risk management (73%), and conducting budget analysis and variance management (71%).",
+      "period": "Survey conducted August 2026; retrospective assessment of the preceding five years.",
+      "type": "Japan CFO and finance-executive retrospective survey response"
+    },
+    {
+      "id": "O-14",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "coverage": "52 CFOs and finance executives in Japan.",
+      "published": "September 28, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Tohmatsu Group",
+        "title": "Deloitte CFO Signals Report 2026",
+        "url": "https://www.deloitte.com/jp/ja/services/consulting/perspectives/cfosignals-2026.html",
+        "accessedOn": "2026-10-05"
+      },
+      "addedOn": "2026-10-05",
+      "updatedOn": "2026-10-05",
+      "status": "active",
+      "metric": "31% / 15% / 13% / 12% / 12% / 6% / 4% / 6%",
+      "title": "Career paths leading to the CFO role",
+      "finding": "Respondents described the CFO career path as primarily accounting and finance experience (31%); experience across accounting or finance, business operations, and corporate functions (15%); accounting or finance plus business operations (13%); primarily corporate functions (12%); primarily business operations (12%); accounting or finance plus corporate functions (6%); business operations plus corporate functions (4%); or other paths (6%). Across the categories, 71% of CFOs had accounting or finance experience, 50% had business-operations experience, and 42% had corporate-functions experience.",
+      "period": "Survey conducted August 2026; current CFO career-path profile.",
+      "type": "Japan CFO and finance-executive survey response"
+    },
+    {
+      "id": "R-22",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "coverage": "100 Italian CFOs and senior finance leaders at organizations with revenue above US$500 million; part of a nine-market survey conducted with 1,354 respondents in 2026.",
+      "published": "October 1, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Kyriba",
+        "title": "CFO Risk Radar 2026: Italy findings",
+        "url": "https://www.kyriba.com/news/italian-finance-leaders-risk-visibility-2026/",
+        "accessedOn": "2026-10-05"
+      },
+      "addedOn": "2026-10-05",
+      "updatedOn": "2026-10-05",
+      "status": "active",
+      "metric": "7% / 43%",
+      "title": "Time required to quantify emerging financial risk in Italy",
+      "finding": "Seven percent of Italian respondents said they could quantify the financial effect of an emerging risk in real or near-real time, while 43% said the assessment required three to six days.",
+      "period": "Survey conducted May 26-June 9, 2026; current risk-quantification capability.",
+      "type": "Italy CFO and senior-finance-leader survey response"
+    },
+    {
+      "id": "R-23",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "coverage": "100 Italian CFOs and senior finance leaders at organizations with revenue above US$500 million; part of a nine-market survey conducted with 1,354 respondents in 2026.",
+      "published": "October 1, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Kyriba",
+        "title": "CFO Risk Radar 2026: Italy findings",
+        "url": "https://www.kyriba.com/news/italian-finance-leaders-risk-visibility-2026/",
+        "accessedOn": "2026-10-05"
+      },
+      "addedOn": "2026-10-05",
+      "updatedOn": "2026-10-05",
+      "status": "active",
+      "metric": "70% experienced / 22% expect high impact",
+      "title": "Experienced versus expected financial impact of risk in Italy",
+      "finding": "Seventy percent of Italian respondents said inadequate risk visibility had already produced a financial impact on their organization, while 22% expected financial risks to have a high future impact.",
+      "period": "Survey conducted May 26-June 9, 2026; historical reported impact and forward-looking expectation.",
+      "type": "Italy CFO and senior-finance-leader historical response and expectation"
+    },
+    {
+      "id": "R-24",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "coverage": "100 Italian CFOs and senior finance leaders at organizations with revenue above US$500 million; part of a nine-market survey conducted with 1,354 respondents in 2026.",
+      "published": "October 1, 2026",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Kyriba",
+        "title": "CFO Risk Radar 2026: Italy findings",
+        "url": "https://www.kyriba.com/news/italian-finance-leaders-risk-visibility-2026/",
+        "accessedOn": "2026-10-05"
+      },
+      "addedOn": "2026-10-05",
+      "updatedOn": "2026-10-05",
+      "status": "active",
+      "metric": "37%",
+      "title": "Italian organizations reported as highly prepared for financial risk",
+      "finding": "Thirty-seven percent of Italian finance leaders said their organization was highly prepared to manage financial risk; the report identified this as the second-lowest result among the nine markets surveyed.",
+      "period": "Survey conducted May 26-June 9, 2026; current preparedness assessment.",
+      "type": "Italy CFO and senior-finance-leader survey response"
     }
   ]
 }
