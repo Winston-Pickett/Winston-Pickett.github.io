@@ -339,6 +339,53 @@
       ],
       "resultingRecordCount": 86,
       "note": "Added exact survey findings published September 23-24, 2026. Population, field period or explicit public-source omission, subgroup coverage, historical-versus-forward-looking status, approximate qualifiers, units, and benchmark horizons are preserved; advice and implementation guidance were excluded."
+    },
+    {
+      "date": "2026-10-05",
+      "action": "weekly-research-update",
+      "recordsAdded": 6,
+      "recordsUpdated": 0,
+      "recordsArchived": 0,
+      "recordIdsAdded": [
+        "O-12",
+        "O-13",
+        "O-14",
+        "R-22",
+        "R-23",
+        "R-24"
+      ],
+      "categoriesAffected": [
+        "Operating model",
+        "Risk & resilience"
+      ],
+      "sourcesUsed": [
+        "Deloitte Tohmatsu Group, Deloitte CFO Signals Report 2026",
+        "Kyriba, CFO Risk Radar 2026: Italy findings"
+      ],
+      "candidatesRejected": [
+        {
+          "source": "Deloitte Romania, Finance Trends 2027 release",
+          "reason": "The October 1 localized release repeated metrics already recorded from the original Deloitte Finance Trends 2027 publication and added no distinct data point."
+        },
+        {
+          "source": "2026 AFP FP&A Benchmarking Survey",
+          "reason": "The original survey material was published before the current research window."
+        },
+        {
+          "source": "AFP Cost of Capital Survey",
+          "reason": "The public source did not provide a verifiable publication date within the current research window."
+        },
+        {
+          "source": "BearingPoint enterprise AI study",
+          "reason": "The available current-window coverage did not establish a finance-function respondent population and the original study source was not sufficiently accessible for full verification."
+        },
+        {
+          "source": "Deloitte CFO Signals 2026 time-allocation chart",
+          "reason": "The chart values visible in the public PDF did not reconcile cleanly to the stated 100% totals, so the candidate was excluded as uncertain."
+        }
+      ],
+      "resultingRecordCount": 92,
+      "note": "Added exact survey findings published September 28 and October 1, 2026. Population, field dates, historical-versus-current-versus-forward-looking status, qualifiers, units, and country scope are preserved; uncertain chart values, advice, and implementation guidance were excluded."
     }
   ]
 }
