@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-05",
+  "lastUpdated": "2026-10-12",
   "themes": [
     {
       "id": "planning",
@@ -2051,6 +2051,336 @@
       "finding": "Thirty-seven percent of Italian finance leaders said their organization was highly prepared to manage financial risk; the report identified this as the second-lowest result among the nine markets surveyed.",
       "period": "Survey conducted May 26-June 9, 2026; current preparedness assessment.",
       "type": "Italy CFO and senior-finance-leader survey response"
+    },
+    {
+      "id": "P-12",
+      "theme": "planning",
+      "themeLabel": "Planning & forecasting",
+      "metric": "51.2% / 48.2% / 47.0%",
+      "title": "Finance responses to business turbulence in Q3 2026",
+      "finding": "In Q3 2026, 51.2% of respondents said their organizations had reforecast, 48.2% had run additional scenarios, and 47.0% had increased cash reserves in response to business turbulence. Pigment reported these rates were 5.1, 2.1 and 0.7 percentage points lower, respectively, than in Q2 2026.",
+      "coverage": "2,000 CFOs and finance executives across the United States, United Kingdom, France and Germany; the public source does not state country quotas or field dates.",
+      "period": "Q3 2026 responses, compared with Q2 2026.",
+      "published": "October 7, 2026",
+      "type": "Four-country finance-executive survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Pigment",
+        "title": "Pigment CFO Index Q3 2026",
+        "url": "https://www.pigment.com/reports/cfo-index/q3-2026",
+        "accessedOn": "2026-10-12"
+      },
+      "addedOn": "2026-10-12",
+      "updatedOn": "2026-10-12",
+      "status": "active"
+    },
+    {
+      "id": "D-13",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "4% / 73% / 23%",
+      "title": "Finance data centralization reported by large U.S. organizations",
+      "finding": "Four percent of respondents said their organization had achieved a single source of truth for finance and operational data. Seventy-three percent described their data as mostly centralized, while 23% said they relied on disconnected systems and manual reconciliation.",
+      "coverage": "270 CFOs and finance leaders at U.S. organizations with more than 1,000 employees and at least US$100 million in annual revenue; respondents were recruited through a global research panel.",
+      "period": "Online survey completed in July 2026.",
+      "published": "October 6, 2026",
+      "type": "U.S. large-company finance-leader survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Datarails",
+        "title": "Finance Teams Now Spend a Quarter of Their Week Fact-Checking AI, New Datarails Survey Finds",
+        "url": "https://www.datarails.com/cfo-survey-ai-finance/",
+        "accessedOn": "2026-10-12"
+      },
+      "addedOn": "2026-10-12",
+      "updatedOn": "2026-10-12",
+      "status": "active"
+    },
+    {
+      "id": "D-14",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "73% / 69% / 60%",
+      "title": "Revenue-model complexity and manual finance workflows in the UK",
+      "finding": "Among UK respondents, 73% said their company sold through more channels than 12 months earlier and 69% tracked deals across more than one revenue model. Sixty percent said their team completed at least one in five workflows manually.",
+      "coverage": "171 UK finance leaders within a double-blind survey of 865 CFOs, chief accounting officers and senior finance and accounting leaders in France, Germany, Japan, the United Kingdom and the United States.",
+      "period": "Survey conducted May 4-15, 2026; channel comparison is against 12 months earlier.",
+      "published": "October 6, 2026",
+      "type": "UK subgroup survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Salesforce",
+        "title": "New Research: CFOs Turn to AI and Agents to Tame Growing Revenue Complexity",
+        "url": "https://www.salesforce.com/uk/news/stories/cfos-ai-agents-to-tame-revenue-complexity/?bc=OTH",
+        "accessedOn": "2026-10-12"
+      },
+      "addedOn": "2026-10-12",
+      "updatedOn": "2026-10-12",
+      "status": "active"
+    },
+    {
+      "id": "A-24",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "100% / 26% / 96% / 8%",
+      "title": "AI use and verification workload in large U.S. finance functions",
+      "finding": "All 270 respondents reported using AI in some capacity for finance processes. Finance teams were reported to spend 26% of their working week verifying or correcting AI output; 96% spent at least 10% of work time on checks, and 8% spent more than half.",
+      "coverage": "270 CFOs and finance leaders at U.S. organizations with more than 1,000 employees and at least US$100 million in annual revenue; respondents were recruited through a global research panel.",
+      "period": "Online survey completed in July 2026.",
+      "published": "October 6, 2026",
+      "type": "U.S. large-company finance-leader survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Datarails",
+        "title": "Finance Teams Now Spend a Quarter of Their Week Fact-Checking AI, New Datarails Survey Finds",
+        "url": "https://www.datarails.com/cfo-survey-ai-finance/",
+        "accessedOn": "2026-10-12"
+      },
+      "addedOn": "2026-10-12",
+      "updatedOn": "2026-10-12",
+      "status": "active"
+    },
+    {
+      "id": "A-25",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "7% / 5% / 4%",
+      "title": "Finance AI readiness and trust without human review",
+      "finding": "Seven percent of respondents said their finance function was fully ready to implement AI across all workflows. Five percent trusted AI to produce board-ready financial reports without human review, and 4% trusted it with month-end close.",
+      "coverage": "270 CFOs and finance leaders at U.S. organizations with more than 1,000 employees and at least US$100 million in annual revenue; respondents were recruited through a global research panel.",
+      "period": "Online survey completed in July 2026.",
+      "published": "October 6, 2026",
+      "type": "U.S. large-company finance-leader survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Datarails",
+        "title": "Finance Teams Now Spend a Quarter of Their Week Fact-Checking AI, New Datarails Survey Finds",
+        "url": "https://www.datarails.com/cfo-survey-ai-finance/",
+        "accessedOn": "2026-10-12"
+      },
+      "addedOn": "2026-10-12",
+      "updatedOn": "2026-10-12",
+      "status": "active"
+    },
+    {
+      "id": "A-26",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "75% / 71% / 54%",
+      "title": "Reasons finance leaders hesitated to trust AI for critical tasks",
+      "finding": "Respondents cited lack of auditability at 75%, accuracy and hallucination concerns at 71%, and regulatory or compliance concerns at 54% as reasons for hesitating to trust AI with mission-critical finance tasks.",
+      "coverage": "270 CFOs and finance leaders at U.S. organizations with more than 1,000 employees and at least US$100 million in annual revenue; respondents were recruited through a global research panel.",
+      "period": "Online survey completed in July 2026.",
+      "published": "October 6, 2026",
+      "type": "U.S. large-company finance-leader survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Datarails",
+        "title": "Finance Teams Now Spend a Quarter of Their Week Fact-Checking AI, New Datarails Survey Finds",
+        "url": "https://www.datarails.com/cfo-survey-ai-finance/",
+        "accessedOn": "2026-10-12"
+      },
+      "addedOn": "2026-10-12",
+      "updatedOn": "2026-10-12",
+      "status": "active"
+    },
+    {
+      "id": "A-27",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "32% / 84% / 13% / 53% / 7%",
+      "title": "AI budget control and license plans reported by CFOs",
+      "finding": "Thirty-two percent said their organization exceeded its AI budget by at least 10% during the preceding 12 months. Eighty-four percent said CFOs owned the organizational AI budget, while 13% reported no clear owner. For the next 12 months, 53% planned to expand AI licenses and 7% planned to cut or consolidate AI tools.",
+      "coverage": "270 CFOs and finance leaders at U.S. organizations with more than 1,000 employees and at least US$100 million in annual revenue; respondents were recruited through a global research panel.",
+      "period": "Online survey completed in July 2026; spending refers to the prior 12 months and license plans to the following 12 months.",
+      "published": "October 6, 2026",
+      "type": "U.S. large-company finance-leader historical response and forward plan",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Datarails",
+        "title": "Finance Teams Now Spend a Quarter of Their Week Fact-Checking AI, New Datarails Survey Finds",
+        "url": "https://www.datarails.com/cfo-survey-ai-finance/",
+        "accessedOn": "2026-10-12"
+      },
+      "addedOn": "2026-10-12",
+      "updatedOn": "2026-10-12",
+      "status": "active"
+    },
+    {
+      "id": "A-28",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "89% / 90%",
+      "title": "Reported returns and benefits from AI and AI agents among UK finance users",
+      "finding": "Among UK respondents using AI, 89% reported positive return on investment. Among those using AI agents, 90% reported benefits in at least one of time savings, productivity, cost savings or forecast accuracy; the public article says roughly half reported significant gains.",
+      "coverage": "171 UK finance leaders within a double-blind survey of 865 CFOs, chief accounting officers and senior finance and accounting leaders in France, Germany, Japan, the United Kingdom and the United States; percentages apply to the relevant UK AI-user and AI-agent-user subgroups, whose counts are not stated publicly.",
+      "period": "Survey conducted May 4-15, 2026.",
+      "published": "October 6, 2026",
+      "type": "UK AI-user subgroup survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Salesforce",
+        "title": "New Research: CFOs Turn to AI and Agents to Tame Growing Revenue Complexity",
+        "url": "https://www.salesforce.com/uk/news/stories/cfos-ai-agents-to-tame-revenue-complexity/?bc=OTH",
+        "accessedOn": "2026-10-12"
+      },
+      "addedOn": "2026-10-12",
+      "updatedOn": "2026-10-12",
+      "status": "active"
+    },
+    {
+      "id": "A-29",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "55% / 25.1% / 19.2%",
+      "title": "Formal AI governance controls in finance",
+      "finding": "Twenty-eight-point-eight percent reported centrally managed controls and 26.2% comprehensive governance, a combined 55.0%. Another 25.1% allowed only approved tools. Fifteen-point-three percent reported informal guidance and 3.9% no controls, a combined 19.2%.",
+      "coverage": "2,000 CFOs and finance executives across the United States, United Kingdom, France and Germany; the public source does not state country quotas or field dates.",
+      "period": "Q3 2026.",
+      "published": "October 7, 2026",
+      "type": "Four-country finance-executive current-governance survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Pigment",
+        "title": "Pigment CFO Index Q3 2026",
+        "url": "https://www.pigment.com/reports/cfo-index/q3-2026",
+        "accessedOn": "2026-10-12"
+      },
+      "addedOn": "2026-10-12",
+      "updatedOn": "2026-10-12",
+      "status": "active"
+    },
+    {
+      "id": "A-30",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "83% / median 11-25% / ~27% / 8.2 of 10",
+      "title": "AI spending overruns and return confidence in finance",
+      "finding": "Eighty-three percent said AI spending exceeded expectations; the median reported overrun was 11-25%, and Pigment estimated the average at about 27%. Respondents rated confidence in AI return on investment at an average 8.2 out of 10; 50% scored 9 or 10 and 12% scored 6 or lower.",
+      "coverage": "2,000 CFOs and finance executives across the United States, United Kingdom, France and Germany; the public source does not state country quotas or field dates.",
+      "period": "Q3 2026 current assessment.",
+      "published": "October 7, 2026",
+      "type": "Four-country finance-executive survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Pigment",
+        "title": "Pigment CFO Index Q3 2026",
+        "url": "https://www.pigment.com/reports/cfo-index/q3-2026",
+        "accessedOn": "2026-10-12"
+      },
+      "addedOn": "2026-10-12",
+      "updatedOn": "2026-10-12",
+      "status": "active"
+    },
+    {
+      "id": "O-15",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "metric": "60% / 3%",
+      "title": "Staff redeployment and headcount reduction linked to finance AI",
+      "finding": "Sixty percent of respondents said they were redeploying staff to higher-value work as AI handled more everyday finance tasks. Three percent said they were actively reducing CFO-office full-time-equivalent positions because of AI.",
+      "coverage": "270 CFOs and finance leaders at U.S. organizations with more than 1,000 employees and at least US$100 million in annual revenue; respondents were recruited through a global research panel.",
+      "period": "Online survey completed in July 2026.",
+      "published": "October 6, 2026",
+      "type": "U.S. large-company finance-leader survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Datarails",
+        "title": "Finance Teams Now Spend a Quarter of Their Week Fact-Checking AI, New Datarails Survey Finds",
+        "url": "https://www.datarails.com/cfo-survey-ai-finance/",
+        "accessedOn": "2026-10-12"
+      },
+      "addedOn": "2026-10-12",
+      "updatedOn": "2026-10-12",
+      "status": "active"
+    },
+    {
+      "id": "O-16",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "metric": "More than 75% / 46%",
+      "title": "Expansion of the UK finance-leader remit and AI-strategy authority",
+      "finding": "More than three-quarters of UK respondents said their role had expanded during the preceding year, with managing AI the most-cited reason. Forty-six percent said they were the primary decision maker for their company's AI strategy.",
+      "coverage": "171 UK finance leaders within a double-blind survey of 865 CFOs, chief accounting officers and senior finance and accounting leaders in France, Germany, Japan, the United Kingdom and the United States.",
+      "period": "Survey conducted May 4-15, 2026; remit change refers to the prior year.",
+      "published": "October 6, 2026",
+      "type": "UK subgroup historical and current-role survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Salesforce",
+        "title": "New Research: CFOs Turn to AI and Agents to Tame Growing Revenue Complexity",
+        "url": "https://www.salesforce.com/uk/news/stories/cfos-ai-agents-to-tame-revenue-complexity/?bc=OTH",
+        "accessedOn": "2026-10-12"
+      },
+      "addedOn": "2026-10-12",
+      "updatedOn": "2026-10-12",
+      "status": "active"
+    },
+    {
+      "id": "O-17",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "metric": "35.9% / 32.5% / 31.5% / 27.7% / 22.8% / 19.7%",
+      "title": "Reported AI-driven changes to finance roles and staffing",
+      "finding": "Respondents reported changed role scope at 35.9%, reduced hiring at 32.5%, increased headcount at 31.5%, redesigned or newly created roles at 27.7%, increased training at 22.8%, and reduced headcount at 19.7%.",
+      "coverage": "2,000 CFOs and finance executives across the United States, United Kingdom, France and Germany; the public source does not state country quotas or field dates.",
+      "period": "Q3 2026.",
+      "published": "October 7, 2026",
+      "type": "Four-country finance-executive survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Pigment",
+        "title": "Pigment CFO Index Q3 2026",
+        "url": "https://www.pigment.com/reports/cfo-index/q3-2026",
+        "accessedOn": "2026-10-12"
+      },
+      "addedOn": "2026-10-12",
+      "updatedOn": "2026-10-12",
+      "status": "active"
+    },
+    {
+      "id": "O-18",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "metric": "~32 hours / 39% / 21%",
+      "title": "Monthly finance time spent preparing executive reports",
+      "finding": "Pigment reported that finance teams typically spent about 32 hours each month preparing materials for executive meetings. Thirty-nine percent reported 21-40 hours a month and 21% reported more than 40 hours.",
+      "coverage": "2,000 CFOs and finance executives across the United States, United Kingdom, France and Germany; the public source does not state country quotas or field dates.",
+      "period": "Q3 2026 current monthly workload.",
+      "published": "October 7, 2026",
+      "type": "Four-country finance-executive current-workload survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Pigment",
+        "title": "Pigment CFO Index Q3 2026",
+        "url": "https://www.pigment.com/reports/cfo-index/q3-2026",
+        "accessedOn": "2026-10-12"
+      },
+      "addedOn": "2026-10-12",
+      "updatedOn": "2026-10-12",
+      "status": "active"
+    },
+    {
+      "id": "R-25",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "51% / 49%",
+      "title": "Security and governance barriers to finance AI use in the UK",
+      "finding": "Among UK respondents, 51% cited security concerns and 49% governance concerns as barriers to using AI more broadly in finance.",
+      "coverage": "171 UK finance leaders within a double-blind survey of 865 CFOs, chief accounting officers and senior finance and accounting leaders in France, Germany, Japan, the United Kingdom and the United States.",
+      "period": "Survey conducted May 4-15, 2026.",
+      "published": "October 6, 2026",
+      "type": "UK subgroup survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Salesforce",
+        "title": "New Research: CFOs Turn to AI and Agents to Tame Growing Revenue Complexity",
+        "url": "https://www.salesforce.com/uk/news/stories/cfos-ai-agents-to-tame-revenue-complexity/?bc=OTH",
+        "accessedOn": "2026-10-12"
+      },
+      "addedOn": "2026-10-12",
+      "updatedOn": "2026-10-12",
+      "status": "active"
     }
   ]
 }
