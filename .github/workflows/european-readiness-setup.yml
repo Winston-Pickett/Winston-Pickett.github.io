@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
-      BUNDLE_URL: 'https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-b8ec-81f7-9f5f-70ba4375a264/raw?se=2026-10-15T23%3A58%3A05Z&sp=r&sv=2026-02-06&sr=b&scid=1c8426a7-fffa-55eb-9a70-474f7f8edb87&skoid=732f244e-db13-47c3-bcc7-7ee02a9397bc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-15T22%3A00%3A46Z&ske=2026-10-16T22%3A00%3A46Z&sks=b&skv=2026-02-06&sig=V4DX0yBb6MoXHo5779WO%2Bzxi%2B9TuEi9jNChf7MJKq8M%3D'
+      BUNDLE_URL: 'https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-c898-81f7-898e-b9800599dadb/raw?se=2026-10-16T00%3A02%3A19Z&sp=r&sv=2026-02-06&sr=b&scid=7dc935ca-e8b9-5c67-b913-4a124ff6b7de&skoid=732f244e-db13-47c3-bcc7-7ee02a9397bc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-15T22%3A11%3A27Z&ske=2026-10-16T22%3A11%3A27Z&sks=b&skv=2026-02-06&sig=Uxw283xuX1Cvr6nIZ5Octd4drRj3JyRHHfTk%2BIPfkWI%3D'
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
@@ -21,7 +21,7 @@ jobs:
           python - <<'PY'
           import os, pathlib, urllib.request, hashlib, zipfile, io, subprocess
           raw=urllib.request.urlopen(os.environ['BUNDLE_URL'],timeout=60).read()
-          assert hashlib.sha256(raw).hexdigest()=='88aa1a90355e9e0934fd43c798c26936e70d6d1aa4a4e49fec5e2b2b0e0a3260', 'Transfer integrity failure'
+          assert hashlib.sha256(raw).hexdigest()=='29dde35aed58b1516f4d2ba9ab65734cac1f28a9657b58a76df09831f6da9848', 'Transfer integrity failure'
           target=pathlib.Path(os.environ['RUNNER_TEMP'])/'readiness-bundle'
           target.mkdir()
           with zipfile.ZipFile(io.BytesIO(raw)) as z:
