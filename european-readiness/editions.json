@@ -10,8 +10,77 @@
       "pdf": "/european-readiness/editions/Europe_Readiness_Daily_2026-10-15.pdf",
       "pages": 45,
       "bytes": 249788,
-      "research_cutoff": "2026-10-15T08:12:00-04:00",
       "sha256": "4ec049b2cd63224f49b921500e556f82803e046108171de671ecff751a45d958"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Europe Readiness Daily",
+      "page": "/european-readiness/2026-10-14/",
+      "pdf": "/european-readiness/editions/Europe_Readiness_Daily_2026-10-14.pdf",
+      "bytes": 295511
+    },
+    {
+      "date": "2026-10-11",
+      "title": "Europe Readiness Daily",
+      "page": "/european-readiness/2026-10-11/",
+      "pdf": "/european-readiness/editions/Europe_Readiness_Daily_2026-10-11.pdf",
+      "bytes": 244654
+    },
+    {
+      "date": "2026-10-10",
+      "title": "Europe Readiness Daily",
+      "page": "/european-readiness/2026-10-10/",
+      "pdf": "/european-readiness/editions/Europe_Readiness_Daily_2026-10-10.pdf",
+      "bytes": 281903
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Europe Readiness Daily",
+      "page": "/european-readiness/2026-10-07/",
+      "pdf": "/european-readiness/editions/Europe_Readiness_Daily_2026-10-07.pdf",
+      "bytes": 128162
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Europe Readiness Daily",
+      "page": "/european-readiness/2026-10-06/",
+      "pdf": "/european-readiness/editions/Europe_Readiness_Daily_2026-10-06.pdf",
+      "bytes": 146773
+    },
+    {
+      "date": "2026-10-05",
+      "title": "Europe Readiness Daily",
+      "page": "/european-readiness/2026-10-05/",
+      "pdf": "/european-readiness/editions/Europe_Readiness_Daily_2026-10-05.pdf",
+      "bytes": 122367
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Europe Readiness Daily",
+      "page": "/european-readiness/2026-10-03/",
+      "pdf": "/european-readiness/editions/Europe_Readiness_Daily_2026-10-03.pdf",
+      "bytes": 139079
+    },
+    {
+      "date": "2026-10-02",
+      "title": "Europe Readiness Daily",
+      "page": "/european-readiness/2026-10-02/",
+      "pdf": "/european-readiness/editions/Europe_Readiness_Daily_2026-10-02.pdf",
+      "bytes": 135166
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Europe Readiness Daily",
+      "page": "/european-readiness/2026-10-01/",
+      "pdf": "/european-readiness/editions/Europe_Readiness_Daily_2026-10-01.pdf",
+      "bytes": 90280
+    },
+    {
+      "date": "2026-09-30",
+      "title": "Europe Readiness Daily",
+      "page": "/european-readiness/2026-09-30/",
+      "pdf": "/european-readiness/editions/Europe_Readiness_Daily_2026-09-30.pdf",
+      "bytes": 933185
     }
   ]
 }
