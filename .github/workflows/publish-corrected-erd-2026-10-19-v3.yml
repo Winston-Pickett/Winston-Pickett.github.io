@@ -1,10 +1,10 @@
-# Issue-triggered corrected publication workflow
+# Scheduled one-time corrected publication workflow
 name: Publish corrected Europe Readiness Daily 2026-10-19 v3
 
 on:
   workflow_dispatch:
-  issues:
-    types: [opened]
+  schedule:
+    - cron: '*/5 * * * *'
 
 permissions:
   contents: write
@@ -12,7 +12,6 @@ permissions:
 
 jobs:
   publish-corrected-edition:
-    if: github.event_name == 'workflow_dispatch' || github.event.issue.title == 'Publish corrected Europe Readiness Daily 2026-10-19'
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
@@ -136,10 +135,12 @@ jobs:
           fi
 
       - name: Close trigger issue after success
-        if: github.event_name == 'issues'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh issue close "${{ github.event.issue.number }}" --comment "Corrected October 19 edition was published and verified by the workflow."
+        run: |
+          if gh issue view 5 >/dev/null 2>&1; then
+            gh issue close 5 --comment 'Corrected October 19 edition was published and verified by the scheduled workflow.'
+          fi
 
       - name: Upload corrected Word master for short-term traceability
         uses: actions/upload-artifact@v4
