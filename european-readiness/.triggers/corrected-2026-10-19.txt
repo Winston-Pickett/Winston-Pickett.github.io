@@ -1,0 +1,1 @@
+Trigger the locked-format corrected October 19, 2026 publication workflow.
