@@ -1,19 +1,19 @@
-# One-time corrected publication workflow triggered after the next successful Pages deployment
+# Pull-request-target one-time corrected publication workflow
 name: Publish corrected Europe Readiness Daily 2026-10-19 v3
 
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows: ['pages build and deployment']
-    types: [completed]
+  pull_request_target:
+    types: [opened]
 
 permissions:
   contents: write
   issues: write
+  pull-requests: write
 
 jobs:
   publish-corrected-edition:
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.title == 'Publish corrected Europe Readiness Daily 2026-10-19'
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
@@ -137,13 +137,12 @@ jobs:
             git push origin main
           fi
 
-      - name: Close trigger issue after success
+      - name: Close trigger issue and pull request after success
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if gh issue view 5 >/dev/null 2>&1; then
-            gh issue close 5 --comment 'Corrected October 19 edition was published and verified.'
-          fi
+          gh issue close 5 --comment 'Corrected October 19 edition was published and verified.' || true
+          gh pr close "${{ github.event.pull_request.number }}" --comment 'Trigger completed; corrected edition published.' || true
 
       - name: Upload corrected Word master for short-term traceability
         uses: actions/upload-artifact@v4
