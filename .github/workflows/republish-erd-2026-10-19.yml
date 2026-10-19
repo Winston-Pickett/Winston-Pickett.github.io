@@ -1,0 +1,113 @@
+name: Republish corrected Europe Readiness Daily 2026-10-19
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/republish-erd-2026-10-19.yml'
+      - 'european-readiness/build/2026-10-19/publish_revision.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  republish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install LibreOffice and PDF tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libreoffice-writer fonts-liberation
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pymupdf
+
+      - name: Download verified revised Word master
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/erd-revision
+          urls=(
+            'https://docs.google.com/document/d/1iOr-ZNJbBZPbt6gAXuf-ExafHA7_WRBL/export?format=docx'
+            'https://drive.usercontent.google.com/download?id=1iOr-ZNJbBZPbt6gAXuf-ExafHA7_WRBL&export=download&confirm=t'
+            'https://drive.google.com/uc?export=download&id=1iOr-ZNJbBZPbt6gAXuf-ExafHA7_WRBL'
+          )
+          ok=0
+          for url in "${urls[@]}"; do
+            rm -f /tmp/erd-revision/master.docx
+            if curl -L --fail --retry 2 --retry-delay 2 -o /tmp/erd-revision/master.docx "$url"; then
+              if python - <<'PY'
+from pathlib import Path
+from zipfile import ZipFile
+p=Path('/tmp/erd-revision/master.docx')
+try:
+    with ZipFile(p) as z:
+        names=set(z.namelist())
+    assert 'word/document.xml' in names
+    assert p.stat().st_size > 50000
+except Exception:
+    raise SystemExit(1)
+PY
+              then
+                ok=1
+                break
+              fi
+            fi
+          done
+          if [ "$ok" -ne 1 ]; then
+            echo 'Unable to retrieve the verified revised Word master from the private Drive link.' >&2
+            exit 1
+          fi
+          ls -l /tmp/erd-revision/master.docx
+
+      - name: Convert Word master to PDF
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/erd-revision/out /tmp/lo-profile
+          libreoffice -env:UserInstallation=file:///tmp/lo-profile --headless --convert-to pdf --outdir /tmp/erd-revision/out /tmp/erd-revision/master.docx
+          pdf=$(find /tmp/erd-revision/out -maxdepth 1 -type f -name '*.pdf' -print -quit)
+          test -n "$pdf"
+          cp "$pdf" /tmp/erd-revision/revised.pdf
+          ls -l /tmp/erd-revision/revised.pdf
+
+      - name: Validate and publish corrected PDF and site metadata
+        run: python european-readiness/build/2026-10-19/publish_revision.py /tmp/erd-revision/revised.pdf
+
+      - name: Commit corrected October 19 publication
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'Winston-Pickett'
+          git config user.email 'wpick11@gmail.com'
+          git add european-readiness/editions/Europe_Readiness_Daily_2026-10-19.pdf
+          git add european-readiness/2026-10-19/index.html
+          git add european-readiness/index.html
+          git add european-readiness/editions.json
+          if git diff --cached --quiet; then
+            echo 'No publication changes were required.'
+          else
+            git commit -m 'Republish corrected Europe Readiness Daily for 2026-10-19'
+            git push origin main
+          fi
+
+      - name: Upload verified Word master for traceability
+        uses: actions/upload-artifact@v4
+        with:
+          name: Europe-Readiness-Daily-2026-10-19-Revised-1-DOCX
+          path: /tmp/erd-revision/master.docx
+          retention-days: 7
