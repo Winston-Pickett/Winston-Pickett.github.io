@@ -5,7 +5,6 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/republish-erd-2026-10-19.yml'
-      - 'european-readiness/build/2026-10-19/publish_revision.py'
   workflow_dispatch:
 
 permissions:
@@ -24,7 +23,7 @@ jobs:
       - name: Install LibreOffice and PDF tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y libreoffice-writer fonts-liberation
+          sudo apt-get install -y libreoffice-writer fonts-liberation unzip
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -50,19 +49,8 @@ jobs:
           for url in "${urls[@]}"; do
             rm -f /tmp/erd-revision/master.docx
             if curl -L --fail --retry 2 --retry-delay 2 -o /tmp/erd-revision/master.docx "$url"; then
-              if python - <<'PY'
-from pathlib import Path
-from zipfile import ZipFile
-p=Path('/tmp/erd-revision/master.docx')
-try:
-    with ZipFile(p) as z:
-        names=set(z.namelist())
-    assert 'word/document.xml' in names
-    assert p.stat().st_size > 50000
-except Exception:
-    raise SystemExit(1)
-PY
-              then
+              bytes=$(stat -c%s /tmp/erd-revision/master.docx || echo 0)
+              if [ "$bytes" -gt 50000 ] && unzip -tq /tmp/erd-revision/master.docx >/dev/null 2>&1 && unzip -l /tmp/erd-revision/master.docx | grep -q 'word/document.xml'; then
                 ok=1
                 break
               fi
@@ -102,6 +90,7 @@ PY
             echo 'No publication changes were required.'
           else
             git commit -m 'Republish corrected Europe Readiness Daily for 2026-10-19'
+            git pull --rebase origin main
             git push origin main
           fi
 
