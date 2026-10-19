@@ -1,5 +1,5 @@
 # Triggered after workflow registration on 2026-10-19
-# Retry with permissive embedded-builder extraction
+# Retry by decoding the complete embedded builder payload through EOF
 name: Publish corrected Europe Readiness Daily 2026-10-19 v2
 
 on:
@@ -48,24 +48,25 @@ jobs:
           from pathlib import Path
           import base64
           import gzip
-          import re
           import py_compile
 
           source = Path('.github/workflows/rebuild-erd-2026-10-19.yml').read_text(encoding='utf-8')
-          match = re.search(
-              r"cat > /tmp/rebuild\.py\.gz\.b64 <<'B64'\s*\n([A-Za-z0-9+/=\r\n]+?)\nB64",
-              source,
-              flags=re.S,
-          )
-          if not match:
-              raise SystemExit('Embedded revision-builder payload was not found')
-          payload = ''.join(match.group(1).split())
+          marker = "cat > /tmp/rebuild.py.gz.b64 <<'B64'\n"
+          if marker not in source:
+              raise SystemExit('Embedded revision-builder marker was not found')
+          tail = source.split(marker, 1)[1]
+          # The historical workflow ended at EOF without a closing here-document marker.
+          # The complete base64 payload is therefore the whitespace-stripped remainder.
+          payload = ''.join(tail.split())
+          if len(payload) < 1000:
+              raise SystemExit(f'Embedded payload is unexpectedly short: {len(payload)}')
           try:
-              script = gzip.decompress(base64.b64decode(payload))
+              compressed = base64.b64decode(payload, validate=True)
+              script = gzip.decompress(compressed)
           except Exception as exc:
               raise SystemExit(f'Embedded builder could not be decoded: {exc}')
-          if not script.strip():
-              raise SystemExit('Decoded builder is empty')
+          if len(script) < 10000:
+              raise SystemExit(f'Decoded builder is unexpectedly short: {len(script)} bytes')
           target = Path('/tmp/rebuild_erd_2026_10_19.py')
           target.write_bytes(script)
           py_compile.compile(str(target), doraise=True)
