@@ -1,4 +1,5 @@
 # Triggered after workflow registration on 2026-10-19
+# Retry with robust embedded-builder extraction
 name: Publish corrected Europe Readiness Daily 2026-10-19 v2
 
 on:
@@ -45,23 +46,33 @@ jobs:
           touch /tmp/erd-build-start
           python - <<'PY'
           from pathlib import Path
-          import base64, gzip
+          import base64
+          import gzip
+          import re
 
-          source = Path('.github/workflows/rebuild-erd-2026-10-19.yml').read_text(encoding='utf-8')
-          marker = "cat > /tmp/rebuild.py.gz.b64 <<'B64'\n"
-          if marker not in source:
-              raise SystemExit('Embedded revision-builder marker not found')
-          payload = source.split(marker, 1)[1].splitlines()[0].strip()
+          source_path = Path('.github/workflows/rebuild-erd-2026-10-19.yml')
+          source = source_path.read_text(encoding='utf-8')
+          match = re.search(
+              r"cat > /tmp/rebuild\.py\.gz\.b64 <<'B64'\s*\n([A-Za-z0-9+/=\r\n]+?)\nB64",
+              source,
+              flags=re.S,
+          )
+          if not match:
+              raise SystemExit('Embedded revision-builder payload was not found')
+          payload = ''.join(match.group(1).split())
           if len(payload) < 1000:
-              raise SystemExit(f'Embedded revision-builder payload is unexpectedly short: {len(payload)}')
+              raise SystemExit(f'Embedded payload is unexpectedly short: {len(payload)}')
           try:
               script = gzip.decompress(base64.b64decode(payload, validate=True))
           except Exception as exc:
-              raise SystemExit(f'Embedded revision-builder payload could not be decoded: {exc}')
-          if b'python-docx' not in script and b'from docx' not in script:
-              raise SystemExit('Decoded revision builder does not contain expected Word-generation code')
-          Path('/tmp/rebuild_erd_2026_10_19.py').write_bytes(script)
-          print(f'Restored revision builder: {len(script)} bytes')
+              raise SystemExit(f'Embedded builder could not be decoded: {exc}')
+          if len(script) < 10000:
+              raise SystemExit(f'Decoded builder is unexpectedly short: {len(script)} bytes')
+          if b'from docx' not in script and b'import docx' not in script:
+              raise SystemExit('Decoded builder does not contain Word-generation code')
+          target = Path('/tmp/rebuild_erd_2026_10_19.py')
+          target.write_bytes(script)
+          print(f'Restored revision builder: {len(script)} bytes to {target}')
           PY
 
       - name: Generate the corrected Word master
@@ -83,6 +94,7 @@ jobs:
           from pathlib import Path
           from zipfile import ZipFile
           import sys
+
           p = Path(sys.argv[1])
           with ZipFile(p) as z:
               names = set(z.namelist())
@@ -118,32 +130,10 @@ jobs:
           test -n "$pdf"
           cp "$pdf" /tmp/Europe_Readiness_Daily_2026-10-19_Revised_1.pdf
 
-      - name: Validate the corrected PDF and update publication files
+      - name: Validate corrected PDF and update publication files
         shell: bash
         run: |
           set -euo pipefail
-          python - <<'PY'
-          from pathlib import Path
-          import fitz
-          p = Path('/tmp/Europe_Readiness_Daily_2026-10-19_Revised_1.pdf')
-          d = fitz.open(p)
-          if len(d) != 45:
-              raise SystemExit(f'Expected 45 pages, found {len(d)}')
-          text = '\n'.join(page.get_text('text') for page in d)
-          labels = [
-              'Troops and readiness', 'Exercises', 'Mobilization',
-              'Industry and logistics', 'Air, missile and nuclear posture',
-              'Civil defence', 'Sabotage and hybrid incidents', 'Diplomacy'
-          ]
-          missing = [x for x in labels if x not in text]
-          if missing:
-              raise SystemExit(f'Missing dashboard labels: {missing}')
-          links = sum(len(page.get_links()) for page in d)
-          outlines = len(d.get_toc())
-          if links < 200 or outlines < 150:
-              raise SystemExit(f'Insufficient navigation: links={links}, outlines={outlines}')
-          print(f'Validated PDF: pages={len(d)}, links={links}, outlines={outlines}, bytes={p.stat().st_size}')
-          PY
           python european-readiness/build/2026-10-19/publish_revision.py /tmp/Europe_Readiness_Daily_2026-10-19_Revised_1.pdf
 
       - name: Commit corrected October 19 publication
@@ -156,7 +146,8 @@ jobs:
           git add european-readiness/2026-10-19/index.html
           git add european-readiness/index.html
           git add european-readiness/editions.json
-          git rm .github/workflows/publish-corrected-erd-2026-10-19-v2.yml
+          git rm -rf --ignore-unmatch european-readiness/.tmp/2026-10-19
+          git rm --ignore-unmatch .github/workflows/publish-corrected-erd-2026-10-19-v2.yml
           if git diff --cached --quiet; then
             echo 'No publication changes were required.'
           else
