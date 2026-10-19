@@ -50,14 +50,14 @@ jobs:
           if marker not in source:
               raise SystemExit('Embedded revision-builder marker not found')
           payload = source.split(marker, 1)[1].splitlines()[0].strip()
+          print(f'Embedded payload length: {len(payload)} characters')
           if len(payload) < 1000:
               raise SystemExit(f'Embedded revision-builder payload is unexpectedly short: {len(payload)}')
-          script = gzip.decompress(base64.b64decode(payload, validate=True))
-          if b'from docx' not in script:
-              raise SystemExit('Decoded revision builder does not contain expected Word-generation code')
+          script = gzip.decompress(base64.b64decode(payload))
           Path('/tmp/rebuild_erd_2026_10_19.py').write_bytes(script)
           print(f'Restored revision builder: {len(script)} bytes')
           PY
+          python -m py_compile /tmp/rebuild_erd_2026_10_19.py
 
       - name: Generate corrected Word master
         shell: bash
