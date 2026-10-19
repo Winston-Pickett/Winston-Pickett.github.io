@@ -1,3 +1,4 @@
+# Triggered after workflow registration on 2026-10-19
 name: Publish corrected Europe Readiness Daily 2026-10-19 v2
 
 on:
