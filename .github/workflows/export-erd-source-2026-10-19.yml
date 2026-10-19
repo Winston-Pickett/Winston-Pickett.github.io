@@ -1,0 +1,29 @@
+name: Export October 19 Europe Readiness source PDF
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/export-erd-source-2026-10-19.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export-source:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Verify source PDF
+        run: |
+          test -s european-readiness/editions/Europe_Readiness_Daily_2026-10-19.pdf
+          ls -lh european-readiness/editions/Europe_Readiness_Daily_2026-10-19.pdf
+      - name: Upload source PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: erd-2026-10-19-source-pdf
+          path: european-readiness/editions/Europe_Readiness_Daily_2026-10-19.pdf
+          if-no-files-found: error
