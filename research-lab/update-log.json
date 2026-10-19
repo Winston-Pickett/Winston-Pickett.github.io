@@ -442,6 +442,56 @@
       ],
       "resultingRecordCount": 107,
       "note": "Added exact survey findings published October 6-7, 2026. Respondent populations, field periods or explicit public-source omissions, subgroup denominators, historical-versus-current-versus-forward-looking status, qualifiers and units are preserved; advice and implementation guidance were excluded."
+    },
+    {
+      "date": "2026-10-19",
+      "action": "weekly-research-update",
+      "recordsAdded": 10,
+      "recordsUpdated": 0,
+      "recordsArchived": 0,
+      "recordIdsAdded": [
+        "P-13",
+        "A-31",
+        "R-26",
+        "R-27",
+        "P-14",
+        "D-15",
+        "A-32",
+        "R-28",
+        "R-29",
+        "C-09"
+      ],
+      "categoriesAffected": [
+        "Planning & forecasting",
+        "Data & systems",
+        "AI in finance",
+        "Risk & resilience",
+        "Cash & working capital"
+      ],
+      "sourcesUsed": [
+        "Deloitte UK, Deloitte CFO Survey Q3: Economic and political uncertainty seen as the greatest constraint on UK competitiveness",
+        "Deloitte Asia Pacific, New Deloitte Report: Asia Pacific CFOs look beyond volatility as AI and resilience drive growth agenda"
+      ],
+      "candidatesRejected": [
+        {
+          "source": "MillTech 2026 UK Cash Management Report and October 13 secondary coverage",
+          "reason": "The original MillTech publication is dated October 7, outside the current research window, and current-window secondary coverage reported materially different headline amounts and percentages from the original publisher page."
+        },
+        {
+          "source": "KPMG Global AI Quarterly Pulse Survey Q3 2026",
+          "reason": "The original global publication is dated October 5, outside the current research window, and its respondent population comprises senior business leaders rather than a finance-function population."
+        },
+        {
+          "source": "The Hackett Group 2026 North American Working Capital Survey",
+          "reason": "The original publication is dated October 5, outside the current research window."
+        },
+        {
+          "source": "Secondary coverage of the Deloitte UK and Asia Pacific CFO surveys",
+          "reason": "Excluded in favor of the accessible original Deloitte publications."
+        }
+      ],
+      "resultingRecordCount": 117,
+      "note": "Added exact survey findings published October 14-15, 2026. The dataset preserves respondent populations, field periods, geographic coverage, current-versus-historical-versus-forward-looking status, comparison periods, subgroup qualifications, scales and units; advice and implementation guidance were excluded."
     }
   ]
 }
