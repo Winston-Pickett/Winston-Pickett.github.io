@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-19",
   "themes": [
     {
       "id": "planning",
@@ -2380,6 +2380,226 @@
       },
       "addedOn": "2026-10-12",
       "updatedOn": "2026-10-12",
+      "status": "active"
+    },
+    {
+      "id": "P-13",
+      "theme": "planning",
+      "themeLabel": "Planning & forecasting",
+      "metric": "68% / 27% / 16%",
+      "title": "UK CFO priorities for cost reduction and expansion",
+      "finding": "Sixty-eight percent of surveyed UK CFOs rated cost reduction as a strong priority for the following 12 months, up from 53% in Q2 2026. Twenty-seven percent prioritized introducing new products or services or entering new markets, down from 37%, and 16% prioritized expansion through acquisition, down from 22%.",
+      "coverage": "66 CFOs and group finance directors of major UK companies, including 12 FTSE 100 companies and 25 FTSE 250 companies; the remainder were UK-listed companies, large private companies and UK subsidiaries of overseas-listed companies.",
+      "period": "Survey conducted September 17-October 1, 2026; priorities cover the following 12 months, with comparisons to Q2 2026.",
+      "published": "October 14, 2026",
+      "type": "UK CFO forward-priority survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte UK",
+        "title": "Deloitte CFO Survey Q3: Economic and political uncertainty seen as the greatest constraint on UK competitiveness",
+        "url": "https://www.deloitte.com/uk/en/about/press-room/deloitte-cfo-survey-quater-three-2026-economic-and-political-uncertainty.html",
+        "accessedOn": "2026-10-19"
+      },
+      "addedOn": "2026-10-19",
+      "updatedOn": "2026-10-19",
+      "status": "active"
+    },
+    {
+      "id": "A-31",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "67% / 37% / 48% / 52%",
+      "title": "UK CFO assessment of AI transformation progress and expected effects",
+      "finding": "Sixty-seven percent of surveyed UK CFOs assessed their organizations as being around one-quarter of the way toward the transformation they expect from AI. Over the following 12 months, 37% expected AI to boost margins, 48% expected it to reduce operating costs and 52% expected it to reduce headcount in their own business.",
+      "coverage": "66 CFOs and group finance directors of major UK companies, including 12 FTSE 100 companies and 25 FTSE 250 companies; the remainder were UK-listed companies, large private companies and UK subsidiaries of overseas-listed companies.",
+      "period": "Survey conducted September 17-October 1, 2026; transformation progress is a current assessment and expected effects cover the following 12 months.",
+      "published": "October 14, 2026",
+      "type": "UK CFO current-stage assessment and forward expectation",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte UK",
+        "title": "Deloitte CFO Survey Q3: Economic and political uncertainty seen as the greatest constraint on UK competitiveness",
+        "url": "https://www.deloitte.com/uk/en/about/press-room/deloitte-cfo-survey-quater-three-2026-economic-and-political-uncertainty.html",
+        "accessedOn": "2026-10-19"
+      },
+      "addedOn": "2026-10-19",
+      "updatedOn": "2026-10-19",
+      "status": "active"
+    },
+    {
+      "id": "R-26",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "78 / 75 / 67 / 61 / 56",
+      "title": "Constraints on UK competitiveness rated by CFOs",
+      "finding": "On a 0-100 weighted-average scale, surveyed UK CFOs rated domestic economic and political uncertainty at 78, regulation at 75, levels and complexity of taxation at 67, energy costs at 61 and labour costs at 56 as constraints on the competitiveness of UK businesses.",
+      "coverage": "66 CFOs and group finance directors of major UK companies, including 12 FTSE 100 companies and 25 FTSE 250 companies; the remainder were UK-listed companies, large private companies and UK subsidiaries of overseas-listed companies.",
+      "period": "Survey conducted September 17-October 1, 2026; current constraint ratings.",
+      "published": "October 14, 2026",
+      "type": "UK CFO weighted-average constraint rating",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte UK",
+        "title": "Deloitte CFO Survey Q3: Economic and political uncertainty seen as the greatest constraint on UK competitiveness",
+        "url": "https://www.deloitte.com/uk/en/about/press-room/deloitte-cfo-survey-quater-three-2026-economic-and-political-uncertainty.html",
+        "accessedOn": "2026-10-19"
+      },
+      "addedOn": "2026-10-19",
+      "updatedOn": "2026-10-19",
+      "status": "active"
+    },
+    {
+      "id": "R-27",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "67 / 65 / 62 / 60",
+      "title": "Leading external risks rated by UK CFOs",
+      "finding": "On a 0-100 weighted-average scale, surveyed UK CFOs rated rising geopolitical risks worldwide, including greater protectionism, at 67, compared with 68 in Q2 2026; further rate rises or tighter monetary conditions in the UK and United States at 65, compared with 59; higher energy prices or disruption to energy supplies at 62; and higher inflation or an asset-price bubble at 60.",
+      "coverage": "66 CFOs and group finance directors of major UK companies, including 12 FTSE 100 companies and 25 FTSE 250 companies; the remainder were UK-listed companies, large private companies and UK subsidiaries of overseas-listed companies.",
+      "period": "Survey conducted September 17-October 1, 2026; current risk ratings, with Q2 2026 comparisons where reported.",
+      "published": "October 14, 2026",
+      "type": "UK CFO weighted-average external-risk rating",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte UK",
+        "title": "Deloitte CFO Survey Q3: Economic and political uncertainty seen as the greatest constraint on UK competitiveness",
+        "url": "https://www.deloitte.com/uk/en/about/press-room/deloitte-cfo-survey-quater-three-2026-economic-and-political-uncertainty.html",
+        "accessedOn": "2026-10-19"
+      },
+      "addedOn": "2026-10-19",
+      "updatedOn": "2026-10-19",
+      "status": "active"
+    },
+    {
+      "id": "P-14",
+      "theme": "planning",
+      "themeLabel": "Planning & forecasting",
+      "metric": "63% / 56%",
+      "title": "Asia-Pacific CFO expectations for revenue and profit growth",
+      "finding": "Sixty-three percent of surveyed Asia-Pacific CFOs expected revenue growth over the following 12 months, compared with 60% in May 2026, and 56% expected higher profits, compared with 52% in May.",
+      "coverage": "363 CFOs across 14 Asia-Pacific markets; 41% worked for companies with more than US$500 million in annual revenue. Markets covered Australia, China Mainland, Hong Kong SAR, India, Indonesia, Japan, Malaysia, New Zealand, the Philippines, the Republic of Korea, Singapore, Taiwan (China), Thailand and Vietnam.",
+      "period": "Survey conducted August 18-September 7, 2026; expectations cover the following 12 months, with comparisons to the May 2026 pulse.",
+      "published": "October 15, 2026",
+      "type": "Asia-Pacific CFO forward expectation",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Asia Pacific",
+        "title": "New Deloitte Report: Asia Pacific CFOs look beyond volatility as AI and resilience drive growth agenda",
+        "url": "https://www.deloitte.com/ap/en/about/press-room/apac-cfo-look-beyond-volatility-ai-resilience-drive-growth.html",
+        "accessedOn": "2026-10-19"
+      },
+      "addedOn": "2026-10-19",
+      "updatedOn": "2026-10-19",
+      "status": "active"
+    },
+    {
+      "id": "D-15",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "42% / 31% / 31%",
+      "title": "Capabilities Asia-Pacific CFOs want to strengthen for resilience",
+      "finding": "Among surveyed Asia-Pacific CFOs, 42% identified technology-enabled resilience as a capability their organization wanted to strengthen, while 31% identified finance data, analytics and insights and 31% identified liquidity and cash management.",
+      "coverage": "363 CFOs across 14 Asia-Pacific markets; 41% worked for companies with more than US$500 million in annual revenue. Markets covered Australia, China Mainland, Hong Kong SAR, India, Indonesia, Japan, Malaysia, New Zealand, the Philippines, the Republic of Korea, Singapore, Taiwan (China), Thailand and Vietnam.",
+      "period": "Survey conducted August 18-September 7, 2026; current capability-strengthening priorities.",
+      "published": "October 15, 2026",
+      "type": "Asia-Pacific CFO current-priority survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Asia Pacific",
+        "title": "New Deloitte Report: Asia Pacific CFOs look beyond volatility as AI and resilience drive growth agenda",
+        "url": "https://www.deloitte.com/ap/en/about/press-room/apac-cfo-look-beyond-volatility-ai-resilience-drive-growth.html",
+        "accessedOn": "2026-10-19"
+      },
+      "addedOn": "2026-10-19",
+      "updatedOn": "2026-10-19",
+      "status": "active"
+    },
+    {
+      "id": "A-32",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "68%",
+      "title": "Asia-Pacific CFOs reporting tangible value from AI",
+      "finding": "Sixty-eight percent of surveyed Asia-Pacific CFOs reported that artificial intelligence was delivering tangible value.",
+      "coverage": "363 CFOs across 14 Asia-Pacific markets; 41% worked for companies with more than US$500 million in annual revenue. Markets covered Australia, China Mainland, Hong Kong SAR, India, Indonesia, Japan, Malaysia, New Zealand, the Philippines, the Republic of Korea, Singapore, Taiwan (China), Thailand and Vietnam.",
+      "period": "Survey conducted August 18-September 7, 2026; current reported outcome.",
+      "published": "October 15, 2026",
+      "type": "Asia-Pacific CFO current-outcome survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Asia Pacific",
+        "title": "New Deloitte Report: Asia Pacific CFOs look beyond volatility as AI and resilience drive growth agenda",
+        "url": "https://www.deloitte.com/ap/en/about/press-room/apac-cfo-look-beyond-volatility-ai-resilience-drive-growth.html",
+        "accessedOn": "2026-10-19"
+      },
+      "addedOn": "2026-10-19",
+      "updatedOn": "2026-10-19",
+      "status": "active"
+    },
+    {
+      "id": "R-28",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "57%",
+      "title": "Geopolitical instability as a potential Asia-Pacific business disruptor",
+      "finding": "Fifty-seven percent of surveyed Asia-Pacific CFOs identified geopolitical instability as one of the biggest potential disruptors to their businesses over the following 12 months.",
+      "coverage": "363 CFOs across 14 Asia-Pacific markets; 41% worked for companies with more than US$500 million in annual revenue. Markets covered Australia, China Mainland, Hong Kong SAR, India, Indonesia, Japan, Malaysia, New Zealand, the Philippines, the Republic of Korea, Singapore, Taiwan (China), Thailand and Vietnam.",
+      "period": "Survey conducted August 18-September 7, 2026; potential disruption covers the following 12 months.",
+      "published": "October 15, 2026",
+      "type": "Asia-Pacific CFO forward-risk survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Asia Pacific",
+        "title": "New Deloitte Report: Asia Pacific CFOs look beyond volatility as AI and resilience drive growth agenda",
+        "url": "https://www.deloitte.com/ap/en/about/press-room/apac-cfo-look-beyond-volatility-ai-resilience-drive-growth.html",
+        "accessedOn": "2026-10-19"
+      },
+      "addedOn": "2026-10-19",
+      "updatedOn": "2026-10-19",
+      "status": "active"
+    },
+    {
+      "id": "R-29",
+      "theme": "risk",
+      "themeLabel": "Risk & resilience",
+      "metric": "46% / 21% / 25%",
+      "title": "Resilience importance and investment-return tolerance among Asia-Pacific CFOs",
+      "finding": "Forty-six percent of surveyed Asia-Pacific CFOs said resilience had become more important over the preceding 12 months. Among CFOs who considered resilience more important, 21% supported related investment with significantly lower expected returns and 25% supported it even when returns were unclear.",
+      "coverage": "363 CFOs across 14 Asia-Pacific markets; 41% worked for companies with more than US$500 million in annual revenue. Markets covered Australia, China Mainland, Hong Kong SAR, India, Indonesia, Japan, Malaysia, New Zealand, the Philippines, the Republic of Korea, Singapore, Taiwan (China), Thailand and Vietnam. The public source does not state the respondent counts for the 21% and 25% subgroup findings.",
+      "period": "Survey conducted August 18-September 7, 2026; resilience importance covers the preceding 12 months and investment-return tolerance is a current subgroup response.",
+      "published": "October 15, 2026",
+      "type": "Asia-Pacific CFO historical assessment and subgroup capital-allocation response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Asia Pacific",
+        "title": "New Deloitte Report: Asia Pacific CFOs look beyond volatility as AI and resilience drive growth agenda",
+        "url": "https://www.deloitte.com/ap/en/about/press-room/apac-cfo-look-beyond-volatility-ai-resilience-drive-growth.html",
+        "accessedOn": "2026-10-19"
+      },
+      "addedOn": "2026-10-19",
+      "updatedOn": "2026-10-19",
+      "status": "active"
+    },
+    {
+      "id": "C-09",
+      "theme": "cash",
+      "themeLabel": "Cash & working capital",
+      "metric": "45% / 41% / 39%",
+      "title": "Where finance adds the greatest value during disruption",
+      "finding": "Surveyed Asia-Pacific CFOs identified liquidity and financial flexibility at 45%, cost control at 41%, and forecasting and scenario analysis at 39% as the areas where finance adds the greatest value during disruption.",
+      "coverage": "363 CFOs across 14 Asia-Pacific markets; 41% worked for companies with more than US$500 million in annual revenue. Markets covered Australia, China Mainland, Hong Kong SAR, India, Indonesia, Japan, Malaysia, New Zealand, the Philippines, the Republic of Korea, Singapore, Taiwan (China), Thailand and Vietnam.",
+      "period": "Survey conducted August 18-September 7, 2026; current survey response about value during disruption.",
+      "published": "October 15, 2026",
+      "type": "Asia-Pacific CFO current-value survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Deloitte Asia Pacific",
+        "title": "New Deloitte Report: Asia Pacific CFOs look beyond volatility as AI and resilience drive growth agenda",
+        "url": "https://www.deloitte.com/ap/en/about/press-room/apac-cfo-look-beyond-volatility-ai-resilience-drive-growth.html",
+        "accessedOn": "2026-10-19"
+      },
+      "addedOn": "2026-10-19",
+      "updatedOn": "2026-10-19",
       "status": "active"
     }
   ]
