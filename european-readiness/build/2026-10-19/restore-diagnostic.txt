@@ -1,0 +1,14 @@
+source_bytes=7755
+marker_found=True
+payload_len=6793
+payload_prefix=H4sIAAFE1moC/+V9a3fjNrLg
+payload_suffix=78YoQrnDra6ji5rtq7a/DaZZ
+exception_type=Error
+exception=Error('Invalid base64-encoded string: number of data characters (6793) cannot be 1 more than a multiple of 4')
+Traceback (most recent call last):
+  File "<stdin>", line 15, in <module>
+  File "/usr/lib/python3.12/base64.py", line 88, in b64decode
+    return binascii.a2b_base64(s, strict_mode=validate)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+binascii.Error: Invalid base64-encoded string: number of data characters (6793) cannot be 1 more than a multiple of 4
+
