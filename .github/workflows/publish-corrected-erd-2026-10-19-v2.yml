@@ -1,0 +1,172 @@
+name: Publish corrected Europe Readiness Daily 2026-10-19 v2
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-corrected-erd-2026-10-19-v2.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish-corrected-edition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install document tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libreoffice-writer fonts-liberation
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pymupdf python-docx pillow lxml
+
+      - name: Restore locked October 19 revision builder
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo mkdir -p /mnt/data
+          sudo chown -R "$USER:$USER" /mnt/data
+          touch /tmp/erd-build-start
+          python - <<'PY'
+          from pathlib import Path
+          import base64, gzip
+
+          source = Path('.github/workflows/rebuild-erd-2026-10-19.yml').read_text(encoding='utf-8')
+          marker = "cat > /tmp/rebuild.py.gz.b64 <<'B64'\n"
+          if marker not in source:
+              raise SystemExit('Embedded revision-builder marker not found')
+          payload = source.split(marker, 1)[1].splitlines()[0].strip()
+          if len(payload) < 1000:
+              raise SystemExit(f'Embedded revision-builder payload is unexpectedly short: {len(payload)}')
+          try:
+              script = gzip.decompress(base64.b64decode(payload, validate=True))
+          except Exception as exc:
+              raise SystemExit(f'Embedded revision-builder payload could not be decoded: {exc}')
+          if b'python-docx' not in script and b'from docx' not in script:
+              raise SystemExit('Decoded revision builder does not contain expected Word-generation code')
+          Path('/tmp/rebuild_erd_2026_10_19.py').write_bytes(script)
+          print(f'Restored revision builder: {len(script)} bytes')
+          PY
+
+      - name: Generate the corrected Word master
+        shell: bash
+        run: |
+          set -euo pipefail
+          python /tmp/rebuild_erd_2026_10_19.py
+          echo 'Generated files:'
+          find /mnt/data "$GITHUB_WORKSPACE" /tmp -type f -newer /tmp/erd-build-start \( -iname '*.docx' -o -iname '*.pdf' \) -printf '%TY-%Tm-%Td %TH:%TM:%TS %s %p\n' | sort
+
+      - name: Select and validate the generated Word master
+        id: select
+        shell: bash
+        run: |
+          set -euo pipefail
+          docx=$(find /mnt/data "$GITHUB_WORKSPACE" /tmp -type f -newer /tmp/erd-build-start -iname '*.docx' -size +50000c -printf '%T@ %p\n' | sort -nr | head -1 | cut -d' ' -f2-)
+          test -n "$docx"
+          python - "$docx" <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          import sys
+          p = Path(sys.argv[1])
+          with ZipFile(p) as z:
+              names = set(z.namelist())
+              if 'word/document.xml' not in names or 'word/styles.xml' not in names:
+                  raise SystemExit('Generated file is not a valid styled DOCX')
+              xml = z.read('word/document.xml').decode('utf-8', errors='ignore')
+          required = [
+              "Today's Bottom Line",
+              'What Changed Since the Prior Complete Issue',
+              'Leadership Application',
+              'Verified Developments and Evidence Register',
+              'Rolling Two-Calendar-Month Location/Event Register',
+              'Standing Indicator Dashboard',
+              'Reality Check and Corrections',
+              'Upcoming and Watch Next',
+              'Balanced Close, Reading Legend and Sources',
+          ]
+          missing = [x for x in required if x not in xml]
+          if missing:
+              raise SystemExit(f'Generated DOCX is missing required sections: {missing}')
+          print(f'Validated DOCX: {p} ({p.stat().st_size} bytes)')
+          PY
+          cp "$docx" /tmp/Europe_Readiness_Daily_2026-10-19_Revised_1.docx
+          echo "docx=/tmp/Europe_Readiness_Daily_2026-10-19_Revised_1.docx" >> "$GITHUB_OUTPUT"
+
+      - name: Export the final PDF from the Word master
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/erd-pdf /tmp/lo-profile
+          libreoffice -env:UserInstallation=file:///tmp/lo-profile --headless --convert-to pdf --outdir /tmp/erd-pdf "${{ steps.select.outputs.docx }}"
+          pdf=$(find /tmp/erd-pdf -maxdepth 1 -type f -iname '*.pdf' -print -quit)
+          test -n "$pdf"
+          cp "$pdf" /tmp/Europe_Readiness_Daily_2026-10-19_Revised_1.pdf
+
+      - name: Validate the corrected PDF and update publication files
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import fitz
+          p = Path('/tmp/Europe_Readiness_Daily_2026-10-19_Revised_1.pdf')
+          d = fitz.open(p)
+          if len(d) != 45:
+              raise SystemExit(f'Expected 45 pages, found {len(d)}')
+          text = '\n'.join(page.get_text('text') for page in d)
+          labels = [
+              'Troops and readiness', 'Exercises', 'Mobilization',
+              'Industry and logistics', 'Air, missile and nuclear posture',
+              'Civil defence', 'Sabotage and hybrid incidents', 'Diplomacy'
+          ]
+          missing = [x for x in labels if x not in text]
+          if missing:
+              raise SystemExit(f'Missing dashboard labels: {missing}')
+          links = sum(len(page.get_links()) for page in d)
+          outlines = len(d.get_toc())
+          if links < 200 or outlines < 150:
+              raise SystemExit(f'Insufficient navigation: links={links}, outlines={outlines}')
+          print(f'Validated PDF: pages={len(d)}, links={links}, outlines={outlines}, bytes={p.stat().st_size}')
+          PY
+          python european-readiness/build/2026-10-19/publish_revision.py /tmp/Europe_Readiness_Daily_2026-10-19_Revised_1.pdf
+
+      - name: Commit corrected October 19 publication
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'Winston-Pickett'
+          git config user.email 'wpick11@gmail.com'
+          git add european-readiness/editions/Europe_Readiness_Daily_2026-10-19.pdf
+          git add european-readiness/2026-10-19/index.html
+          git add european-readiness/index.html
+          git add european-readiness/editions.json
+          git rm .github/workflows/publish-corrected-erd-2026-10-19-v2.yml
+          if git diff --cached --quiet; then
+            echo 'No publication changes were required.'
+          else
+            git commit -m 'Republish corrected Europe Readiness Daily for 2026-10-19'
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+      - name: Upload corrected Word master for short-term traceability
+        uses: actions/upload-artifact@v4
+        with:
+          name: Europe-Readiness-Daily-2026-10-19-Revised-1-DOCX
+          path: /tmp/Europe_Readiness_Daily_2026-10-19_Revised_1.docx
+          retention-days: 7
