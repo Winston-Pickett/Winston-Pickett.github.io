@@ -1,0 +1,44 @@
+name: Publish Europe Readiness Daily 2026-10-19
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'european-readiness/build/2026-10-19/**'
+      - '.github/workflows/publish-erd-2026-10-19.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install PDF dependencies
+        run: python -m pip install --upgrade pip reportlab pypdf pymupdf
+      - name: Build, render, verify and prepare site files
+        run: python european-readiness/build/2026-10-19/build.py
+      - name: Commit October 19 publication
+        run: |
+          git config user.name "Winston-Pickett"
+          git config user.email "wpick11@gmail.com"
+          git add european-readiness/editions/Europe_Readiness_Daily_2026-10-19.pdf
+          git add european-readiness/2026-10-19/index.html
+          git add european-readiness/index.html
+          git add european-readiness/editions.json
+          if git diff --cached --quiet; then
+            echo "No publication changes were required."
+          else
+            git commit -m "Publish Europe Readiness Daily for 2026-10-19"
+            git push origin main
+          fi
