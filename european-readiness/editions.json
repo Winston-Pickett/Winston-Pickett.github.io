@@ -8,10 +8,11 @@
       "title": "Europe Readiness Daily",
       "page": "/european-readiness/2026-10-20/",
       "pdf": "/european-readiness/editions/Europe_Readiness_Daily_2026-10-20.pdf",
-      "pages": 50,
-      "bytes": 719398,
+      "pages": 49,
+      "bytes": 714504,
       "status": "final",
-      "sha256": "dc3077cae7f47b35e088bff9ab5b238760c2cd844f00d092542885151f68c292"
+      "sha256": "1b1cfe4e5167fcdda3e22b958349c13efb0458087af14e9080ad78b070e17c49",
+      "revision": "Revised 1"
     },
     {
       "date": "2026-10-19",

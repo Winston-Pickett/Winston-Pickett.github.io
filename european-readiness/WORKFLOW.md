@@ -273,6 +273,10 @@ The DOCX is the authoritative source. Copy the master template, preserve its nam
 
 The complete DOCX contains all nine sections, the complete register, dashboard, reality checks, leadership application, reading legend and source links. Creating or uploading the Word file later does not create a new research cutoff.
 
+### Contents and placement integrity
+
+Before rendering, verify that the contents page contains only the nine section entries and ends with a hard page break. Verify that all date-limited disclosures are located only in Section 5, that Section 6 begins with the stacked dashboard, and that the Section 9 balanced close and source list reflect the current edition rather than prior-edition carry-forward text.
+
 ## 12. Quality gates
 
 Before publication, complete every gate in `FORMAT_STANDARD.md`. At minimum:

@@ -62,6 +62,15 @@ Every edition contains the permanent purpose and scope language followed by thes
 
 The contents guide, section numbering, heading levels, and navigation structure must remain consistent. A section heading may not appear alone at the bottom of a page. Each Heading 1 must remain with at least the first substantive paragraph or card of its section.
 
+
+## 4.1 Contents-page and content-placement lock
+
+- Page 2 is a dedicated contents page. It contains the Contents heading and exactly the nine section entries, followed by a hard page break.
+- No event card, register entry, date-limited disclosure, dashboard item, reality-check item, watch item, balanced-close text, source list or other substantive report content may appear on the contents page.
+- Date-limited disclosures appear only once, at the end of Section 5 immediately before Section 6.
+- Section 9 must be written for the current edition and cutoff. Do not carry forward a prior edition's balanced-close paragraph or source list without explicit current-edition validation.
+- During visual QA, compare the opening page, contents page, one representative event-card page, one representative register page, the complete dashboard, Sections 7 and 8, and the final source page against the October 19 Revised 1 baseline for layout continuity.
+
 ## 5. Dashboard lock
 
 The Standing Indicator Dashboard uses the October 19 Revised 1 stacked-card layout. It must not use the defective wide three-column table design.
