@@ -273,6 +273,12 @@ The DOCX is the authoritative source. Copy the master template, preserve its nam
 
 The complete DOCX contains all nine sections, the complete register, dashboard, reality checks, leadership application, reading legend and source links. Creating or uploading the Word file later does not create a new research cutoff.
 
+### Immutable template-block verification
+
+Before any edition-specific content is inserted, identify protected static master blocks. Copy those blocks from the locked Word master without recreating their formatting. Do not use whole-paragraph text replacement on protected styled paragraphs. After document assembly, compare the protected opening callout, masthead/subtitle, contents structure, section-heading treatment, card shells, dashboard shells, header/footer and summary-table labels against the master. Any unexplained static-block difference blocks publication.
+
+For corrected editions, the opening callout must exactly preserve the master text and visual treatment: navy heading with white bold `Public-source awareness and planning brief`, followed by the full gray-body correction sentence from the master. Only explicit edition-variable fields such as date, cutoff, windows, counts and researched scope/source text may change.
+
 ### Contents and placement integrity
 
 Before rendering, verify that the contents page contains only the nine section entries and ends with a hard page break. Verify that all date-limited disclosures are located only in Section 5, that Section 6 begins with the stacked dashboard, and that the Section 9 balanced close and source list reflect the current edition rather than prior-edition carry-forward text.

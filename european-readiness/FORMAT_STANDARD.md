@@ -71,6 +71,27 @@ The contents guide, section numbering, heading levels, and navigation structure 
 - Section 9 must be written for the current edition and cutoff. Do not carry forward a prior edition's balanced-close paragraph or source list without explicit current-edition validation.
 - During visual QA, compare the opening page, contents page, one representative event-card page, one representative register page, the complete dashboard, Sections 7 and 8, and the final source page against the October 19 Revised 1 baseline for layout continuity.
 
+
+## 4.2 Immutable standard blocks
+
+The locked master contains standard boilerplate and visual components that are copied byte-for-byte or XML-for-XML wherever they are not edition-variable. These blocks are not regenerated, rewritten, shortened, restyled or replaced during daily production.
+
+Protected static elements include, at minimum:
+
+- masthead label and subtitle styling;
+- the opening navy callout heading `Public-source awareness and planning brief` with white bold text;
+- the complete gray callout sentence `Not an official intelligence bulletin. This revised edition corrects document formatting and pagination only. The research cutoff and substantive evidence state remain unchanged.` for corrected editions;
+- the permanent purpose paragraph outside explicitly identified edition-variable scope/source language;
+- contents-page structure and styles;
+- section heading styles;
+- anonymous headers and footers;
+- card geometry, navy fills, gray fills, source treatment and dashboard construction;
+- metadata labels in the opening summary table.
+
+Production code must not replace an entire styled paragraph or styled run when only edition-variable text needs to change. In particular, assigning plain paragraph text to a protected master paragraph is prohibited because it can destroy run-level font, color, bolding and other formatting. Variable text must be updated inside preserved formatted runs or by cloning the corresponding master XML block and changing only the designated variable fields.
+
+Before publication, compare protected static blocks against the master. Any unapproved text, run-property, paragraph-property, shading, border, font-color or spacing difference is a blocking defect.
+
 ## 5. Dashboard lock
 
 The Standing Indicator Dashboard uses the October 19 Revised 1 stacked-card layout. It must not use the defective wide three-column table design.
