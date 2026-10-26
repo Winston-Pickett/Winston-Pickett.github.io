@@ -492,6 +492,61 @@
       ],
       "resultingRecordCount": 117,
       "note": "Added exact survey findings published October 14-15, 2026. The dataset preserves respondent populations, field periods, geographic coverage, current-versus-historical-versus-forward-looking status, comparison periods, subgroup qualifications, scales and units; advice and implementation guidance were excluded."
+    },
+    {
+      "date": "2026-10-26",
+      "action": "weekly-research-update",
+      "recordsAdded": 8,
+      "recordsUpdated": 0,
+      "recordsArchived": 0,
+      "recordIdsAdded": [
+        "D-16",
+        "A-33",
+        "A-34",
+        "A-35",
+        "R-30",
+        "R-31",
+        "C-10",
+        "C-11"
+      ],
+      "categoriesAffected": [
+        "Data & systems",
+        "AI in finance",
+        "Risk & resilience",
+        "Cash & working capital"
+      ],
+      "sourcesUsed": [
+        "Deloitte Insights, North American CFOs cite AI cost-governance gaps in third-quarter 2026 survey",
+        "Fortis, CFOs See Payments Modernization as Key to Cash Flow, but Few Have the Infrastructure in Place, New Research Finds"
+      ],
+      "candidatesRejected": [
+        {
+          "source": "Kyriba CFO Risk Radar 2026 Spain findings",
+          "reason": "The dated original page was discoverable in search, but its direct public source URL returned an access-denied page during validation, so stable public access could not be confirmed."
+        },
+        {
+          "source": "Journal of Accountancy, AI is reshaping finance jobs article",
+          "reason": "Secondary coverage of the Datarails 2026 survey already represented in the Research Lab; excluded as a duplicate dataset and in favor of the original source."
+        },
+        {
+          "source": "U.S. Bank, Beyond the numbers: Building resilience in uncertain times",
+          "reason": "The October 21 article comments on a survey report originally published September 29, outside the current research window."
+        },
+        {
+          "source": "The CFO and American Express, Why CFOs Are Prioritizing Granular Forecasting to Navigate Uncertainty",
+          "reason": "The October 19 article is secondary analysis; the original American Express CFO Survey 2026 was published in September, outside the current research window."
+        },
+        {
+          "source": "Gartner CIO survey on agentic-AI investment",
+          "reason": "The respondent population comprises CIOs and technology executives rather than finance-function leaders."
+        },
+        {
+          "source": "J.P. Morgan regional Payments Outlook pages published October 19",
+          "reason": "The pages mix proprietary research and local expertise but do not publicly provide a verifiable finance-leader sample, field period or methodology for the candidate claims."
+        }
+      ],
+      "resultingRecordCount": 125,
+      "note": "Added exact survey findings published October 21-22, 2026. The dataset preserves respondent populations, company-size thresholds, geography, study periods, current-practice and current-capability status, response-time qualifiers and units; advice and implementation guidance were excluded."
     }
   ]
 }
