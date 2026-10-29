@@ -4,7 +4,8 @@
 **Schedule:** Daily, including weekends and quiet-news days  
 **Timezone:** America/Detroit  
 **Publication target:** approximately 8:00 AM, subject to research and validation completion  
-**Canonical format standard:** `european-readiness/FORMAT_STANDARD.md`
+**Canonical format standard:** `european-readiness/FORMAT_STANDARD.md`  
+**Research structure amendment:** 2026-10-29, permanent Russian military posture section (user-approved)
 
 This workflow is the operating specification for the daily Europe Readiness Daily publication. The production agent must read this file and `FORMAT_STANDARD.md` before every edition. If either file is unavailable, the edition must not be published in an improvised layout.
 
@@ -94,6 +95,7 @@ Distinguish and deduplicate:
 Cover, when material:
 
 - force deployments, withdrawals, rotations and readiness;
+- Russian force reconstitution and posture along NATO's northern, eastern and southeastern approaches, including equipment stocks versus assigned combat units, T-90/T-90M and other armored movements, base construction, new formations, forward rail/fuel/ammunition/logistics activity, and relevant Belarusian forces; distinguish preparation for potential future force generation from an imminent assault;
 - reserve call-ups, recruitment, conscription and mobilization;
 - exercise announcements, dates, scale, deviations, completion and withdrawals;
 - air, missile and counter-drone defence;
@@ -149,9 +151,9 @@ Evidence classifications:
 - UNVERIFIED
 - DISPROVEN OR MISLEADING, only with supporting evidence
 
-## 7. Required nine-section structure
+## 7. Required ten-section structure
 
-The permanent purpose, scope and source disclosure is followed by exactly these nine primary sections in this order:
+The permanent purpose, scope and source disclosure is followed by exactly these ten primary sections in this order. The new Section 5 is a user-approved structural amendment effective with the next newly produced issue. Preserve the October 19 Revised 1 visual design; use the existing Heading 1, contents-entry and stacked-dashboard styles for the added components. The legacy nine-section master may be used as the visual source only if the tenth heading, contents entry and ninth dashboard indicator are inserted in matching styles and the complete ten-section issue passes QA. If this cannot be accomplished faithfully, stop publication and report the limitation rather than silently omit Section 5.
 
 1. **Today's Bottom Line**  
    Normally 350 to 600 words. Include up to five material developments without forcing a quota. State actual changes, strongest preparation evidence, credible counterevidence or de-escalation, unknowns and limits. Separate long-term preparedness, near-term incident pressure and publicly evidenced preparation for imminent direct NATO-Russia conflict. Clearly label analysis.
@@ -165,19 +167,30 @@ The permanent purpose, scope and source disclosure is followed by exactly these 
 4. **Verified Developments and Evidence Register**  
    Use complete event cards grouped under NATO/European allies, EU initiatives, United States, Russia/Belarus and cross-cutting incidents/diplomacy. Include stable ID, actor/location, action or claim, event/publication/implementation dates, stage, material change, strategic relevance, alternative explanation, evidence class, confidence, imminent-war limitation and precise sources.
 
-5. **Rolling Two-Month Location/Event Register**  
+5. **Russian Military Force Posture and NATO Border Readiness**  
+   This is a mandatory, independently visible, daily section, including quiet-news days. It tracks verified Russian and Belarusian force development, equipment movements, infrastructure, deployment readiness and changes near NATO territory. Maintain a dated, sourced posture baseline and a material-change assessment rather than inferring an attack from a tank sighting. Its minimum recurring coverage is:
+   - **Geography:** Finland and the Kola/Arctic approaches, Norway, Estonia, Latvia, Lithuania, Poland and Kaliningrad, Belarusian border areas, and relevant NATO Black Sea approaches including Romania, Bulgaria and Turkey. Address sectors with material verified developments; for other sectors report no newly verified change without asserting that no activity occurred.
+   - **Ground forces:** T-90/T-90M and other tanks, infantry fighting vehicles, armored personnel carriers, artillery, new or rebuilt formations, personnel and reserve force generation. Explicitly separate stored equipment, transport, garrison deployment, exercise participation and assigned combat-ready formations.
+   - **Bases and sustainment:** garrisons, barracks, vehicle depots, ammunition and fuel stocks, rail and road logistics, medical support, command/control, aircraft bases and military construction, using non-sensitive, delayed, publicly released information.
+   - **Air, missile, naval and hybrid posture:** publicly verified changes in aircraft, air defences, missile units, maritime forces, electronic warfare and supporting systems near NATO, with attribution and operational status checked separately.
+   - **Change and evidence ledger:** report specific observation/event date, publication date, satellite acquisition date when available, region, claimed quantity if verified, evidence class, independent corroboration, confidence, material change since the last full issue, last-confirmed baseline and precise clickable sources. Do not recycle old movements as new. If nothing changed, state `No newly verified material change in Russian force posture in this reporting window`, then state last-supported status and visibility limits.
+   - **Interpretation and counterevidence:** distinguish long-term reconstitution or stockpiling from active force assembly and potential operational preparation. Consider competing explanations, troop availability, geographic distances, logistics, rotation/exercise status and credible de-escalation or withdrawals. Do not suggest imminence or attack probabilities without compelling evidence and do not convert isolated imagery into a precise force census.
+   - **Cross-references:** link unique event IDs in Section 4 and Section 6 without duplicating event cards or counting the same equipment movement more than once. Note implications for the NATO/eastern-flank readiness picture and refer operational/financial consequences to Section 3.
+   Every issue must specifically check reputable public reporting on Russian ground-force and armor movements near NATO, including any T-90/T-90M movements; do not force a T-90 claim if no new reliable reporting exists.
+
+6. **Rolling Two-Month Location/Event Register**  
    Include all qualifying retained records, not a sample. Apply the rolling-window and sorting rules below.
 
-6. **Standing Indicator Dashboard**  
-   Use the locked stacked-card format in `FORMAT_STANDARD.md`. Do not use a wide narrative table. Cover troops/readiness, exercises, mobilization, industry/logistics, air/missile/nuclear posture, civil defence, sabotage/incidents and diplomacy.
+7. **Standing Indicator Dashboard**  
+   Use the locked stacked-card format in `FORMAT_STANDARD.md`. Do not use a wide narrative table. Maintain a separate first card for **Russian military force posture near NATO** (cross-reference Section 5), followed by the existing eight cards for troops/readiness, exercises, mobilization, industry/logistics, air/missile/nuclear posture, civil defence, sabotage/incidents and diplomacy. Never use a lack of NATO mobilization to imply a lack of Russian activity.
 
-7. **Reality Check and Corrections**  
+8. **Reality Check and Corrections**  
    Address only consequential misleading, recycled, disputed or unverifiable claims. Separate occurrence, attribution and interpretation. Correct unsupported prior material transparently. If none, state: `No specific false claim adjudicated in this edition.`
 
-8. **Upcoming and Watch Next**  
+9. **Upcoming and Watch Next**  
    Include only officially announced dates and a limited set of observable public developments that would materially change the assessment. Do not invent thresholds or dates.
 
-9. **Balanced Close, Reading Legend and Sources**  
+10. **Balanced Close, Reading Legend and Sources**  
    Summarize strongest escalation evidence and counterevidence, relevant stated rationales and supported interpretation. Explain event date, publication date, evidence class and confidence. Reinforce that preparedness does not establish imminence. Include precise clickable sources.
 
 ## 8. Rolling two-calendar-month register
@@ -271,7 +284,7 @@ Clear DOCX and PDF Author, Subject, Keywords, comments, custom properties and XM
 
 The DOCX is the authoritative source. Copy the master template, preserve its named styles and replace content. Do not rebuild formatting with direct formatting. The PDF must be exported from the final approved Word document.
 
-The complete DOCX contains all nine sections, the complete register, dashboard, reality checks, leadership application, reading legend and source links. Creating or uploading the Word file later does not create a new research cutoff.
+The complete DOCX contains all ten sections, the complete register, dashboard, reality checks, leadership application, reading legend and source links. Creating or uploading the Word file later does not create a new research cutoff.
 
 ### Immutable template-block verification
 
@@ -281,7 +294,7 @@ For corrected editions, the opening callout must exactly preserve the master tex
 
 ### Contents and placement integrity
 
-Before rendering, verify that the contents page contains only the nine section entries and ends with a hard page break. Verify that all date-limited disclosures are located only in Section 5, that Section 6 begins with the stacked dashboard, and that the Section 9 balanced close and source list reflect the current edition rather than prior-edition carry-forward text.
+Before rendering, verify that the contents page contains exactly the ten section entries and ends with a hard page break. Verify that all date-limited disclosures are located only in Section 6, that Section 5 contains the dedicated Russian posture report, that Section 7 begins with the stacked dashboard and its separate Russian-force card, and that the Section 10 balanced close and source list reflect the current edition rather than prior-edition carry-forward text. The contents entry, Section 5 heading and Russian dashboard card are the three explicitly authorized additions to the unchanged master visual system.
 
 ## 12. Quality gates
 
