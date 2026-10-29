@@ -2,7 +2,7 @@
 
 **Template version:** 1.0  
 **Effective date:** 2026-10-19  
-**Status:** Locked  
+**Status:** Locked visual system, user-approved structural amendment on 2026-10-29  
 **Canonical visual baseline:** `Europe Readiness Daily 2026-10-19 Revised 1.docx`  
 **Private master template:** Google Drive folder `Europe Readiness Daily`, file `Europe Readiness Daily MASTER TEMPLATE v1.0.docx`  
 **Master template file ID:** `1bXogv6Mhbba7izNNHGaONdv2NN2AYVhx`  
@@ -11,7 +11,9 @@
 
 ## 1. Change control
 
-The October 19 Revised 1 Word edition is the authoritative visual and structural template for all future editions. The template may not be redesigned, restyled, simplified, condensed, expanded, or replaced without explicit user approval. Daily content, dates, register records, page count, source links, and naturally required pagination may change. The visual system, style definitions, hierarchy, spacing rules, dashboard treatment, register treatment, headers, footers, and document workflow remain fixed.
+**Approved amendment (October 29, 2026):** Add permanent primary Section 5, `Russian Military Force Posture and NATO Border Readiness`, so every issue contains ten sections. Add one stacked Russian military posture card at the start of the dashboard, so the dashboard contains nine indicators. This is a structural and content amendment explicitly approved by the user, not permission to alter the visual system. The October 19 Word master remains the visual baseline. The production agent must clone existing Heading 1, contents-row and stacked-card styles when inserting the new section/card into a copied master, update all downstream section numbers, and inspect the result in both Word and PDF. Do not silently omit the new section because the unmodified source master has nine contents entries. If matching the master styles or producing the complete amended issue is impossible, fail the run instead of substituting a redesigned document.
+
+The October 19 Revised 1 Word edition is the authoritative visual and structural template for all future editions. The template may not be redesigned, restyled, simplified, condensed, expanded, or replaced without explicit user approval beyond the explicitly approved tenth-section and ninth-dashboard-card additions above. Daily content, dates, register records, page count, source links, and naturally required pagination may change. The visual system, style definitions, hierarchy, spacing rules, dashboard treatment, register treatment, headers, footers, and document workflow remain fixed.
 
 Any proposed visual change must be presented separately and approved before use. A production problem is not permission to substitute a new layout. A report that cannot be produced with the locked template must be reported as failed rather than published in a different format.
 
@@ -48,28 +50,32 @@ Any proposed visual change must be presented separately and approved before use.
 
 ## 4. Fixed document structure
 
-Every edition contains the permanent purpose and scope language followed by these nine sections, in this order and with actual Word heading styles:
+Every edition contains the permanent purpose and scope language followed by these ten sections, in this order and with actual Word Heading 1 styles:
 
 1. Today's Bottom Line
 2. What Changed
 3. Leadership Application
 4. Verified Developments and Evidence Register
-5. Rolling Two-Month Location/Event Register
-6. Standing Indicator Dashboard
-7. Reality Check and Corrections
-8. Upcoming and Watch Next
-9. Balanced Close, Reading Legend and Sources
+5. Russian Military Force Posture and NATO Border Readiness
+6. Rolling Two-Month Location/Event Register
+7. Standing Indicator Dashboard
+8. Reality Check and Corrections
+9. Upcoming and Watch Next
+10. Balanced Close, Reading Legend and Sources
+
+Section 5 is mandatory in every issue, even if there is no new verified movement. It must include a date-stamped evidence-based status and cover Russian and relevant Belarusian armor (including T-90/T-90M when reported), troop formations, garrisons, storage versus combat deployment, military infrastructure, rail/fuel/ammunition/medical sustainment, air/missile/naval posture, sector-specific changes (Finland/Norway/Arctic; Baltic states; Poland/Kaliningrad/Belarus; NATO Black Sea approaches), contradictory evidence and visibility limits. Assess whether evidence represents long-term force generation, unit assembly or possible operational preparation without inventing imminent-war warnings. Record precise sources, observation dates, satellite-image acquisition dates where available, publication dates and changes since the prior issue. Avoid duplicating Section 4 event IDs or Section 6 register entries. If no newly verified changes: explicitly report this and retain the last verified baseline without implying the absence of activity.
+
 
 The contents guide, section numbering, heading levels, and navigation structure must remain consistent. A section heading may not appear alone at the bottom of a page. Each Heading 1 must remain with at least the first substantive paragraph or card of its section.
 
 
 ## 4.1 Contents-page and content-placement lock
 
-- Page 2 is a dedicated contents page. It contains the Contents heading and exactly the nine section entries, followed by a hard page break.
+- Page 2 is a dedicated contents page. It contains the Contents heading and exactly the ten section entries, followed by a hard page break. Insert the approved new Section 5 entry with the existing contents-entry style, preserving the rest of the protected contents block.
 - No event card, register entry, date-limited disclosure, dashboard item, reality-check item, watch item, balanced-close text, source list or other substantive report content may appear on the contents page.
-- Date-limited disclosures appear only once, at the end of Section 5 immediately before Section 6.
-- Section 9 must be written for the current edition and cutoff. Do not carry forward a prior edition's balanced-close paragraph or source list without explicit current-edition validation.
-- During visual QA, compare the opening page, contents page, one representative event-card page, one representative register page, the complete dashboard, Sections 7 and 8, and the final source page against the October 19 Revised 1 baseline for layout continuity.
+- Date-limited disclosures appear only once, at the end of Section 6 immediately before Section 7.
+- Section 10 must be written for the current edition and cutoff. Do not carry forward a prior edition's balanced-close paragraph or source list without explicit current-edition validation.
+- During visual QA, compare the opening page, contents page, one representative event-card page, one representative register page, the complete dashboard, Sections 8 and 9, and the final source page against the October 19 Revised 1 baseline for layout continuity.
 
 
 ## 4.2 Immutable standard blocks
@@ -102,18 +108,19 @@ Each indicator is a separate vertically stacked block with:
 - latest material change and evidence;
 - next observable development.
 
-The following eight indicators remain in the same order unless the user approves a structural change:
+The following nine indicators remain in this order. The added first card is user-approved; the remaining eight retain their original relative order:
 
-1. Troops and readiness
-2. Exercises
-3. Mobilization
-4. Industry and logistics
-5. Air, missile and nuclear posture
-6. Civil defence
-7. Sabotage and hybrid incidents
-8. Diplomacy
+1. Russian military force posture near NATO (Section 5)
+2. Troops and readiness (NATO/allied posture, distinguished from Russian forces)
+3. Exercises
+4. Mobilization
+5. Industry and logistics
+6. Air, missile and nuclear posture
+7. Civil defence
+8. Sabotage and hybrid incidents
+9. Diplomacy
 
-No indicator text may overlap, run outside the page, or be reduced to unreadable type. Content wraps vertically and may continue naturally onto another page.
+The Russian-force card must state the latest verified change or 'No newly verified material change', the last supported baseline, evidence and next observable development; it must not be replaced by a generic statement that NATO has not mobilized. Use a cloned stacked-card shell in the existing style. No indicator text may overlap, run outside the page, or be reduced to unreadable type. Content wraps vertically and may continue naturally onto another page.
 
 ## 6. Register lock
 
@@ -148,7 +155,7 @@ No indicator text may overlap, run outside the page, or be reduced to unreadable
 
 Before publication, the production process must verify:
 
-- exactly nine primary numbered sections;
+- exactly ten primary numbered sections, including the dedicated Russian military force posture Section 5 every day;
 - section order matches this standard;
 - all primary sections use Heading 1 styles;
 - all record headings use the approved subordinate heading style;
@@ -159,7 +166,9 @@ Before publication, the production process must verify:
 - no text outside page bounds;
 - no overlapping text boxes, paragraphs, cells, or table content;
 - no dark-on-dark or light-on-light text;
-- dashboard contains all eight indicator titles exactly once;
+- dashboard contains all nine indicator titles exactly once, including the standalone Russian-force posture card;
+- Russian-force section provides a dated baseline and source-linked material-change assessment, explicitly distinguishing storage, transport, deployment, and combat readiness;
+- routine/no-news editions explicitly state what was checked and whether any material Russian deployment change was verified, without fabricating an event;
 - dashboard does not contain the prohibited wide three-column narrative table;
 - all hyperlinks are present and functional in both Word and PDF;
 - Word and PDF report the same research cutoff and record counts;
