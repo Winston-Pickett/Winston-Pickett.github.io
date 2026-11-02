@@ -4,6 +4,17 @@
   "author": "Winston Pickett",
   "editions": [
     {
+      "date": "2026-11-02",
+      "title": "Europe Readiness Daily",
+      "page": "/european-readiness/2026-11-02/",
+      "pdf": "/european-readiness/editions/Europe_Readiness_Daily_2026-11-02.pdf",
+      "pages": 64,
+      "bytes": 1015298,
+      "status": "final",
+      "sha256": "3d8cdd0f4b38fb527aa76952f818bff707cf32d1b44e85a4673fbddd3312456c",
+      "research_cutoff": "2026-11-02 08:15 EST"
+    },
+    {
       "date": "2026-11-01",
       "title": "Europe Readiness Daily",
       "page": "/european-readiness/2026-11-01/",
