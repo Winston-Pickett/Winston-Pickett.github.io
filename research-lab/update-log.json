@@ -547,6 +547,54 @@
       ],
       "resultingRecordCount": 125,
       "note": "Added exact survey findings published October 21-22, 2026. The dataset preserves respondent populations, company-size thresholds, geography, study periods, current-practice and current-capability status, response-time qualifiers and units; advice and implementation guidance were excluded."
+    },
+    {
+      "date": "2026-11-02",
+      "action": "weekly-research-update",
+      "recordsAdded": 4,
+      "recordsUpdated": 0,
+      "recordsArchived": 0,
+      "recordIdsAdded": [
+        "A-36",
+        "A-37",
+        "A-38",
+        "O-19"
+      ],
+      "categoriesAffected": [
+        "AI in finance",
+        "Operating model"
+      ],
+      "sourcesUsed": [
+        "KPMG Japan, KPMG Japan CFO Survey 2026/27"
+      ],
+      "candidatesRejected": [
+        {
+          "source": "Deloitte Canada, Finance trends 2027",
+          "reason": "The October 28 page republishes findings from Deloitte's global Finance Trends 2027 study, which is already represented in the Research Lab for the same survey population and reporting period."
+        },
+        {
+          "source": "Trade Treasury Payments, FIS Cash Management Report",
+          "reason": "The October 30 article is secondary coverage; the original FIS research release was published October 22, outside the current research window."
+        },
+        {
+          "source": "AFP 2026 FP&A Benchmarking Survey Report: Integrated Planning",
+          "reason": "The original AFP release is dated January 20, 2026, outside the current research window."
+        },
+        {
+          "source": "The CFO, Unlocking Capital Through Payment Innovation and Procurement",
+          "reason": "The October 26 article is secondary analysis and implementation guidance based primarily on the American Express CFO Survey 2026, whose original publication predates the current research window."
+        },
+        {
+          "source": "Yahoo Finance/CFO.com, As AI use grows, so does CFOs' responsibility for managing it",
+          "reason": "Secondary coverage of Deloitte's Q3 2026 CFO Signals findings already represented by records A-33 through A-35 and R-30 through R-31."
+        },
+        {
+          "source": "Controllers Council, 2026 CFO/Controller Outlook & Sentiment Study",
+          "reason": "The original study was released January 26, 2026; a recently crawled landing page does not make it newly published material."
+        }
+      ],
+      "resultingRecordCount": 129,
+      "note": "Added exact survey findings published October 29, 2026. The dataset preserves the Japanese listed-company population, respondent roles, survey method, field period, forward-looking investment intent, current reported outcomes, multiple-response qualifier, CFO-only subgroup limitation and reported units; advice and implementation guidance were excluded."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-26",
+  "lastUpdated": "2026-11-02",
   "themes": [
     {
       "id": "planning",
@@ -2776,6 +2776,94 @@
       },
       "addedOn": "2026-10-26",
       "updatedOn": "2026-10-26",
+      "status": "active"
+    },
+    {
+      "id": "A-36",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "90% / none selected reduction or review",
+      "title": "Plans to expand AI-related investment among Japanese listed companies",
+      "finding": "Ninety percent of surveyed Japanese listed companies said they intended to expand AI-related investment. KPMG reported that no respondent selected a policy of reducing or reviewing AI investment.",
+      "coverage": "568 Japanese listed companies; respondents were CFOs or heads of accounting and finance departments. The survey was conducted through a web questionnaire.",
+      "period": "Survey conducted July 1-September 4, 2026; forward-looking investment intention.",
+      "published": "October 29, 2026",
+      "type": "Japan listed-company CFO and finance-leader forward-investment survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "KPMG Japan",
+        "title": "KPMG Japan CFO Survey 2026/27 (KPMGジャパン CFOサーベイ 2026/27)",
+        "url": "https://kpmg.com/jp/ja/insights/2026/10/cfo-survey-2026.html",
+        "accessedOn": "2026-11-02"
+      },
+      "addedOn": "2026-11-02",
+      "updatedOn": "2026-11-02",
+      "status": "active"
+    },
+    {
+      "id": "A-37",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "More than 60% / 20%",
+      "title": "Reported efficiency and decision-quality outcomes from AI",
+      "finding": "More than 60% of surveyed Japanese listed companies reported improved operational efficiency from using generative AI or AI agents, while 20% reported improvement in both operational efficiency and the quality of CFO decision-making.",
+      "coverage": "568 Japanese listed companies; respondents were CFOs or heads of accounting and finance departments. The survey was conducted through a web questionnaire.",
+      "period": "Survey conducted July 1-September 4, 2026; current reported outcomes from AI use.",
+      "published": "October 29, 2026",
+      "type": "Japan listed-company CFO and finance-leader current-outcome survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "KPMG Japan",
+        "title": "KPMG Japan CFO Survey 2026/27 (KPMGジャパン CFOサーベイ 2026/27)",
+        "url": "https://kpmg.com/jp/ja/insights/2026/10/cfo-survey-2026.html",
+        "accessedOn": "2026-11-02"
+      },
+      "addedOn": "2026-11-02",
+      "updatedOn": "2026-11-02",
+      "status": "active"
+    },
+    {
+      "id": "A-38",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "71%",
+      "title": "Talent and skills shortage as a barrier to expanding AI use",
+      "finding": "Seventy-one percent of surveyed Japanese listed companies identified a shortage of the talent and skills needed for AI as a challenge to expanding the introduction and use of generative AI or AI agents. Respondents could select up to three challenges.",
+      "coverage": "568 Japanese listed companies; respondents were CFOs or heads of accounting and finance departments. The survey was conducted through a web questionnaire.",
+      "period": "Survey conducted July 1-September 4, 2026; current reported barrier.",
+      "published": "October 29, 2026",
+      "type": "Japan listed-company CFO and finance-leader multiple-response barrier survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "KPMG Japan",
+        "title": "KPMG Japan CFO Survey 2026/27 (KPMGジャパン CFOサーベイ 2026/27)",
+        "url": "https://kpmg.com/jp/ja/insights/2026/10/cfo-survey-2026.html",
+        "accessedOn": "2026-11-02"
+      },
+      "addedOn": "2026-11-02",
+      "updatedOn": "2026-11-02",
+      "status": "active"
+    },
+    {
+      "id": "O-19",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "metric": "84%",
+      "title": "Contribution to management decision-making as a CFO priority",
+      "finding": "Eighty-four percent of CFO respondents identified contributing to management decision-making as their highest-priority issue.",
+      "coverage": "568 Japanese listed companies; respondents were CFOs or heads of accounting and finance departments. The survey was conducted through a web questionnaire. The public source does not disclose the CFO-only respondent count for this finding.",
+      "period": "Survey conducted July 1-September 4, 2026; current priority assessment.",
+      "published": "October 29, 2026",
+      "type": "Japan listed-company CFO current-priority survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "KPMG Japan",
+        "title": "KPMG Japan CFO Survey 2026/27 (KPMGジャパン CFOサーベイ 2026/27)",
+        "url": "https://kpmg.com/jp/ja/insights/2026/10/cfo-survey-2026.html",
+        "accessedOn": "2026-11-02"
+      },
+      "addedOn": "2026-11-02",
+      "updatedOn": "2026-11-02",
       "status": "active"
     }
   ]
