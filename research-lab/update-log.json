@@ -595,6 +595,73 @@
       ],
       "resultingRecordCount": 129,
       "note": "Added exact survey findings published October 29, 2026. The dataset preserves the Japanese listed-company population, respondent roles, survey method, field period, forward-looking investment intent, current reported outcomes, multiple-response qualifier, CFO-only subgroup limitation and reported units; advice and implementation guidance were excluded."
+    },
+    {
+      "date": "2026-11-09",
+      "action": "weekly-research-update",
+      "recordsAdded": 18,
+      "recordsUpdated": 0,
+      "recordsArchived": 0,
+      "recordIdsAdded": [
+        "O-20",
+        "O-21",
+        "R-32",
+        "O-22",
+        "A-39",
+        "O-23",
+        "A-40",
+        "A-41",
+        "A-42",
+        "R-33",
+        "D-17",
+        "R-34",
+        "R-35",
+        "R-36",
+        "R-37",
+        "P-15",
+        "D-18",
+        "A-43"
+      ],
+      "categoriesAffected": [
+        "Operating model",
+        "Risk & resilience",
+        "AI in finance",
+        "Data & systems",
+        "Planning & forecasting"
+      ],
+      "sourcesUsed": [
+        "Resources Global Professionals (RGP), The Capacity Crisis: Why Ambition Is Outpacing Delivery and How CFOs Can Close the Gap",
+        "BDO USA, 2026 BDO Audit Innovation Survey",
+        "Deloitte Austria, Deloitte CFO Survey Autumn 2026"
+      ],
+      "candidatesRejected": [
+        {
+          "source": "Gartner, CFOs and AI time savings",
+          "reason": "The November 4 release reported a 1,303-person survey of senior functional leaders across functions rather than a finance-function or CFO respondent population; its remaining content was prescriptive guidance."
+        },
+        {
+          "source": "PYMNTS, cash-flow forecasting and CFO cash-playbook articles",
+          "reason": "The November 4-5 articles were secondary analyses of earlier PYMNTS Intelligence studies rather than newly fielded original research in the current publication window."
+        },
+        {
+          "source": "EuroFinance/TIS, Cyber Risk Management: No Longer Just an IT Problem",
+          "reason": "The public release described qualitative insights from treasury and cybersecurity professionals but did not provide a verifiable respondent count, field period or quantitative benchmark population."
+        },
+        {
+          "source": "Controllers Council, 2027 CFO/Controller Outlook & Sentiment Study announcement",
+          "reason": "The November 5 publication solicited survey participation; results and benchmark metrics will not be released until January 2027."
+        },
+        {
+          "source": "EY, 2026 Tax and Finance Operations Survey",
+          "reason": "The November 6 publication focused on tax-function operations and did not provide a sufficiently finance-wide population and methodology for the Research Lab's current scope."
+        },
+        {
+          "source": "Secondary coverage of the RGP and BDO surveys",
+          "reason": "Excluded in favor of the accessible original publisher releases."
+        }
+      ],
+      "resultingRecordCount": 147,
+      "note": "Added exact survey findings published November 3-4, 2026. The dataset preserves respondent populations, revenue thresholds, geographies, field periods, current-versus-historical-versus-forward-looking status, subgroup denominators, comparison periods, qualifiers and units; advice and implementation guidance were excluded."
     }
   ]
 }
