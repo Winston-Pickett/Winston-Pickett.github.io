@@ -4,40 +4,95 @@ on:
     branches: [erd-archive-recovery-20261111-r1]
     paths: [.github/workflows/erd-archive-recovery.yml]
 permissions:
-  contents: read
+  contents: write
 jobs:
-  inspect:
+  recover:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
-      - name: Recover public archive inventory and newsletter artwork
+      - name: Create an ephemeral encrypted channel for private source access
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          umask 077
+          openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:3072 -out /tmp/erd-private.pem 2>/dev/null
+          openssl pkey -in /tmp/erd-private.pem -pubout -out /tmp/erd-public.pem
+          python3 - <<'PY'
+          import base64, hashlib, json, os, pathlib, subprocess, time, urllib.request, urllib.error
+          api='https://api.github.com/repos/Winston-Pickett/Winston-Pickett.github.io'
+          branch='erd-archive-recovery-20261111-r1'
+          def request(path, data=None, method='GET'):
+              req=urllib.request.Request(api+path,data=None if data is None else json.dumps(data).encode(),method=method,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'ERD-ArchiveRecovery','Content-Type':'application/json'})
+              with urllib.request.urlopen(req,timeout=45) as r:return json.load(r)
+          public=pathlib.Path('/tmp/erd-public.pem').read_bytes()
+          request('/contents/.github/erd-recovery-public.pem',{'message':'Ephemeral public key for protected archive-source recovery','content':base64.b64encode(public).decode(),'branch':branch},'PUT')
+          print('PUBLIC_KEY_READY',flush=True)
+          envelope=None
+          for i in range(180):
+              try:
+                  item=request('/contents/.github/erd-recovery-input.enc.json?ref='+branch)
+                  envelope=json.loads(base64.b64decode(item['content']));break
+              except urllib.error.HTTPError as e:
+                  if e.code!=404:raise
+                  time.sleep(5)
+          if envelope is None:raise SystemExit('Encrypted source handoff not supplied; no public files changed.')
+          plain=bytearray()
+          for part in envelope['chunks']:
+              proc=subprocess.run(['openssl','pkeyutl','-decrypt','-inkey','/tmp/erd-private.pem','-pkeyopt','rsa_padding_mode:oaep','-pkeyopt','rsa_oaep_md:sha256'],input=base64.b64decode(part),capture_output=True,check=True)
+              plain.extend(proc.stdout)
+          payload=json.loads(plain)
+          work=pathlib.Path('/tmp/erd-private-sources');work.mkdir(mode=0o700)
+          public_dir=pathlib.Path('recovery/public');public_dir.mkdir(parents=True)
+          expected_dates={'2026-11-07','2026-11-09','2026-11-10'}
+          if {f['date'] for f in payload['files']}!=expected_dates:raise SystemExit('Unexpected recovery scope.')
+          metadata=[]
+          for f in payload['files']:
+              if f['kind'] not in ('docx','pdf'):raise SystemExit('Unexpected source type.')
+              req=urllib.request.Request(f['url'],headers={'User-Agent':'ERD-ArchiveRecovery'})
+              try:
+                  with urllib.request.urlopen(req,timeout=60) as r:data=r.read(5000000)
+              except Exception as e:raise SystemExit('Source download failed for '+f['date']+': '+type(e).__name__)
+              if hashlib.sha256(data).hexdigest()!=f['sha256']:raise SystemExit('Source checksum mismatch for '+f['date'])
+              name='Europe_Readiness_Daily_'+f['date']+'.'+f['kind']
+              (work/name if f['kind']=='docx' else public_dir/name).write_bytes(data)
+              metadata.append({'date':f['date'],'source_kind':f['kind'],'source_sha256':f['sha256']})
+          (pathlib.Path('recovery')/'source-provenance.json').write_text(json.dumps(metadata,indent=2))
+          pathlib.Path('/tmp/erd-private.pem').unlink();pathlib.Path('/tmp/erd-public.pem').unlink()
+          print('Three dated sources recovered. No private source or access URL will be published.',flush=True)
+          PY
+      - name: Export the preserved Word editions without changing their content
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libreoffice-writer fonts-liberation fonts-liberation2 fonts-crosextra-carlito poppler-utils
+          mkdir -p /tmp/erd-lo
+          for source in /tmp/erd-private-sources/*.docx; do
+            libreoffice -env:UserInstallation=file:///tmp/erd-lo --headless --convert-to pdf:writer_pdf_Export --outdir recovery/public "$source"
+          done
+          rm -rf /tmp/erd-private-sources /tmp/erd-lo
+      - name: Stage only the recovered public PDFs as Git blobs
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           python3 - <<'PY'
-          import json, pathlib, re, urllib.request
-          root=pathlib.Path('recovery');root.mkdir()
-          repo='Winston-Pickett/Winston-Pickett.github.io'
-          api='https://api.github.com/repos/'+repo
-          def get(url, auth=False):
-              headers={'User-Agent':'EuropeReadiness-ArchiveRecovery'}
-              if auth:headers['Authorization']='Bearer '+__import__('os').environ['GH_TOKEN']
-              with urllib.request.urlopen(urllib.request.Request(url,headers=headers),timeout=45) as r:return r.read()
-          raw='https://raw.githubusercontent.com/'+repo+'/534c6586132930f1fc1ef01c30ef6e843fc760c6/'
-          for p,n in [('european-readiness/editions.json','editions.json'),('european-readiness/index.html','index.html'),('european-readiness/assets/readiness.css','readiness.css'),('european-readiness/2026-11-11/index.html','latest.html')]:
-              (root/n).write_bytes(get(raw+p))
-          files=json.loads(get(api+'/contents/european-readiness/editions?ref=main',True))
-          manifest=json.loads((root/'editions.json').read_text())
-          dates=[r['date'] for r in manifest['editions']]
-          pdfs=[x['name'] for x in files]
-          rows=re.findall(r'<time datetime="([0-9-]+)">',(root/'index.html').read_text())
-          inv={'manifest_dates':dates,'pdf_files':pdfs,'archive_dates':rows,'unlisted_pdfs':[n for n in pdfs if re.search(r'\d{4}-\d{2}-\d{2}',n) and re.search(r'\d{4}-\d{2}-\d{2}',n).group() not in dates]}
-          (root/'inventory.json').write_text(json.dumps(inv,indent=2));print(json.dumps(inv))
-          url='https://media.licdn.com/dms/image/v2/D4E12AQHgX6Ip-pHdmA/article-cover_image-shrink_720_1280/B4EaHCASd0IYAQ-/0/1794256218215?e=1795651200&v=beta&t=LjfwzyTQEDwnd68bFvLbJclzwXt2ei1ja23Q4pVnLmg'
-          image=get(url);(root/'linkedin-cover').write_bytes(image)
-          print('ARTWORK_BYTES='+str(len(image)))
+          import base64, hashlib, json, os, pathlib, re, subprocess, urllib.request
+          api='https://api.github.com/repos/Winston-Pickett/Winston-Pickett.github.io/git/blobs'
+          output=[]
+          for p in sorted(pathlib.Path('recovery/public').glob('*.pdf')):
+              b=p.read_bytes()
+              if not b.startswith(b'%PDF-'):raise SystemExit('Invalid PDF')
+              info=subprocess.check_output(['pdfinfo',str(p)],text=True)
+              pages=int(re.search(r'^Pages:\s*(\d+)',info,re.M).group(1))
+              text=subprocess.check_output(['pdftotext',str(p),'-'],text=True)
+              date=re.search(r'\d{4}-\d{2}-\d{2}',p.name).group()
+              if pages<60 or 'Rolling Two-Month Location/Event Register' not in text or 'Standing Indicator Dashboard' not in text:raise SystemExit('Incomplete archive export: '+date)
+              req=urllib.request.Request(api,data=json.dumps({'content':base64.b64encode(b).decode(),'encoding':'base64'}).encode(),headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','Content-Type':'application/json','User-Agent':'ERD-ArchiveRecovery'},method='POST')
+              with urllib.request.urlopen(req,timeout=60) as r:blob=json.load(r)['sha']
+              output.append({'date':date,'filename':p.name,'bytes':len(b),'pages':pages,'sha256':hashlib.sha256(b).hexdigest(),'blob_sha':blob})
+          pathlib.Path('recovery/export_manifest.json').write_text(json.dumps(output,indent=2));print(json.dumps(output))
+          print('Only unreferenced public PDF blobs staged. Main is unchanged.')
           PY
       - uses: actions/upload-artifact@v4
         with:
-          name: erd-archive-inventory-and-artwork
+          name: erd-recovered-historical-pdfs
           path: recovery/
           retention-days: 1
