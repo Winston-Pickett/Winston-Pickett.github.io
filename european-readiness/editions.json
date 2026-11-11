@@ -15,6 +15,32 @@
       "research_cutoff": "2026-11-11 08:54 EST"
     },
     {
+      "date": "2026-11-10",
+      "title": "Europe Readiness Daily",
+      "page": "/european-readiness/2026-11-10/",
+      "pdf": "/european-readiness/editions/Europe_Readiness_Daily_2026-11-10.pdf",
+      "pages": 76,
+      "bytes": 1197274,
+      "status": "archived",
+      "sha256": "c91c943ff3256c76a4f9245f213f313a41ce400cc573c2ecc0ad4c1aaa61d979",
+      "research_cutoff": "2026-11-10 09:20 EST",
+      "archive_restored": "2026-11-11",
+      "archive_note": "Original supplied PDF; original evidence limitations retained."
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Europe Readiness Daily",
+      "page": "/european-readiness/2026-11-09/",
+      "pdf": "/european-readiness/editions/Europe_Readiness_Daily_2026-11-09.pdf",
+      "pages": 79,
+      "bytes": 1253825,
+      "status": "archived",
+      "sha256": "a9313ebfec3ce48f0c33da63dcd6291b05e7bc73a157d4b3da0f23beece1b25e",
+      "research_cutoff": "2026-11-09 14:37 EST",
+      "archive_restored": "2026-11-11",
+      "archive_note": "Original supplied PDF; original evidence limitations retained."
+    },
+    {
       "date": "2026-11-06",
       "title": "Europe Readiness Daily",
       "page": "/european-readiness/2026-11-06/",
