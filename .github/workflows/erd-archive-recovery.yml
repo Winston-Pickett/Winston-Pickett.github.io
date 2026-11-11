@@ -1,0 +1,43 @@
+name: Europe Readiness archive recovery
+on:
+  push:
+    branches: [erd-archive-recovery-20261111-r1]
+    paths: [.github/workflows/erd-archive-recovery.yml]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recover public archive inventory and newsletter artwork
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, re, urllib.request
+          root=pathlib.Path('recovery');root.mkdir()
+          repo='Winston-Pickett/Winston-Pickett.github.io'
+          api='https://api.github.com/repos/'+repo
+          def get(url, auth=False):
+              headers={'User-Agent':'EuropeReadiness-ArchiveRecovery'}
+              if auth:headers['Authorization']='Bearer '+__import__('os').environ['GH_TOKEN']
+              with urllib.request.urlopen(urllib.request.Request(url,headers=headers),timeout=45) as r:return r.read()
+          raw='https://raw.githubusercontent.com/'+repo+'/534c6586132930f1fc1ef01c30ef6e843fc760c6/'
+          for p,n in [('european-readiness/editions.json','editions.json'),('european-readiness/index.html','index.html'),('european-readiness/assets/readiness.css','readiness.css'),('european-readiness/2026-11-11/index.html','latest.html')]:
+              (root/n).write_bytes(get(raw+p))
+          files=json.loads(get(api+'/contents/european-readiness/editions?ref=main',True))
+          manifest=json.loads((root/'editions.json').read_text())
+          dates=[r['date'] for r in manifest['editions']]
+          pdfs=[x['name'] for x in files]
+          rows=re.findall(r'<time datetime="([0-9-]+)">',(root/'index.html').read_text())
+          inv={'manifest_dates':dates,'pdf_files':pdfs,'archive_dates':rows,'unlisted_pdfs':[n for n in pdfs if re.search(r'\d{4}-\d{2}-\d{2}',n) and re.search(r'\d{4}-\d{2}-\d{2}',n).group() not in dates]}
+          (root/'inventory.json').write_text(json.dumps(inv,indent=2));print(json.dumps(inv))
+          url='https://media.licdn.com/dms/image/v2/D4E12AQHgX6Ip-pHdmA/article-cover_image-shrink_720_1280/B4EaHCASd0IYAQ-/0/1794256218215?e=1795651200&v=beta&t=LjfwzyTQEDwnd68bFvLbJclzwXt2ei1ja23Q4pVnLmg'
+          image=get(url);(root/'linkedin-cover').write_bytes(image)
+          print('ARTWORK_BYTES='+str(len(image)))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: erd-archive-inventory-and-artwork
+          path: recovery/
+          retention-days: 1
