@@ -662,6 +662,76 @@
       ],
       "resultingRecordCount": 147,
       "note": "Added exact survey findings published November 3-4, 2026. The dataset preserves respondent populations, revenue thresholds, geographies, field periods, current-versus-historical-versus-forward-looking status, subgroup denominators, comparison periods, qualifiers and units; advice and implementation guidance were excluded."
+    },
+    {
+      "date": "2026-11-16",
+      "action": "weekly-research-update",
+      "recordsAdded": 16,
+      "recordsUpdated": 0,
+      "recordsArchived": 0,
+      "recordIdsAdded": [
+        "P-16",
+        "P-17",
+        "P-18",
+        "P-19",
+        "C-12",
+        "A-44",
+        "A-45",
+        "A-46",
+        "O-24",
+        "O-25",
+        "R-38",
+        "R-39",
+        "D-19",
+        "A-47",
+        "O-26",
+        "R-40"
+      ],
+      "categoriesAffected": [
+        "Planning & forecasting",
+        "Cash & working capital",
+        "AI in finance",
+        "Operating model",
+        "Risk & resilience",
+        "Data & systems"
+      ],
+      "sourcesUsed": [
+        "Gartner, Gartner Says CFOs Plan Bigger Investments in M&A and Capital Projects to Drive Growth in 2027",
+        "Sikich, 2026 CFO Priorities Annual Survey",
+        "EY, 2026 Tax and Finance Operations Survey"
+      ],
+      "candidatesRejected": [
+        {
+          "source": "U.S. Bank Fall 2026 CFO Insights Report",
+          "reason": "The public page did not provide a verifiable publication date within the November 9-15 research window, and secondary coverage indicates the fall findings were already public in October."
+        },
+        {
+          "source": "KPMG 2026 Global AI in Finance Report",
+          "reason": "The original report was published August 18, 2026, outside the current research window."
+        },
+        {
+          "source": "The Fintech Index, Corporate Treasury Cash Visibility and Liquidity Statistics: 2026 Report",
+          "reason": "The November 12 article combined findings from multiple earlier surveys and product reviews rather than reporting a newly fielded original finance study."
+        },
+        {
+          "source": "Room151 Treasury Investment & Current Affairs Survey 2026",
+          "reason": "The available release concerned local-government finance officers and did not publicly provide a sufficiently complete respondent count, field period and method for the Lab's corporate-finance scope."
+        },
+        {
+          "source": "Protiviti Europe 2026 Global Finance Trends regional paper",
+          "reason": "The regional paper repackaged the 2026 Global Finance Trends survey already represented in the Research Lab and did not establish a distinct newly fielded population."
+        },
+        {
+          "source": "CFO.com coverage of the Sikich survey",
+          "reason": "Excluded as secondary coverage because Sikich's original press release and full survey report were publicly accessible."
+        },
+        {
+          "source": "Salesforce sponsored CFO article published November 16",
+          "reason": "Published after the November 9-15 research window and based on the Salesforce CFO Priorities study already represented in the Research Lab."
+        }
+      ],
+      "resultingRecordCount": 163,
+      "note": "Added exact survey findings published November 9-11, 2026. The dataset preserves respondent populations, field periods or explicit public-source omissions, current-versus-historical-versus-forward-looking status, comparison periods, subgroup qualifiers and units; advice, implementation guidance, secondary compilations and uncertain publication dates were excluded."
     }
   ]
 }
