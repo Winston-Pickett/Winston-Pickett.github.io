@@ -1,0 +1,21 @@
+{
+  "publication": "U.S. Domestic Threat & Business Readiness Daily",
+  "section": "U.S. Domestic Readiness",
+  "author": "Winston Pickett (website branding only; report body per European anonymous model)",
+  "production_model": "european-readiness/WORKFLOW.md + european-readiness/FORMAT_STANDARD.md",
+  "operational_standard": "us-readiness/WORKFLOW.md + us-readiness/FORMAT_STANDARD.md",
+  "editions": [
+    {
+      "date": "2026-11-16",
+      "title": "U.S. Domestic Threat & Business Readiness Daily",
+      "page": "/us-readiness/2026-11-16/",
+      "pdf": "/us-readiness/editions/US_Domestic_Readiness_Daily_2026-11-16.pdf",
+      "pages": 7,
+      "bytes": 41118,
+      "research_cutoff": "2026-11-16 09:11 EST",
+      "status": "archived_prestandard",
+      "format_certified": false,
+      "note": "Initial U.S. launch issue, created before user-directed exact adoption of European Word-master design. Preserved as an archival baseline. Not certified as the approved European visual/template system. Future compliant replacement requires DOCX-first source and all visual/link/integrity checks."
+    }
+  ]
+}
