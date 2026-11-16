@@ -18,6 +18,13 @@ Always read both `european-readiness/WORKFLOW.md` and `european-readiness/FORMAT
 
 Word first, then export exactly that Word file to PDF. Do not generate an independent PDF or rasterize tables. Text must be selectable; URLs and precise references must be clickable in both Word and PDF.
 
+## 2A. Private U.S. master under review
+A U.S. visual derivative was created from the actual European Word master and a later European-style executive two-column table, preserving its named styles and stacked indicator cards. It is **under review** and is not a completed current newsletter or approved publication master.
+- Private U.S. Drive folder: `U.S. Domestic Readiness Daily`, ID `1UXag_bEwFBfWMJFJuA929EyekzX2BCx2`
+- Current review master: `US Domestic Readiness VISUAL MASTER v0.9 REVIEW.docx`, ID `1gfcQuJK7b9xoOVnwxEGvvLhNVgEenpki`
+- The review master has a separate title, adapted purpose, one dedicated Contents page, unnumbered U.S. Outlook, ten numbered headings, six-region two-column shell, and nine European-style stacked indicator shells. It contains placeholders and must not be published as an issue.
+- Before the first Word-first edition, fill the actual verified content, validate the 2-page executive limit and visual lock against the current approved Europe master, reconcile sources, register and layout, and pass all PDF/Word checks. No unreviewed template placeholder may ship.
+
 ## 3. Delivery/storage model
 GitHub repository: `Winston-Pickett/Winston-Pickett.github.io`, branch `main`.
 - Public PDF: `us-readiness/editions/US_Domestic_Readiness_Daily_YYYY-MM-DD.pdf`
