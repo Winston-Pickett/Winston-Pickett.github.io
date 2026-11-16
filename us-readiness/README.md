@@ -1,3 +1,5 @@
+> **Controlling production standards:** [WORKFLOW.md](WORKFLOW.md) and [FORMAT_STANDARD.md](FORMAT_STANDARD.md) inherit the established European Readiness Word-first model, with domestic-only coverage changes. The November 16 launch PDF is an archived prestandard issue, not yet a template-certified full European-model edition.
+
 # U.S. Domestic Threat & Business Readiness Daily
 
 This folder is the dedicated public GitHub Pages archive for the newsletter. It is independent from the European Readiness Daily section.
@@ -8,6 +10,8 @@ This folder is the dedicated public GitHub Pages archive for the newsletter. It 
 - Source-linked incident register: https://winston-pickett.github.io/us-readiness/data/incidents-2026-11-16.json
 
 ## Directory conventions
+- `WORKFLOW.md` and `FORMAT_STANDARD.md`: authoritative U.S. adaptations of approved European workflow and formatting.
+- `editions.json`: canonical manifest kept in sync with the Latest card, dated pages and archive.
 - `index.html`: archive landing page and current-edition entry.
 - `YYYY-MM-DD/index.html`: canonical dated public web edition, one per issue date.
 - `data/incidents-YYYY-MM-DD.json`: public incident records with stable IDs, date, classification and source URLs.
@@ -28,10 +32,10 @@ This folder is the dedicated public GitHub Pages archive for the newsletter. It 
 ## Release checklist
 - Verify source URLs, the latest facts, and all changes since the prior edition.
 - Check counts/unique IDs and exclusions for planned activities and contextual watch.
-- Produce accessible HTML with the source register and methodology.
+- Produce the final DOCX from the approved Word master, then export and verify the linked PDF. The web edition is a dated PDF viewer and metadata page; an expanded HTML analysis is optional.
 - Check the landing page latest link, archive chronology, and research-cutoff metadata.
 - Review the GitHub Pages deploy status for the commit.
-- Add hosted PDFs and social images only after a verifiable binary upload is completed.
+- Verify hosted PDF bytes, document pages and clickable source hyperlinks. Social distribution follows the European short blurb plus the dated edition URL, not a separate LinkedIn replacement article.
 
 ## November 16, 2026 layout parity
 The landing and dated edition pages mirror European Readiness: landscape banner, latest issue card, dated archive, PDF download, embedded PDF viewer, source and cutoff disclosures. The original source-linked web article is retained at `2026-11-16/analysis/` for readers preferring HTML. The European Readiness section was not modified.
