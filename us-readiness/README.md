@@ -11,9 +11,9 @@ This folder is the dedicated public GitHub Pages archive for the newsletter. It 
 - `index.html`: archive landing page and current-edition entry.
 - `YYYY-MM-DD/index.html`: canonical dated public web edition, one per issue date.
 - `data/incidents-YYYY-MM-DD.json`: public incident records with stable IDs, date, classification and source URLs.
-- `assets/us-readiness.css`: site-wide styling and print layout.
+- `assets/readiness.css`: European-parity editorial layout, scoped to U.S. Readiness. The legacy `assets/us-readiness.css` supports the retained long-form analysis page.
 - `assets/us-readiness-banner.svg`: lightweight, accessible editorial banner for the site.
-- Future PDFs, once binary-uploaded, should use `editions/US_Domestic_Readiness_Daily_YYYY-MM-DD.pdf`. **PDF copies are not yet hosted in this repository.** Do not add links before verifying files exist.
+- Dated PDFs are stored under `editions/US_Domestic_Readiness_Daily_YYYY-MM-DD.pdf`; the November 16, 2026 PDF has been uploaded and has selectable text and clickable source hyperlinks. Check the existence and link annotations of every future PDF before publishing a download link.
 
 ## Editorial controls
 1. Cite primary investigators/operators when available; corroborate with reputable reporting.
@@ -32,3 +32,6 @@ This folder is the dedicated public GitHub Pages archive for the newsletter. It 
 - Check the landing page latest link, archive chronology, and research-cutoff metadata.
 - Review the GitHub Pages deploy status for the commit.
 - Add hosted PDFs and social images only after a verifiable binary upload is completed.
+
+## November 16, 2026 layout parity
+The landing and dated edition pages mirror European Readiness: landscape banner, latest issue card, dated archive, PDF download, embedded PDF viewer, source and cutoff disclosures. The original source-linked web article is retained at `2026-11-16/analysis/` for readers preferring HTML. The European Readiness section was not modified.
