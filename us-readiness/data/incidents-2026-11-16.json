@@ -1,0 +1,281 @@
+{
+  "title": "U.S. Domestic Threat & Business Readiness Daily",
+  "date": "2026-11-16",
+  "research_cutoff": "2026-11-16 09:11 EST",
+  "scope": "selective public-source register, not exhaustive national census",
+  "carry_in_ids": [
+    "US26-0001"
+  ],
+  "records": [
+    {
+      "id": "US26-0001",
+      "date": "2026-09-15",
+      "region": "National",
+      "classification": "D1",
+      "event": "Sharetec credit-union platform outage; cooling equipment failure; continuing impact",
+      "source": "https://www.auburnfcu.com/update-on-banking-system-outage/",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0002",
+      "date": "2026-09-17",
+      "region": "Midwest",
+      "classification": "H1",
+      "event": "Ellis County, Kansas ransomware and county IT shutdown",
+      "source": "https://hayspost.com/posts/e81e8354-23bb-4821-8b53-e22aa23d0c6a",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0003",
+      "date": "2026-09-17",
+      "region": "West",
+      "classification": "H2",
+      "event": "Eagle Mountain, Utah telecom interruptions; DDoS suspected",
+      "source": "https://www.aol.com/articles/ongoing-eagle-mountain-internet-outages-225714000.html",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0004",
+      "date": "2026-09-21",
+      "region": "Northeast",
+      "classification": "D1",
+      "event": "Philadelphia aviation communications and backup-fiber interruption",
+      "source": "https://abcnews.com/amp/US/northeast-airspace-closing-30-minutes-due-equipment-outage/story?id=136626017",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0005",
+      "date": "2026-09-26",
+      "region": "Northeast",
+      "classification": "D1",
+      "event": "Northeastern storm, power outages and air travel disruption",
+      "source": "https://www.investing.com/news/commodities-news/noreaster-leaves-over-100000-customers-without-power-in-us-northeast-over-400-flights-canceled-4918608",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0006",
+      "date": "2026-09-30",
+      "region": "National",
+      "classification": "D1",
+      "event": "Azure gateway and control-plane service disruption",
+      "source": "https://azure.status.microsoft/status/history/?eventId=11223",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0007",
+      "date": "2026-09-30",
+      "region": "South/Central",
+      "classification": "D1",
+      "event": "BNSF El Paso rail washouts from flash flooding",
+      "source": "https://fuelfinder.bnsf.com/news-media/customer-notifications/notification.page?notId=agriculture-and-energy-network-update-for-friday-october-9-2026",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0008",
+      "date": "2026-10-01",
+      "region": "Midwest",
+      "classification": "D2",
+      "event": "Des Moines-area BNSF derailment; cause pending",
+      "source": "https://bnsf.com/news-media/customer-notifications/notification.page?notId=final-report-train-derailment-near-des-moines-ia-chicago-division",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0009",
+      "date": "2026-10-01",
+      "region": "Southeast",
+      "classification": "D1",
+      "event": "Alabama train and truck crossing collision and derailment",
+      "source": "https://www.wvtm13.com/article/springville-train-derailment-evacuation/73983845",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0010",
+      "date": "2026-10-01",
+      "region": "Southeast",
+      "classification": "H1",
+      "event": "Vicksburg ransomware affecting government IT and utility payments",
+      "source": "https://therecord.media/vicksburg-mississippi-government-ransomware-attack",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0024",
+      "date": "2026-10-01",
+      "region": "Midwest",
+      "classification": "H2",
+      "event": "Michigan State University suspicious cyber activity; precise onset provisional",
+      "source": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0011",
+      "date": "2026-10-05",
+      "region": "Midwest",
+      "classification": "H1",
+      "event": "UIC College of Medicine ransomware and systems interruption",
+      "source": "https://therecord.media/ransomware-university-illinois-chicago",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0012",
+      "date": "2026-10-09",
+      "region": "Southeast",
+      "classification": "D1",
+      "event": "Hurricane Isaias infrastructure and transportation disruption",
+      "source": "https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.014.shtml",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0013",
+      "date": "2026-10-09",
+      "region": "National",
+      "classification": "D1",
+      "event": "Marqeta payment processing and tokenization disruption",
+      "source": "https://pingoru.io/providers/marqeta/incidents/12268444",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0016",
+      "date": "2026-10-17",
+      "region": "Midwest",
+      "classification": "H1",
+      "event": "Nebraska community medical center cyberattack and patient diversion",
+      "source": "https://mscnews.net/local-news/936628",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0015",
+      "date": "2026-10-18",
+      "region": "National",
+      "classification": "H1",
+      "event": "Loxone internal CRM and enterprise-system attack",
+      "source": "https://security.loxone.com/enus/",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0017",
+      "date": "2026-10-19",
+      "region": "National",
+      "classification": "H1",
+      "event": "TAKKT North America cyberattack affecting order processing",
+      "source": "https://www.eqs-news.com/news/inside-information-ad-hoc-release/takkt-ag-cyber-attack-at-takkt-ag/2a4bffb4-673d-4fd8-8042-6de7f5ef7a42_en",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0018",
+      "date": "2026-10-20",
+      "region": "Midwest",
+      "classification": "D1",
+      "event": "Toledo MC Tank chemical release; improper temperature cited preliminarily",
+      "source": "https://response.epa.gov/site/site_profile.aspx?site_id=17475",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0019",
+      "date": "2026-10-20",
+      "region": "Southeast",
+      "classification": "H1",
+      "event": "Columbia, South Carolina municipal ransomware disruption",
+      "source": "https://columbiasc.gov/city-of-columbia-provides-update-on-cybersecurity-incident/",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0020",
+      "date": "2026-10-21",
+      "region": "West",
+      "classification": "D2",
+      "event": "Oakland 911 telecom cable cuts; motive unresolved",
+      "source": "https://oakland.legistar.com/",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0021",
+      "date": "2026-10-23",
+      "region": "Northeast",
+      "classification": "D2",
+      "event": "Altoona-area rail derailment; initiating cause unresolved",
+      "source": "https://johnjoyce.house.gov/media/press-releases/dr-joyce-sends-letters-requesting-answers-following-multiple-train-derailments",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0022",
+      "date": "2026-10-24",
+      "region": "South/Central",
+      "classification": "D1",
+      "event": "Four Corners flooding, road and rail disruption",
+      "source": "https://www.bnsf.com/news-media/customer-notifications/notification.page?notId=flooding-impacting-southwest-operations-gallup-and-el-paso-subdivisions-out-of-service",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0023",
+      "date": "2026-10-26",
+      "region": "South/Central",
+      "classification": "H2",
+      "event": "UNM Health cybersecurity event and ambulance diversion; mechanism unconfirmed",
+      "source": "https://hscnews.unm.edu/news/ambulance-traffic-diverted-clinical-appointments-cancelled-and-classes-cancelled-due-to-cybersecurity-issue-at-unm-hsc",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0025",
+      "date": "2026-11-04",
+      "region": "West",
+      "classification": "D2",
+      "event": "BNSF Fallbridge derailment near Plymouth, Washington",
+      "source": "https://intermodal.bnsf.com/news-media/customer-notifications/notification.page?notId=initial-report-train-derailment-near-plymouth-wa-northwest-division-fallbridge-subdivision",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0026",
+      "date": "2026-11-12",
+      "region": "Northeast",
+      "classification": "D2",
+      "event": "Tacony-Palmyra Bridge vessel strike; investigation ongoing",
+      "source": "https://gcaptain.com/singapore-flagged-bulk-carrier-strikes-delaware-river-bridge-coast-guard-investigating/",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0027",
+      "date": "2026-11-12",
+      "region": "National",
+      "classification": "D1",
+      "event": "Microsoft 365 enterprise-service interruption; recovery reported",
+      "source": "https://apnews.com/article/ca395c0f1e51af784b6d70afb6554f6a",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0028",
+      "date": "2026-11-13",
+      "region": "National",
+      "classification": "D1",
+      "event": "FAA nationwide ground stop; preliminary telecommunications equipment overload",
+      "source": "https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0029",
+      "date": "2026-11-13",
+      "region": "Midwest",
+      "classification": "H1",
+      "event": "Peoria BioUrja explosive-device investigation; perpetrator and motive unknown",
+      "source": "https://www.wcbu.org/local-news/2026-11-15/fbi-now-leading-biourja-investigation-after-confirming-explosive-device-was-found",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0030",
+      "date": "2026-11-13",
+      "region": "South/Central",
+      "classification": "D2",
+      "event": "New Orleans tanker collision; steering problem under investigation",
+      "source": "https://apnews.com/article/new-orleans-cruise-ship-tanker-crash-91f78337d4c4617beb6c207c45e7233a",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    },
+    {
+      "id": "US26-0031",
+      "date": "2026-11-16",
+      "region": "Northeast",
+      "classification": "D1",
+      "event": "Albany-area National Grid substation electrical outage",
+      "source": "https://www.timesunion.com/news/article/7-000-lose-power-albany-bethlehem-power-22532858.php",
+      "status": "Source-reviewed selective register, as of 2026-11-16"
+    }
+  ]
+}
