@@ -15,9 +15,22 @@
       "research_cutoff": "2026-11-17 08:24 EST",
       "status": "final",
       "format_certified": true,
-      "note": "Word-first November 17 edition, 10 numbered sections, two-page regional outlook, nine evidence indicator cards; 35 stable incident records with 5 additions (2 Nov16 new events, 3 older event disclosures/backfills); three provisional carry-ins with incomplete overlap proof. Selective, nonexhaustive 60-day research. No verified foreign-state campaign.",
+      "note": "MASTER READING EDITION: 28 pages, 36 selected incidents (adds US26-0037 NSA Net D2); Coeur d'Alene explosive claim corrected to commercial firework; Washington dirty-bomb/chemical contingency disputed, threat watch only. Complete master text published as GitHub HTML. Original 27-page source-linked PDF preserved unchanged and should not be labeled current master.",
       "sha256": "1884ea5052e48bb37d07d1f80fc3fb98406247971e11758f83aa8999b8312a6f",
-      "revision": "Original"
+      "revision": "Master reading edition published; PDF retained as original morning release",
+      "web_master": "/us-readiness/2026-11-17/master/",
+      "web_master_source_pages": 28,
+      "web_master_register_count": 36,
+      "web_master_classification_totals": {
+        "H1": 8,
+        "H2": 5,
+        "D1": 15,
+        "D2": 8
+      },
+      "web_master_research_cutoff": "2026-11-17 13:04 EST (three-topic supplement only)",
+      "web_master_status": "published",
+      "pdf_is_current_master": false,
+      "pdf_note": "This link retains the original 27-page 08:24 EST edition (35 cases), not the 28-page master supplement."
     },
     {
       "date": "2026-11-16",
