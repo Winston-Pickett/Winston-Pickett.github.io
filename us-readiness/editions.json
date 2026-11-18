@@ -6,6 +6,20 @@
   "operational_standard": "us-readiness/WORKFLOW.md + us-readiness/FORMAT_STANDARD.md",
   "editions": [
     {
+      "date": "2026-11-18",
+      "title": "U.S. Domestic Threat & Business Readiness Daily",
+      "page": "/us-readiness/2026-11-18/",
+      "pdf": "/us-readiness/editions/US_Domestic_Readiness_Daily_2026-11-18.pdf",
+      "pages": 28,
+      "bytes": 348710,
+      "research_cutoff": "2026-11-18 08:17 EST",
+      "status": "final",
+      "format_certified": true,
+      "note": "Single 28-page Word-derived master, integrated executive summary, 38 selected incidents H1 8 H2 5 D1 17 D2 8. Adds Apple US26-0038 and Port St. Lucie US26-0039; NSA retained US26-0037; Idaho corrected to commercial firework, DC disputed allegation watch only. Selective 60-day window with 3 provisional carry-ins. 126 PDF hyperlink annotations.",
+      "sha256": "9d7456b169fb7f783149c8259998f30256b50e5ca6a626c58438c19bb9a56dfe",
+      "revision": "Master"
+    },
+    {
       "date": "2026-11-17",
       "title": "U.S. Domestic Threat & Business Readiness Daily",
       "page": "/us-readiness/2026-11-17/",
