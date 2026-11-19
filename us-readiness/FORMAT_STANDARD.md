@@ -13,6 +13,9 @@
 - One dedicated contents page followed by a hard page break, with ten numbered contents entries plus one unnumbered U.S. Business Risk Outlook entry.
 - Anonymous Word/PDF report metadata and body; website and social post branding may retain the author's name.
 
+### Canonical edition URL immediately beneath version date
+Approved November 19, 2026 for all subsequent U.S. master editions: on the opening page, insert an actual clickable hyperlink reading `GitHub edition: https://winston-pickett.github.io/us-readiness/YYYY-MM-DD/` on the line directly below the version/edition date. Match existing font family, text treatment, spacing and alignment; do not move or restyle other opening-page elements. The URL must match the dated published edition in `editions.json`, and must remain clickable in the final Word and Word-exported PDF. If not published yet, identify it as a planned URL, not a live publication. This is part of the single Full Master Edition with the executive summary integrated, not a separate executive document.
+
 ## 2. Unnumbered front end
 Maximum two pages, after Contents and before Section 1: `U.S. Business Risk Outlook`, subtitle `Region-by-Region Intelligence for Business Leaders`. Same European executive card system and proportions, with 150-200 word substantive bottom line, meaningful regional exposures, previous-day delta, specific CFO/COO/CISO/CHRO actions and source links. Every material region card states documented concern, affected industry/dependency, conditional operations/financial consequences, owner, observable trigger, date/source and uncertainty. No generic one-line regional risk labels.
 
