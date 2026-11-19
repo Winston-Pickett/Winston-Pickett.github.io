@@ -35,6 +35,9 @@ GitHub repository: `Winston-Pickett/Winston-Pickett.github.io`, branch `main`.
 - Private full Word DOCX: dedicated private U.S. Readiness Drive folder; do not publish Word publicly.
 Do not alter Europe archives, PDFs, workflow or master. No automatic email or LinkedIn posting without explicit authorization and a supported publishing action.
 
+### Permanent opening-page GitHub link placement (approved November 19, 2026)
+Every subsequent U.S. Domestic Readiness Full Master Edition must display the **clickable canonical dated GitHub edition URL immediately below the version/edition date on the opening page**, before the purpose/disclaimer or research metadata. Format it as `GitHub edition: https://winston-pickett.github.io/us-readiness/YYYY-MM-DD/`, replacing the date with the issue date. Keep this exact placement consistent in the Word master and its Word-exported PDF; verify the hyperlink is functional and its date matches the dated GitHub page and `editions.json`. This is a narrow user-approved variable front-matter insertion, not permission to change the locked visual design. **One master with integrated executive summary; no separate executive distribution document.** For a private review prepared before public release, label the URL `Planned GitHub edition (not yet published)` until release is actually confirmed. Do not claim publication from the presence of the URL alone.
+
 ## 4. Front matter
 Maintain European-approved cover/statement, research window and institutional source disclosure, dedicated standalone contents page and unnumbered maximum two-page **U.S. Business Risk Outlook** before numbered Section 1. Its subtitle is **Region-by-Region Intelligence for Business Leaders**. Include:
 1. 150-200-word **What Business Leaders Need to Know**;
