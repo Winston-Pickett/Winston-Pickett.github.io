@@ -6,6 +6,20 @@
   "operational_standard": "us-readiness/WORKFLOW.md + us-readiness/FORMAT_STANDARD.md",
   "editions": [
     {
+      "date": "2026-11-19",
+      "title": "U.S. Domestic Threat & Business Readiness Daily",
+      "page": "/us-readiness/2026-11-19/",
+      "pdf": "/us-readiness/editions/US_Domestic_Readiness_Daily_2026-11-19.pdf",
+      "pages": 29,
+      "bytes": 422778,
+      "research_cutoff": "2026-11-19 08:42 EST",
+      "status": "final",
+      "format_certified": true,
+      "note": "Single Word-derived 29-page master with integrated executive summary; 43 selective incident records (H1 8, H2 5, D1 21, D2 9); adds US26-0040 through US26-0044. 60-day rolling period Sep21-Nov19, with three provisional earlier carry-ins. 154 source-link annotations. Public-release labeling correction only; source cutoff unchanged.",
+      "sha256": "721400bbf9256b6278609b66bb2da76d6efa505438f58a91f8414dfd6745826c",
+      "revision": "Master"
+    },
+    {
       "date": "2026-11-18",
       "title": "U.S. Domestic Threat & Business Readiness Daily",
       "page": "/us-readiness/2026-11-18/",
