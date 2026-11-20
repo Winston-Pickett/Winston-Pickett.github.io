@@ -6,6 +6,20 @@
   "operational_standard": "us-readiness/WORKFLOW.md + us-readiness/FORMAT_STANDARD.md",
   "editions": [
     {
+      "date": "2026-11-20",
+      "title": "U.S. Domestic Threat & Business Readiness Daily",
+      "page": "/us-readiness/2026-11-20/",
+      "pdf": "/us-readiness/editions/US_Domestic_Readiness_Daily_2026-11-20.pdf",
+      "status": "final",
+      "revision": "Master",
+      "format_certified": true,
+      "pages": 30,
+      "bytes": 396449,
+      "research_cutoff": "2026-11-20 08:15 EST",
+      "sha256": "da6df4a2dbebad6a7928f95162b1a12b1639c84a1ed912cdb759c1eabf702391",
+      "note": "Single 30-page Word-derived full master with integrated executive summary and clickable canonical URL under issue date; 46 selective incident records H1 9 H2 6 D1 22 D2 9, including 41 in-window dated onsets, 2 undated-onset disclosures and 3 earlier provisional carry-ins. Four new IDs US26-0045-0048, one Sep21 age-off, 142 clickable PDF links. Vendor cyber exposure distinguished from banking outages and foreign warfare. Coverage is selective, not complete."
+    },
+    {
       "date": "2026-11-19",
       "title": "U.S. Domestic Threat & Business Readiness Daily",
       "page": "/us-readiness/2026-11-19/",
