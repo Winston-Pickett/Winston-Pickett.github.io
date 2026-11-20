@@ -1,0 +1,28 @@
+{
+  "version": "2026-11-19",
+  "navigation": [
+    {"label": "Experience", "href": "/experience"},
+    {"label": "Insights", "href": "/insights"},
+    {"label": "About", "href": "/#about"},
+    {"label": "Research Lab", "href": "/research-lab/"},
+    {"label": "European Readiness", "href": "/european-readiness/"},
+    {"label": "U.S. Readiness", "href": "/us-readiness/"}
+  ],
+  "contactRequired": true,
+  "wordmarkHomeRequired": true,
+  "desktop": {
+    "headerHeight": "76px",
+    "homepageHeroMinimumHeight": "540px"
+  },
+  "protectedPages": [
+    "index.html",
+    "experience/index.html",
+    "insights/index.html",
+    "insights/fpa-best-practices/index.html",
+    "insights/scenario-planning-as-a-leadership-tool/index.html",
+    "research-lab/index.html",
+    "european-readiness/index.html",
+    "us-readiness/index.html",
+    "privacy/index.html"
+  ]
+}
