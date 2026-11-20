@@ -42,3 +42,13 @@ Release: commit final PDF, dated page, `editions.json`, Latest Edition and Archi
 
 ## 8. LinkedIn distribution
 Mirror European practice: a concise, factual blurb + canonical dated edition link, not a separately authored LinkedIn article replacing the newsletter and not an infographic carousel. Preserve the same approved banner approach, at most one suitable 16:9 cover visual. Let readers access the complete clickable-source PDF in the GitHub dated edition.
+
+## Incident heading taxonomy (approved November 20, 2026)
+
+For every incident card in **Section 4 (Verified Developments and Evidence Register)** and **Section 6 (Rolling 60-Day Location/Event Register)**, prefix the existing Heading 2 with one **primary risk type**, followed by ` | `, leaving the rest of the heading intact, including the stable incident ID, original date/disclosure qualifiers, place/operator description, and H1/H2/D1/D2 where present. Existing location-group ordering and all named styles remain unchanged. The risk type does not replace causal class, severity, attribution, sector cross-dependencies, or permanent ID.
+
+Example: `Telecom and Data | US26-0052 | 2026-11-19 01:01 EST | Harrison/Marion/Monongalia Counties, West Virginia | D2`.
+
+Controlled primary risk types: `Physical Sabotage and Security`; `Essential Services` (electricity, water, wastewater, utilities, major environmental essential-service impacts); `Cyber and Critical Infrastructure` (confirmed/suspected cyber incident, supplier cyberattacks); `Operational Technology / ICS` (actual control-system incidents only); `Transportation and Logistics` (aviation, rail, roads, ports, freight); `Telecom and Data` (telecommunications, 911, cloud/SaaS/communications, data-network services); `Banking and Payments` (banks, payment processors, card/settlement systems); `Healthcare` (clinical system outages and diversion); `Industrial and Manufacturing` (plant, chemical, production incidents).
+
+Choose exactly one primary type based on the principal affected business dependency, not suspected state attribution. Describe secondary affected sectors in the incident body. Foreign-actor attribution and government protective posture remain separate standing dashboard indicators, never headline risk types. Do not use an invented national threat score. Before release, verify every Heading 2 for an incident has an approved prefix, the underlying ID is unchanged, the register count is stable, and Word/PDF pagination and clickable links remain valid. Apply prospectively to all future U.S. editions only. The European Readiness standard is unaffected.
