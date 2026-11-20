@@ -115,3 +115,7 @@
 .er-us-source a{border-bottom:1px solid #b58a36}
 @media(max-width:940px){.er-us-legend{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.er-us-legend{grid-template-columns:1fr}}
+
+/* Accessibility correction: dark copy on light H1/H2/D1/D2 classification cards. */
+.er-approach .er-us-legend article p{color:#24394d!important;font-size:14px;line-height:1.6}
+.er-approach .er-us-legend article h3{color:#10273b}
