@@ -4,6 +4,25 @@
   "author": "Winston Pickett",
   "editions": [
     {
+      "date": "2026-11-20",
+      "title": "Europe Readiness Daily",
+      "page": "/european-readiness/2026-11-20/",
+      "pdf": "/european-readiness/editions/Europe_Readiness_Daily_2026-11-20.pdf",
+      "pages": 92,
+      "bytes": 1433856,
+      "status": "final",
+      "edition_type": "intraday_catch_up_after_scheduled_failure",
+      "pdf_transport": "direct_GitHub_Pages",
+      "sha256": "6b0837ad799758e06bc92e489149766a9afd373ef2344a0f9efadd632d0d29b3",
+      "research_cutoff": "2026-11-20 14:30 EST",
+      "rolling_register_records": 362,
+      "date_limited_disclosures": 22,
+      "pdf_links": 647,
+      "source": "Complete Europe Readiness Daily 2026-11-20 Word-first intraday catch-up; source links, pages, register and template visually checked",
+      "pdf_commit": "f751c0f5426577884a1e4608f1fb74954bf96470",
+      "pdf_sha256_validated": true
+    },
+    {
       "date": "2026-11-19",
       "title": "Europe Readiness Daily",
       "page": "/european-readiness/2026-11-19/",
