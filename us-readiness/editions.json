@@ -6,6 +6,20 @@
   "operational_standard": "us-readiness/WORKFLOW.md + us-readiness/FORMAT_STANDARD.md",
   "editions": [
     {
+      "date": "2026-11-21",
+      "title": "U.S. Domestic Threat & Business Readiness Daily",
+      "page": "/us-readiness/2026-11-21/",
+      "pdf": "/us-readiness/editions/US_Domestic_Readiness_Daily_2026-11-21.pdf",
+      "status": "final",
+      "revision": "Master",
+      "format_certified": true,
+      "pages": 37,
+      "bytes": 475117,
+      "research_cutoff": "2026-11-21 08:49 EST",
+      "sha256": "a85715cdeae8de40707e8f9a9c20b4c9ddc0662c86257ecd6eb1a359aa248d79",
+      "note": "New full Word-first 37-page issue with 144 PDF links, 52 active/provisional 60-day records (H1 8 H2 5 D1 24 D2 15), three older Sept15/17 carry-ins preserved in separate historical appendix; adds four Bandwidth telecom incidents US26-0054 through US26-0057 by historic event date; Spartanburg Water continuing boil advisory, RedSky WV resolved and Cincinnati closure unverified; DOE Nov20 PJM protective order is watch-only, not an outage. Selective source review through 08:49 EST; preserve prior editions and risk-type-first incident headings."
+    },
+    {
       "date": "2026-11-20",
       "title": "U.S. Domestic Threat & Business Readiness Daily",
       "page": "/us-readiness/2026-11-20/",
