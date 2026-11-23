@@ -732,6 +732,69 @@
       ],
       "resultingRecordCount": 163,
       "note": "Added exact survey findings published November 9-11, 2026. The dataset preserves respondent populations, field periods or explicit public-source omissions, current-versus-historical-versus-forward-looking status, comparison periods, subgroup qualifiers and units; advice, implementation guidance, secondary compilations and uncertain publication dates were excluded."
+    },
+    {
+      "date": "2026-11-23",
+      "action": "weekly-research-update",
+      "recordsAdded": 11,
+      "recordsUpdated": 0,
+      "recordsArchived": 0,
+      "recordIdsAdded": [
+        "P-20",
+        "D-20",
+        "D-21",
+        "D-22",
+        "D-23",
+        "A-48",
+        "O-27",
+        "O-28",
+        "C-13",
+        "C-14",
+        "C-15"
+      ],
+      "categoriesAffected": [
+        "Planning & forecasting",
+        "Data & systems",
+        "AI in finance",
+        "Operating model",
+        "Cash & working capital"
+      ],
+      "sourcesUsed": [
+        "PwC, PwC's PE-Backed CFO Survey 2026: The new agenda for CFOs of PE-backed portfolio companies",
+        "Priority Commerce, Finance Operations & Money Movement Study: Why Cash Visibility Still Takes So Much Work"
+      ],
+      "candidatesRejected": [
+        {
+          "source": "Deloitte European CFO Survey, Autumn 2026",
+          "reason": "The original page provides methodology and exact metrics but does not display a publication date, so release within the November 16-22 research window could not be verified."
+        },
+        {
+          "source": "ETR Digital and treasuryXL, Working Capital Reality Check 2026",
+          "reason": "The original report URL could not be opened at validation time, and the public release did not state the respondent count; the candidate therefore failed both source-access and sample-coverage checks."
+        },
+        {
+          "source": "Federal Reserve Board, September 2026 Senior Financial Officer Survey",
+          "reason": "The study concerns banks' reserve-balance and money-market management rather than corporate finance-function, treasury or transformation benchmarks."
+        },
+        {
+          "source": "EY 2026 Global Private Markets Survey",
+          "reason": "The respondent population comprises institutional investors and private-markets fund managers, outside the Lab's finance-function scope."
+        },
+        {
+          "source": "Salesforce sponsored CFO article published November 16",
+          "reason": "It republishes the Salesforce CFO Priorities study already represented in records D-14, A-28, O-16 and R-25."
+        },
+        {
+          "source": "Association of Corporate Treasurers, Key Technical Issues for Treasurers (November 20)",
+          "reason": "The briefing reports advisory-panel observations without a respondent count, benchmark population or exact quantitative survey result."
+        },
+        {
+          "source": "Secondary coverage of the PwC and Priority Commerce studies",
+          "reason": "Excluded because both original publisher sources were publicly accessible."
+        }
+      ],
+      "resultingRecordCount": 174,
+      "note": "Added exact findings published November 16 and 18, 2026. Records preserve field periods, respondent populations, index-quartile definitions, reported-versus-current status, unweighted-result status, subgroup-count omissions and metric qualifiers; recommendations, implementation guidance, secondary coverage, duplicate evidence and uncertain or inaccessible sources were excluded."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-11-16",
+  "lastUpdated": "2026-11-23",
   "themes": [
     {
       "id": "planning",
@@ -3612,6 +3612,248 @@
       },
       "addedOn": "2026-11-16",
       "updatedOn": "2026-11-16",
+      "status": "active"
+    },
+    {
+      "id": "P-20",
+      "theme": "planning",
+      "themeLabel": "Planning & forecasting",
+      "metric": "27% vs. 8%; 55% vs. 5%",
+      "title": "Value-creation tracking and scenario-planning maturity",
+      "finding": "Among finance functions in the leading quartile of PwC's Finance Maturity Index, 27% ran fully integrated value-creation plan tracking, compared with 8% of lagging functions. Fifty-five percent of leaders had embedded scenario planning into ongoing management decisions or linked it to operating KPIs, compared with 5% of laggards.",
+      "coverage": "233 CFOs at private equity-backed portfolio companies across 15 countries; PwC also conducted six executive interviews in Australia, the Netherlands and the United States; the Finance Maturity Index defines leading functions as the top quartile and lagging functions as the bottom quartile, and the public source does not state subgroup counts",
+      "period": "June-August 2026",
+      "published": "November 16, 2026",
+      "type": "Current Finance Maturity Index quartile comparison",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "PwC",
+        "title": "PwC's PE-Backed CFO Survey 2026: The new agenda for CFOs of PE-backed portfolio companies",
+        "url": "https://www.pwc.com/gx/en/1/industries/private-equity/portfolio-company-cfo-survey.html",
+        "accessedOn": "2026-11-23"
+      },
+      "addedOn": "2026-11-23",
+      "updatedOn": "2026-11-23",
+      "status": "active"
+    },
+    {
+      "id": "D-20",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "51% vs. 20%",
+      "title": "Data-quality and consistency gaps relative to sponsor expectations",
+      "finding": "Fifty-one percent of lagging finance functions cited data quality and consistency among their biggest gaps relative to sponsor expectations, compared with 20% of leading functions.",
+      "coverage": "233 CFOs at private equity-backed portfolio companies across 15 countries; PwC also conducted six executive interviews in Australia, the Netherlands and the United States; the Finance Maturity Index defines leading functions as the top quartile and lagging functions as the bottom quartile, and the public source does not state subgroup counts",
+      "period": "June-August 2026",
+      "published": "November 16, 2026",
+      "type": "Current Finance Maturity Index quartile comparison",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "PwC",
+        "title": "PwC's PE-Backed CFO Survey 2026: The new agenda for CFOs of PE-backed portfolio companies",
+        "url": "https://www.pwc.com/gx/en/1/industries/private-equity/portfolio-company-cfo-survey.html",
+        "accessedOn": "2026-11-23"
+      },
+      "addedOn": "2026-11-23",
+      "updatedOn": "2026-11-23",
+      "status": "active"
+    },
+    {
+      "id": "D-21",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "50%; 48% / 22%",
+      "title": "Reporting environments in leading and lagging finance functions",
+      "finding": "Half of leading finance functions worked from a common source of truth with near-real-time reporting. Among lagging functions, 48% relied on largely manual reporting and a further 22% operated in fragmented environments requiring significant reconciliation.",
+      "coverage": "233 CFOs at private equity-backed portfolio companies across 15 countries; PwC also conducted six executive interviews in Australia, the Netherlands and the United States; the Finance Maturity Index defines leading functions as the top quartile and lagging functions as the bottom quartile, and the public source does not state subgroup counts",
+      "period": "June-August 2026",
+      "published": "November 16, 2026",
+      "type": "Current Finance Maturity Index quartile comparison",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "PwC",
+        "title": "PwC's PE-Backed CFO Survey 2026: The new agenda for CFOs of PE-backed portfolio companies",
+        "url": "https://www.pwc.com/gx/en/1/industries/private-equity/portfolio-company-cfo-survey.html",
+        "accessedOn": "2026-11-23"
+      },
+      "addedOn": "2026-11-23",
+      "updatedOn": "2026-11-23",
+      "status": "active"
+    },
+    {
+      "id": "D-22",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "61% / 9% / 6%",
+      "title": "Reported outcomes from finance-technology initiatives",
+      "finding": "Sixty-one percent of CFOs said their technology initiatives had reduced manual effort or cost, while 9% reported better cash-forecast accuracy and 6% reported improved visibility into working capital and liquidity.",
+      "coverage": "233 CFOs at private equity-backed portfolio companies across 15 countries; PwC also conducted six executive interviews in Australia, the Netherlands and the United States; the Finance Maturity Index defines leading functions as the top quartile and lagging functions as the bottom quartile, and the public source does not state subgroup counts",
+      "period": "June-August 2026",
+      "published": "November 16, 2026",
+      "type": "Current reported technology outcome",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "PwC",
+        "title": "PwC's PE-Backed CFO Survey 2026: The new agenda for CFOs of PE-backed portfolio companies",
+        "url": "https://www.pwc.com/gx/en/1/industries/private-equity/portfolio-company-cfo-survey.html",
+        "accessedOn": "2026-11-23"
+      },
+      "addedOn": "2026-11-23",
+      "updatedOn": "2026-11-23",
+      "status": "active"
+    },
+    {
+      "id": "D-23",
+      "theme": "data",
+      "themeLabel": "Data & systems",
+      "metric": "70% / 26%",
+      "title": "Finance-tool use and system interoperability",
+      "finding": "Seventy percent of respondents used four or more tools or providers in a typical month, while 26% said their systems worked together seamlessly.",
+      "coverage": "155 senior finance decision-makers, including CFOs, finance heads, treasury leaders, controllers and heads of finance operations, at companies with US$20 million to more than US$1 billion in annual revenue; all respondents participated in selecting payments, banking or accounts-payable providers; GatherHQ conducted the study for Priority Commerce; results were unweighted and the public source does not state geography",
+      "period": "September 29-October 8, 2026",
+      "published": "November 18, 2026",
+      "type": "Current unweighted survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Priority Commerce",
+        "title": "Finance Operations & Money Movement Study: Why Cash Visibility Still Takes So Much Work",
+        "url": "https://prioritycommerce.com/resource-center/why-cash-visibility-still-takes-so-much-work/",
+        "accessedOn": "2026-11-23"
+      },
+      "addedOn": "2026-11-23",
+      "updatedOn": "2026-11-23",
+      "status": "active"
+    },
+    {
+      "id": "A-48",
+      "theme": "ai",
+      "themeLabel": "AI in finance",
+      "metric": "90% / 5%",
+      "title": "AI experimentation and embedding in core finance workflows",
+      "finding": "Nine in ten CFOs were at the stage of isolated experimentation or functional pilots, while 5% said AI was embedded in core finance workflows or materially influenced decision-making.",
+      "coverage": "233 CFOs at private equity-backed portfolio companies across 15 countries; PwC also conducted six executive interviews in Australia, the Netherlands and the United States; the Finance Maturity Index defines leading functions as the top quartile and lagging functions as the bottom quartile, and the public source does not state subgroup counts",
+      "period": "June-August 2026",
+      "published": "November 16, 2026",
+      "type": "Current reported finance-AI maturity",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "PwC",
+        "title": "PwC's PE-Backed CFO Survey 2026: The new agenda for CFOs of PE-backed portfolio companies",
+        "url": "https://www.pwc.com/gx/en/1/industries/private-equity/portfolio-company-cfo-survey.html",
+        "accessedOn": "2026-11-23"
+      },
+      "addedOn": "2026-11-23",
+      "updatedOn": "2026-11-23",
+      "status": "active"
+    },
+    {
+      "id": "O-27",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "metric": "90% / 84%",
+      "title": "Decision-support and value-creation responsibilities",
+      "finding": "Ninety percent of CFOs said they already provided decision support and forecasting, and 84% said they co-owned value creation and exit readiness.",
+      "coverage": "233 CFOs at private equity-backed portfolio companies across 15 countries; PwC also conducted six executive interviews in Australia, the Netherlands and the United States; the Finance Maturity Index defines leading functions as the top quartile and lagging functions as the bottom quartile, and the public source does not state subgroup counts",
+      "period": "June-August 2026",
+      "published": "November 16, 2026",
+      "type": "Current reported finance mandate",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "PwC",
+        "title": "PwC's PE-Backed CFO Survey 2026: The new agenda for CFOs of PE-backed portfolio companies",
+        "url": "https://www.pwc.com/gx/en/1/industries/private-equity/portfolio-company-cfo-survey.html",
+        "accessedOn": "2026-11-23"
+      },
+      "addedOn": "2026-11-23",
+      "updatedOn": "2026-11-23",
+      "status": "active"
+    },
+    {
+      "id": "O-28",
+      "theme": "operating",
+      "themeLabel": "Operating model",
+      "metric": "65%",
+      "title": "Hybrid or outsourced delivery for tax and treasury",
+      "finding": "Sixty-five percent of CFOs reported hybrid or outsourced delivery models for tax and treasury.",
+      "coverage": "233 CFOs at private equity-backed portfolio companies across 15 countries; PwC also conducted six executive interviews in Australia, the Netherlands and the United States; the Finance Maturity Index defines leading functions as the top quartile and lagging functions as the bottom quartile, and the public source does not state subgroup counts",
+      "period": "June-August 2026",
+      "published": "November 16, 2026",
+      "type": "Current reported service-delivery model",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "PwC",
+        "title": "PwC's PE-Backed CFO Survey 2026: The new agenda for CFOs of PE-backed portfolio companies",
+        "url": "https://www.pwc.com/gx/en/1/industries/private-equity/portfolio-company-cfo-survey.html",
+        "accessedOn": "2026-11-23"
+      },
+      "addedOn": "2026-11-23",
+      "updatedOn": "2026-11-23",
+      "status": "active"
+    },
+    {
+      "id": "C-13",
+      "theme": "cash",
+      "themeLabel": "Cash & working capital",
+      "metric": "23% / 53% / 19% / 4%",
+      "title": "Ability to identify idle cash immediately",
+      "finding": "When asked whether they could immediately state how much company cash sat in accounts earning little or no interest, 23% could provide the number immediately, 53% could get close but needed to check, 19% had to assemble information from several places and 4% could not reliably provide a figure.",
+      "coverage": "155 senior finance decision-makers, including CFOs, finance heads, treasury leaders, controllers and heads of finance operations, at companies with US$20 million to more than US$1 billion in annual revenue; all respondents participated in selecting payments, banking or accounts-payable providers; GatherHQ conducted the study for Priority Commerce; results were unweighted and the public source does not state geography",
+      "period": "September 29-October 8, 2026",
+      "published": "November 18, 2026",
+      "type": "Current unweighted cash-visibility response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Priority Commerce",
+        "title": "Finance Operations & Money Movement Study: Why Cash Visibility Still Takes So Much Work",
+        "url": "https://prioritycommerce.com/resource-center/why-cash-visibility-still-takes-so-much-work/",
+        "accessedOn": "2026-11-23"
+      },
+      "addedOn": "2026-11-23",
+      "updatedOn": "2026-11-23",
+      "status": "active"
+    },
+    {
+      "id": "C-14",
+      "theme": "cash",
+      "themeLabel": "Cash & working capital",
+      "metric": "37% / 51% / 11%",
+      "title": "Visibility into money in transit",
+      "finding": "Thirty-seven percent reported a clear, real-time view of funds moving between accounts, in payment or awaiting settlement; 51% had a rough sense and 11% knew only at certain points such as month-end.",
+      "coverage": "155 senior finance decision-makers, including CFOs, finance heads, treasury leaders, controllers and heads of finance operations, at companies with US$20 million to more than US$1 billion in annual revenue; all respondents participated in selecting payments, banking or accounts-payable providers; GatherHQ conducted the study for Priority Commerce; results were unweighted and the public source does not state geography",
+      "period": "September 29-October 8, 2026",
+      "published": "November 18, 2026",
+      "type": "Current unweighted cash-visibility response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Priority Commerce",
+        "title": "Finance Operations & Money Movement Study: Why Cash Visibility Still Takes So Much Work",
+        "url": "https://prioritycommerce.com/resource-center/why-cash-visibility-still-takes-so-much-work/",
+        "accessedOn": "2026-11-23"
+      },
+      "addedOn": "2026-11-23",
+      "updatedOn": "2026-11-23",
+      "status": "active"
+    },
+    {
+      "id": "C-15",
+      "theme": "cash",
+      "themeLabel": "Cash & working capital",
+      "metric": "63% / 54%",
+      "title": "Provider-management and cash-visibility pain points",
+      "finding": "Sixty-three percent rated managing too many separate providers as a significant pain point, and 54% called cash visibility a top pain point.",
+      "coverage": "155 senior finance decision-makers, including CFOs, finance heads, treasury leaders, controllers and heads of finance operations, at companies with US$20 million to more than US$1 billion in annual revenue; all respondents participated in selecting payments, banking or accounts-payable providers; GatherHQ conducted the study for Priority Commerce; results were unweighted and the public source does not state geography",
+      "period": "September 29-October 8, 2026",
+      "published": "November 18, 2026",
+      "type": "Current unweighted survey response",
+      "studyYear": 2026,
+      "source": {
+        "publisher": "Priority Commerce",
+        "title": "Finance Operations & Money Movement Study: Why Cash Visibility Still Takes So Much Work",
+        "url": "https://prioritycommerce.com/resource-center/why-cash-visibility-still-takes-so-much-work/",
+        "accessedOn": "2026-11-23"
+      },
+      "addedOn": "2026-11-23",
+      "updatedOn": "2026-11-23",
       "status": "active"
     }
   ]
