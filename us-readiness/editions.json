@@ -6,6 +6,32 @@
   "operational_standard": "us-readiness/WORKFLOW.md + us-readiness/FORMAT_STANDARD.md",
   "editions": [
     {
+      "date": "2026-11-23",
+      "title": "U.S. Domestic Threat & Business Readiness Daily",
+      "page": "/us-readiness/2026-11-23/",
+      "pdf": "/us-readiness/editions/US_Domestic_Readiness_Daily_2026-11-23.pdf",
+      "status": "final",
+      "revision": "Master (public release from validated private issue)",
+      "format_certified": true,
+      "pages": 46,
+      "bytes": 603194,
+      "research_cutoff": "2026-11-23 9:05 a.m. EST",
+      "note": "Confirmed Spartanburg systemwide advisory repeal; RedSky Cincinnati closure clarification; Monadnock chronology correction; FBI NCIC allegation not verified. 46-page Word-first master with 172 hyperlinks; 57 active/provisional records, H1 9 H2 8 D1 24 D2 16. Three historical carry-ins separately tracked. Public version changes cover release labels only, not research evidence or cutoff. Complete source Word stored privately; selective research limitations disclosed."
+    },
+    {
+      "date": "2026-11-22",
+      "title": "U.S. Domestic Threat & Business Readiness Daily",
+      "page": "/us-readiness/2026-11-22/",
+      "pdf": "/us-readiness/editions/US_Domestic_Readiness_Daily_2026-11-22.pdf",
+      "status": "final",
+      "revision": "Master (public release from validated private issue)",
+      "format_certified": true,
+      "pages": 44,
+      "bytes": 571030,
+      "research_cutoff": "2026-11-22 8:56 a.m. EST",
+      "note": "US26-0058 to US26-0062 newly identified retrospective records; ongoing Spartanburg boil-water restriction at checked cutoff; no independently verified new November 22 onset. 44-page Word-first master with 151 hyperlinks; 57 active/provisional records, H1 9 H2 8 D1 24 D2 16. Three historical carry-ins separately tracked. Public version changes cover release labels only, not research evidence or cutoff. Complete source Word stored privately; selective research limitations disclosed."
+    },
+    {
       "date": "2026-11-21",
       "title": "U.S. Domestic Threat & Business Readiness Daily",
       "page": "/us-readiness/2026-11-21/",
