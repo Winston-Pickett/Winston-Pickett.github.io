@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-24T08:43:00-05:00",
+  "updated_at": "2026-11-24 afternoon (ET)",
   "purpose": "Persistent incident discovery and disposition queue. This is NOT the 60-day incident register. The published November 23 full master is the historical continuity baseline; do not recreate a blank incident register.",
   "status_values": [
     "new",
@@ -27,9 +27,9 @@
       "root_cause": "under investigation; initiating mechanism not verified",
       "malicious_evidence": "none reported",
       "foreign_warfare_attribution": "none established",
-      "continuity_impact": "Initial operator transportation capacity reduction of 500,000 Dth/day; initial reports no interrupted customer deliveries. Indexed November 23 update suggests 270,000 Dth/day reduction, but original revised notice not retrievable; final restoration unverified.",
-      "decision": "Included in November 24 private master as D2 historical backfill; verified ID collision check against complete November 23 Word master. Publication held until gates pass.",
-      "last_review": "2026-11-24 08:43 EST",
+      "continuity_impact": "Operator force majeure: initial 500,000 Dth/day reduction; update #1 posted Nov22 12:22:48 portal time reduced constraint to 270,000 Dth/day effective Nov23; update #2 posted Nov23 10:26:40 portal time reduced constraint to 100,000 Dth/day effective Nov24 (2,349,000 of normal 2,449,000 Dth/day). No anticipated nomination impact per operator; full restoration not verified. Posting timezone not explicit in retrieved text.",
+      "decision": "Retain US26-0063 in private draft, D2; correct morning draft using verified superseding operator notices #712678 and #712681. Public release still pending. Recheck current capacity and any newer notices.",
+      "last_review": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
       "publication_ref": null,
       "additional_sources": [
         {
@@ -44,10 +44,20 @@
         },
         {
           "url": "https://pipeline2.kindermorgan.com/Notices/NoticeDetail.aspx?code=SNG&notc_nbr=712678",
+          "date": "2026-11-22",
+          "status": "original opened in afternoon; effective Nov23"
+        },
+        {
+          "url": "https://pipeline2.kindermorgan.com/Notices/NoticeDetail.aspx?code=SNG&notc_nbr=712681",
           "date": "2026-11-23",
-          "status": "original inaccessible; secondary indexed lead only"
+          "status": "original opened; effective Nov24"
         }
-      ]
+      ],
+      "region": "Southeast",
+      "first_public_report_timestamp": "2026-11-22 08:22 EST (earliest local report identified in historical test; not necessarily first anywhere)",
+      "first_discovery_time": "2026-11-24 prior user referral / morning review; exact first timestamp unavailable",
+      "duplicate_check": "November 23 published Word register absent; November 24 private draft already assigns US26-0063; do not create another ID.",
+      "review_status": "verified material capacity improvement; latest notice available is not proof of complete restoration"
     },
     {
       "candidate_id": "US-CAND-20261118-SC-WATER",
@@ -61,7 +71,15 @@
       "publication_ref": "/us-readiness/2026-11-20/",
       "first_public_source": "https://www.spartanburgwater.org/news/spartanburg-water-customers-can-expect-widespread-water-service-interruptions",
       "source_date": "2026-11-18",
-      "last_review": "2026-11-23"
+      "last_review": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "review_status": "Nov22 09:20 EST systemwide advisory repeal reconfirmed; already in Nov23 issue",
+      "additional_sources": [
+        {
+          "url": "https://www.spartanburgwater.org/news/spartanburg-water-repeals-systemwide-boil-water-advisory",
+          "date": "2026-11-22",
+          "status": "operator repeal"
+        }
+      ]
     },
     {
       "candidate_id": "US-CAND-20261120-FL-BRIGHTLINE",
@@ -75,7 +93,8 @@
       "publication_ref": "/us-readiness/2026-11-20/",
       "first_public_source": "https://brightlinesupport.zendesk.com/hc/en-us/articles/58927788081179-Temporary-Service-Suspension-Friday-November-20th",
       "source_date": "2026-11-19",
-      "last_review": "2026-11-20"
+      "last_review": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "review_status": "Operator notice reconfirms Nov21 restoration; already in published baseline"
     },
     {
       "candidate_id": "US-CAND-20261102-FL-BRIGHTLINE",
@@ -89,7 +108,8 @@
       "publication_ref": "/us-readiness/2026-11-20/",
       "first_public_source": "https://brightlinesupport.zendesk.com/hc/en-us/articles/58189855501979-Temporary-Service-Suspension-November-2nd-3rd-and-4th-2026",
       "source_date": "2026-11-05",
-      "last_review": "2026-11-20"
+      "last_review": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "review_status": "Operator notice reconfirms Nov5 restoration; already in published baseline"
     },
     {
       "candidate_id": "US-CAND-20261119-WV-911",
@@ -103,7 +123,8 @@
       "publication_ref": "/us-readiness/2026-11-20/",
       "first_public_source": "https://redskytechnologies.statuspage.io/",
       "source_date": "2026-11-19",
-      "last_review": "2026-11-23"
+      "last_review": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "review_status": "Original history reviewed; prior published case retained without new material change"
     },
     {
       "candidate_id": "US-CAND-20261120-OH-911",
@@ -117,7 +138,8 @@
       "publication_ref": "/us-readiness/2026-11-20/",
       "first_public_source": "https://redskytechnologies.statuspage.io/",
       "source_date": "2026-11-20",
-      "last_review": "2026-11-23"
+      "last_review": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "review_status": "Nov22 closure reconfirmed; restored Nov20 04:20 EST; existing published case"
     },
     {
       "candidate_id": "US-CAND-20261117-0054",
@@ -182,21 +204,33 @@
     {
       "candidate_id": "US-CAND-20261123-PR-ELECTRIC",
       "event_name": "Puerto Rico electricity interruption lead",
-      "event_date_local": "2026-11-23",
+      "event_date_local": "2026-11-22 to 2026-11-23 AST",
       "location": "Puerto Rico",
       "sector": "Electricity",
       "primary_risk_type": "Essential Services",
-      "status": "verifying",
+      "status": "qualified_unpublished",
       "first_public_source": "https://www.metro.pr/noticias/2026/11/23/mas-de-20-mil-clientes-se-quedaron-sin-luz-tras-las-lluvias-del-domingo-18-mil-permanecen-sin-servicio/",
       "source_date": "2026-11-23",
-      "occurrence": "indexed local reporting; original and operator pages inaccessible",
-      "root_cause": "unverified",
+      "occurrence": "Original Metro Puerto Rico report opened; attributes crew response to LUMA's social media statement. Reported outages concentrated in San Juan. Direct historical LUMA original not independently recovered.",
+      "root_cause": "Reported heavy rain associated with outage; exact equipment mechanism not independently established",
       "malicious_evidence": "none established",
       "foreign_warfare_attribution": "none established",
-      "continuity_impact": "Indexed reporting approximately 24,600 customer accounts affected early Nov23; magnitude and restoration unverified.",
-      "decision": "Review LUMA and emergency management originals; no permanent incident ID pending verification.",
-      "last_review": "2026-11-24 08:43 EST",
-      "publication_ref": null
+      "continuity_impact": "24,601 accounts affected in early reported snapshot; about 18,000 still without power Nov23 morning. Latest restoration unknown.",
+      "decision": "Qualifies as regional essential service disruption with secondary reporting confidence; proposed D2 pending direct cause confirmation. Reconcile with latest register and assign next unused ID in next master. Recheck LUMA restoration; do not call an island-wide blackout.",
+      "last_review": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "publication_ref": null,
+      "region": "U.S. territories / Puerto Rico",
+      "first_public_report_timestamp": "2026-11-23 07:00 local (Metro publication; earliest located)",
+      "first_discovery_time": "Known by 2026-11-24 08:43 EST morning review; exact first timestamp unavailable",
+      "duplicate_check": "No matching incident in November 23 full Word register; November 24 private draft contains this lead only, uncounted.",
+      "review_status": "Original credible regional reporting now accessible; primary LUMA evidence still pending",
+      "additional_sources": [
+        {
+          "url": "https://metroworldnews-mwnpuertorico-prod.cdn.arcpublishing.com/noticias/2026/11/23/lluvias-podrian-provocar-mas-inundaciones-y-deslizamientos-de-tierra-este-lunes/",
+          "date": "2026-11-23",
+          "status": "regional report of NWS weather warning; corroborates weather context, not power count"
+        }
+      ]
     },
     {
       "candidate_id": "US-CAND-20261123-WV-ELECTRIC",
@@ -208,14 +242,18 @@
       "status": "verifying",
       "first_public_source": "https://theoutagedesk.com/storms/west-virginia-2026-11-23/",
       "source_date": "2026-11-23",
-      "occurrence": "indexed third-party tracker only; original and utility data inaccessible",
+      "occurrence": "Third-party tracker opened; claims utility-derived Monongahela data, different cached snapshots show roughly 11,600-11,800 accounts. Direct utility/local authority event corroboration not obtained.",
       "root_cause": "unverified",
       "malicious_evidence": "none established",
       "foreign_warfare_attribution": "none established",
-      "continuity_impact": "Indexed approximately 11,800 accounts at peak; exact footprint and restoration unverified.",
-      "decision": "Obtain utility or local emergency authority confirmation; no permanent incident ID pending verification.",
-      "last_review": "2026-11-24 08:43 EST",
-      "publication_ref": null
+      "continuity_impact": "Approx. 11,600–11,800 outage accounts in varying Nov23 tracker snapshots; current restoration unknown.",
+      "decision": "Continue verifying; no permanent ID until utility/local authority corroboration or reliable independent reporting. Thanksgiving forecast is not confirmation of prior event.",
+      "last_review": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "publication_ref": null,
+      "region": "Northeast/Mid-Atlantic (existing US report grouping)",
+      "first_public_report_timestamp": "Nov23 third-party tracker snapshot 09:15 EST; latest indexed snapshot 10:18 EST; publication timestamp not established",
+      "first_discovery_time": "Known by 2026-11-24 morning review; exact timestamp unavailable",
+      "duplicate_check": "No corresponding electric outage in latest full published register; morning private draft uncounted lead; distinguish from WV 911 and legislature cyber records."
     },
     {
       "candidate_id": "US-CAND-20261125-IA-PLANNED",
@@ -227,14 +265,24 @@
       "status": "watch_only",
       "first_public_source": "https://www.army.mil/article/296990/army_update_on_iowa_army_ammunition_plant",
       "source_date": "2026-11-22",
-      "occurrence": "indexed report of planned operation; original inaccessible",
+      "occurrence": "Official Nov24 Army public advisory opened; planned Nov25 safety operation and recommended relocation starting Nov24 confirmed.",
       "root_cause": "not an unplanned incident",
       "malicious_evidence": "none established",
       "foreign_warfare_attribution": "none established",
-      "continuity_impact": "Monitor official public safety advisories only.",
-      "decision": "No incident ID; verify original current instructions.",
-      "last_review": "2026-11-24 08:43 EST",
-      "publication_ref": null
+      "continuity_impact": "Local workforce access and temporary relocation planning; no unplanned service disruption established.",
+      "decision": "Watch only; monitor official safety guidance and all-clear; no permanent ID. Do not report the planned operation as an attack.",
+      "last_review": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "publication_ref": null,
+      "region": "Midwest",
+      "first_discovery_time": "Known by morning review; exact timestamp unavailable",
+      "duplicate_check": "Existing watch record, no new ID",
+      "additional_sources": [
+        {
+          "url": "https://www.army.mil/article-amp/297039/public_safety_advisory_controlled_mitigated_detonation_of_unstable",
+          "date": "2026-11-24",
+          "status": "primary opened"
+        }
+      ]
     },
     {
       "candidate_id": "US-CAND-20261124-REDSKY-MAINT",
@@ -251,9 +299,169 @@
       "malicious_evidence": "none established",
       "foreign_warfare_attribution": "none established",
       "continuity_impact": "Operator anticipated no routing or portal impact.",
-      "decision": "No incident ID; follow only if material unplanned impairment is confirmed.",
-      "last_review": "2026-11-24 08:43 EST",
-      "publication_ref": null
+      "decision": "Retain watch only; operator history shows no new Nov23/24 unplanned incident at review. Monitor for actual disruption.",
+      "last_review": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "publication_ref": null,
+      "region": "National / multiregion",
+      "first_public_report_timestamp": "2026-11-23 18:49 EST",
+      "first_discovery_time": "Known by morning review; exact timestamp unavailable",
+      "duplicate_check": "Existing planned watch only"
+    },
+    {
+      "last_review": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "malicious_evidence": "none established",
+      "foreign_warfare_attribution": "none established",
+      "publication_ref": "/us-readiness/2026-11-23/",
+      "candidate_id": "US-CAND-20261124-MSFT-UPDATE",
+      "event_name": "Microsoft 365 November 12–13 outage corrective-action update",
+      "event_date_local": "2026-11-12 to 2026-11-13",
+      "region": "National / multiregion",
+      "location": "U.S. / global",
+      "sector": "Cyber and cloud",
+      "primary_risk_type": "Telecom and Data",
+      "status": "published",
+      "incident_id": "US26-0027",
+      "first_public_source": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
+      "first_public_report_timestamp": "2026-11-24 11:11 EST (Reuters update, not first occurrence disclosure)",
+      "first_discovery_time": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "root_cause": "Existing D1; Reuters confirms Microsoft attributes original disruption to latent scalability defect, not cyber activity or AI agents; final operator PIR not directly retrieved.",
+      "continuity_impact": "Reuters reports urgent internal remediation program following outage; one-hour future recovery target is aspirational, not proven SLA.",
+      "decision": "Add source-supported update to existing incident US26-0027; no duplicate ID or new outage. Review final PIR in admin center if accessible.",
+      "duplicate_check": "Existing US26-0027 in Nov23 public and Nov24 private full masters.",
+      "review_status": "material supplier resilience follow-up; not new incident"
+    },
+    {
+      "last_review": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "malicious_evidence": "none established",
+      "foreign_warfare_attribution": "none established",
+      "publication_ref": null,
+      "candidate_id": "US-CAND-20261124-BW-ORDERS",
+      "event_name": "Bandwidth recurring number-order processing disruption",
+      "event_date_local": "2026-11-24",
+      "region": "National / multiregion (specific geography unreported)",
+      "location": "Bandwidth App",
+      "sector": "Telecom and 911",
+      "primary_risk_type": "Telecom and Data",
+      "status": "verifying",
+      "first_public_source": "https://status.bandwidth.com/incidents/ssnct2t40jf1",
+      "first_public_report_timestamp": "2026-11-24 04:12 EST; second notice 07:11 EST",
+      "first_discovery_time": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "root_cause": "Unknown; no common cause established",
+      "continuity_impact": "Provider confirmed number-order processing issue, first resolved at 05:40 EST; separate app/order issue resolved 11:38 EST. No confirmed failed calls, 911 routing impairment, affected U.S. account count or material downstream business losses.",
+      "decision": "Keep both operator notices in one candidate group pending common-cause/impact verification; no permanent ID unless material U.S. business disruption established. Confirm pending order backlog.",
+      "duplicate_check": "No matching Nov24 order disruption in published Nov23 or morning private draft; separate from prior 911 and SIP realm records.",
+      "additional_sources": [
+        {
+          "url": "https://status.bandwidth.com/incidents/d7yjwdnp47t6",
+          "date": "2026-11-24",
+          "status": "operator notice opened"
+        }
+      ]
+    },
+    {
+      "last_review": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "malicious_evidence": "none established",
+      "foreign_warfare_attribution": "none established",
+      "publication_ref": null,
+      "candidate_id": "US-CAND-20261124-BW-GLOBAL-PORTAL",
+      "event_name": "Bandwidth International global portal incident",
+      "event_date_local": "2026-11-24",
+      "region": "Global; U.S. impact unverified",
+      "location": "Bandwidth International portal",
+      "sector": "Telecom and 911",
+      "primary_risk_type": "Telecom and Data",
+      "status": "watch_only",
+      "first_public_source": "https://status.bandwidth.com/incidents/mx05dmd12jhy",
+      "first_public_report_timestamp": "2026-11-24 08:07 EST",
+      "first_discovery_time": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "root_cause": "Unknown",
+      "continuity_impact": "Some customers unable to access portal; provider resolved 11:53 EST; no documented U.S. operational consequences.",
+      "decision": "No ID; do not infer U.S. voice service outage.",
+      "duplicate_check": "Separate operator notice; not established same cause as app/order incidents."
+    },
+    {
+      "last_review": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "malicious_evidence": "none established",
+      "foreign_warfare_attribution": "none established",
+      "publication_ref": null,
+      "candidate_id": "US-CAND-20261124-BW-INBOUND-APAC",
+      "event_name": "Bandwidth inbound calling Australia/Singapore",
+      "event_date_local": "2026-11-24",
+      "region": "Outside U.S.",
+      "location": "Australia and Singapore",
+      "sector": "Telecom and 911",
+      "primary_risk_type": "Telecom and Data",
+      "status": "excluded",
+      "first_public_source": "https://status.bandwidth.com/incidents/gxysm6dqlk9q",
+      "first_public_report_timestamp": "2026-11-24 11:03 EST",
+      "first_discovery_time": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "root_cause": "Unknown",
+      "continuity_impact": "Notice limits affected services to Australia and Singapore inbound calling; no concrete U.S. effect established.",
+      "decision": "Exclude from U.S. incident register, reopen only with specific U.S. operational impact.",
+      "duplicate_check": "No U.S. matching ID."
+    },
+    {
+      "last_review": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "malicious_evidence": "none established",
+      "foreign_warfare_attribution": "none established",
+      "publication_ref": null,
+      "candidate_id": "US-CAND-20261121-BW-SIP-REALM",
+      "event_name": "Bandwidth SIP realm provisioning delay",
+      "event_date_local": "2026-11-17 through 2026-11-21 (postmortem chronology)",
+      "region": "U.S. provider / geography unspecified",
+      "location": "Bandwidth App",
+      "sector": "Telecom and 911",
+      "primary_risk_type": "Telecom and Data",
+      "status": "watch_only",
+      "first_public_source": "https://status.bandwidth.com/incidents/82z5wkdx2q2w",
+      "first_public_report_timestamp": "2026-11-21 11:01 EST",
+      "first_discovery_time": "Already mentioned as watch in November 23 public edition; exact first timestamp unavailable",
+      "root_cause": "Not disclosed",
+      "continuity_impact": "Provisioning delays limited scope according to operator; resolved Nov23 07:57 EST, postmortem 08:06 EST; no broader call outage evidenced.",
+      "decision": "Close operational watch (resolved); retain record and note postmortem, no new ID.",
+      "duplicate_check": "Existing uncounted watch in Nov23 issue, not US26-0054 emergency-call address incident."
+    }
+  ],
+  "scan_log": [
+    {
+      "scan_date": "2026-11-24",
+      "scan_time": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
+      "baseline": "Nov23 public master cutoff 09:05 EST; 57 active/provisional plus 3 historical carry-ins; Nov24 private draft cutoff 08:43 EST includes US26-0063, not public per editions.json",
+      "source_checks": {
+        "energy": [
+          "Kinder Morgan notices 712678, 712681 opened",
+          "PHMSA reporting page and NRC home opened; no current case-level NRC feed obtained",
+          "Metro PR original and WV Outage Desk opened; no direct LUMA/FirstEnergy historical verification"
+        ],
+        "water": [
+          "Spartanburg advisory/repeal retrieved; broader local utility coverage incomplete"
+        ],
+        "telecom": [
+          "RedSky current/recent history opened",
+          "Bandwidth main page and five individual incident notices opened; separate history page did not populate"
+        ],
+        "transport": [
+          "Brightline Nov2–5 and Nov20–21 notices retrieved",
+          "FAA Nov15 ground stop Q&A retrieved; newer incident sweep limited; USCG search stale; rail operators BNSF/CSX not directly reviewed"
+        ],
+        "cyber_cloud": [
+          "Google Cloud public snapshot opened (no broad severe incident; timestamp 12:40 EST)",
+          "Azure history opened but latest visible September; AWS page empty; CISA 403",
+          "Reuters Microsoft corrective action original opened"
+        ],
+        "healthcare": [
+          "HHS press room opened; category news search; individual hospitals not broadly checked"
+        ],
+        "payments": [
+          "Stripe history 404, status page loading only; broad category search not conclusive"
+        ],
+        "industrial_public_services": [
+          "Army Nov24 primary advisory opened; industrial and regional category searches; no full local emergency authority sweep"
+        ]
+      },
+      "regional_coverage": "Searches included all continental region group names in broad combined queries, specific Southeast AL/SC/FL, Mid-Atlantic WV, Midwest IA, national cloud/telecom and Puerto Rico. West and South/Central local sources limited; Alaska/Hawaii and US territories other than Puerto Rico not independently assessed. No complete region-sector coverage claim.",
+      "publication_gap": "Nov24 private draft exists, manifest latest Nov23; do not release or modify manifest on exception run.",
+      "next_action": "Reconcile PR new candidate, update AL and MSFT existing records, investigate WV and Bandwidth materiality, verify daily release before public claim."
     }
   ]
 }
