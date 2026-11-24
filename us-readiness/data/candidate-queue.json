@@ -101,6 +101,66 @@
       "first_public_source": "https://redskytechnologies.statuspage.io/",
       "source_date": "2026-11-20",
       "last_review": "2026-11-23"
+    },
+    {
+      "candidate_id": "US-CAND-20261117-0054",
+      "event_name": "Bandwidth emergency-call address provisioning issue",
+      "event_date_local": "2026-11-17",
+      "location": "National / customer-specific",
+      "sector": "Telecom and 911",
+      "primary_risk_type": "Telecom and Data",
+      "status": "published",
+      "incident_id": "US26-0054",
+      "publication_ref": "/us-readiness/2026-11-21/",
+      "first_public_source": "https://status.bandwidth.com/history",
+      "source_date": "2026-11-17",
+      "last_review": "2026-11-21",
+      "evidence_note": "Operator historical status reported in November 21 edition; do not infer a common outage cause or quantified failed 911 calls."
+    },
+    {
+      "candidate_id": "US-CAND-20261119-0055",
+      "event_name": "Bandwidth JFK data-center call failures",
+      "event_date_local": "2026-11-19",
+      "location": "New York / national dependencies",
+      "sector": "Telecom and 911",
+      "primary_risk_type": "Telecom and Data",
+      "status": "published",
+      "incident_id": "US26-0055",
+      "publication_ref": "/us-readiness/2026-11-21/",
+      "first_public_source": "https://status.bandwidth.com/history",
+      "source_date": "2026-11-19",
+      "last_review": "2026-11-21",
+      "evidence_note": "Operator historical status reported in November 21 edition; do not infer a common outage cause or quantified failed 911 calls."
+    },
+    {
+      "candidate_id": "US-CAND-20261119-0056",
+      "event_name": "Bandwidth Cedar Rapids telephone impairment",
+      "event_date_local": "2026-11-19",
+      "location": "Cedar Rapids, Iowa",
+      "sector": "Telecom and 911",
+      "primary_risk_type": "Telecom and Data",
+      "status": "published",
+      "incident_id": "US26-0056",
+      "publication_ref": "/us-readiness/2026-11-21/",
+      "first_public_source": "https://status.bandwidth.com/history",
+      "source_date": "2026-11-19",
+      "last_review": "2026-11-21",
+      "evidence_note": "Operator historical status reported in November 21 edition; do not infer a common outage cause or quantified failed 911 calls."
+    },
+    {
+      "candidate_id": "US-CAND-20261120-0057",
+      "event_name": "Bandwidth Cincinnati regional telephone impairment",
+      "event_date_local": "2026-11-20",
+      "location": "Cincinnati, Ohio",
+      "sector": "Telecom and 911",
+      "primary_risk_type": "Telecom and Data",
+      "status": "published",
+      "incident_id": "US26-0057",
+      "publication_ref": "/us-readiness/2026-11-21/",
+      "first_public_source": "https://status.bandwidth.com/history",
+      "source_date": "2026-11-20",
+      "last_review": "2026-11-21",
+      "evidence_note": "Operator historical status reported in November 21 edition; do not infer a common outage cause or quantified failed 911 calls."
     }
   ]
 }
