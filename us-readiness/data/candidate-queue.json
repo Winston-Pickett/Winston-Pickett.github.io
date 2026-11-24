@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-24",
+  "updated_at": "2026-11-24T08:43:00-05:00",
   "purpose": "Persistent incident discovery and disposition queue. This is NOT the 60-day incident register. The published November 23 full master is the historical continuity baseline; do not recreate a blank incident register.",
   "status_values": [
     "new",
@@ -20,17 +20,34 @@
       "sector": "Energy and pipelines",
       "primary_risk_type": "Essential Services",
       "status": "qualified_unpublished",
-      "proposed_incident_id": "US26-0063 (RESERVE ONLY; verify current highest published ID before assigning)",
+      "proposed_incident_id": "US26-0063 (assigned in November 24 private master; not publicly published)",
       "first_public_source": "https://www.wtvy.com/2026/11/22/reported-pipeline-explosion-sumter-county-seen-miles-away/",
       "source_date": "2026-11-22",
-      "occurrence": "confirmed in operator-sourced reporting",
-      "root_cause": "under investigation",
+      "occurrence": "confirmed; Southern Natural Gas operator force-majeure posting and AP operator-sourced reporting opened",
+      "root_cause": "under investigation; initiating mechanism not verified",
       "malicious_evidence": "none reported",
       "foreign_warfare_attribution": "none established",
-      "continuity_impact": "Fire, line isolated; operator reported no interrupted deliveries",
-      "decision": "Include in next full edition after original operator verification and ID collision check",
-      "last_review": "2026-11-24",
-      "publication_ref": null
+      "continuity_impact": "Initial operator transportation capacity reduction of 500,000 Dth/day; initial reports no interrupted customer deliveries. Indexed November 23 update suggests 270,000 Dth/day reduction, but original revised notice not retrievable; final restoration unverified.",
+      "decision": "Included in November 24 private master as D2 historical backfill; verified ID collision check against complete November 23 Word master. Publication held until gates pass.",
+      "last_review": "2026-11-24 08:43 EST",
+      "publication_ref": null,
+      "additional_sources": [
+        {
+          "url": "https://pipeline2.kindermorgan.com/Notices/NoticeDetail.aspx?code=SNG&notc_nbr=712677",
+          "date": "2026-11-22",
+          "status": "original opened"
+        },
+        {
+          "url": "https://apnews.com/article/alabama-natural-gas-pipeline-fire-e7015244e52cafb5549d735fbedfe200",
+          "date": "2026-11-22",
+          "status": "opened"
+        },
+        {
+          "url": "https://pipeline2.kindermorgan.com/Notices/NoticeDetail.aspx?code=SNG&notc_nbr=712678",
+          "date": "2026-11-23",
+          "status": "original inaccessible; secondary indexed lead only"
+        }
+      ]
     },
     {
       "candidate_id": "US-CAND-20261118-SC-WATER",
@@ -161,6 +178,82 @@
       "source_date": "2026-11-20",
       "last_review": "2026-11-21",
       "evidence_note": "Operator historical status reported in November 21 edition; do not infer a common outage cause or quantified failed 911 calls."
+    },
+    {
+      "candidate_id": "US-CAND-20261123-PR-ELECTRIC",
+      "event_name": "Puerto Rico electricity interruption lead",
+      "event_date_local": "2026-11-23",
+      "location": "Puerto Rico",
+      "sector": "Electricity",
+      "primary_risk_type": "Essential Services",
+      "status": "verifying",
+      "first_public_source": "https://www.metro.pr/noticias/2026/11/23/mas-de-20-mil-clientes-se-quedaron-sin-luz-tras-las-lluvias-del-domingo-18-mil-permanecen-sin-servicio/",
+      "source_date": "2026-11-23",
+      "occurrence": "indexed local reporting; original and operator pages inaccessible",
+      "root_cause": "unverified",
+      "malicious_evidence": "none established",
+      "foreign_warfare_attribution": "none established",
+      "continuity_impact": "Indexed reporting approximately 24,600 customer accounts affected early Nov23; magnitude and restoration unverified.",
+      "decision": "Review LUMA and emergency management originals; no permanent incident ID pending verification.",
+      "last_review": "2026-11-24 08:43 EST",
+      "publication_ref": null
+    },
+    {
+      "candidate_id": "US-CAND-20261123-WV-ELECTRIC",
+      "event_name": "West Virginia electricity interruption lead",
+      "event_date_local": "2026-11-23",
+      "location": "West Virginia",
+      "sector": "Electricity",
+      "primary_risk_type": "Essential Services",
+      "status": "verifying",
+      "first_public_source": "https://theoutagedesk.com/storms/west-virginia-2026-11-23/",
+      "source_date": "2026-11-23",
+      "occurrence": "indexed third-party tracker only; original and utility data inaccessible",
+      "root_cause": "unverified",
+      "malicious_evidence": "none established",
+      "foreign_warfare_attribution": "none established",
+      "continuity_impact": "Indexed approximately 11,800 accounts at peak; exact footprint and restoration unverified.",
+      "decision": "Obtain utility or local emergency authority confirmation; no permanent incident ID pending verification.",
+      "last_review": "2026-11-24 08:43 EST",
+      "publication_ref": null
+    },
+    {
+      "candidate_id": "US-CAND-20261125-IA-PLANNED",
+      "event_name": "Iowa Army Ammunition Plant planned activity",
+      "event_date_local": "2026-11-25 (planned, unverified latest date)",
+      "location": "Iowa",
+      "sector": "Government protective posture",
+      "primary_risk_type": "Public services",
+      "status": "watch_only",
+      "first_public_source": "https://www.army.mil/article/296990/army_update_on_iowa_army_ammunition_plant",
+      "source_date": "2026-11-22",
+      "occurrence": "indexed report of planned operation; original inaccessible",
+      "root_cause": "not an unplanned incident",
+      "malicious_evidence": "none established",
+      "foreign_warfare_attribution": "none established",
+      "continuity_impact": "Monitor official public safety advisories only.",
+      "decision": "No incident ID; verify original current instructions.",
+      "last_review": "2026-11-24 08:43 EST",
+      "publication_ref": null
+    },
+    {
+      "candidate_id": "US-CAND-20261124-REDSKY-MAINT",
+      "event_name": "RedSky scheduled maintenance",
+      "event_date_local": "2026-11-24 evening (planned)",
+      "location": "U.S. provider service",
+      "sector": "Telecom and data",
+      "primary_risk_type": "Telecom and Data",
+      "status": "watch_only",
+      "first_public_source": "https://redskytechnologies.statuspage.io/",
+      "source_date": "2026-11-23",
+      "occurrence": "operator status posting opened",
+      "root_cause": "planned maintenance",
+      "malicious_evidence": "none established",
+      "foreign_warfare_attribution": "none established",
+      "continuity_impact": "Operator anticipated no routing or portal impact.",
+      "decision": "No incident ID; follow only if material unplanned impairment is confirmed.",
+      "last_review": "2026-11-24 08:43 EST",
+      "publication_ref": null
     }
   ]
 }
