@@ -57,7 +57,8 @@
       "first_public_report_timestamp": "2026-11-22 08:22 EST (earliest local report identified in historical test; not necessarily first anywhere)",
       "first_discovery_time": "2026-11-24 prior user referral / morning review; exact first timestamp unavailable",
       "duplicate_check": "November 23 published Word register absent; November 24 private draft already assigns US26-0063; do not create another ID.",
-      "review_status": "verified material capacity improvement; latest notice available is not proof of complete restoration"
+      "review_status": "Included in revised master for authorized release; pending live GitHub Pages verification.",
+      "incident_id": "US26-0063"
     },
     {
       "candidate_id": "US-CAND-20261118-SC-WATER",
@@ -223,14 +224,15 @@
       "first_public_report_timestamp": "2026-11-23 07:00 local (Metro publication; earliest located)",
       "first_discovery_time": "Known by 2026-11-24 08:43 EST morning review; exact first timestamp unavailable",
       "duplicate_check": "No matching incident in November 23 full Word register; November 24 private draft contains this lead only, uncounted.",
-      "review_status": "Original credible regional reporting now accessible; primary LUMA evidence still pending",
+      "review_status": "Included in revised master for authorized release; pending live GitHub Pages verification.",
       "additional_sources": [
         {
           "url": "https://metroworldnews-mwnpuertorico-prod.cdn.arcpublishing.com/noticias/2026/11/23/lluvias-podrian-provocar-mas-inundaciones-y-deslizamientos-de-tierra-este-lunes/",
           "date": "2026-11-23",
           "status": "regional report of NWS weather warning; corroborates weather context, not power count"
         }
-      ]
+      ],
+      "incident_id": "US26-0064"
     },
     {
       "candidate_id": "US-CAND-20261123-WV-ELECTRIC",
