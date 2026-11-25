@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-25 08:38:54 EST (research cutoff; individual retrieval times not recorded)",
+  "updated_at": "2026-11-25",
   "purpose": "Persistent incident discovery and disposition queue. This is NOT the 60-day incident register. The published November 23 full master is the historical continuity baseline; do not recreate a blank incident register.",
   "status_values": [
     "new",
@@ -28,8 +28,8 @@
       "malicious_evidence": "none reported",
       "foreign_warfare_attribution": "none established",
       "continuity_impact": "Operator force majeure: initial 500,000 Dth/day reduction; update #1 posted Nov22 12:22:48 portal time reduced constraint to 270,000 Dth/day effective Nov23; update #2 posted Nov23 10:26:40 portal time reduced constraint to 100,000 Dth/day effective Nov24 (2,349,000 of normal 2,449,000 Dth/day). No anticipated nomination impact per operator; full restoration not verified. Posting timezone not explicit in retrieved text.",
-      "decision": "Prior Nov24 Rev2 final manifest and register contain US26-0063. Notice 712681 directly reopened: effective Nov24 reduction 100,000 dekatherms/day (4.1% of normal). Critical list shows new daily conditions 712685; detail inaccessible. Separate meter notice 712684 does not demonstrate York restoration. Current live edition inaccessible, no new-day restoration claim.",
-      "last_review": "2026-11-25 08:38:54 EST (research cutoff; individual retrieval times not recorded)",
+      "decision": "Nov24 100,000 Dth/day restriction notice reopened; daily notice 712685 inaccessible; no new restoration evidence. Keep US26-0063 and existing class.",
+      "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
       "publication_ref": "/us-readiness/2026-11-24/",
       "additional_sources": [
         {
@@ -290,23 +290,21 @@
       "status": "watch_only",
       "first_public_source": "https://www.army.mil/article/296990/army_update_on_iowa_army_ammunition_plant",
       "source_date": "2026-11-22",
-      "occurrence": "Official Nov24 Army public advisory opened; planned Nov25 safety operation and recommended relocation starting Nov24 confirmed.",
+      "occurrence": "Planned safety operation completed November25 per Army-sourced AP and Reuters reporting; initial EPA monitoring found no airborne lead; environmental sampling continuing.",
       "root_cause": "not an unplanned incident",
       "malicious_evidence": "none established",
       "foreign_warfare_attribution": "none established",
-      "continuity_impact": "Local workforce access and temporary relocation planning; no unplanned service disruption established.",
-      "decision": "Prior planned safety advisory retained; direct page unavailable, completion not verified.",
-      "last_review": "2026-11-25 08:38:54 EST (research cutoff; individual retrieval times not recorded)",
+      "continuity_impact": "Temporary relocation and closures affecting local schools/businesses; reentry and final sampling unverified.",
+      "decision": "Update existing watch, no hostile incident or new ID; confirm official stand-down and environmental results.",
+      "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
       "publication_ref": null,
       "region": "Midwest",
       "first_discovery_time": "Known by morning review; exact timestamp unavailable",
       "duplicate_check": "Existing watch record, no new ID",
       "additional_sources": [
-        {
-          "url": "https://www.army.mil/article-amp/297039/public_safety_advisory_controlled_mitigated_detonation_of_unstable",
-          "date": "2026-11-24",
-          "status": "primary opened"
-        }
+        "https://www.army.mil/article/297069",
+        "https://apnews.com/article/714e040baedc1cd90c2ba688be76cfc7",
+        "https://www.reuters.com/world/us/iowa-town-braces-planned-detonation-lead-based-explosives-stockpile-2026-11-25/"
       ],
       "previous_disposition": {
         "status": "watch_only",
@@ -324,13 +322,13 @@
       "status": "watch_only",
       "first_public_source": "https://redskytechnologies.statuspage.io/",
       "source_date": "2026-11-23",
-      "occurrence": "operator status posting opened",
+      "occurrence": "Completed scheduled maintenance; no new unplanned incident shown for Nov25 on retrieved page.",
       "root_cause": "planned maintenance",
       "malicious_evidence": "none established",
       "foreign_warfare_attribution": "none established",
       "continuity_impact": "Operator anticipated no routing or portal impact.",
-      "decision": "Current returned snapshot stale; completion not independently verified.",
-      "last_review": "2026-11-25 08:38:54 EST (research cutoff; individual retrieval times not recorded)",
+      "decision": "Direct operator history now shows maintenance completed Nov24 22:00 CST (Nov24 23:00 EST); no impact reported; close watch, retain record.",
+      "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
       "publication_ref": null,
       "region": "National / multiregion",
       "first_public_report_timestamp": "2026-11-23 18:49 EST",
@@ -371,7 +369,7 @@
       }
     },
     {
-      "last_review": "2026-11-25 08:38:54 EST (research cutoff; individual retrieval times not recorded)",
+      "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
       "malicious_evidence": "none established",
       "foreign_warfare_attribution": "none established",
       "publication_ref": null,
@@ -388,7 +386,7 @@
       "first_discovery_time": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)",
       "root_cause": "Unknown; no common cause established",
       "continuity_impact": "Provider confirmed number-order processing issue, first resolved at 05:40 EST; separate app/order issue resolved 11:38 EST. No confirmed failed calls, 911 routing impairment, affected U.S. account count or material downstream business losses.",
-      "decision": "History page unpopulated; individual notices could not be reopened. Prior recovery carried, material downstream impact unverified.",
+      "decision": "Both individual operator notices retrieved again; prior resolution retained; no evidence of material voice/911 impact; keep uncounted.",
       "duplicate_check": "No matching Nov24 order disruption in published Nov23 or morning private draft; separate from prior 911 and SIP realm records.",
       "additional_sources": [
         {
@@ -565,14 +563,8 @@
       "incident_id": "US26-0068",
       "first_public_source": "https://www.khsu.org/2026-11-24/king-salmon-under-evacuation-orders-fields-landing-under-evacuation-warning",
       "additional_sources": [
-        {
-          "url": "https://www.sfgate.com/northcoast/article/humboldt-county-king-tides-22542016.php",
-          "status": "indexed or attempted; see scan log"
-        },
-        {
-          "url": "https://forecast.weather.gov/product.php?format=CI&glossary=1&issuedby=EKA&product=CFW&site=CAE&version=1",
-          "status": "indexed or attempted; see scan log"
-        }
+        "https://humboldtgov.org/m/newsflash/home/detail/6415",
+        "https://lostcoastoutpost.com/2026/nov/23/videophotos-king-salmon-flooding/"
       ],
       "first_discovery_time": "November 25 morning review; exact first retrieval timestamp unavailable",
       "first_public_report_timestamp": "See linked dated reports; earliest exact timestamp not independently established",
@@ -581,8 +573,8 @@
       "malicious_evidence": "none reported or established",
       "foreign_warfare_attribution": "none established",
       "continuity_impact": "County order reproduced by KHSU and reported flooding; local closure and evacuation, final reopening unknown.",
-      "decision": "Included in Nov25 private master; source indexed, original county unavailable.",
-      "last_review": "2026-11-25 08:38:54 EST (research cutoff; individual retrieval times not recorded)",
+      "decision": "Original county notice now retrieved: local emergency, evacuation effective Nov24, access closure until lifted. Maintain US26-0068 in Nov25 review, not yet verified live. No all-clear obtained.",
+      "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
       "publication_ref": null,
       "duplicate_check": "Compared with Nov24 Rev2 full register and existing queue; distinct incident or planned watch."
     },
@@ -636,6 +628,136 @@
       "last_review": "2026-11-25 08:38:54 EST (research cutoff; individual retrieval times not recorded)",
       "publication_ref": null,
       "duplicate_check": "Compared with Nov24 Rev2 full register and existing queue; distinct incident or planned watch."
+    },
+    {
+      "first_discovery_time": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
+      "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
+      "publication_ref": null,
+      "foreign_warfare_attribution": "none established",
+      "duplicate_check": "No match in Nov24 Rev2 live full PDF, Nov25 Drive full review text or existing candidate queue; reconcile latest full register again before permanent ID assignment.",
+      "candidate_id": "US-CAND-20261124-FINCEN",
+      "event_name": "FinCEN cybersecurity incident and regulatory filing disruption",
+      "event_date_local": "Unknown intrusion onset; public disclosure November 24 evening; order issued November 24",
+      "location": "United States, federal Treasury systems",
+      "region": "National/multiregion",
+      "sector": "Cyber/cloud; financial regulatory services",
+      "primary_risk_type": "Cyber and Critical Infrastructure",
+      "status": "qualified_unpublished",
+      "first_public_source": "https://www.fincen.gov/sites/default/files/100/ORDER-FIN-2026-R002.pdf",
+      "first_public_report_timestamp": "2026-11-24 evening ET reported by The Record; exact initial notice timestamp unverified; dated order Nov24",
+      "additional_sources": [
+        "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident",
+        "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident"
+      ],
+      "occurrence": "Official order confirms service disruption; agency banner quoted by two reports confirms unauthorized access and precautionary offline systems; live banner not readable.",
+      "root_cause": "Unauthorized access; method and extent under investigation",
+      "malicious_evidence": "Unauthorized access reported by agency; identity/intent not established",
+      "continuity_impact": "Limited filing relief until Dec30 for qualifying SDTM BSA filers and specified BOI/FinCEN ID reports otherwise due Nov18-Dec29; ongoing AML/CFT monitoring obligations remain. No payment network outage established.",
+      "decision": "Add as distinct material cyber incident in next master; provisional H2 subject to approved rubric. Verify restoration, scope and precise disclosure time; no foreign attribution."
+    },
+    {
+      "first_discovery_time": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
+      "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
+      "publication_ref": null,
+      "foreign_warfare_attribution": "none established",
+      "duplicate_check": "No match in Nov24 Rev2 live full PDF, Nov25 Drive full review text or existing candidate queue; reconcile latest full register again before permanent ID assignment.",
+      "candidate_id": "US-CAND-20261123-ALLSTATE",
+      "event_name": "Allstate nationwide digital service disruption",
+      "event_date_local": "2026-11-23 morning reported, exact onset not confirmed",
+      "location": "United States, national insurer",
+      "region": "National/multiregion",
+      "sector": "Banking/payments and insurance digital services",
+      "primary_risk_type": "Telecom and Data",
+      "status": "qualified_unpublished",
+      "first_public_source": "https://nowgeorgia.com/breaking-allstate-reports-nationwide-service-outage-across-all-platforms/",
+      "first_public_report_timestamp": "Nov24 dated local report (time unavailable); TechCrunch Nov25 10:08 EST (15:08 UTC)",
+      "additional_sources": [
+        "https://techcrunch.com/2026/11/25/allstate-suffers-multi-day-tech-outage-ahead-of-thanksgiving/",
+        "https://www.allstate.com/claims/file-track"
+      ],
+      "occurrence": "TechCrunch verified site/app failure and quoted insurer restoration banner; agent reports Nov24. Formal company cause statement not obtained.",
+      "root_cause": "Unknown",
+      "malicious_evidence": "None established; do not infer cyberattack from outage",
+      "continuity_impact": "Digital claims, premiums and account access affected; holiday claims workload and possible processing delay; phone/agent availability not fully verified, no confirmed payment-rail outage.",
+      "decision": "Add as provisional D2, subject to register review; verify direct status and alternative channels; no duplicate ID."
+    },
+    {
+      "first_discovery_time": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
+      "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
+      "publication_ref": null,
+      "foreign_warfare_attribution": "none established",
+      "duplicate_check": "No match in Nov24 Rev2 live full PDF, Nov25 Drive full review text or existing candidate queue; reconcile latest full register again before permanent ID assignment.",
+      "candidate_id": "US-CAND-20261117-VT-VALCOUR",
+      "event_name": "Vermont statewide Valcour dispatch and records outage",
+      "event_date_local": "2026-11-16 vendor notification reported; outage public by Nov18; exact shutdown time unverified",
+      "location": "Vermont statewide",
+      "region": "Northeast",
+      "sector": "Public services and telecom/911",
+      "primary_risk_type": "Cyber and Critical Infrastructure",
+      "status": "qualified_unpublished",
+      "first_public_source": "https://www.wcax.com/2026/11/18/vermont-takes-records-dispatch-system-offline-following-potential-security-incident/",
+      "first_public_report_timestamp": "2026-11-18 05:44 EST (10:44 UTC), earliest retrieved; Nov24 update 15:13 EST (20:13 UTC)",
+      "additional_sources": [
+        "https://www.mynbc5.com/article/vermont-department-of-public-safety-looks-for-alternatives-to-valcour-system-amid-outage/74522856",
+        "https://vermontdailychronicle.com/no-timeline-for-return-of-emergency-dispatch-system/"
+      ],
+      "occurrence": "Joint state statement quoted Nov18; commissioner Nov24 confirms continued outage, manual work and evaluation of alternatives.",
+      "root_cause": "Vendor security incident; technical cause unknown, precautionary shutdown",
+      "malicious_evidence": "Potential security incident only; malicious activity not established",
+      "continuity_impact": "Dispatchers use manual processes, administrative/records delays, no 911 telephone or emergency service interruption established; no restoration timeline.",
+      "decision": "Backfill as material provisional D2 or H2 only if evidence meets approved causal rubric. Maintain distinction from actual 911 call failures."
+    },
+    {
+      "first_discovery_time": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
+      "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
+      "publication_ref": null,
+      "foreign_warfare_attribution": "none established",
+      "duplicate_check": "No match in Nov24 Rev2 live full PDF, Nov25 Drive full review text or existing candidate queue; reconcile latest full register again before permanent ID assignment.",
+      "candidate_id": "US-CAND-20261124-CIA-OSINT",
+      "event_name": "CIA/ODNI unclassified intelligence-system breach",
+      "event_date_local": "Unknown onset; reportedly weeks earlier; disclosure Nov24",
+      "location": "US federal intelligence agencies",
+      "region": "National/multiregion",
+      "sector": "Cyber/cloud and government",
+      "primary_risk_type": "Cyber and Critical Infrastructure",
+      "status": "qualified_unpublished",
+      "first_public_source": "https://www.washingtonpost.com/politics/2026/11/24/cia-cyberattack-unclassified-system/5649b06a-e846-11f1-8db0-6f1e3c389e7c_story.html",
+      "first_public_report_timestamp": "Nov24 15:43 EST (20:43 UTC) AP syndication; NYT first report cited, exact time not established; reports conflict about first disclosure date",
+      "additional_sources": [
+        "https://apnews.com/article/bfa6d3b02e3b0e2779dfb613c900bd77",
+        "https://www.reuters.com/world/us-cia-odni-suffer-cybersecurity-breach-some-unclassified-information-nyt-2026-11-24/",
+        "https://www.washingtonpost.com/national-security/2026/11/24/hackers-breach-cia-unclassified-computer-system/"
+      ],
+      "occurrence": "AP source reports breach resolved and no classified exposure; Reuters quotes ODNI that critical capabilities/classified systems were unaffected. Named primary incident advisory unavailable.",
+      "root_cause": "Reported unauthorized intrusion; technical cause and compromised data unknown",
+      "malicious_evidence": "Credible reported intrusion; no publicly established perpetrator or foreign direction",
+      "continuity_impact": "Public-sector supplier assurance and protection of sensitive unclassified data; no demonstrated direct private-sector service interruption.",
+      "decision": "Provisional H2 candidate based on credible reporting and ODNI statement; distinct from NSA outage and FBI claim; no attribution or coordinated-campaign conclusion."
+    },
+    {
+      "first_discovery_time": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
+      "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
+      "publication_ref": null,
+      "foreign_warfare_attribution": "none established",
+      "duplicate_check": "No match in Nov24 Rev2 live full PDF, Nov25 Drive full review text or existing candidate queue; reconcile latest full register again before permanent ID assignment.",
+      "candidate_id": "US-CAND-20261121-TX-BAYTOWN",
+      "event_name": "ExxonMobil Baytown olefins plant minor fire",
+      "event_date_local": "2026-11-21",
+      "location": "Baytown, Texas",
+      "region": "South/Central",
+      "sector": "Industrial/manufacturing",
+      "primary_risk_type": "Industrial and Manufacturing",
+      "status": "watch_only",
+      "first_public_source": "https://www.commoplast.com/news/details/20511/",
+      "first_public_report_timestamp": "Nov24 trade report; Nov21 local notice cited but original not retrieved",
+      "additional_sources": [
+        "https://theorbitpostnews.us/baytown-texas-exxonmobil-olefins-plant-small-fire-all-clear/"
+      ],
+      "occurrence": "Trade press reports short-lived process fire and all-clear, no injuries or prolonged shutdown; original operator notice unavailable.",
+      "root_cause": "Process upset; root cause not disclosed",
+      "malicious_evidence": "None established",
+      "continuity_impact": "No confirmed material production or supply interruption; check supplier recovery if relevant.",
+      "decision": "Watch only; do not count unless material production loss documented."
     }
   ],
   "scan_log": [
@@ -715,6 +837,40 @@
       "regional_coverage": "Broad seven-day regional and operator search, specific Midwest/West, Alabama, WV, Puerto Rico; limited South/Central and Northeast; AK/HI broad search only; other territories unassessed. Full 72h histories not obtained.",
       "publication_gap": "Nov25 private review assembled; live site fetch failed and material primary coverage gaps remain. No canonical publication change.",
       "next_action": "Recheck FAA repair, coastal all-clear, gas daily conditions, LUMA and WA/WV utility data; reconcile pending private IDs before next issue."
+    },
+    {
+      "scan_date": "2026-11-25",
+      "scan_time": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
+      "baseline": "Nov25 manifest published-review, cutoff 08:38:54 EST, 62 active/provisional; private PDF full text retrieved and checked for candidate terms. Live homepage still displayed Nov24; Nov25 page/PDF inaccessible via public fetch. Nov24 Rev2 live full PDF (59 active/provisional) checked. No register reset or new permanent ID.",
+      "source_checks": {
+        "energy": [
+          "SNG notice 712681 opened; 712685 unavailable; PHMSA newsroom latest Nov3; NRC home opened without current case-level data; PR/WV/WA restoration not verified."
+        ],
+        "water": [
+          "Spartanburg original Nov18 advisory reopened; regional searches surfaced Metairie main break with limited reported impact, Ohio County KY lifted advisory, Lucas County OH recurrent local issues; no evidence qualifying new widespread loss; broader operator coverage incomplete."
+        ],
+        "telecom": [
+          "RedSky current history retrieved through Nov25; scheduled maintenance completed Nov24; Bandwidth history unpopulated, two individual Nov24 notices reopened; API histories inaccessible; Vermont state statements via local reporting."
+        ],
+        "transport": [
+          "Brightline operator notice reopened confirms Nov21 recovery; BNSF Nov20 holiday plan retrieved, not unplanned disruption; FAA page JS only; O'Hare updates corroborate prior restriction, repair unverified; CSX/USCG query not conclusive."
+        ],
+        "cyber_cloud": [
+          "FinCEN official order retrieved and both pages visually checked; banner inaccessible; AP/Reuters CIA reporting; Google Cloud current snapshot at 12:48 EST no broad severe incidents, history page opened; AWS blank, CISA 403."
+        ],
+        "healthcare": [
+          "HHS press room opened; hospital category searches returned stale/recycled reports, no qualifying new current case independently verified; individual coverage incomplete."
+        ],
+        "payments": [
+          "Stripe loading only; Allstate digital service disruption verified by reporting; FinCEN compliance disruption; payment-network history incomplete."
+        ],
+        "industrial_public_services": [
+          "Humboldt official county notice retrieved; Iowa completion AP/Reuters and Army prior advisory; Baytown minor fire trade reporting; no direct CAER notice retrieved."
+        ]
+      },
+      "regional_coverage": "Northeast Vermont, Midwest Iowa/Ohio/Chicago, Southeast AL/SC/FL, South/Central TX/LA/KY, West CA/WA, national cyber/insurer, PR searched; AK/HI/Guam broad search returned no meaningful current case; USVI/other territories unassessed. No complete 72h histories or regional coverage claim.",
+      "publication_gap": "Repository manifest and dated HTML list Nov25 review, public homepage returned Nov24, public Nov25 URL and PDF failed. Prior Nov24 live validated baseline remains accessible. Deployment not independently verified; do not modify publication.",
+      "next_action": "Reconcile four new qualified candidates against next master, retain IDs 0065-0068 pending live verification, update Iowa watch and Humboldt evidence; verify live publication and source access."
     }
   ]
 }
