@@ -758,6 +758,61 @@
       "malicious_evidence": "None established",
       "continuity_impact": "No confirmed material production or supply interruption; check supplier recovery if relevant.",
       "decision": "Watch only; do not count unless material production loss documented."
+    },
+    {
+      "candidate_id": "US-CAND-20261125-TX-WEATHERFORD-AEROSPACE",
+      "event_name": "Weatherford Aerospace industrial fire and precautionary shelter-in-place",
+      "event_date_local": "2026-11-25 06:56 CST fire dispatch (07:56 EST; 12:56 UTC); ignition time unknown",
+      "location": "Weatherford, Parker County, Texas",
+      "region": "South/Central",
+      "sector": "Industrial/manufacturing",
+      "primary_risk_type": "Industrial and Manufacturing",
+      "status": "qualified_unpublished",
+      "proposed_class": "D2 (provisional)",
+      "first_public_source": "https://www.cbsnews.com/texas/news/fire-weatherford-aerospace-texas-nov-25/",
+      "first_public_report_timestamp": "2026-11-25 08:29 CST / 09:29 EST / 14:29 UTC earliest opened timestamped report; earlier KDFW video indexed at 08:12 CST / 09:12 EST / 14:12 UTC but direct retrieval failed; first report anywhere unknown",
+      "first_discovery_time": "2026-11-25 15:42 EST / 20:42 UTC (user screenshot referral at conversation turn, minute precision; independent confirmation followed, exact individual retrieval time unavailable)",
+      "initial_source_type": "User-referral social media screenshot, independently corroborated by local news",
+      "additional_sources": [
+        {
+          "url": "https://weatherfordtx.gov/CivicAlerts.aspx?AID=667",
+          "status": "Original city advisory linked by reporting; direct retrieval restricted"
+        },
+        {
+          "url": "https://www.cbsnews.com/texas/news/fire-weatherford-aerospace-texas-nov-25/?intcid=CNR-01-0623",
+          "status": "Opened/search retrieved; city-sourced all-clear 09:05 CST"
+        },
+        {
+          "url": "https://www.cbsnews.com/texas/video/breaking-weatherford-aerospace-fire-update/",
+          "status": "Opened; fire chief account confirms dispatch before 07:00 CST"
+        },
+        {
+          "url": "https://www.nacionale.com/en/articles/weatherford-shelter-in-place-lifted-aerospace-fire-under-control",
+          "status": "Opened; quotes city update on tank integrity, no reported injuries, investigation and dispatch"
+        },
+        {
+          "url": "https://www.nbcdfw.com/news/local/first-responders-working-major-fire-at-aerospace-manufacturing-plant-in-weatherford/4110694/?amp=1",
+          "status": "Retrieved; corroborates city warning and industrial fire"
+        },
+        {
+          "url": "https://www.yahoo.com/news/videos/explosions-fire-reported-weatherford-aerospace-141209949.html",
+          "status": "Earlier indexed KDFW report; direct fetch failed"
+        },
+        {
+          "url": "https://www.weatherfordaerospace.com/capabilities",
+          "status": "Retrieved company capabilities; not incident/recovery notice"
+        }
+      ],
+      "occurrence": "Fire and one-mile precautionary shelter-in-place confirmed by city-sourced news; order lifted at 09:05 CST (10:05 EST, 15:05 UTC). City account as relayed by reporting says no reported injuries and chemical storage tanks not compromised. Production status and environmental test results not verified.",
+      "root_cause": "Under investigation; arson task force assistance reported, not evidence of deliberate ignition.",
+      "malicious_evidence": "None established",
+      "foreign_warfare_attribution": "None established",
+      "continuity_impact": "Documented temporary local shelter-in-place and emergency response; possible facility cleanup, interrupted operations, specialized aerospace supplier delays, insurance and environmental assessment exposure. No verified ongoing production loss, customer impact or major supply-chain interruption.",
+      "duplicate_check": "No Weatherford Aerospace match in persistent queue before insertion. Distinct from Baytown minor fire. November 25 manifest morning cutoff 08:38:54 EST precedes earliest recovered indexed report; previous scan log confirms no Weatherford entry in afternoon findings. Dated register JSON files for Nov24/25 return 404; full PDFs not independently rechecked during this targeted follow-up. Reconcile latest validated full register before allocating permanent US26 ID.",
+      "review_status": "Verified via multiple city-sourced reports; original city notice inaccessible, production restart and cause unresolved; missed at 13:00:18 EST scan and identified by user referral.",
+      "decision": "Include provisionally D2 in next validated master; record all-clear separately from plant restart. Add to historical acceptance tests as a documented detection miss. No permanent incident ID until full register reconciliation. Recheck operator status, official investigation and environmental reporting before next release.",
+      "last_review": "2026-11-25 targeted follow-up after 15:42 EST referral; exact review timestamp not instrumented",
+      "publication_ref": null
     }
   ],
   "scan_log": [
@@ -871,6 +926,19 @@
       "regional_coverage": "Northeast Vermont, Midwest Iowa/Ohio/Chicago, Southeast AL/SC/FL, South/Central TX/LA/KY, West CA/WA, national cyber/insurer, PR searched; AK/HI/Guam broad search returned no meaningful current case; USVI/other territories unassessed. No complete 72h histories or regional coverage claim.",
       "publication_gap": "Repository manifest and dated HTML list Nov25 review, public homepage returned Nov24, public Nov25 URL and PDF failed. Prior Nov24 live validated baseline remains accessible. Deployment not independently verified; do not modify publication.",
       "next_action": "Reconcile four new qualified candidates against next master, retain IDs 0065-0068 pending live verification, update Iowa watch and Humboldt evidence; verify live publication and source access."
+    },
+    {
+      "scan_date": "2026-11-25",
+      "scan_time": "Targeted follow-up after 15:42 EST user referral (20:42 UTC); exact retrieval times not instrumented",
+      "baseline": "Read detection/release control, workflow, candidate queue and editions manifest. Nov25 morning cutoff 08:38:54 EST; afternoon scan began 13:00:18 EST. No prior Weatherford queue entry. Dated register JSON unavailable (404); no new permanent ID.",
+      "source_checks": {
+        "industrial_public_services": [
+          "Weatherford fire: CBS Texas initial and updated coverage, NBC DFW, fire chief video, city-linked reporting and company capabilities retrieved; city original CivicAlerts AID 667 restricted; earlier KDFW video indexed but direct fetch unavailable."
+        ]
+      },
+      "regional_coverage": "Targeted South/Central incident only, not a repeat national scan.",
+      "detection_gap": "Verified material incident reported before scheduled afternoon scan, missed by prior industrial/public-services sweep. User referral required; treat as documented false negative and historical acceptance case. Actual reason for search miss unknown.",
+      "next_action": "Recheck city/plant operational restoration, cause and customer impacts; include provisional D2 in next validated master and reconcile stable ID."
     }
   ]
 }
