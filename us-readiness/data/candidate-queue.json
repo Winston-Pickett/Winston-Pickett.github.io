@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-25",
+  "updated_at": "2026-11-26",
   "purpose": "Persistent incident discovery and disposition queue. This is NOT the 60-day incident register. The published November 23 full master is the historical continuity baseline; do not recreate a blank incident register.",
   "status_values": [
     "new",
@@ -295,8 +295,8 @@
       "malicious_evidence": "none established",
       "foreign_warfare_attribution": "none established",
       "continuity_impact": "Temporary relocation and closures affecting local schools/businesses; reentry and final sampling unverified.",
-      "decision": "Update existing watch, no hostile incident or new ID; confirm official stand-down and environmental results.",
-      "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
+      "decision": "Planned operation completed. EPA Nov26 reports no airborne lead detected so far; post-operation laboratory results pending. Watch only.",
+      "last_review": "2026-11-26 12:06:23 EST cutoff",
       "publication_ref": null,
       "region": "Midwest",
       "first_discovery_time": "Known by morning review; exact timestamp unavailable",
@@ -304,12 +304,13 @@
       "additional_sources": [
         "https://www.army.mil/article/297069",
         "https://apnews.com/article/714e040baedc1cd90c2ba688be76cfc7",
-        "https://www.reuters.com/world/us/iowa-town-braces-planned-detonation-lead-based-explosives-stockpile-2026-11-25/"
+        "https://www.reuters.com/world/us/iowa-town-braces-planned-detonation-lead-based-explosives-stockpile-2026-11-25/",
+        "https://www.epa.gov/newsreleases/epa-provides-update-sampling-following-yesterdays-controlled-detonation-iowa-army"
       ],
       "previous_disposition": {
         "status": "watch_only",
-        "decision": "Watch only; monitor official safety guidance and all-clear; no permanent ID. Do not report the planned operation as an attack.",
-        "last_review": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)"
+        "decision": "Update existing watch, no hostile incident or new ID; confirm official stand-down and environmental results.",
+        "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented"
       }
     },
     {
@@ -631,7 +632,7 @@
     },
     {
       "first_discovery_time": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
-      "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
+      "last_review": "2026-11-26 12:06:23 EST cutoff",
       "publication_ref": null,
       "foreign_warfare_attribution": "none established",
       "duplicate_check": "No match in Nov24 Rev2 live full PDF, Nov25 Drive full review text or existing candidate queue; reconcile latest full register again before permanent ID assignment.",
@@ -653,11 +654,18 @@
       "root_cause": "Unauthorized access; method and extent under investigation",
       "malicious_evidence": "Unauthorized access reported by agency; identity/intent not established",
       "continuity_impact": "Limited filing relief until Dec30 for qualifying SDTM BSA filers and specified BOI/FinCEN ID reports otherwise due Nov18-Dec29; ongoing AML/CFT monitoring obligations remain. No payment network outage established.",
-      "decision": "Add as distinct material cyber incident in next master; provisional H2 subject to approved rubric. Verify restoration, scope and precise disclosure time; no foreign attribution."
+      "decision": "Included in November 26 full private supplement; release pending. Preserve assigned ID.",
+      "previous_disposition": {
+        "status": "qualified_unpublished",
+        "decision": "Add as distinct material cyber incident in next master; provisional H2 subject to approved rubric. Verify restoration, scope and precise disclosure time; no foreign attribution.",
+        "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented"
+      },
+      "incident_id": "US26-0069",
+      "proposed_class": "H2"
     },
     {
       "first_discovery_time": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
-      "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
+      "last_review": "2026-11-26 12:06:23 EST cutoff",
       "publication_ref": null,
       "foreign_warfare_attribution": "none established",
       "duplicate_check": "No match in Nov24 Rev2 live full PDF, Nov25 Drive full review text or existing candidate queue; reconcile latest full register again before permanent ID assignment.",
@@ -679,11 +687,18 @@
       "root_cause": "Unknown",
       "malicious_evidence": "None established; do not infer cyberattack from outage",
       "continuity_impact": "Digital claims, premiums and account access affected; holiday claims workload and possible processing delay; phone/agent availability not fully verified, no confirmed payment-rail outage.",
-      "decision": "Add as provisional D2, subject to register review; verify direct status and alternative channels; no duplicate ID."
+      "decision": "Included in November 26 full private supplement; release pending. Preserve assigned ID.",
+      "previous_disposition": {
+        "status": "qualified_unpublished",
+        "decision": "Add as provisional D2, subject to register review; verify direct status and alternative channels; no duplicate ID.",
+        "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented"
+      },
+      "incident_id": "US26-0070",
+      "proposed_class": "D2"
     },
     {
       "first_discovery_time": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
-      "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
+      "last_review": "2026-11-26 12:06:23 EST cutoff",
       "publication_ref": null,
       "foreign_warfare_attribution": "none established",
       "duplicate_check": "No match in Nov24 Rev2 live full PDF, Nov25 Drive full review text or existing candidate queue; reconcile latest full register again before permanent ID assignment.",
@@ -705,11 +720,18 @@
       "root_cause": "Vendor security incident; technical cause unknown, precautionary shutdown",
       "malicious_evidence": "Potential security incident only; malicious activity not established",
       "continuity_impact": "Dispatchers use manual processes, administrative/records delays, no 911 telephone or emergency service interruption established; no restoration timeline.",
-      "decision": "Backfill as material provisional D2 or H2 only if evidence meets approved causal rubric. Maintain distinction from actual 911 call failures."
+      "decision": "Included in November 26 full private supplement; release pending. Preserve assigned ID.",
+      "previous_disposition": {
+        "status": "qualified_unpublished",
+        "decision": "Backfill as material provisional D2 or H2 only if evidence meets approved causal rubric. Maintain distinction from actual 911 call failures.",
+        "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented"
+      },
+      "incident_id": "US26-0071",
+      "proposed_class": "D2"
     },
     {
       "first_discovery_time": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
-      "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
+      "last_review": "2026-11-26 12:06:23 EST cutoff",
       "publication_ref": null,
       "foreign_warfare_attribution": "none established",
       "duplicate_check": "No match in Nov24 Rev2 live full PDF, Nov25 Drive full review text or existing candidate queue; reconcile latest full register again before permanent ID assignment.",
@@ -732,7 +754,14 @@
       "root_cause": "Reported unauthorized intrusion; technical cause and compromised data unknown",
       "malicious_evidence": "Credible reported intrusion; no publicly established perpetrator or foreign direction",
       "continuity_impact": "Public-sector supplier assurance and protection of sensitive unclassified data; no demonstrated direct private-sector service interruption.",
-      "decision": "Provisional H2 candidate based on credible reporting and ODNI statement; distinct from NSA outage and FBI claim; no attribution or coordinated-campaign conclusion."
+      "decision": "Included in November 26 full private supplement; release pending. Preserve assigned ID.",
+      "previous_disposition": {
+        "status": "qualified_unpublished",
+        "decision": "Provisional H2 candidate based on credible reporting and ODNI statement; distinct from NSA outage and FBI claim; no attribution or coordinated-campaign conclusion.",
+        "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented"
+      },
+      "incident_id": "US26-0072",
+      "proposed_class": "H2"
     },
     {
       "first_discovery_time": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
@@ -768,7 +797,7 @@
       "sector": "Industrial/manufacturing",
       "primary_risk_type": "Industrial and Manufacturing",
       "status": "qualified_unpublished",
-      "proposed_class": "D2 (provisional)",
+      "proposed_class": "D2",
       "first_public_source": "https://www.cbsnews.com/texas/news/fire-weatherford-aerospace-texas-nov-25/",
       "first_public_report_timestamp": "2026-11-25 08:29 CST / 09:29 EST / 14:29 UTC earliest opened timestamped report; earlier KDFW video indexed at 08:12 CST / 09:12 EST / 14:12 UTC but direct retrieval failed; first report anywhere unknown",
       "first_discovery_time": "2026-11-25 15:42 EST / 20:42 UTC (user screenshot referral at conversation turn, minute precision; independent confirmation followed, exact individual retrieval time unavailable)",
@@ -810,9 +839,108 @@
       "continuity_impact": "Documented temporary local shelter-in-place and emergency response; possible facility cleanup, interrupted operations, specialized aerospace supplier delays, insurance and environmental assessment exposure. No verified ongoing production loss, customer impact or major supply-chain interruption.",
       "duplicate_check": "No Weatherford Aerospace match in persistent queue before insertion. Distinct from Baytown minor fire. November 25 manifest morning cutoff 08:38:54 EST precedes earliest recovered indexed report; previous scan log confirms no Weatherford entry in afternoon findings. Dated register JSON files for Nov24/25 return 404; full PDFs not independently rechecked during this targeted follow-up. Reconcile latest validated full register before allocating permanent US26 ID.",
       "review_status": "Verified via multiple city-sourced reports; original city notice inaccessible, production restart and cause unresolved; missed at 13:00:18 EST scan and identified by user referral.",
-      "decision": "Include provisionally D2 in next validated master; record all-clear separately from plant restart. Add to historical acceptance tests as a documented detection miss. No permanent incident ID until full register reconciliation. Recheck operator status, official investigation and environmental reporting before next release.",
-      "last_review": "2026-11-25 targeted follow-up after 15:42 EST referral; exact review timestamp not instrumented",
-      "publication_ref": null
+      "decision": "Included in November 26 full private supplement; release pending. Preserve assigned ID.",
+      "last_review": "2026-11-26 12:06:23 EST cutoff",
+      "publication_ref": null,
+      "previous_disposition": {
+        "status": "qualified_unpublished",
+        "decision": "Include provisionally D2 in next validated master; record all-clear separately from plant restart. Add to historical acceptance tests as a documented detection miss. No permanent incident ID until full register reconciliation. Recheck operator status, official investigation and environmental reporting before next release.",
+        "last_review": "2026-11-25 targeted follow-up after 15:42 EST referral; exact review timestamp not instrumented"
+      },
+      "incident_id": "US26-0073"
+    },
+    {
+      "candidate_id": "US-CAND-20261125-AA1494",
+      "event_name": "American Airlines passenger interference and diversion",
+      "event_date_local": "2026-11-25",
+      "location": "Phoenix, Arizona",
+      "region": "West",
+      "sector": "Aviation",
+      "status": "qualified_unpublished",
+      "incident_id": "US26-0074",
+      "proposed_class": "H2",
+      "first_public_source": "https://www.azfamily.com/2026/11/25/american-airlines-flight-diverted-phoenix-sky-harbor-over-unruly-passenger/",
+      "decision": "Police/airline statements via reporting confirm diversion; motive and malicious intent unresolved; flight continued; no other injuries reported.",
+      "last_review": "2026-11-26 12:06:23 EST cutoff",
+      "first_discovery_time": "November 26 follow-up; exact first retrieval time not instrumented",
+      "foreign_warfare_attribution": "none established",
+      "publication_ref": null,
+      "additional_sources": []
+    },
+    {
+      "candidate_id": "US-CAND-20261126-THANKSGIVING-STORM",
+      "event_name": "Thanksgiving Midwest and East Coast storm",
+      "event_date_local": "2026-11-25 to 26",
+      "location": "Midwest/East Coast",
+      "region": "National/multiregion",
+      "sector": "Electricity and logistics",
+      "status": "qualified_unpublished",
+      "incident_id": "US26-0075",
+      "proposed_class": "D1",
+      "first_public_source": "https://apnews.com/article/e8bc9bc454c933dacffe89b1139c4d3c",
+      "decision": "AP reports >500,000 electricity accounts interrupted; Ameren and parade disruption nested, not counted separately.",
+      "last_review": "2026-11-26 12:06:23 EST cutoff",
+      "first_discovery_time": "November 26 follow-up; exact first retrieval time not instrumented",
+      "foreign_warfare_attribution": "none established",
+      "publication_ref": null,
+      "additional_sources": [
+        "https://www.ky3.com/2026/11/26/over-120000-missouri-customers-without-power-snow-falls-across-st-louis-area/",
+        "https://apnews.com/article/cdc870899c8dc2d32a0ac3d86119b3ba"
+      ]
+    },
+    {
+      "candidate_id": "US-CAND-20261125-MIA-FEDEX",
+      "event_name": "FedEx Miami runway excursion",
+      "event_date_local": "2026-11-25",
+      "location": "Miami, Florida",
+      "region": "Southeast",
+      "sector": "Aviation",
+      "status": "qualified_unpublished",
+      "incident_id": "US26-0076",
+      "proposed_class": "D2",
+      "first_public_source": "https://abcnews.com/US/wireStory/fedex-airplane-overruns-runway-miami-airport-temporarily-closing-138460484",
+      "decision": "Airport/FAA via AP; temporary airport capacity loss; no injuries; initiating cause unresolved.",
+      "last_review": "2026-11-26 12:06:23 EST cutoff",
+      "first_discovery_time": "November 26 follow-up; exact first retrieval time not instrumented",
+      "foreign_warfare_attribution": "none established",
+      "publication_ref": null,
+      "additional_sources": []
+    },
+    {
+      "candidate_id": "US-CAND-20261125-LGA-ALERT",
+      "event_name": "LaGuardia reported aviation warning",
+      "event_date_local": "2026-11-25",
+      "location": "New York",
+      "region": "Northeast",
+      "sector": "Aviation security",
+      "status": "watch_only",
+      "incident_id": null,
+      "proposed_class": null,
+      "first_public_source": "https://jbiznews.com/false-missile-launcher-report-briefly-delays-laguardia-departures/",
+      "decision": "Reported noncredible finding via secondary reporting; no confirmed attack or weapon; direct authority statement unavailable.",
+      "last_review": "2026-11-26 12:06:23 EST cutoff",
+      "first_discovery_time": "November 26 follow-up; exact first retrieval time not instrumented",
+      "foreign_warfare_attribution": "none established",
+      "publication_ref": null,
+      "additional_sources": []
+    },
+    {
+      "candidate_id": "US-CAND-20261125-SKYWEST3932",
+      "event_name": "SkyWest suspicious passenger allegation",
+      "event_date_local": "2026-11-25 (claimed)",
+      "location": "Minneapolis, Minnesota",
+      "region": "Midwest",
+      "sector": "Aviation security",
+      "status": "verifying",
+      "incident_id": null,
+      "proposed_class": null,
+      "first_public_source": null,
+      "decision": "User-referral screenshot; no independent confirmation recovered. Uncounted.",
+      "last_review": "2026-11-26 12:06:23 EST cutoff",
+      "first_discovery_time": "November 26 follow-up; exact first retrieval time not instrumented",
+      "foreign_warfare_attribution": "none established",
+      "publication_ref": null,
+      "additional_sources": []
     }
   ],
   "scan_log": [
@@ -939,6 +1067,17 @@
       "regional_coverage": "Targeted South/Central incident only, not a repeat national scan.",
       "detection_gap": "Verified material incident reported before scheduled afternoon scan, missed by prior industrial/public-services sweep. User referral required; treat as documented false negative and historical acceptance case. Actual reason for search miss unknown.",
       "next_action": "Recheck city/plant operational restoration, cause and customer impacts; include provisional D2 in next validated master and reconcile stable ID."
+    },
+    {
+      "scan_date": "2026-11-26",
+      "scan_time": "12:06:23 EST research cutoff",
+      "baseline": "November 25 private master 62 unique active/provisional; eight additions, no age-offs, 70 reconciled; 3 historical carry-ins separate.",
+      "source_checks": {
+        "targeted": "AP storm and FedEx, CBS Weatherford, AA airline/police through local reports, EPA, FinCEN official order, TechCrunch company statement, WCAX state statement, Washington Post and Nextgov, Ameren-map-based local reporting. LaGuardia secondary report; SkyWest uncorroborated."
+      },
+      "regional_coverage": "Targeted supplemental review, not full national 72-hour sweep. Other sectors and territories incompletely assessed.",
+      "publication_gap": "November 26 master produced privately; public release not certified.",
+      "next_action": "Full release source and deployment QA; recheck current recovery and unknown root causes."
     }
   ]
 }
