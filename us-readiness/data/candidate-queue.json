@@ -67,7 +67,12 @@
       "additional_review_urls": [
         "https://pipeline2.kindermorgan.com/Notices/NoticeDetail.aspx?code=SNG&notc_nbr=712681",
         "https://pipeline2.kindermorgan.com/Notices/Notices.aspx?code=SNG&type=C"
-      ]
+      ],
+      "afternoon_review_20261126": {
+        "time": "2026-11-26 afternoon exception review; findings observed by 12:56:46 EST (17:56:46 UTC) for Bandwidth and storm; Puerto Rico decision retrieved subsequently; precise individual discovery timestamps not instrumented.",
+        "source_url": "https://pipeline2.kindermorgan.com/Notices/Notices.aspx?code=SNG&type=C",
+        "findings": "Notice list retrieved, 712689 and 712686 detail inaccessible; 712684 lifted different meter outage, not verified York segment recovery. Retain prior 100k restriction as last confirmed historical figure, not current capacity assertion."
+      }
     },
     {
       "candidate_id": "US-CAND-20261118-SC-WATER",
@@ -886,7 +891,19 @@
       "additional_sources": [
         "https://www.ky3.com/2026/11/26/over-120000-missouri-customers-without-power-snow-falls-across-st-louis-area/",
         "https://apnews.com/article/cdc870899c8dc2d32a0ac3d86119b3ba"
-      ]
+      ],
+      "afternoon_review": {
+        "time": "2026-11-26 afternoon exception review; findings observed by 12:56:46 EST (17:56:46 UTC) for Bandwidth and storm; Puerto Rico decision retrieved subsequently; precise individual discovery timestamps not instrumented.",
+        "source_urls": [
+          "https://www.appalachianpower.com/outages/storms/",
+          "https://www.wdbj7.com/2026/11/26/thanksgiving-heavy-rain-gusty-winds-across-hometowns-leave-26k-without-power/",
+          "https://wildwoodnj.gov/newspost/thanksgivingstormupdate",
+          "https://watchers.news/2026/11/26/major-thanksgiving-coastal-flooding-cuts-off-north-wildwood-as-states-of-emergency-take-effect-in-new-jersey-and-parts-of-new-york/",
+          "https://www.nbcphiladelphia.com/news/local/state-of-emergency-thanksgiving-storm-new-jersey/4503076/"
+        ],
+        "findings": "APCo 11:10 EST update indexed; full direct reopen failed. WDBJ reproduces operator report: ~27,000 accounts without power at 10am EST (26k VA, 1k WV), majority restoration target 11pm EST, hardest hit may extend Friday. City Wildwood Nov25 official warning retrieved via index; actual road closures reported Nov26 11:01 EST by secondary reporting citing police; direct closure notice not opened. NJ emergency declaration effective Nov25 18:00 EST. Do not add regional counts to national count.",
+        "decision": "Nested storm impacts; preserve US26-0075. Verify restoration and road reopenings. Distinguish reported estimates from completed recovery."
+      }
     },
     {
       "candidate_id": "US-CAND-20261125-MIA-FEDEX",
@@ -941,6 +958,79 @@
       "foreign_warfare_attribution": "none established",
       "publication_ref": null,
       "additional_sources": []
+    },
+    {
+      "candidate_id": "US-CAND-20261125-BW-JFK",
+      "event_name": "Bandwidth JFK data center brief call interruption Nov25",
+      "event_date_local": "2026-11-25 21:35–21:40 EST (2026-11-26 02:35–02:40 UTC)",
+      "location": "JFK data center / US voice traffic",
+      "region": "Northeast / national service footprint not established",
+      "sector": "Telecom and 911",
+      "primary_risk_type": "Telecom and Data",
+      "status": "verifying",
+      "first_public_source": "https://status.bandwidth.com/incidents/jwyy1d4gkjt7",
+      "first_public_report_timestamp": "2026-11-25 22:39 EST (2026-11-26 03:39 UTC), earliest operator notice retrieved; postmortem 2026-11-26 04:21 EST",
+      "occurrence": "Operator confirms subset of calls interrupted for five minutes; resolved, limited scope, no additional details planned.",
+      "root_cause": "Undisclosed",
+      "continuity_impact": "Potential contact center call completion failure; no quantified traffic, emergency-call impact, or material business loss.",
+      "duplicate_check": "Distinct time and operator notice from US26-0055 Nov19 incident; latest live Nov24 register checked. Nov26 private supplement not independently retrieved; confirm before any ID assignment.",
+      "review_status": "Verified occurrence; materiality unresolved",
+      "decision": "Keep uncounted pending evidence of material customer effects; compare call-completion metrics if affected.",
+      "first_discovery_time": "2026-11-26 afternoon exception review; findings observed by 12:56:46 EST (17:56:46 UTC) for Bandwidth and storm; Puerto Rico decision retrieved subsequently; precise individual discovery timestamps not instrumented.",
+      "last_review": "2026-11-26 afternoon exception review; findings observed by 12:56:46 EST (17:56:46 UTC) for Bandwidth and storm; Puerto Rico decision retrieved subsequently; precise individual discovery timestamps not instrumented.",
+      "publication_ref": null,
+      "foreign_warfare_attribution": "None established",
+      "malicious_evidence": "None established"
+    },
+    {
+      "candidate_id": "US-CAND-20261125-PR-LUMA-TRANSITION",
+      "event_name": "Puerto Rico Supreme Court voids LUMA contract extension, orders transition",
+      "event_date_local": "2026-11-25 AST",
+      "location": "Puerto Rico",
+      "region": "National/multiregion (territory)",
+      "sector": "Energy / electricity",
+      "primary_risk_type": "Essential Services",
+      "status": "watch_only",
+      "first_public_source": "https://poderjudicial.pr/tribunal-supremo-declara-nula-la-extension-de-la-relacion-contractual-con-luma-energy-y-dispone-una-transicion-ordenada/",
+      "first_public_report_timestamp": "2026-11-25 AST (judiciary announcement; precise time unavailable)",
+      "additional_sources": [
+        "https://oversightboard.pr.gov/fomb-statement-pr-supreme-court-decision-on-luma/",
+        "https://apnews.com/article/e45076fdebfe5c07de142dcb05f771c2"
+      ],
+      "occurrence": "Judiciary confirmed contract extension invalid and ordered orderly transition; oversight board cited uncertainty over successor, maintenance and federal funds; AP reports one-year transition.",
+      "root_cause": "Legal ruling on contract extension; not physical grid failure",
+      "continuity_impact": "Potential grid maintenance, capital spending, service continuity and supplier transition exposure; no new actual service interruption linked to ruling established.",
+      "duplicate_check": "Distinct legal development from US26-0064 Nov22–23 power interruption; no standalone incident ID. Nov26 private supplement contents not independently retrieved.",
+      "review_status": "Primary judiciary and oversight board statements recovered via search",
+      "decision": "Watch in executive outlook and Section 9; no new incident count. Track successor and transition plan; verify site-level resilience.",
+      "first_discovery_time": "2026-11-26 afternoon exception review; findings observed by 12:56:46 EST (17:56:46 UTC) for Bandwidth and storm; Puerto Rico decision retrieved subsequently; precise individual discovery timestamps not instrumented.",
+      "last_review": "2026-11-26 afternoon exception review; findings observed by 12:56:46 EST (17:56:46 UTC) for Bandwidth and storm; Puerto Rico decision retrieved subsequently; precise individual discovery timestamps not instrumented.",
+      "publication_ref": null,
+      "foreign_warfare_attribution": "None established",
+      "malicious_evidence": "None established"
+    },
+    {
+      "candidate_id": "US-CAND-20261126-MO-WILDWOOD-WATER",
+      "event_name": "Wildwood Missouri precautionary boil-water advisory following power outage",
+      "event_date_local": "2026-11-26 07:30 CST advisory",
+      "location": "Wildwood, Missouri",
+      "region": "Midwest",
+      "sector": "Water and wastewater",
+      "primary_risk_type": "Essential Services",
+      "status": "verifying",
+      "first_public_source": "https://www.firstalert4.com/2026/11/26/power-outage-prompts-boil-water-advisory-some-wildwood-residents/",
+      "first_public_report_timestamp": "2026-11-26 08:12 CST / 09:12 EST (local report; earlier utility advisory 07:30 CST reported)",
+      "occurrence": "Local report attributes precautionary advisory to Missouri American Water for limited area following power outage.",
+      "root_cause": "Power loss reported; specific technical cause and storm relationship unverified",
+      "continuity_impact": "Localized potable-water precaution; customer count, affected businesses and restoration unknown.",
+      "duplicate_check": "No existing queue match; possible nested storm impact under US26-0075, not separate count without confirmed independent cause/materiality.",
+      "review_status": "Local operator-sourced report; primary utility notice not retrieved",
+      "decision": "Retain uncounted; recheck utility notice, scale and repeal; avoid conflation with Wildwood NJ flooding.",
+      "first_discovery_time": "2026-11-26 afternoon exception review; findings observed by 12:56:46 EST (17:56:46 UTC) for Bandwidth and storm; Puerto Rico decision retrieved subsequently; precise individual discovery timestamps not instrumented.",
+      "last_review": "2026-11-26 afternoon exception review; findings observed by 12:56:46 EST (17:56:46 UTC) for Bandwidth and storm; Puerto Rico decision retrieved subsequently; precise individual discovery timestamps not instrumented.",
+      "publication_ref": null,
+      "foreign_warfare_attribution": "None established",
+      "malicious_evidence": "None established"
     }
   ],
   "scan_log": [
@@ -1078,6 +1168,40 @@
       "regional_coverage": "Targeted supplemental review, not full national 72-hour sweep. Other sectors and territories incompletely assessed.",
       "publication_gap": "November 26 master produced privately; public release not certified.",
       "next_action": "Full release source and deployment QA; recheck current recovery and unknown root causes."
+    },
+    {
+      "scan_date": "2026-11-26",
+      "scan_time": "2026-11-26 afternoon exception review; findings observed by 12:56:46 EST (17:56:46 UTC) for Bandwidth and storm; Puerto Rico decision retrieved subsequently; precise individual discovery timestamps not instrumented.",
+      "baseline": "Manifest latest Nov25 published-review 62 incidents cutoff 08:38:54 EST; Nov24 final full PDF accessible 59 records (cover screenshot and targeted register comparisons); Nov25 public page/PDF inaccessible, homepage still displays Nov24. Queue records Nov26 private supplement 70 records, cutoff 12:06:23 EST; actual private full document not independently retrieved this run. No permanent ID assigned.",
+      "source_checks": {
+        "energy": [
+          "PHMSA newsroom latest Nov3, NRC homepage (case data not reviewed), SNG notice list and failed detail opens; APCo indexed direct update/secondary report; Puerto Rico judiciary and oversight board official statements."
+        ],
+        "water": [
+          "Category search; Wildwood MO local report; direct utility notice not obtained; Spartanburg historical report returned, not new."
+        ],
+        "telecom": [
+          "RedSky home history Nov24–26; Bandwidth home history and direct JFK postmortem; other vendor coverage incomplete."
+        ],
+        "transport": [
+          "BNSF official Thanksgiving planned advisory indexed; FAA status inaccessible; Brightline/USCG/rail searches inconclusive; no complete direct operator history."
+        ],
+        "cyber_cloud": [
+          "Google Cloud snapshot 12:48 EST no broad severe incidents; AWS blank, CISA forbidden; Reuters FinCEN reporting, Allstate prior reporting; no verified fresh recovery."
+        ],
+        "healthcare": [
+          "HHS press room retrieved, broad hospital search returned older incidents; no independent hospital-level sweep."
+        ],
+        "payments": [
+          "Stripe loading only, category search returned old bank incidents and Allstate; no comprehensive payment provider histories."
+        ],
+        "industrial_public_services": [
+          "Weatherford prior report recovered through category search; Iowa planned operation prior reporting; Wildwood NJ warning indexed and road closures secondary; no additional current qualifying industrial incident verified."
+        ]
+      },
+      "regional_coverage": "Category-based searches for Northeast, Southeast, Midwest, South/Central, West and national; Puerto Rico official evidence; AK/HI/Guam/USVI broad queries inconclusive; territorial operator sources not comprehensively reviewed. No complete 72h history/7d census claim.",
+      "publication_gap": "Public homepage Nov24, Nov25 page/PDF inaccessible, no Nov26 entry in manifest. Nov26 private supplement not independently verified. Publication gap persists; no release authorized.",
+      "next_action": "Update storm US26-0075, evaluate JFK and Wildwood MO materiality, track LUMA transition as watch, verify actual latest register and deployment before assigning IDs or claiming release."
     }
   ]
 }
