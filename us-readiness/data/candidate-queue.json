@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-26",
+  "updated_at": "2026-11-27T13:08:27Z",
   "purpose": "Persistent incident discovery and disposition queue. This is NOT the 60-day incident register. The published November 23 full master is the historical continuity baseline; do not recreate a blank incident register.",
   "status_values": [
     "new",
@@ -28,8 +28,8 @@
       "malicious_evidence": "none reported",
       "foreign_warfare_attribution": "none established",
       "continuity_impact": "Operator force majeure: initial 500,000 Dth/day reduction; update #1 posted Nov22 12:22:48 portal time reduced constraint to 270,000 Dth/day effective Nov23; update #2 posted Nov23 10:26:40 portal time reduced constraint to 100,000 Dth/day effective Nov24 (2,349,000 of normal 2,449,000 Dth/day). No anticipated nomination impact per operator; full restoration not verified. Posting timezone not explicit in retrieved text.",
-      "decision": "Nov24 100,000 Dth/day restriction notice reopened; daily notice 712685 inaccessible; no new restoration evidence. Keep US26-0063 and existing class.",
-      "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
+      "decision": "Nov26/27 SNG notices 712689/712690 opened but rendered navigation shell without York figures. Last verified Nov24 100,000 Dth/day restriction; no new restoration claim.",
+      "last_review": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
       "publication_ref": "/us-readiness/2026-11-24/",
       "additional_sources": [
         {
@@ -333,8 +333,8 @@
       "malicious_evidence": "none established",
       "foreign_warfare_attribution": "none established",
       "continuity_impact": "Operator anticipated no routing or portal impact.",
-      "decision": "Direct operator history now shows maintenance completed Nov24 22:00 CST (Nov24 23:00 EST); no impact reported; close watch, retain record.",
-      "last_review": "2026-11-25 afternoon scan, begun 13:00:18 EST (18:00:18 UTC); exact individual retrieval time not instrumented",
+      "decision": "Operator history reopened; completed Nov24 22:00 CST/23:00 EST; no new displayed incidents Nov25–27. Closed planned watch, not outage.",
+      "last_review": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
       "publication_ref": null,
       "region": "National / multiregion",
       "first_public_report_timestamp": "2026-11-23 18:49 EST",
@@ -883,14 +883,16 @@
       "incident_id": "US26-0075",
       "proposed_class": "D1",
       "first_public_source": "https://apnews.com/article/e8bc9bc454c933dacffe89b1139c4d3c",
-      "decision": "AP reports >500,000 electricity accounts interrupted; Ameren and parade disruption nested, not counted separately.",
-      "last_review": "2026-11-26 12:06:23 EST cutoff",
+      "decision": "Updated existing storm ID in Nov27 private master. Reuters Nov26 ~961k accounts at 19:30 ET, ~908k 21:56 ET; Ameren and PSE&G operator snapshots overlap. WSSC essential-only water-use advisory nested (safe supply, both plants operating per Nov27 04:30 ET). Not a separate outage count.",
+      "last_review": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
       "first_discovery_time": "November 26 follow-up; exact first retrieval time not instrumented",
       "foreign_warfare_attribution": "none established",
       "publication_ref": null,
       "additional_sources": [
-        "https://www.ky3.com/2026/11/26/over-120000-missouri-customers-without-power-snow-falls-across-st-louis-area/",
-        "https://apnews.com/article/cdc870899c8dc2d32a0ac3d86119b3ba"
+        "https://www.reuters.com/business/environment/thanksgiving-storm-knocks-out-power-disrupts-flights-us-east-coast-2026-11-26/",
+        "https://ameren.mediaroom.com/2026-11-26-Ameren-Missouri-Storm-Restoration-Update",
+        "https://nj.pseg.com/newsroom/newsrelease524",
+        "https://www.wsscwater.com/news/2026/november/update-430-am-friday-november-27-2026-out-abundance-caution-essential-water-use"
       ],
       "afternoon_review": {
         "time": "2026-11-26 afternoon exception review; findings observed by 12:56:46 EST (17:56:46 UTC) for Bandwidth and storm; Puerto Rico decision retrieved subsequently; precise individual discovery timestamps not instrumented.",
@@ -973,11 +975,11 @@
       "occurrence": "Operator confirms subset of calls interrupted for five minutes; resolved, limited scope, no additional details planned.",
       "root_cause": "Undisclosed",
       "continuity_impact": "Potential contact center call completion failure; no quantified traffic, emergency-call impact, or material business loss.",
-      "duplicate_check": "Distinct time and operator notice from US26-0055 Nov19 incident; latest live Nov24 register checked. Nov26 private supplement not independently retrieved; confirm before any ID assignment.",
+      "duplicate_check": "Distinct from Nov19 US26-0055; actual Nov26 full private master recovered and checked; no duplicate incident.",
       "review_status": "Verified occurrence; materiality unresolved",
-      "decision": "Keep uncounted pending evidence of material customer effects; compare call-completion metrics if affected.",
+      "decision": "Operator incident reopened Nov27. Confirmed five-minute subset call interruption, resolved; no material customer or 911 impact established. Retain uncounted.",
       "first_discovery_time": "2026-11-26 afternoon exception review; findings observed by 12:56:46 EST (17:56:46 UTC) for Bandwidth and storm; Puerto Rico decision retrieved subsequently; precise individual discovery timestamps not instrumented.",
-      "last_review": "2026-11-26 afternoon exception review; findings observed by 12:56:46 EST (17:56:46 UTC) for Bandwidth and storm; Puerto Rico decision retrieved subsequently; precise individual discovery timestamps not instrumented.",
+      "last_review": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
       "publication_ref": null,
       "foreign_warfare_attribution": "None established",
       "malicious_evidence": "None established"
@@ -1000,11 +1002,11 @@
       "occurrence": "Judiciary confirmed contract extension invalid and ordered orderly transition; oversight board cited uncertainty over successor, maintenance and federal funds; AP reports one-year transition.",
       "root_cause": "Legal ruling on contract extension; not physical grid failure",
       "continuity_impact": "Potential grid maintenance, capital spending, service continuity and supplier transition exposure; no new actual service interruption linked to ruling established.",
-      "duplicate_check": "Distinct legal development from US26-0064 Nov22–23 power interruption; no standalone incident ID. Nov26 private supplement contents not independently retrieved.",
+      "duplicate_check": "Distinct from US26-0064; Nov26 private master recovered; no standalone incident.",
       "review_status": "Primary judiciary and oversight board statements recovered via search",
-      "decision": "Watch in executive outlook and Section 9; no new incident count. Track successor and transition plan; verify site-level resilience.",
+      "decision": "Primary judiciary and FOMB statements reopened; keep watch, no actual new outage established.",
       "first_discovery_time": "2026-11-26 afternoon exception review; findings observed by 12:56:46 EST (17:56:46 UTC) for Bandwidth and storm; Puerto Rico decision retrieved subsequently; precise individual discovery timestamps not instrumented.",
-      "last_review": "2026-11-26 afternoon exception review; findings observed by 12:56:46 EST (17:56:46 UTC) for Bandwidth and storm; Puerto Rico decision retrieved subsequently; precise individual discovery timestamps not instrumented.",
+      "last_review": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
       "publication_ref": null,
       "foreign_warfare_attribution": "None established",
       "malicious_evidence": "None established"
@@ -1025,9 +1027,112 @@
       "continuity_impact": "Localized potable-water precaution; customer count, affected businesses and restoration unknown.",
       "duplicate_check": "No existing queue match; possible nested storm impact under US26-0075, not separate count without confirmed independent cause/materiality.",
       "review_status": "Local operator-sourced report; primary utility notice not retrieved",
-      "decision": "Retain uncounted; recheck utility notice, scale and repeal; avoid conflation with Wildwood NJ flooding.",
+      "decision": "Local reporting reopened; direct utility notice, material scope and repeal not verified; retain uncounted. Possible storm cascade.",
       "first_discovery_time": "2026-11-26 afternoon exception review; findings observed by 12:56:46 EST (17:56:46 UTC) for Bandwidth and storm; Puerto Rico decision retrieved subsequently; precise individual discovery timestamps not instrumented.",
-      "last_review": "2026-11-26 afternoon exception review; findings observed by 12:56:46 EST (17:56:46 UTC) for Bandwidth and storm; Puerto Rico decision retrieved subsequently; precise individual discovery timestamps not instrumented.",
+      "last_review": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
+      "publication_ref": null,
+      "foreign_warfare_attribution": "None established",
+      "malicious_evidence": "None established"
+    },
+    {
+      "candidate_id": "US-CAND-20261126-CA-SURFLINER-WASHOUT",
+      "incident_id": "US26-0077",
+      "proposed_class": "D1",
+      "event_name": "Pacific Surfliner high-tide track washout",
+      "event_date_local": "2026-11-26 PST; precise onset not established",
+      "location": "Irvine–Oceanside, California",
+      "region": "West",
+      "sector": "Transport / passenger rail",
+      "primary_risk_type": "Transportation and Logistics",
+      "status": "qualified_unpublished",
+      "first_public_source": "https://www.pacificsurfliner.com/plan-your-trip/alerts/travel-advisories/",
+      "first_public_report_timestamp": "Operator advisory dated Nov26; precise original publication time unverified",
+      "additional_sources": [
+        "https://abc7.com/post/amtrak-pacific-surfliner-train-service-suspended-parts-la-county-oc-san-diego-due-high-tides-powerful-waves/20086249/"
+      ],
+      "occurrence": "Operator confirms track washout and suspension Nov26; Nov27 projected repairs and replacement buses. Actual restoration unverified.",
+      "root_cause": "Environmental high tides, operator explanation; engineering detail unknown.",
+      "continuity_impact": "Regional passenger rail and workforce access interruption; no confirmed freight effects, quantified passenger losses or audited business impact.",
+      "duplicate_check": "Nov26 actual 70-record master recovered, no duplicate. Distinct segment/cause from 0078 and Northern California Humboldt.",
+      "decision": "Added as 0077 D1 to Nov27 private master; confirm actual repair and service. No new Nov27 onset.",
+      "review_status": "Reviewed in Nov27 research",
+      "first_discovery_time": "November 27 morning review, observed before 08:08:27 EST cutoff; precise individual retrieval time not instrumented.",
+      "last_review": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
+      "publication_ref": null,
+      "foreign_warfare_attribution": "None established",
+      "malicious_evidence": "None established"
+    },
+    {
+      "candidate_id": "US-CAND-20261017-CA-SURFLINER-TRACK-CIRCUIT",
+      "incident_id": "US26-0078",
+      "proposed_class": "D2",
+      "event_name": "Santa Barbara–San Luis Obispo emergency bus bridge for track-circuit issue",
+      "event_date_local": "2026-10-17 PST operational onset of bus bridge; initiating fault onset unknown",
+      "location": "Santa Barbara–San Luis Obispo, CA",
+      "region": "West",
+      "sector": "Transport / passenger rail",
+      "primary_risk_type": "Transportation and Logistics",
+      "status": "qualified_unpublished",
+      "first_public_source": "https://www.pacificsurfliner.com/plan-your-trip/alerts/travel-advisories/",
+      "first_public_report_timestamp": "Current operator notice recovered Nov27; initial publication time unknown",
+      "occurrence": "Operator describes emergency bus bridge from Oct17 through anticipated Dec7 while investigating track-circuit issues.",
+      "root_cause": "Technical track-circuit issue; exact initiating mechanism unresolved.",
+      "continuity_impact": "Extended regional passenger-service substitution; no quantified passenger losses; projected service resumption not verified.",
+      "duplicate_check": "Actual Nov26 master checked; distinct segment, date and mechanism from 0077.",
+      "decision": "Added as 0078 D2, retrospective Oct17 operational onset; scheduled mitigation not a planned initiating event.",
+      "review_status": "Reviewed in Nov27 research",
+      "first_discovery_time": "November 27 morning review, observed before 08:08:27 EST cutoff; precise individual retrieval time not instrumented.",
+      "last_review": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
+      "publication_ref": null,
+      "foreign_warfare_attribution": "None established",
+      "malicious_evidence": "None established"
+    },
+    {
+      "candidate_id": "US-CAND-20261126-MD-WSSC-CONSERVATION",
+      "event_name": "WSSC Water essential-only use request",
+      "event_date_local": "2026-11-26 EST",
+      "location": "Montgomery and Prince George's counties, Maryland",
+      "region": "Northeast/Southeast regional exposure; national storm parent",
+      "sector": "Water",
+      "primary_risk_type": "Essential Services",
+      "status": "watch_only",
+      "related_incident_id": "US26-0075",
+      "first_public_source": "https://www.wsscwater.com/news/2026/november/urgent-request-230-pm-thursday-november-26-2026-out-abundance-caution-wssc-water",
+      "first_public_report_timestamp": "2026-11-26 14:30 EST",
+      "additional_sources": [
+        "https://www.wsscwater.com/news/2026/november/update-430-am-friday-november-27-2026-out-abundance-caution-essential-water-use"
+      ],
+      "occurrence": "Operator requests essential water use; both plants operating and water safe per Nov27 04:30 EST update.",
+      "root_cause": "Storm-related power loss and reserve concerns; precautionary request.",
+      "continuity_impact": "Potential water-intensive operations constraints; 1.9m service population not actual outages.",
+      "duplicate_check": "Nested impact of storm 0075; no separate incident count.",
+      "decision": "Track WSSC update and withdrawal; no separate ID.",
+      "review_status": "Reviewed in Nov27 research",
+      "first_discovery_time": "November 27 morning review, observed before 08:08:27 EST cutoff; precise individual retrieval time not instrumented.",
+      "last_review": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
+      "publication_ref": null,
+      "foreign_warfare_attribution": "None established",
+      "malicious_evidence": "None established"
+    },
+    {
+      "candidate_id": "US-CAND-20261125-CA-PACIFICA-COASTAL-DAMAGE",
+      "event_name": "Pacifica coastal damage and access precautions",
+      "event_date_local": "2026-11-25 PST",
+      "location": "Pacifica, California",
+      "region": "West",
+      "sector": "Coastal transport / public facilities",
+      "primary_risk_type": "Transportation and Logistics",
+      "status": "watch_only",
+      "first_public_source": "https://www.sfgate.com/news/bayarea/article/pacifica-update-public-advised-to-avoid-beaches-22550854.php",
+      "first_public_report_timestamp": "Indexed Nov25 Bay City News; original city statement not reopened",
+      "occurrence": "Indexed reporting describes further coastal damage; prior pier closure predates current event.",
+      "root_cause": "High tides/coastal surf reported",
+      "continuity_impact": "Local access and damage; no separately material additional business interruption verified.",
+      "duplicate_check": "Related Northern California tidal exposure; avoid separate count without independent material impact.",
+      "decision": "Retain watch; verify city notices and impact.",
+      "review_status": "Reviewed in Nov27 research",
+      "first_discovery_time": "November 27 morning review, observed before 08:08:27 EST cutoff; precise individual retrieval time not instrumented.",
+      "last_review": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
       "publication_ref": null,
       "foreign_warfare_attribution": "None established",
       "malicious_evidence": "None established"
@@ -1202,6 +1307,40 @@
       "regional_coverage": "Category-based searches for Northeast, Southeast, Midwest, South/Central, West and national; Puerto Rico official evidence; AK/HI/Guam/USVI broad queries inconclusive; territorial operator sources not comprehensively reviewed. No complete 72h history/7d census claim.",
       "publication_gap": "Public homepage Nov24, Nov25 page/PDF inaccessible, no Nov26 entry in manifest. Nov26 private supplement not independently verified. Publication gap persists; no release authorized.",
       "next_action": "Update storm US26-0075, evaluate JFK and Wildwood MO materiality, track LUMA transition as watch, verify actual latest register and deployment before assigning IDs or claiming release."
+    },
+    {
+      "scan_date": "2026-11-27",
+      "scan_time": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
+      "baseline": "Actual Nov26 private Word master recovered and 70 unique IDs reconciled; Nov25 public-review 62 (manifest not certified); last certified Nov24. Nov27 private master 72 (H1 9 H2 11 D1 27 D2 25), 2 retrospective additions, storm update, 3 historical carry-ins separate.",
+      "source_checks": {
+        "energy": [
+          "Ameren, PSE&G primary updates; SNG notice shells 712689/712690; PHMSA newsroom, NRC listings; PR judiciary/FOMB; LUMA outage history inaccessible."
+        ],
+        "water": [
+          "WSSC Nov26 and Nov27 primary updates; Wildwood local report."
+        ],
+        "telecom": [
+          "RedSky displayed history and Bandwidth JFK postmortem; broader Bandwidth history incomplete."
+        ],
+        "transport": [
+          "Pacific Surfliner direct advisories and ABC7; Brightline history, FAA general pages, NTSB list; CSX/BNSF/USCG incomplete."
+        ],
+        "cyber_cloud": [
+          "Google Cloud 07:55 EST snapshot; CISA blocked, Azure stale, AWS blank; SEC search incomplete, prior FinCEN and Allstate reviews."
+        ],
+        "healthcare": [
+          "Broad hospital and HHS search; HHS breach listing inaccessible, incomplete operator coverage."
+        ],
+        "payments": [
+          "Stripe loading, broad payment search; incomplete operator coverage."
+        ],
+        "industrial_public_services": [
+          "FBI public list, prior Weatherford, EPA Iowa initial sampling, local reporting; no additional verified material incident established."
+        ]
+      },
+      "regional_coverage": "Broad regional category and 7-day lookback; actual operator histories where accessible; AK/HI/Guam/USVI incomplete. Not a complete census.",
+      "publication_gap": "Nov25 homepage now points to review edition but dated page/PDF retrieval failed; Nov26 private master recovered, no verified public release; Nov27 release pending QA and deployment.",
+      "next_action": "Preserve 0077/0078; verify rail restoration, WSSC advisory, storm restoration and live publication."
     }
   ]
 }
