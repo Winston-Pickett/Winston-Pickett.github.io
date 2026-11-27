@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-27T13:08:27Z",
+  "updated_at": "2026-11-27",
   "purpose": "Persistent incident discovery and disposition queue. This is NOT the 60-day incident register. The published November 23 full master is the historical continuity baseline; do not recreate a blank incident register.",
   "status_values": [
     "new",
@@ -28,8 +28,8 @@
       "malicious_evidence": "none reported",
       "foreign_warfare_attribution": "none established",
       "continuity_impact": "Operator force majeure: initial 500,000 Dth/day reduction; update #1 posted Nov22 12:22:48 portal time reduced constraint to 270,000 Dth/day effective Nov23; update #2 posted Nov23 10:26:40 portal time reduced constraint to 100,000 Dth/day effective Nov24 (2,349,000 of normal 2,449,000 Dth/day). No anticipated nomination impact per operator; full restoration not verified. Posting timezone not explicit in retrieved text.",
-      "decision": "Nov26/27 SNG notices 712689/712690 opened but rendered navigation shell without York figures. Last verified Nov24 100,000 Dth/day restriction; no new restoration claim.",
-      "last_review": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
+      "decision": "Keep US26-0063; Nov27 operator notice 712690 failed retrieval; last verified 100,000 Dth/day restriction retained as historical snapshot, not asserted current. No confirmed additional restoration.",
+      "last_review": "2026-11-27 afternoon scan; clock checkpoint 13:02:14 EST (18:02:14 UTC); exact individual retrieval times not instrumented",
       "publication_ref": "/us-readiness/2026-11-24/",
       "additional_sources": [
         {
@@ -57,7 +57,7 @@
       "first_public_report_timestamp": "2026-11-22 08:22 EST (earliest local report identified in historical test; not necessarily first anywhere)",
       "first_discovery_time": "2026-11-24 prior user referral / morning review; exact first timestamp unavailable",
       "duplicate_check": "November 23 published Word register absent; November 24 private draft already assigns US26-0063; do not create another ID.",
-      "review_status": "Included in revised master for authorized release; pending live GitHub Pages verification.",
+      "review_status": "Recheck incomplete; direct notice unavailable.",
       "incident_id": "US26-0063",
       "previous_disposition": {
         "status": "qualified_unpublished",
@@ -65,14 +65,22 @@
         "last_review": "2026-11-24 afternoon scan (started 13:01 EST; exact individual retrieval times not instrumented)"
       },
       "additional_review_urls": [
-        "https://pipeline2.kindermorgan.com/Notices/NoticeDetail.aspx?code=SNG&notc_nbr=712681",
-        "https://pipeline2.kindermorgan.com/Notices/Notices.aspx?code=SNG&type=C"
+        "https://pipeline2.kindermorgan.com/Notices/NoticeDetail.aspx?code=SNG&notc_nbr=712690"
       ],
       "afternoon_review_20261126": {
         "time": "2026-11-26 afternoon exception review; findings observed by 12:56:46 EST (17:56:46 UTC) for Bandwidth and storm; Puerto Rico decision retrieved subsequently; precise individual discovery timestamps not instrumented.",
         "source_url": "https://pipeline2.kindermorgan.com/Notices/Notices.aspx?code=SNG&type=C",
         "findings": "Notice list retrieved, 712689 and 712686 detail inaccessible; 712684 lifted different meter outage, not verified York segment recovery. Retain prior 100k restriction as last confirmed historical figure, not current capacity assertion."
-      }
+      },
+      "review_history": [
+        {
+          "review": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
+          "decision": "Nov26/27 SNG notices 712689/712690 opened but rendered navigation shell without York figures. Last verified Nov24 100,000 Dth/day restriction; no new restoration claim.",
+          "review_status": "Included in revised master for authorized release; pending live GitHub Pages verification.",
+          "status": "published",
+          "continuity_impact": "Operator force majeure: initial 500,000 Dth/day reduction; update #1 posted Nov22 12:22:48 portal time reduced constraint to 270,000 Dth/day effective Nov23; update #2 posted Nov23 10:26:40 portal time reduced constraint to 100,000 Dth/day effective Nov24 (2,349,000 of normal 2,449,000 Dth/day). No anticipated nomination impact per operator; full restoration not verified. Posting timezone not explicit in retrieved text."
+        }
+      ]
     },
     {
       "candidate_id": "US-CAND-20261118-SC-WATER",
@@ -843,16 +851,28 @@
       "foreign_warfare_attribution": "None established",
       "continuity_impact": "Documented temporary local shelter-in-place and emergency response; possible facility cleanup, interrupted operations, specialized aerospace supplier delays, insurance and environmental assessment exposure. No verified ongoing production loss, customer impact or major supply-chain interruption.",
       "duplicate_check": "No Weatherford Aerospace match in persistent queue before insertion. Distinct from Baytown minor fire. November 25 manifest morning cutoff 08:38:54 EST precedes earliest recovered indexed report; previous scan log confirms no Weatherford entry in afternoon findings. Dated register JSON files for Nov24/25 return 404; full PDFs not independently rechecked during this targeted follow-up. Reconcile latest validated full register before allocating permanent US26 ID.",
-      "review_status": "Verified via multiple city-sourced reports; original city notice inaccessible, production restart and cause unresolved; missed at 13:00:18 EST scan and identified by user referral.",
-      "decision": "Included in November 26 full private supplement; release pending. Preserve assigned ID.",
-      "last_review": "2026-11-26 12:06:23 EST cutoff",
+      "review_status": "Secondary city-sourced report reopened, no new material impact or restart verified.",
+      "decision": "Retain US26-0073, included in Nov27 revised Word master. Nov26 local report cites city notice: fire controlled, no chemical leak reported, cleanup oversight by TCEQ, cause under investigation. Plant restart and downstream losses not established.",
+      "last_review": "2026-11-27 afternoon scan; clock checkpoint 13:02:14 EST (18:02:14 UTC); exact individual retrieval times not instrumented",
       "publication_ref": null,
       "previous_disposition": {
         "status": "qualified_unpublished",
         "decision": "Include provisionally D2 in next validated master; record all-clear separately from plant restart. Add to historical acceptance tests as a documented detection miss. No permanent incident ID until full register reconciliation. Recheck operator status, official investigation and environmental reporting before next release.",
         "last_review": "2026-11-25 targeted follow-up after 15:42 EST referral; exact review timestamp not instrumented"
       },
-      "incident_id": "US26-0073"
+      "incident_id": "US26-0073",
+      "review_history": [
+        {
+          "review": "2026-11-26 12:06:23 EST cutoff",
+          "decision": "Included in November 26 full private supplement; release pending. Preserve assigned ID.",
+          "review_status": "Verified via multiple city-sourced reports; original city notice inaccessible, production restart and cause unresolved; missed at 13:00:18 EST scan and identified by user referral.",
+          "status": "qualified_unpublished",
+          "continuity_impact": "Documented temporary local shelter-in-place and emergency response; possible facility cleanup, interrupted operations, specialized aerospace supplier delays, insurance and environmental assessment exposure. No verified ongoing production loss, customer impact or major supply-chain interruption."
+        }
+      ],
+      "additional_review_urls": [
+        "https://weatherfordledger.com/news/2026-11-26-fire-at-weatherford-aerospace-under-control-no-injuries-shelter/"
+      ]
     },
     {
       "candidate_id": "US-CAND-20261125-AA1494",
@@ -883,8 +903,8 @@
       "incident_id": "US26-0075",
       "proposed_class": "D1",
       "first_public_source": "https://apnews.com/article/e8bc9bc454c933dacffe89b1139c4d3c",
-      "decision": "Updated existing storm ID in Nov27 private master. Reuters Nov26 ~961k accounts at 19:30 ET, ~908k 21:56 ET; Ameren and PSE&G operator snapshots overlap. WSSC essential-only water-use advisory nested (safe supply, both plants operating per Nov27 04:30 ET). Not a separate outage count.",
-      "last_review": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
+      "decision": "Keep US26-0075. WSSC essential-use-only request lifted 08:30 EST Nov27, safe water and normal operation. PSE&G Nov27 indexed official update reports 91,439 customers restored since onset and 6,950 remaining at 08:00 EST; original reopen 403. Do not aggregate utility snapshots with national counts or declare total storm restoration.",
+      "last_review": "2026-11-27 afternoon scan; clock checkpoint 13:02:14 EST (18:02:14 UTC); exact individual retrieval times not instrumented",
       "first_discovery_time": "November 26 follow-up; exact first retrieval time not instrumented",
       "foreign_warfare_attribution": "none established",
       "publication_ref": null,
@@ -905,7 +925,22 @@
         ],
         "findings": "APCo 11:10 EST update indexed; full direct reopen failed. WDBJ reproduces operator report: ~27,000 accounts without power at 10am EST (26k VA, 1k WV), majority restoration target 11pm EST, hardest hit may extend Friday. City Wildwood Nov25 official warning retrieved via index; actual road closures reported Nov26 11:01 EST by secondary reporting citing police; direct closure notice not opened. NJ emergency declaration effective Nov25 18:00 EST. Do not add regional counts to national count.",
         "decision": "Nested storm impacts; preserve US26-0075. Verify restoration and road reopenings. Distinguish reported estimates from completed recovery."
-      }
+      },
+      "review_history": [
+        {
+          "review": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
+          "decision": "Updated existing storm ID in Nov27 private master. Reuters Nov26 ~961k accounts at 19:30 ET, ~908k 21:56 ET; Ameren and PSE&G operator snapshots overlap. WSSC essential-only water-use advisory nested (safe supply, both plants operating per Nov27 04:30 ET). Not a separate outage count.",
+          "review_status": null,
+          "status": "qualified_unpublished",
+          "continuity_impact": null
+        }
+      ],
+      "review_status": "Material recovery after morning cutoff; WSSC original opened; PSE&G indexed official statement only. Current full Word register retrieved; storm includes WSSC, no duplicate.",
+      "additional_review_urls": [
+        "https://www.wsscwater.com/news/2026/november/final-update-830-am-friday-november-27-2026-essential-water-use-only-request",
+        "https://nj.pseg.com/newsroom/newsrelease525",
+        "https://www.washingtonpost.com/national/2026/11/27/weather-storm-macys-flooding-thanksgiving/681c7cd4-ea6a-11f1-8db0-6f1e3c389e7c_story.html"
+      ]
     },
     {
       "candidate_id": "US-CAND-20261125-MIA-FEDEX",
@@ -1054,13 +1089,25 @@
       "root_cause": "Environmental high tides, operator explanation; engineering detail unknown.",
       "continuity_impact": "Regional passenger rail and workforce access interruption; no confirmed freight effects, quantified passenger losses or audited business impact.",
       "duplicate_check": "Nov26 actual 70-record master recovered, no duplicate. Distinct segment/cause from 0078 and Northern California Humboldt.",
-      "decision": "Added as 0077 D1 to Nov27 private master; confirm actual repair and service. No new Nov27 onset.",
-      "review_status": "Reviewed in Nov27 research",
+      "decision": "Retain US26-0077. Operator advisory remains displayed Nov27 reporting track damage and no through trains in San Clemente; no independently verified restoration timestamp. Recheck before next release.",
+      "review_status": "Direct operator page retrieved; advisory not timestamped as of retrieval, no inference of actual current train operation.",
       "first_discovery_time": "November 27 morning review, observed before 08:08:27 EST cutoff; precise individual retrieval time not instrumented.",
-      "last_review": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
+      "last_review": "2026-11-27 afternoon scan; clock checkpoint 13:02:14 EST (18:02:14 UTC); exact individual retrieval times not instrumented",
       "publication_ref": null,
       "foreign_warfare_attribution": "None established",
-      "malicious_evidence": "None established"
+      "malicious_evidence": "None established",
+      "review_history": [
+        {
+          "review": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
+          "decision": "Added as 0077 D1 to Nov27 private master; confirm actual repair and service. No new Nov27 onset.",
+          "review_status": "Reviewed in Nov27 research",
+          "status": "qualified_unpublished",
+          "continuity_impact": "Regional passenger rail and workforce access interruption; no confirmed freight effects, quantified passenger losses or audited business impact."
+        }
+      ],
+      "additional_review_urls": [
+        "https://www.pacificsurfliner.com/plan-your-trip/alerts/travel-advisories/"
+      ]
     },
     {
       "candidate_id": "US-CAND-20261017-CA-SURFLINER-TRACK-CIRCUIT",
@@ -1106,13 +1153,26 @@
       "root_cause": "Storm-related power loss and reserve concerns; precautionary request.",
       "continuity_impact": "Potential water-intensive operations constraints; 1.9m service population not actual outages.",
       "duplicate_check": "Nested impact of storm 0075; no separate incident count.",
-      "decision": "Track WSSC update and withdrawal; no separate ID.",
-      "review_status": "Reviewed in Nov27 research",
+      "decision": "Close conservation watch: official final update 08:30 EST (13:30 UTC) Nov27 lifted essential-only request for all 1.9 million customers; safe water, normal treatment and distribution. Retain watch_only historical record; nested under US26-0075; no new ID.",
+      "review_status": "Restoration confirmed by original operator notice, after 08:08:27 EST cutoff; actual discovery during afternoon scan, exact time unavailable.",
       "first_discovery_time": "November 27 morning review, observed before 08:08:27 EST cutoff; precise individual retrieval time not instrumented.",
-      "last_review": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
+      "last_review": "2026-11-27 afternoon scan; clock checkpoint 13:02:14 EST (18:02:14 UTC); exact individual retrieval times not instrumented",
       "publication_ref": null,
       "foreign_warfare_attribution": "None established",
-      "malicious_evidence": "None established"
+      "malicious_evidence": "None established",
+      "review_history": [
+        {
+          "review": "2026-11-27 08:08:27 EST (13:08:27 UTC) research cutoff",
+          "decision": "Track WSSC update and withdrawal; no separate ID.",
+          "review_status": "Reviewed in Nov27 research",
+          "status": "watch_only",
+          "continuity_impact": "Potential water-intensive operations constraints; 1.9m service population not actual outages."
+        }
+      ],
+      "restoration_time": "2026-11-27 08:30 EST / 13:30 UTC",
+      "additional_review_urls": [
+        "https://www.wsscwater.com/news/2026/november/final-update-830-am-friday-november-27-2026-essential-water-use-only-request"
+      ]
     },
     {
       "candidate_id": "US-CAND-20261125-CA-PACIFICA-COASTAL-DAMAGE",
@@ -1136,6 +1196,34 @@
       "publication_ref": null,
       "foreign_warfare_attribution": "None established",
       "malicious_evidence": "None established"
+    },
+    {
+      "candidate_id": "US-CAND-20261127-USAF-CLOUDONE",
+      "event_name": "Reported U.S. Air Force Cloud One cybersecurity intrusion",
+      "event_date_local": "Actual onset unknown; discovered within approximately past month per Reuters; public disclosure Nov27",
+      "location": "United States federal Air Force cloud platform; exact physical location not established",
+      "region": "National/multiregion",
+      "sector": "Cyber/cloud and government",
+      "primary_risk_type": "Cyber and Critical Infrastructure",
+      "status": "verifying",
+      "proposed_class": "H2 subject to further corroboration",
+      "first_public_source": "https://www.reuters.com/world/hackers-breach-us-air-force-flagship-cloud-one-computing-platform-2026-11-27/",
+      "first_public_report_timestamp": "2026-11-27 11:01 UTC / 06:01 EST (Reuters original, earliest recovered; not necessarily first anywhere)",
+      "first_discovery_time": "2026-11-27 afternoon scan; clock checkpoint 13:02:14 EST (18:02:14 UTC); exact individual retrieval times not instrumented; first retrieved before clock checkpoint",
+      "initial_source_type": "Category search lead followed by original Reuters investigation",
+      "additional_sources": [
+        "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing"
+      ],
+      "occurrence": "Reuters cites multiple anonymous sources for intrusion and operational restrictions; Air Force declined specific comment. Other coverage repeats Reuters, not independent confirmation. No direct incident notice recovered.",
+      "root_cause": "Reported unauthorized intrusion; exact cause and scope not independently established.",
+      "malicious_evidence": "Credible reporting of unauthorized intrusion; official confirmation pending.",
+      "foreign_warfare_attribution": "None established.",
+      "continuity_impact": "Reported delays to application migration and updates; federal contractor cybersecurity assurance, modernization schedules and cloud-dependency controls. Actual private-sector service impacts not established.",
+      "duplicate_check": "No Cloud One match in retrieved Nov27 Rev1 full Word text or prior queue. Distinct from CIA/ODNI and FinCEN; no permanent ID pending verification. Reuters timestamp precedes morning cutoff 08:08:27 EST by 2h 7m 27s.",
+      "review_status": "Credible material report; independent or official corroboration outstanding. Potential morning detection omission, not a proven occurrence.",
+      "decision": "Keep verifying, propose provisional H2 for next edition if evidence threshold met; disclose attribution and occurrence uncertainty; do not inflate verified count.",
+      "last_review": "2026-11-27 afternoon scan; clock checkpoint 13:02:14 EST (18:02:14 UTC); exact individual retrieval times not instrumented",
+      "publication_ref": null
     }
   ],
   "scan_log": [
@@ -1341,6 +1429,40 @@
       "regional_coverage": "Broad regional category and 7-day lookback; actual operator histories where accessible; AK/HI/Guam/USVI incomplete. Not a complete census.",
       "publication_gap": "Nov25 homepage now points to review edition but dated page/PDF retrieval failed; Nov26 private master recovered, no verified public release; Nov27 release pending QA and deployment.",
       "next_action": "Preserve 0077/0078; verify rail restoration, WSSC advisory, storm restoration and live publication."
+    },
+    {
+      "scan_date": "2026-11-27",
+      "scan_time": "2026-11-27 afternoon scan; clock checkpoint 13:02:14 EST (18:02:14 UTC); exact individual retrieval times not instrumented",
+      "baseline": "Read all three required files and manifest; retrieved actual Nov27 Rev1 full Word from Drive (13oYRCuCC6Zv4UWKgb0xwbzuAbaba29rX); manifest 72 active/provisional, cutoff 08:08:27 EST; 78 distinct ID mentions including carryovers and references, not a count of register rows. Cloud One absent in text. WSSC and rail already included. Nov27 published-review, not format-certified. Public homepage crawl dated yesterday showed Nov25, dated Nov27 page/PDF inaccessible; no definitive live outage claim.",
+      "source_checks": {
+        "energy": [
+          "PHMSA newsroom opened, latest Nov3; NRC home opened, no case-level 2026 file reviewed; SNG 712690 inaccessible; PSE&G official indexed statement, reopen 403; AP storm report."
+        ],
+        "water": [
+          "WSSC original final 08:30 EST notice opened; regional category searches, prior Spartanburg reporting; no broad municipal census."
+        ],
+        "telecom": [
+          "RedSky displayed history Nov24–27, no reported incidents Nov25–27; Bandwidth history blank, main status indexed Nov27 no new incidents, Canada messaging disruption only; JFK individual notice reopened; other operators incomplete."
+        ],
+        "transport": [
+          "Pacific Surfliner direct advisories; Brightline help category, no individual new notice retrieved; BNSF holiday plans; FAA JS only; USCG 403; CSX queries inconclusive."
+        ],
+        "cyber_cloud": [
+          "Reuters original Cloud One and dependent Guardian; Google Cloud 10:00 PST no broad severe incidents; AWS blank; CISA 403; broader searches not conclusive."
+        ],
+        "healthcare": [
+          "HHS press page retrieved; hospital disruption category searches no relevant new verified result, incomplete."
+        ],
+        "payments": [
+          "Stripe loading only, category searches Visa/Mastercard/Fiserv/Square inconclusive."
+        ],
+        "industrial_public_services": [
+          "Regional keyword searches for fire, hazmat, shelter-in-place and evacuation; Weatherford Ledger city-sourced update; Iowa Army original prior planned notice; no new independent material result established."
+        ]
+      },
+      "regional_coverage": "Northeast NJ/NY/PA and New England storm; Southeast VA/NC/FL; Midwest MO/Iowa; South/Central TX Weatherford and category searches; West CA rail; national cloud and transport; PR/USVI category search and PR AP protest report, no verified new outage; AK/HI/Guam search incomplete, other territories unassessed. 72-hour/7-day search attempted, not exhaustive.",
+      "publication_gap": "Repo manifest Nov27 revised 1 published-review; retrieved private full master; public homepage cached Nov25, Nov27 dated page and PDF inaccessible; live deployment not independently established.",
+      "next_action": "Reconcile Cloud One evidence, WSSC closure and storm restoration in next master; recheck rail/SNG and site deployment; do not change manifest or publish."
     }
   ]
 }
